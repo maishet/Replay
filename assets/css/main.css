@@ -1248,6 +1248,14 @@ header{
   padding-top:8px;
 }
 
+/*seguimiento*/
+.bxs-truck{
+  font-size: 55px; 
+  color: white; 
+  position:relative;
+}
+/*seguimiento*/
+
 .top-cart-row .dropdown-cart {
   float: right;
 }
