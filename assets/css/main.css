@@ -1249,6 +1249,7 @@ header{
 }
 
 /*seguimiento*/
+
 .bxs-truck{
   font-size: 55px; 
   color: white; 
@@ -2686,6 +2687,71 @@ font-family: FontAwesome;
 .icon-return:before {
 	content: "\f0b1";
 }
+
+/*=========================================================
+   HOT DEAL
+===========================================================*/
+
+#hot-deal.section {
+  padding: 60px 0px;
+  margin: 30px 0px;
+  background-color: #E4E7ED;
+  background-image: url('../images/hot-deals/hotdeal.png');
+  background-size: 124%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hot-deal {
+  text-align: center;
+}
+
+.hot-deal .hot-deal-countdown {
+  margin-bottom: 30px;
+}
+
+.hot-deal .hot-deal-countdown>li {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #108bea;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0px 5px;
+}
+
+.hot-deal .hot-deal-countdown>li>div {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.hot-deal .hot-deal-countdown>li>div h3 {
+  color: #FFF;
+  margin-bottom: 0px;
+}
+
+.hot-deal .hot-deal-countdown>li>div span {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.hot-deal p {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.hot-deal .cta-btn {
+  margin-top: 15px;
+}
+
 /* ======================== End Features Box ============================ */
 
 /*===================================================================================*/
@@ -2973,9 +3039,6 @@ font-family: FontAwesome;
   transition: all 0.3s ease;
   border-radius:8px
 }
-.wide-banner:hover img {
-  
-}
 .cnt-strip {
   position: relative;
 }
@@ -3067,21 +3130,6 @@ font-family: FontAwesome;
   /* Chrome, Safari, Opera */
   transform: rotate(-43deg);
   width: 100%;
-}
-.wide-banners {
-	overflow:hidden
-
-}
-.wide-banners.homepage-banner {
-  margin-top: 30px;
-}
-.wide-banners.homepage-banner h4 {
-  font-size: 30px;
-  font-family: 'Open Sans', sans-serif;
-}
-.wide-banners.homepage-banner h3 {
-  font-size: 35px;
-  font-family: 'Open Sans', sans-serif;
 }
 .new-banner {
   margin-top: 30px;
@@ -5882,13 +5930,6 @@ top:-13%;
 .cnt-strip .strip.strip-text {
     width:100%;
 }
-.wide-banner1 { margin-bottom:20px}
-.wide-banner .image img {
-margin-bottom:15px;
-}
-.wide-banner.outer-bottom-xs {
-    margin-bottom:0px;
-}
 /* category page */
 .sidebar .sidebar-module-container .sidebar-widget .sidebar-widget-body .accordion .accordion-group .accordion-heading .accordion-toggle {
     font-size:15px;
@@ -6038,9 +6079,6 @@ ul.categories-filter .dropdown {
 .wide-banner .image img {
 margin-bottom: 10px;
 }
-.wide-banners .outer-bottom-xs {
-    margin-bottom:0px;
-}
 .featured-product .product-image {
     padding: 0 15px;
 }
@@ -6095,9 +6133,6 @@ margin-bottom: 10px;
 }
 .copyright-bar .copyright {
     text-align: left;
-}
-.wide-banners.wow.fadeInUp.outer-bottom-xs.animated {
-    text-align: -webkit-center;
 }
 
 .hot-deals .hot-deal-wrapper .timing-wrapper .box-wrapper {
@@ -6349,17 +6384,11 @@ display: none !important;
   .filters-container .pagination-container {
     margin-bottom: 10px;
   }
-  .homepage-container .wide-banners .wide-banner {
-    margin-bottom: 10px;
-  }
   .cnt-homepage .wrapper .box {
     padding: 0 10px;
   }
   #owl-main .item .caption {
     padding: 0 0px;
-  }
-  .wide-banners .wide-banner:first-child {
-    margin-bottom: 10px;
   }
   .product .product-image .image img {
     width: 100%;
@@ -6732,9 +6761,6 @@ td.cart-product-sub-total span {
 .wide-banner .image img {
    
 }
-.wide-banners.wow.fadeInUp.outer-bottom-xs.animated {
-    margin-bottom:0px;
-}
 .our-features-box .feature-box {
     font-size: 20px;
   }  
@@ -6787,9 +6813,6 @@ td.cart-product-sub-total span {
   .filters-container .pagination-container {
     float: right;
   }
-  .homepage-container .wide-banners .wide-banner {
-    margin-bottom: 10px;
-  }
   .cnt-homepage .wrapper .box {
     padding: 0 15px;
   }
@@ -6814,10 +6837,6 @@ td.cart-product-sub-total span {
   }
   #owl-main .owl-item {
     padding: 0px;
-  }
-  .wide-banners .wide-banner1 {
-	  margin-bottom:30px
-
   }
   .filters-container .no-padding {
     padding: 0px;
@@ -6880,9 +6899,6 @@ td.cart-product-sub-total span {
 }
 .copyright-bar .copyright {
     text-align: left;
-}
-.wide-banners.wow.fadeInUp.outer-bottom-xs.animated {
-    text-align: -webkit-center;
 }
 
 .hot-deals .hot-deal-wrapper .timing-wrapper .box-wrapper {
