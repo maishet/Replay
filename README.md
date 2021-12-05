@@ -1,3 +1,0 @@
-# Replay
-soplavela
-#arriba Alianza
