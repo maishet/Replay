@@ -127,6 +127,20 @@ img[src="assets/images/blank.gif"] {
 .margen{
   margin:0 10%;
 }
+/*condiciones y terminos*/
+.part1Condiciones{
+  
+  width: 50%;
+  padding-inline-end: 0%;
+  font-weight: bold;
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+}
+.contenedorAtencionCondiciones{
+ margin:50px;
+ 
+  
+}
 /*===================================================================================*/
 /*  Buttons
 /*===================================================================================*/
