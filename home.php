@@ -2409,13 +2409,13 @@
 								<li>
 									<div>
 										<h3>02</h3>
-										<span>Days</span>
+										<span>Días</span>
 									</div>
 								</li>
 								<li>
 									<div>
 										<h3>10</h3>
-										<span>Hours</span>
+										<span>Horas</span>
 									</div>
 								</li>
 								<li>
@@ -2433,7 +2433,7 @@
 							</ul>
 							<h2 class="text-uppercase">hot deal this week</h2>
 							<p>New Collection Up to 50% OFF</p>
-							<a class="btn btn-primary" href="#">Shop now</a>
+							<a class="btn btn-primary" href="#">Comprar ahora</a>
 						</div>
 					</div>
 				</div>

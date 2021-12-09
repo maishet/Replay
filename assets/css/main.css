@@ -809,6 +809,58 @@ a {
 .breadcrumb ul a:focus {
   color: #0b816a;
 }
+/*TITULO DE BOLSA DE COMPRAS, DESPACHO, PAGO y CONFIRMACION*/
+
+.fbra_checkoutDeliverySteps {
+  font-weight: 500;
+  color: #333;
+  font-family: Barlow, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  box-sizing: inherit;
+}
+.fbra_falabellaComponent {
+  font-weight: 400;
+  color: #333;
+  font-family: Barlow, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  box-sizing: inherit;
+  margin: 0 auto 25px;
+  padding: 30px 0;
+  background: 0 0;
+}
+.fbra_tabSet {
+  font-weight: 400;
+  color: #333;
+  font-family: Barlow, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  box-sizing: inherit;
+  height: 12px;
+  background: 0 0;
+}
+.fbra_tab {
+  font-weight: 400;
+  color: #333;
+  font-family: Lato,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  box-sizing: inherit;
+  width: 33.33333%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+  background: 0 0;
+}
+
+/*TITULO DE BOLSA DE COMPRAS, DESPACHO, PAGO y CONFIRMACION*/
 .filters-container .nav-tabs.nav-tab-box li.active a .icon {
   color: #12cca7;
 }
