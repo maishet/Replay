@@ -87,7 +87,56 @@ img[src="assets/images/blank.gif"] {
 .m-t-5 {
   margin-top: 5px;
 }
+.contenedorAtencion{
+  font-weight:bold;
+  background: #E8E6E6;
+  font-size: 36px;
+  margin-bottom: 2%;
+}
 
+.contenedorAtencion div{
+  font-weight:normal;
+  padding: 20px;
+  
+}
+
+.part1{
+  float: left;
+  width: 50%;
+  padding-inline-end: 0%;
+  text-align:right;
+  font-family: 'Berkshire Swash', cursive;
+}
+.part2{
+  float: left;
+  width: 50%;
+  text-align:left;
+  color: #0075FF;
+}
+.part3{
+  text-align: center;
+  font-size: 36px;
+}
+.heading-title{
+  font-family: 'Barlow', sans-serif;
+}
+.margen{
+  margin:0 10%;
+}
+/*condiciones y terminos*/
+.part1Condiciones{
+  
+  width: 50%;
+  padding-inline-end: 0%;
+  font-weight: bold;
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+}
+.contenedorAtencionCondiciones{
+ margin:50px;
+ 
+  
+}
 /*===================================================================================*/
 /*  Buttons
 /*===================================================================================*/
