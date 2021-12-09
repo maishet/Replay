@@ -137,6 +137,60 @@ img[src="assets/images/blank.gif"] {
  
   
 }
+
+/*registro */
+
+.contenedorRegistro{
+  margin:50px;
+  display: flex;
+  margin: 0px;
+ }
+.contenedorIS{
+  
+  width: 48%;
+  color: #000;
+}
+.contenedorEspaciador{
+
+  width: 4%;
+ }
+.contenedorCC{
+
+  width: 48%;
+  color: #0075FF;
+  margin: 0px;
+  background-color: #153470;
+}
+
+.contenedorBoton{
+  display: flex;
+
+}.botonFacebook{
+  background-color: #3D5C98;
+  color: white;
+  width: 100%;
+  height: 49px;
+  font-size: 15px;
+}
+.botonTwitter{
+  background-color: #22AADF;
+  color: white;
+  width: 100%;
+  height: 49px;
+  font-size: 15px;
+}
+.contenedorFacebook{
+  width: 48%;
+  float: left;
+}
+.contenedorTwitter{
+  width: 48%;
+  margin-left: 5px;
+}
+.fab .fa-facebook{
+  width: 100px;
+}
+
 /*===================================================================================*/
 /*  Buttons
 /*===================================================================================*/
