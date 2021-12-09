@@ -36,7 +36,7 @@
 <body class="cnt-home">
 <!-- ============================================== HEADER ============================================== -->
 
-<?php include 'header.html'; ?>
+<?php include('header.html'); ?>
 
 <!-- ============================================== HEADER : END ============================================== -->
 <div class="breadcrumb">
@@ -54,13 +54,16 @@
 	<div class="fbra_falabellaComponent fbra_falabellaComponentCheckoutDeliverySteps">
 		<div class="fbra_tabSet fbra_payment_redesign fbra_checkoutDeliverySteps step__2 fbra_test_checkoutDeliverySteps">
 			<div class="fbra_tab fbra_checkoutDeliverySteps__yourBasketStep fbra_test_checkoutDeliverySteps__yourBasketStep fbra_tab--inProgress  fbra_tab--enabled fbra_tab--active">
-				<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__yourBasketStepText fbra_selected" title="">Bolsa de Compras</span>
+				<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__yourBasketStepText fbra_selected" title="">Carrito de Compras</span>
 			</div>
 			<div class="fbra_tab fbra_checkoutDeliverySteps__easyDeliveryStep fbra_test_checkoutDeliverySteps__easyDeliveryStep fbra_tab--disabled fbra_tab--enabled fbra_tab--inactive">
 				<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__easyDeliveryStepText" title="">Despacho</span>
 			</div>
 			<div class="fbra_tab fbra_checkoutDeliverySteps__securePaymentStep fbra_test_checkoutDeliverySteps__securePaymentStep fbra_tab--disabled fbra_tab--inactive">
 				<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__securePaymentStepText" title="">Pago</span>
+			</div>
+			<div class="fbra_tab fbra_checkoutDeliverySteps_confirmDeliveryStep fbra_test_checkoutDeliverySteps_confirmDeliveryStep fbra_tab--disabled fbra_tab--disabled fbra_tab--inactive">
+				<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__confirmDeliveryStepText" title="">Confirmación</span>
 			</div>
 		</div>
 	</div>
