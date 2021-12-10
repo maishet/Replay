@@ -396,7 +396,7 @@
         <!-- ============================================== HOT DEALS ============================================== -->
         <div class="sidebar-widget hot-deals outer-bottom-xs">
           <h3 class="section-title">Ofertas</h3>
-          <div class="owl-carousel sidebar-carousel custom-carousel owl-theme outer-top-ss">
+          <div id="lista-productos" class="owl-carousel sidebar-carousel custom-carousel owl-theme outer-top-ss">
             <div class="item">
               <div class="products">
                 <div class="hot-deal-wrapper">
@@ -435,12 +435,7 @@
                 <!-- /.product-info -->
                 
                 <div class="cart clearfix animate-effect">
-                  <div class="action">
-                    <div class="add-cart-button btn-group">
-                      <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                      <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
-                    </div>
-                  </div>
+                  <a class="btn btn-primary cart-btn agregar-carrito" type="button" data-id="1">Add to cart</a>
                   <!-- /.action --> 
                 </div>
                 <!-- /.cart --> 
@@ -484,12 +479,7 @@
                 <!-- /.product-info -->
                 
                 <div class="cart clearfix animate-effect">
-                  <div class="action">
-                    <div class="add-cart-button btn-group">
-                      <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                      <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
-                    </div>
-                  </div>
+                  <a class="btn btn-primary cart-btn agregar-carrito" type="button"data-id="2">Add to cart</a>
                   <!-- /.action --> 
                 </div>
                 <!-- /.cart --> 
@@ -504,7 +494,7 @@
                   <img src="assets/images/hot-deals/p15_hover.jpg" alt="" class="hover-image">
                   </a>
                    </div>
-                  <div class="sale-offer-tag"><span>35%<br>
+                  <div class="sale-offer-tag"><span>45%<br>
                     off</span></div>
                   <div class="timing-wrapper">
                     <div class="box-wrapper">
@@ -533,12 +523,7 @@
                 <!-- /.product-info -->
                 
                 <div class="cart clearfix animate-effect">
-                  <div class="action">
-                    <div class="add-cart-button btn-group">
-                      <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                      <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
-                    </div>
-                  </div>
+                  <a class="btn btn-primary cart-btn agregar-carrito" type="button"data-id="3">Add to cart</a>
                   <!-- /.action --> 
                 </div>
                 <!-- /.cart --> 
