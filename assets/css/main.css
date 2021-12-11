@@ -190,7 +190,28 @@ img[src="assets/images/blank.gif"] {
 .fab .fa-facebook{
   width: 100px;
 }
+/*miCuenta---------------------------------------------------------------------*/
+.tamañoCuenta{
+  display: flex;
+}
+.cuadroActualizaDatos{
+  width: 40%;
+}
 
+.formActualizaDatos{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 1%;
+  padding: 11% 11%;
+  background: white;
+}
+.misComprasCuenta{
+  width: 50%;
+  background: white;
+
+}
+/*Fin miCuenta-----------------------------------------------------------------*/
 /*===================================================================================*/
 /*  Buttons
 /*===================================================================================*/
