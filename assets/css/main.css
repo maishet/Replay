@@ -192,24 +192,80 @@ img[src="assets/images/blank.gif"] {
 }
 /*miCuenta---------------------------------------------------------------------*/
 .tamañoCuenta{
+  width: 100%;
   display: flex;
+  margin-right: 1%;
 }
 .cuadroActualizaDatos{
-  width: 40%;
+  width: 50%;
 }
 
 .formActualizaDatos{
   border-color: black;
   border-width: 1px;
   border-style: solid;
-  margin-bottom: 1%;
-  padding: 11% 11%;
+  margin-right: 2.5%;
+  padding: 10% 8% 5% 8%;
   background: white;
 }
 .misComprasCuenta{
   width: 50%;
   background: white;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  margin-bottom: 1%;
+  margin-left: 2.5%;
+  padding: 5% 5%;
+  background: white;
+  height: 800px;
+  
+}
+.cuadroCambioCuenta{
+  width: 97%;
+}
+.contraseñaCambioCuenta{
+  background: white;
+  margin-top: 0px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10% 8% 5% 8%;
+}
+.botonchangeContraseña{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.posicionBoton{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subtituloCuenta{
+  font-weight: bold;
+  font-size: 18px;
 
+}
+.fontCuenta{
+  font-size: 14px;
+  color: #40b62c;
+  margin-top: -4%;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
 }
 /*Fin miCuenta-----------------------------------------------------------------*/
 /*===================================================================================*/
