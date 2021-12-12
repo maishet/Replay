@@ -991,55 +991,6 @@ a {
 }
 /*TITULO DE BOLSA DE COMPRAS, DESPACHO, PAGO y CONFIRMACION*/
 
-/*.fbra_checkoutDeliverySteps {
-  font-weight: 500;
-  color: #333;
-  font-family: Barlow, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  box-sizing: inherit;
-}
-.fbra_falabellaComponent {
-  font-weight: 400;
-  color: #333;
-  font-family: Barlow, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  box-sizing: inherit;
-  margin: 0 auto 25px;
-  padding: 30px 0;
-  background: 0 0;
-}
-.fbra_tabSet {
-  font-weight: 400;
-  color: #333;
-  font-family: Barlow, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  box-sizing: inherit;
-  height: 12px;
-  background: 0 0;
-}
-.fbra_tab {
-  font-weight: 400;
-  color: #333;
-  font-family: Lato,sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  box-sizing: inherit;
-  width: 25%;
-  display: inline-block;
-  float: left;
-  text-align: center;
-  position: relative;
-  padding-top: 20px;
-  background: 0 0;
-}*/
-
 .fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_tab{
   width:25%;
   display:inline-block;
@@ -1056,12 +1007,12 @@ a {
 .fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps__easyDeliveryStepText{
   top:15px;}
 .fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps,.fbra_falabellaComponentCheckoutDeliverySteps .fbra_gradientBorder{
-  background:linear-gradient(90deg,#aad500,#8fca00);
+  background:linear-gradient(90deg,#157ed2,#157ed2);
   background-size:100% 2px;
   background-repeat:no-repeat;
 }
 .fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--inProgress,.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--inactive,.fbra_falabellaComponentCheckoutDeliverySteps .fbra_greyBorder{
-  background:linear-gradient(0deg,#74b700 100%,#74b700 0);
+  background:linear-gradient(0deg,#157ed2 100%,#157ed2 0);
   background-size:100% 2px;
   background-repeat:no-repeat;
 }
@@ -1083,10 +1034,10 @@ a {
   top:-5px;left:50%;
   border-radius:50%;
   background-color:#fff;
-  border:2px solid #8fca00;
+  border:2px solid #157ed2;
 }
 .fbra_falabellaComponentCheckoutDeliverySteps .fbra_tab--completed .fbra_text{
-  color:#aad500;
+  color:#157ed2;
 }
 .fbra_falabellaComponentCheckoutDeliverySteps .fbra_tab--inProgress{
   position:relative;
@@ -1102,10 +1053,10 @@ a {
   top:-10px;
   left:50%;
   border-radius:50%;
-  background-color:#8fca00;
+  background-color:#157ed2;
 }
 .fbra_falabellaComponentCheckoutDeliverySteps .fbra_tab--inProgress .fbra_text{
-  color:#8fca00;
+  color:#157ed2;
 }
 .fbra_falabellaComponentCheckoutDeliverySteps .fbra_tab--inactive{
   position:relative;
@@ -1130,9 +1081,26 @@ a {
 .fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps{
   height:12px;
 }
-.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_tab{float:left;text-align:center;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--inProgress{background-size:50% 2px;background-position:100% 0;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_text{font-size:1.6rem;word-break:break-word;}@media screen and (max-width:500px){.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_text{font-size:12px;}}.fbra_falabellaComponentCheckoutDeliverySteps .step__1{background-size:16.66667% 2px;}.fbra_falabellaComponentCheckoutDeliverySteps .step__2{background-size:50% 2px;}.fbra_falabellaComponentCheckoutDeliverySteps .step__3{background-size:83.33333% 2px;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps__securePaymentStepIcon,.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps__yourBasketStepIcon{visibility:hidden;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps{background:0 0;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab{position:relative;padding-top:20px;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab:before{background-color:#ddd;background-size:26px 26px;border:none;border-radius:50%;box-sizing:border-box;content:"";display:block;position:absolute;top:-5px;left:50%;width:26px;height:26px;margin-left:-13px;}@media screen and (max-width:737px){.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_tab--completed span,.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_tab--inProgress span{display:block;text-align:center;width:100%;left:0;right:0;position:absolute;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab{padding-top:15px;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab:before{background-size:20px 20px;height:20px;width:20px;}}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab:after{content:"";width:100%;height:2px;background-color:#ddd;position:absolute;left:-50%;top:7px;z-index:-1;}@media screen and (max-width:737px){.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab:after{top:5px;}}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab:first-child:after{content:none;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--inProgress,.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--inactive{background:0 0;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--completed+.fbra_tab:after,.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--inProgress:before{background-color:#aad500;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--completed:before{background-color:transparent;background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIyOXB4IiBoZWlnaHQ9IjI5cHgiIHZpZXdCb3g9IjAgMCAyOSAyOSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4gICAgICAgIDx0aXRsZT5pY29uL3RpbWVsaW5lL3Bhc2VkPC90aXRsZT4gICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+ICAgIDxkZWZzPiAgICAgICAgPHBvbHlnb24gaWQ9InBhdGgtMSIgcG9pbnRzPSIxNC41MjE2MjUyIDAuNjE4NDIxMDUzIDcuMjkzOTIwNTcgMTIuNjAzMjc4NSAxLjMxNTYwNjczIDguNDY3ODY4NDIgMC44NDg2ODQyMTEgOS4yMjAxNjIyOCA3LjU0OTc2ODUyIDEzLjg1NTI2MzIgMTUuMjQwMTMxNiAxLjEwMTU2NTc5Ij48L3BvbHlnb24+ICAgIDwvZGVmcz4gICAgPGcgaWQ9IlN5bWJvbHMiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPiAgICAgICAgPGcgaWQ9Im1vZHVsZS90aW1lbGluZS9kZXNrdG9wIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTUuMDAwMDAwLCAxLjAwMDAwMCkiPiAgICAgICAgICAgIDxnIGlkPSJIZWFkZXIvRmFzZXMvZGVza3RvcCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsIDEuMDAwMDAwKSI+ICAgICAgICAgICAgICAgIDxnIGlkPSJpY29uL3RpbWVsaW5lL3N0YXkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDU2LjAwMDAwMCwgMC4wMDAwMDApIj4gICAgICAgICAgICAgICAgICAgIDxjaXJjbGUgc3Ryb2tlPSIjQUFENTAwIiBzdHJva2Utd2lkdGg9IjIuODU3MTQyODYiIGZpbGw9IiNGRkZGRkYiIGN4PSIxMy43MTQyODU3IiBjeT0iMTIuNzE0Mjg1NyIgcj0iMTIuNzE0Mjg1NyI+PC9jaXJjbGU+ICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iaWNvbi9hY3Rpb25zL2FjY2VwdCIgc3Ryb2tlLXdpZHRoPSIxIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1LjAwMDAwMCwgNi4wMDAwMDApIj4gICAgICAgICAgICAgICAgICAgICAgICA8bWFzayBpZD0ibWFzay0yIiBmaWxsPSJ3aGl0ZSI+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI3BhdGgtMSI+PC91c2U+ICAgICAgICAgICAgICAgICAgICAgICAgPC9tYXNrPiAgICAgICAgICAgICAgICAgICAgICAgIDx1c2UgaWQ9IkZpbGwtMSIgc3Ryb2tlPSIjQUFENTAwIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9IiNBQUQ1MDAiIHhsaW5rOmhyZWY9IiNwYXRoLTEiPjwvdXNlPiAgICAgICAgICAgICAgICAgICAgPC9nPiAgICAgICAgICAgICAgICA8L2c+ICAgICAgICAgICAgPC9nPiAgICAgICAgPC9nPiAgICA8L2c+PC9zdmc+);background-repeat:no-repeat;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_text{color:#bbb;font-family:Lato;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab--inProgress .fbra_text{color:#333;}
+.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_tab{float:left;text-align:center;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--inProgress{background-size:50% 2px;background-position:100% 0;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_text{font-size:1.6rem;word-break:break-word;}@media screen and (max-width:500px){.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_text{font-size:12px;}}.fbra_falabellaComponentCheckoutDeliverySteps .step__1{background-size:16.66667% 2px;}.fbra_falabellaComponentCheckoutDeliverySteps .step__2{background-size:50% 2px;}.fbra_falabellaComponentCheckoutDeliverySteps .step__3{background-size:83.33333% 2px;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps__securePaymentStepIcon,.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps__yourBasketStepIcon{visibility:hidden;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps{background:0 0;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab{position:relative;padding-top:20px;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab:before{background-color:#ddd;background-size:26px 26px;border:none;border-radius:50%;box-sizing:border-box;content:"";display:block;position:absolute;top:-5px;left:50%;width:26px;height:26px;margin-left:-13px;}@media screen and (max-width:737px){.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_tab--completed span,.fbra_falabellaComponentCheckoutDeliverySteps .fbra_checkoutDeliverySteps .fbra_tab--inProgress span{display:block;text-align:center;width:100%;left:0;right:0;position:absolute;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab{padding-top:15px;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab:before{background-size:20px 20px;height:20px;width:20px;}}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab:after{content:"";width:100%;height:2px;background-color:#ddd;position:absolute;left:-50%;top:7px;z-index:-1;}@media screen and (max-width:737px){.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab:after{top:5px;}}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab:first-child:after{content:none;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--inProgress,.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--inactive{background:0 0;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--completed+.fbra_tab:after,.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--inProgress:before{background-color:#157ed2;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab.fbra_tab--completed:before{background-color:transparent;background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIyOXB4IiBoZWlnaHQ9IjI5cHgiIHZpZXdCb3g9IjAgMCAyOSAyOSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4gICAgICAgIDx0aXRsZT5pY29uL3RpbWVsaW5lL3Bhc2VkPC90aXRsZT4gICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+ICAgIDxkZWZzPiAgICAgICAgPHBvbHlnb24gaWQ9InBhdGgtMSIgcG9pbnRzPSIxNC41MjE2MjUyIDAuNjE4NDIxMDUzIDcuMjkzOTIwNTcgMTIuNjAzMjc4NSAxLjMxNTYwNjczIDguNDY3ODY4NDIgMC44NDg2ODQyMTEgOS4yMjAxNjIyOCA3LjU0OTc2ODUyIDEzLjg1NTI2MzIgMTUuMjQwMTMxNiAxLjEwMTU2NTc5Ij48L3BvbHlnb24+ICAgIDwvZGVmcz4gICAgPGcgaWQ9IlN5bWJvbHMiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPiAgICAgICAgPGcgaWQ9Im1vZHVsZS90aW1lbGluZS9kZXNrdG9wIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNTUuMDAwMDAwLCAxLjAwMDAwMCkiPiAgICAgICAgICAgIDxnIGlkPSJIZWFkZXIvRmFzZXMvZGVza3RvcCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsIDEuMDAwMDAwKSI+ICAgICAgICAgICAgICAgIDxnIGlkPSJpY29uL3RpbWVsaW5lL3N0YXkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDU2LjAwMDAwMCwgMC4wMDAwMDApIj4gICAgICAgICAgICAgICAgICAgIDxjaXJjbGUgc3Ryb2tlPSIjQUFENTAwIiBzdHJva2Utd2lkdGg9IjIuODU3MTQyODYiIGZpbGw9IiNGRkZGRkYiIGN4PSIxMy43MTQyODU3IiBjeT0iMTIuNzE0Mjg1NyIgcj0iMTIuNzE0Mjg1NyI+PC9jaXJjbGU+ICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iaWNvbi9hY3Rpb25zL2FjY2VwdCIgc3Ryb2tlLXdpZHRoPSIxIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1LjAwMDAwMCwgNi4wMDAwMDApIj4gICAgICAgICAgICAgICAgICAgICAgICA8bWFzayBpZD0ibWFzay0yIiBmaWxsPSJ3aGl0ZSI+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI3BhdGgtMSI+PC91c2U+ICAgICAgICAgICAgICAgICAgICAgICAgPC9tYXNrPiAgICAgICAgICAgICAgICAgICAgICAgIDx1c2UgaWQ9IkZpbGwtMSIgc3Ryb2tlPSIjQUFENTAwIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9IiNBQUQ1MDAiIHhsaW5rOmhyZWY9IiNwYXRoLTEiPjwvdXNlPiAgICAgICAgICAgICAgICAgICAgPC9nPiAgICAgICAgICAgICAgICA8L2c+ICAgICAgICAgICAgPC9nPiAgICAgICAgPC9nPiAgICA8L2c+PC9zdmc+);background-repeat:no-repeat;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_text{color:#bbb;font-family: 'Barlow', sans-serif;}.fbra_falabellaComponentCheckoutDeliverySteps .fbra_payment_redesign.fbra_checkoutDeliverySteps .fbra_tab--inProgress .fbra_text{color:#333;}
 
 /*TITULO DE BOLSA DE COMPRAS, DESPACHO, PAGO y CONFIRMACION*/
+
+/* CARRO DE COMPRA */
+
+
+.footer-more-product {
+  -webkit-text-size-adjust: 100%;
+  line-height: 20px;
+  color: #333;
+  font-family: 'Barlow', sans-serif;
+  display: block;
+  text-decoration: underline;
+  text-align: center;
+  margin: 10px 0 20px 0;
+  font-size: 15px;
+}
+/* CARRO DE COMPRA */
+
 .filters-container .nav-tabs.nav-tab-box li.active a .icon {
   color: #12cca7;
 }
@@ -5302,7 +5270,7 @@ font-family: FontAwesome;
   color: #666666;
   font-size: 13px;
   padding-right: 4px;
-  ont-family: FontAwesome;
+  font-family: FontAwesome;
 }
 .blog-page .blog-post .author:before,
 .blog-page .sidebar .sidebar-module-container .sidebar-widget .blog-post .author:before {
