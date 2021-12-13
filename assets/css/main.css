@@ -303,12 +303,14 @@ table {
   grid-template-columns: auto auto; 
   width: 90%;
 }
+
 .container .div4{
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   margin-left: 20px;
   display: grid;
   grid-template-columns: auto auto; 
+  text-align: center;
 }
 .body-content .texto .pedido{
     display: flex;
