@@ -268,6 +268,69 @@ table {
   
 }
 /*Fin miCuenta-----------------------------------------------------------------*/
+
+/*Estado de mi Pedido =====================================================================*/
+
+.titulo{
+  margin-top: 0px;
+  background-color: #3D5C98;
+  padding: 7px 15px 0px 30px;
+  color:white;
+  height:70px;
+  font-size: 45px;
+  font-weight:bold;
+}
+.contenedor{
+  padding:0px 40px;
+}
+.body-content .x-page .texto .div1 {
+  margin-top: 10px;
+}
+.body-content .x-page .texto span {
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+.body-content .x-page .texto label {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+}
+.body-content .x-page .texto p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+}
+.body-content .x-page .texto .le-button {
+  border-radius: 0 3px 3px 0;
+  margin: 0 0 0 -5px;
+  padding: 19px 23px 20px;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 10px;
+  border: medium none;
+  color: #333;
+  background:#fdd922
+}
+.body-content .x-page .texto form input {
+  border: 1px solid #e0e0e0;
+  border-radius: 3px 0 0 3px;
+  color: #3d3d3d;
+  padding: 13px;
+  font-size: 15px;
+  width: 40%;
+  width: 75%;
+}
+.body-content .x-page .texto a {
+  font-size: 15px;
+}
+.body-content .x-page .texto a i {
+  padding-right: 2px;
+}
+
+/*Fin Estado de mi Pedido =====================================================================*/
+
 /*===================================================================================*/
 /*  Buttons
 /*===================================================================================*/
