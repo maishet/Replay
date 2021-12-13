@@ -280,55 +280,125 @@ table {
   font-size: 45px;
   font-weight:bold;
 }
-.contenedor{
-  padding:0px 40px;
+.linea-horizontal{
+  border-bottom: 2px solid #C4C4C4;
 }
-.body-content .x-page .texto .div1 {
-  margin-top: 10px;
-}
-.body-content .x-page .texto span {
-  font-size: 15px;
-  font-weight: bold;
-  font-style: normal;
-  text-align: center;
-}
-.body-content .x-page .texto label {
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-}
-.body-content .x-page .texto p {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: normal;
-}
-.body-content .x-page .texto .le-button {
-  border-radius: 0 3px 3px 0;
-  margin: 0 0 0 -5px;
-  padding: 19px 23px 20px;
-  font-size: 19px;
-  font-weight: 600;
-  line-height: 10px;
-  border: medium none;
-  color: #333;
-  background:#fdd922
-}
-.body-content .x-page .texto form input {
-  border: 1px solid #e0e0e0;
-  border-radius: 3px 0 0 3px;
-  color: #3d3d3d;
-  padding: 13px;
-  font-size: 15px;
-  width: 40%;
-  width: 75%;
-}
-.body-content .x-page .texto a {
-  font-size: 15px;
-}
-.body-content .x-page .texto a i {
-  padding-right: 2px;
+.espaciado{
+  padding-left: 10px;
 }
 
+.container .div1 {
+  margin-top: 10px;
+  text-align: center;
+  width: auto;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container .div2{
+  margin: 10px 0px 10px 0px;
+   display: grid;
+  grid-template-columns: auto auto; 
+  width: 90%;
+}
+.container .div4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: auto auto; 
+}
+.body-content .texto .pedido{
+    display: flex;
+    width: auto;
+}
+.contenedor-boton{
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.body-content .texto h3{
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+}
+.body-content .texto h2{
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.body-content .texto span {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+}
+.body-content .texto label {
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+}
+.body-content .texto p {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: normal;
+}
+.body-content .texto .div2 p {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: normal;
+  display: inline;
+}
+.body-content .texto a {
+  font-size: 15px;
+}
+.body-content .texto img {
+  min-width: 200px;
+  max-width: 80%;
+}
+.cat {
+  min-width: 200px;
+  width: 210px;
+  margin-right: 15px;
+  
+ }
+.body-content .texto i {
+  padding-right: 2px;
+  font-size: 36px;
+  color: #FB3449;
+}
+.body-content .texto button{
+  background: #FFFFFF;
+  border: 2px solid #666666;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: #666666;
+  height: auto;
+  text-align: center;
+} 
+.descripcion-pedido{
+  max-width: 40%;
+  padding-right: 15px;
+}
+/* @media(min-width: 1300px){
+	.container {
+		padding: 0 60px;
+		width:auto
+	}
+	
+}
+
+@media(min-width: 1600px){
+	.container {
+		padding: 0 120px;
+		width:auto
+	}
+	
+} */
 /*Fin Estado de mi Pedido =====================================================================*/
 
 /*===================================================================================*/
