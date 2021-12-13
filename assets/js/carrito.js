@@ -49,23 +49,21 @@ class Carrito {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>
-                <div class="col-xs-4">
-                    <div class="image"> <a href="detail.html"><img src="${producto.imagen}" alt=""></a> </div>
-                </div>
+                <a href="detail.html"><img src="${producto.imagen}" alt=""></a>
             </td>
                 <div class="col-xs-7">
                     <h3 class="name"><a href="detail.html">${producto.titulo}</a></h3>
                     <div class="price">${producto.precio}</div>
                 </div>
             <td>
-                <div class="col-xs-1 action"> <a href="#"><i class="fa fa-trash" data-id="${producto.id}"></i></a> </div>
+                <a href="#" class="borrar-producto fa fa-times-circle" data-id="${producto.id}"></a>
             </td>
         `;
         listaProductos.appendChild(row);
         //this.guardarProductosLocalStorage(producto);
 
     }
-/*
+
     //Eliminar el producto del carrito en el DOM
     eliminarProducto(e){
         e.preventDefault();
@@ -75,12 +73,12 @@ class Carrito {
             producto = e.target.parentElement.parentElement;
             productoID = producto.querySelector('a').getAttribute('data-id');
         }
-        this.eliminarProductoLocalStorage(productoID);
-        this.calcularTotal();
+        //this.eliminarProductoLocalStorage(productoID);
+        //this.calcularTotal();
 
     }
 
-    //Elimina todos los productos
+/*    //Elimina todos los productos
     vaciarCarrito(e){
         e.preventDefault();
         while(listaProductos.firstChild){

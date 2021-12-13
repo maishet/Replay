@@ -13,7 +13,7 @@ function cargarEventos(){
     productos.addEventListener('click', (e)=>{carro.comprarProducto(e)});
 
     //Cuando se elimina productos del carrito
-    //carrito.addEventListener('click', (e)=>{carro.eliminarProducto(e)});
+    carrito.addEventListener('click', (e)=>{carro.eliminarProducto(e)});
 
     //Al vaciar carrito
     //vaciarCarritoBtn.addEventListener('click', (e)=>{carro.vaciarCarrito(e)});
