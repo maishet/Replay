@@ -274,14 +274,16 @@ table {
 .titulo{
   margin-top: 0px;
   background-color: #3D5C98;
-  padding: 7px 15px 0px 30px;
+  padding: 7px 15px 11px 30px;
   color:white;
   height:70px;
   font-size: 45px;
   font-weight:bold;
+  height: auto;
 }
 .linea-horizontal{
-  border-bottom: 2px solid #C4C4C4;
+  margin-top: 20px;
+  border-bottom: 2px solid #C4C4C4; 
 }
 .espaciado{
   padding-left: 10px;
@@ -303,7 +305,11 @@ table {
   grid-template-columns: auto auto; 
   width: 90%;
 }
-
+.container .div3{
+  margin: 10px 0px 10px 0px;
+  width: 90%;
+  padding-bottom: 30px;
+}
 .container .div4{
   margin-top: 10px;
   margin-bottom: 40px;
@@ -386,21 +392,18 @@ table {
   max-width: 40%;
   padding-right: 15px;
 }
-/* @media(min-width: 1300px){
-	.container {
-		padding: 0 60px;
-		width:auto
-	}
-	
+@media(max-width: 550px){
+  .container .div2{
+    margin: 10px 0px 10px 0px;
+    display: block;
+    width: 90%;
+  }
+	.contenedor-boton{
+    display: block;
+    width: auto;
+    text-align: center;
+  }
 }
-
-@media(min-width: 1600px){
-	.container {
-		padding: 0 120px;
-		width:auto
-	}
-	
-} */
 /*Fin Estado de mi Pedido =====================================================================*/
 
 /*===================================================================================*/
