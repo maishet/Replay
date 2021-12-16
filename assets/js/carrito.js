@@ -56,11 +56,13 @@ class Carrito {
                     <div class="price">${producto.precio}</div>
                 </div>
             <td>
-                <a href="#" class="borrar-producto fa fa-times-circle" data-id="${producto.id}"></a>
+            <div class="col-xs-1 action"> <a href="#"><i class="borrar-producto fa fa-trash" data-id="${producto.id}></i></a> </div>
             </td>
         `;
         listaProductos.appendChild(row);
-        //this.guardarProductosLocalStorage(producto);
+        this.guardarProductosLocalStorage(producto);
+        //<i class="fas fa-trash"></i>
+        //<a href="#" class="borrar-producto fas fa-trash" data-id="${producto.id}"></a>
 
     }
 
@@ -68,12 +70,12 @@ class Carrito {
     eliminarProducto(e){
         e.preventDefault();
         let producto, productoID;
-        if(e.target.classList.contains('borrar-producto')){
+        if(e.target.classList.contains('.action borrar-producto')){
             e.target.parentElement.parentElement.remove();
             producto = e.target.parentElement.parentElement;
             productoID = producto.querySelector('a').getAttribute('data-id');
         }
-        //this.eliminarProductoLocalStorage(productoID);
+        this.eliminarProductoLocalStorage(productoID);
         //this.calcularTotal();
 
     }
@@ -88,6 +90,7 @@ class Carrito {
 
         return false;
     }
+*/
 
     //Almacenar en el LS
     guardarProductosLocalStorage(producto){
@@ -113,7 +116,7 @@ class Carrito {
         }
         return productoLS;
     }
-
+/*
     //Mostrar los productos guardados en el LS
     leerLocalStorage(){
         let productosLS;
@@ -158,6 +161,7 @@ class Carrito {
             listaCompra.appendChild(row);
         });
     }
+*/
 
     //Eliminar producto por ID del LS
     eliminarProductoLocalStorage(productoID){
@@ -174,7 +178,7 @@ class Carrito {
         //Añadimos el arreglo actual al LS
         localStorage.setItem('productos', JSON.stringify(productosLS));
     }
-
+/*
     //Eliminar todos los datos del LS
     vaciarLocalStorage(){
         localStorage.clear();

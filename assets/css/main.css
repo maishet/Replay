@@ -259,7 +259,7 @@ img[src="assets/images/blank.gif"] {
   margin-bottom: 5%;
 }
 table, td, th {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 table {
@@ -1553,7 +1553,7 @@ header{
   float: right;
 }
 
-.top-cart-row .dropdown-cart img {width:100%}
+.top-cart-row .table img {width:100%}
 
 .top-cart-row .dropdown-cart .lnk-cart {
   padding: 0px;
@@ -5964,9 +5964,12 @@ font-size: 24px;
 .table > thead > tr > td,
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
-  vertical-align: middle;
+  /*vertical-align: middle;
   border: none;
-  padding: 30px;
+  padding: 30px;*/
+  padding: 23px;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
 }
 .body-content .my-wishlist-page .my-wishlist table tbody .close-btn a,
 .body-content .my-wishlist-page .my-wishlist table tbody .close-btn a:hover {
