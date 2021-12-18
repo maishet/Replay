@@ -18,10 +18,10 @@ class Carrito {
             imagen : producto.querySelector('img').src,
             titulo: producto.querySelector('h3').textContent,
             precio: producto.querySelector('.product-price span').textContent,
-            id: producto.querySelector('a').getAttribute('data-id'),
+            id: producto.querySelector('.cart a').getAttribute('data-id'), //si recoge el atributo data-id con .cart a (home.php)
             cantidad: 1
         }
-        /*let productosLS;
+        let productosLS;
         productosLS = this.obtenerProductosLocalStorage();
         productosLS.forEach(function (productoLS){
             if(productoLS.id === infoProducto.id){
@@ -31,7 +31,7 @@ class Carrito {
 
         if(productosLS === infoProducto.id){
             Swal.fire({
-                type: 'info',
+                icon: 'warning',
                 title: 'Oops...',
                 text: 'El producto ya está agregado',
                 showConfirmButton: false,
@@ -40,8 +40,8 @@ class Carrito {
         }
         else {
             this.insertarCarrito(infoProducto);
-        }*/
-        this.insertarCarrito(infoProducto);
+        }
+        //this.insertarCarrito(infoProducto); //ya esta en el else
     }
 
     //muestra producto seleccionado en carrito
@@ -51,18 +51,18 @@ class Carrito {
             <td>
                 <a href="detail.html"><img src="${producto.imagen}" alt=""></a>
             </td>
-                <div class="col-xs-7">
-                    <h3 class="name"><a href="detail.html">${producto.titulo}</a></h3>
-                    <div class="price">${producto.precio}</div>
-                </div>
+                <h3 class="name"><a href="detail.html">${producto.titulo}</a></h3>
+                <div class="price">${producto.precio}</div>
             <td>
-            <div class="col-xs-1 action"> <a href="#"><i class="borrar-producto fa fa-trash" data-id="${producto.id}></i></a> </div>
+                <a href="#" class="borrar-producto bx bxs-trash-alt bx-sm" data-id="${producto.id}"></a>
             </td>
         `;
         listaProductos.appendChild(row);
         this.guardarProductosLocalStorage(producto);
         //<i class="fas fa-trash"></i>
         //<a href="#" class="borrar-producto fas fa-trash" data-id="${producto.id}"></a>
+        //<div class="col-xs-7">
+        //<a href="#" class="borrar-producto bx bxs-trash-alt bx-sm" data-id="${producto.id}"></a>
 
     }
 
@@ -70,10 +70,11 @@ class Carrito {
     eliminarProducto(e){
         e.preventDefault();
         let producto, productoID;
-        if(e.target.classList.contains('.action borrar-producto')){
+        if(e.target.classList.contains('borrar-producto')){
             e.target.parentElement.parentElement.remove();
             producto = e.target.parentElement.parentElement;
-            productoID = producto.querySelector('a').getAttribute('data-id');
+            productoID = producto.querySelector('a.borrar-producto').getAttribute('data-id'); // esta sacando null (corregido de 'a')
+            //console.log(productoID);
         }
         this.eliminarProductoLocalStorage(productoID);
         //this.calcularTotal();
@@ -116,7 +117,7 @@ class Carrito {
         }
         return productoLS;
     }
-/*
+
     //Mostrar los productos guardados en el LS
     leerLocalStorage(){
         let productosLS;
@@ -126,18 +127,18 @@ class Carrito {
             const row = document.createElement('tr');
             row.innerHTML = `
                 <td>
-                    <img src="${producto.imagen}" width=100>
+                    <a href="detail.html"><img src="${producto.imagen}" alt=""></a>
                 </td>
-                <td>${producto.titulo}</td>
-                <td>${producto.precio}</td>
+                    <h3 class="name"><a href="detail.html">${producto.titulo}</a></h3>
+                    <div class="price">${producto.precio}</div>
                 <td>
-                    <a href="#" class="borrar-producto fas fa-times-circle" data-id="${producto.id}"></a>
+                    <a href="#" class="borrar-producto bx bxs-trash-alt bx-sm" data-id="${producto.id}"></a>
                 </td>
             `;
             listaProductos.appendChild(row);
         });
     }
-
+/*
     //Mostrar los productos guardados en el LS en compra.html
     leerLocalStorageCompra(){
         let productosLS;

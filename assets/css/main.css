@@ -1768,7 +1768,7 @@ header{
 }
 .top-cart-row .dropdown-cart .dropdown-menu .cart-item.product-summary .name {
   font-size: 14px;
-  margin-top: 0px;
+  /*margin-top: 0px;*/
   font-weight:400;
   
 }
