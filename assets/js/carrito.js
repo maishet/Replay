@@ -184,14 +184,14 @@ class Carrito {
     vaciarLocalStorage(){
         localStorage.clear();
     }
-
+*/
     //Procesar pedido
     procesarPedido(e){
         e.preventDefault();
 
         if(this.obtenerProductosLocalStorage().length === 0){
             Swal.fire({
-                type: 'error',
+                icon: 'error',
                 title: 'Oops...',
                 text: 'El carrito está vacío, agrega algún producto',
                 showConfirmButton: false,
@@ -199,10 +199,10 @@ class Carrito {
             })
         }
         else {
-            location.href = "compra.html";
+            location.href = "shopping-cart.php";
         }
     }
-
+/*
     //Calcular montos
     calcularTotal(){
         let productosLS;
