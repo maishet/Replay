@@ -5,7 +5,7 @@ $contraseña=$_POST['contraseña'];
 session_start();
 $_SESSION['usuario']=$usuario;
 
-
+//Prueba de subida de archivo
 $conexion=mysqli_connect("localhost","root","1234","replay");
 
 $consulta="SELECT*FROM usuarios where usuario='$usuario' and contraseña='$contraseña'";
