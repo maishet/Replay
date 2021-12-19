@@ -63,14 +63,14 @@
               <a href="#" class="facebook-sign-in"><i class="fa fa-facebook"></i> Inicia sesión con facebook</a>
               <a href="#" class="twitter-sign-in"><i class="fa fa-twitter"></i> Inicia sesión con Twitter</a>
             </div>
-            <form class="register-form outer-top-xs" role="form">
+            <form action="validar.php" method="post" class="register-form outer-top-xs" role="form">
               <div class="form-group">
                 <label class="info-title" for="exampleInputEmail1">Correo: <span>*</span></label>
-                <input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1">
+                <input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" name="correo">
               </div>
               <div class="form-group">
                 <label class="info-title" for="exampleInputPassword1">Contraseña: <span>*</span></label>
-                <input type="password" class="form-control unicase-form-control text-input" id="exampleInputPassword1">
+                <input type="password" class="form-control unicase-form-control text-input" id="exampleInputPassword1" name="contraseña">
               </div>
               <div class="radio outer-xs">
                 <label>
@@ -87,7 +87,7 @@
           <div class="col-md-6 col-sm-6 create-new-account">
             <h4 class="checkout-subtitle">Crear una nueva cuenta</h4>
             <p class="text title-tag-line">Crea una nueva cuenta.</p>
-            <form class="register-form outer-top-xs" role="form">
+            <form  class="register-form outer-top-xs" role="form">
               
               <div class="form-group">
                 <label class="info-title" for="exampleInputEmail1">Name <span>*</span></label>
