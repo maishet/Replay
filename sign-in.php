@@ -1,3 +1,6 @@
+
+ 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,6 +36,8 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,800'
     rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <?php include('config.php'); ?>
+  <?php include('oauth-user.php'); ?>
 </head>
 
 <body class="cnt-home">
@@ -52,16 +57,82 @@
   </div><!-- /.breadcrumb -->
 
   <div class="body-content">
+    
     <div class="container">
       <div class="sign-in-page">
         <div class="row">
           <!-- Sign-in -->
           <div class="col-md-6 col-sm-6 sign-in">
+            
             <h4 class="">Loguin</h4>
             <p class="">Hola, Bienvenido a tu cuenta.</p>
             <div class="social-sign-in outer-top-xs">
-              <a href="#" class="facebook-sign-in"><i class="fa fa-facebook"></i> Inicia sesión con facebook</a>
-              <a href="#" class="twitter-sign-in"><i class="fa fa-twitter"></i> Inicia sesión con Twitter</a>
+            
+            <?php
+                      //If no $accessToken is set then user should log in first
+              if(isset($accessToken)) {
+                if(isset($_SESSION['facebook_access_token'])){
+                  $fb->setDefaultAccessToken($_SESSION['facebook_access_token']);
+                } else {
+                  // Put short-lived access token in session
+                  $_SESSION['facebook_access_token'] = (string) $accessToken;
+                  
+                  // The OAuth 2.0 client handler helps us manage access tokens
+                  $oAuth2Client = $fb->getOAuth2Client();
+                  
+                  if(!$accessToken->isLongLived()) {
+                    //Exchanges a short-lived access token for a long-lived one
+                    try {
+                      $accessToken = $oAuth2Client->getLongLivedAccessToken($accessToken);
+                      $_SESSION['facebook_access_token'] = (string) $accessToken;
+                    } catch (Facebook\Exceptions\FacebookSDKException $e) {
+                      echo "<p>Error getting long-lived access token: " . $helper->getMessage() . "</p>\n\n";
+                      exit;
+                    }
+                  }			
+                }
+                
+                // Redirect the user back to the same page if url has "code" parameter in query string
+                if(isset($_GET['code'])){
+                  header('Location: ./');
+                }
+                
+                
+                // Getting user facebook profile info
+                try {
+                  $profileRequest = $fb->get('/me?fields=name,first_name,last_name,email,link,gender,locale,picture');
+                  $fbUserData = $profileRequest->getGraphNode()->asArray();
+                  
+                  //Ceate an instance of the OauthUser class
+                  $oauth_user_obj = new OauthUser();
+                  $userData = $oauth_user_obj->verifyUser($fbUserData);
+                } catch(FacebookResponseException $e) {
+                  echo 'Graph returned an error: ' . $e->getMessage();
+                  session_destroy();
+                  // Redirect user back to app login page
+                  header("Location: ./");
+                  exit;
+                } catch(FacebookSDKException $e) {
+                  echo 'Facebook SDK returned an error: ' . $e->getMessage();
+                  session_destroy();
+                  // Redirect user back to app login page
+                  header("Location: ./");
+                  exit;
+                }
+              
+              
+                // Get logout url
+                //$logoutURL = $helper->getLogoutUrl($accessToken, 'http://localhost/mit-demos/facebook-login/logout.php');
+                
+              
+                
+              } else {
+                // Get login url
+                $loginUrl = $helper->getLoginUrl($redirectUrl);
+                echo '<a class="facebook-sign-in" href="'.htmlspecialchars($loginUrl).'"><i class="fa fa-facebook"></i> Inicia sesión con facebook</a>';
+              }
+        ?>
+              <a href="?login=Twitter" class="twitter-sign-in"><i class="fa fa-twitter"></i> Inicia sesión con Twitter</a>
             </div>
             <form action="validar.php" method="post" class="register-form outer-top-xs" role="form">
               <div class="form-group">
