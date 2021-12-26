@@ -138,8 +138,8 @@ class Carrito {
             listaProductos.appendChild(row);
         });
     }
-/*
-    //Mostrar los productos guardados en el LS en compra.html
+
+    //Mostrar los productos guardados en el LS en shopping-cart.php
     leerLocalStorageCompra(){
         let productosLS;
         productosLS = this.obtenerProductosLocalStorage();
@@ -162,7 +162,7 @@ class Carrito {
             listaCompra.appendChild(row);
         });
     }
-*/
+
 
     //Eliminar producto por ID del LS
     eliminarProductoLocalStorage(productoID){
