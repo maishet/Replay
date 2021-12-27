@@ -378,9 +378,9 @@ table {
   margin-top: 50px;
   display:flex; 
   text-align: center;
-  width: auto;
- /*  padding-left: 100px;
-  padding-right: 100px; */
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .pasos{
