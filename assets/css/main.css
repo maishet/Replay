@@ -301,7 +301,7 @@ table {
 }
 .container .div3{
   margin: 10px 0px 10px 0px;
-  width: 90%;
+  width: 100%;
   padding-bottom: 30px;
 }
 .container .div4{
@@ -333,10 +333,14 @@ table {
   font-weight: normal;
   font-style: normal;
 }
+.body-content .texto .inactivo label {
+  display:none;
+}
 .body-content .texto p {
   font-size: 17px;
   font-style: normal;
   font-weight: normal;
+  width: auto;
 }
 .body-content .texto a {
   font-size: 15px;
@@ -364,18 +368,28 @@ table {
   background-color: #C4C4C4;
   color: white;
 }
+/* .contenedorSeguimiento{
+  padding-left: auto; 
+  padding-right: auto;
+  
+  
+} */
 .pedidoPasos{
   margin-top: 50px;
-  display: grid;
-  grid-template-columns: auto auto auto auto auto; 
+  display:flex; 
   text-align: center;
+  width: auto;
+ /*  padding-left: 100px;
+  padding-right: 100px; */
 
 }
 .pasos{
   /* display: inline-block; */
+  
 }
 .linea-PedidoPasos{
-  width: 250px;
+  /* width: 250px; */
+  width: 100%;
   padding-left: 0px;
   padding-right: 0px;
   /* display: inline-block; */
