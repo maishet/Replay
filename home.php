@@ -426,9 +426,9 @@
                 <!-- /.hot-deal-wrapper -->
                 
                 <div class="product-info text-left m-t-20">
-                  <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                  <h3 class="name"><a href="detallesProducto.html">Floral Print Buttoned</a></h3>
                   <div class="rating rateit-small"></div>
-                  <div class="product-price"> <span class="price"> $600.00 </span> <span class="price-before-discount">$800.00</span> </div>
+                  <div class="product-price"><span class="moneda">S/.</span> <span class="price">600.00</span> <span class="price-before-discount">S/.800.00</span> </div>
                   <!-- /.product-price --> 
                   
                 </div>
@@ -472,7 +472,7 @@
                 <div class="product-info text-left m-t-20">
                   <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
                   <div class="rating rateit-small"></div>
-                  <div class="product-price"> <span class="price"> $600.00 </span> <span class="price-before-discount">$800.00</span> </div>
+                  <div class="product-price"><span class="moneda">S/.</span> <span class="price">600.00</span> <span class="price-before-discount">S/.800.00</span> </div>
                   <!-- /.product-price --> 
                   
                 </div>
@@ -516,7 +516,7 @@
                 <div class="product-info text-left m-t-20">
                   <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
                   <div class="rating rateit-small"></div>
-                  <div class="product-price"> <span class="price"> $600.00 </span> <span class="price-before-discount">$800.00</span> </div>
+                  <div class="product-price"><span class="moneda">S/.</span> <span class="price">600.00</span> <span class="price-before-discount">S/.800.00</span> </div>
                   <!-- /.product-price --> 
                   
                 </div>
@@ -3280,6 +3280,8 @@
 
 <!-- ============================================================= FOOTER ============================================================= -->
 <?php include('footer.html'); ?>
+<script src="assets/js/pedido.js"></script>
+<!-- <script src="assets/js/compra.js"></script> -->
 <!-- ============================================================= FOOTER : END============================================================= -->
 </body>
 

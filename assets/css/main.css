@@ -4021,6 +4021,12 @@ font-family: FontAwesome;
 .hot-deals .product-info .name a {
   color: #555;
 }
+.hot-deals .product-info .product-price .moneda{
+  color: #0f6cb2;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+}
 .hot-deals .product-info .product-price .price {
   font-weight: 600;
   font-size: 16px;

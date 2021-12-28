@@ -1,9 +1,9 @@
 const compra = new Carrito();
 const listaCompra = document.querySelector("#lista-compra tbody");
-const carrito = document.getElementById('carrito');
-const procesarCompraBtn = document.getElementById('procesar-compra');
-const cliente = document.getElementById('cliente');
-const correo = document.getElementById('correo');
+const carritopedido = document.getElementById('carritopedido');
+//const procesarCompraBtn = document.getElementById('procesar-compra');
+//const cliente = document.getElementById('cliente');
+//const correo = document.getElementById('correo');
 
 cargarEventos();
 
@@ -11,18 +11,19 @@ function cargarEventos() {
     document.addEventListener('DOMContentLoaded', compra.leerLocalStorageCompra());
 
     //Eliminar productos del carrito
-    carrito.addEventListener('click', (e) => { compra.eliminarProducto(e) });
+    carritopedido.addEventListener('click', (e) => { compra.eliminarProducto(e) });
 
     compra.calcularTotal();
 
+/*
     //cuando se selecciona procesar Compra
     procesarCompraBtn.addEventListener('click', procesarCompra);
 
     carrito.addEventListener('change', (e) => { compra.obtenerEvento(e) });
-    carrito.addEventListener('keyup', (e) => { compra.obtenerEvento(e) });
+    carrito.addEventListener('keyup', (e) => { compra.obtenerEvento(e) });*/
 
 }
-
+/*
 function procesarCompra() {
     // e.preventDefault();
     if (compra.obtenerProductosLocalStorage().length === 0) {
@@ -50,7 +51,7 @@ function procesarCompra() {
         //aqui se coloca el user id generado en el emailJS
         emailjs.init('user_CEozz2F39lJJOLF5mJiDA')
 
-        /* AGREGAR DATOS DETALLE DEL PEDIDO A UN TEXT AREA */
+        // AGREGAR DATOS DETALLE DEL PEDIDO A UN TEXT AREA
         const textArea = document.createElement('textarea');
         textArea.id = "detalleCompra";
         textArea.name = "detalleCompra";
@@ -76,7 +77,7 @@ function procesarCompra() {
 
         carrito.appendChild(textArea);
 
-        /* ------------------------- */
+        //-------------------------
 
         document.getElementById('procesar-pago')
             .addEventListener('submit', function (event) {
@@ -147,4 +148,5 @@ function generarTabla(productosLS) {
     tabla.appendChild(body);
     div.appendChild(tabla);
     return div;
-}
+
+}*/

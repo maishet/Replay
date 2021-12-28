@@ -17,7 +17,7 @@ class Carrito {
         const infoProducto = {
             imagen : producto.querySelector('img').src,
             titulo: producto.querySelector('h3').textContent,
-            precio: producto.querySelector('.product-price span').textContent,
+            precio: producto.querySelector('.product-price span.price').textContent,
             id: producto.querySelector('.cart a').getAttribute('data-id'), //si recoge el atributo data-id con .cart a (home.php)
             cantidad: 1
         }
@@ -49,9 +49,9 @@ class Carrito {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>
-                <a href="detail.html"><img src="${producto.imagen}" alt=""></a>
+                <a href="detallesProducto.html"><img src="${producto.imagen}" alt=""></a>
             </td>
-                <h3 class="name"><a href="detail.html">${producto.titulo}</a></h3>
+                <h3 class="name"><a href="detallesProducto.html">${producto.titulo}</a></h3>
                 <div class="price">${producto.precio}</div>
             <td>
                 <a href="#" class="borrar-producto bx bxs-trash-alt bx-sm" data-id="${producto.id}"></a>
@@ -77,7 +77,7 @@ class Carrito {
             //console.log(productoID);
         }
         this.eliminarProductoLocalStorage(productoID);
-        //this.calcularTotal();
+        this.calcularTotal();
 
     }
 
@@ -144,25 +144,49 @@ class Carrito {
         let productosLS;
         productosLS = this.obtenerProductosLocalStorage();
         productosLS.forEach(function (producto){
+            //Construir plantilla
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td>
-                    <img src="${producto.imagen}" width=100>
+                <td class="cart-image">
+                    <a class="entry-thumbnail" href="detail.html">
+                        <img src="${producto.imagen}" alt="">
+                    </a>
                 </td>
-                <td>${producto.titulo}</td>
-                <td>${producto.precio}</td>
-                <td>
-                    <input type="number" class="form-control cantidad" min="1" value=${producto.cantidad}>
+                <td class="cart-product-name-info">
+                    <h4 class='cart-product-description'><a href="detail.html">${producto.titulo}</a></h4>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="rating rateit-small"></div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="reviews">
+                                (06 Reviews)
+                            </div>
+                        </div>
+                    </div>
                 </td>
-                <td id='subtotales'>${producto.precio * producto.cantidad}</td>
-                <td>
-                    <a href="#" class="borrar-producto fas fa-times-circle" style="font-size:30px" data-id="${producto.id}"></a>
+                <td class="cart-product-sub-total"><span class="cart-sub-total-price">${producto.precio}</span></td>
+                <td class="cart-product-quantity">
+                    <div class="quant-input">
+                        <input type="number" class="form-control cantidad" min="1" value="${producto.cantidad}">
+                    </div>
+                </td>
+                <td id="subtotales" class="cart-product-grand-total"><span class="cart-grand-total-price">${producto.precio * producto.cantidad}</span></td>
+                <td class="romove-item">
+                    <a href="#" title="Eliminar" class="borrar-producto bx bxs-trash-alt bx-md" data-id="${producto.id}"></a>
                 </td>
             `;
             listaCompra.appendChild(row);
         });
     }
-
+    /*              <td class="cart-product-sub-total"><span class="cart-sub-total-price">${producto.precio}</span></td>
+                    <div class="quant-input">
+                            <div class="arrows">
+                            <div class="arrow plus gradient"><span class="ir"><i class="icon fa fa-sort-asc"></i></span></div>
+                            <div class="arrow minus gradient"><span class="ir"><i class="icon fa fa-sort-desc"></i></span></div>
+                            </div>
+                            <input type="number" min="1" value="${producto.cantidad}">
+                    </div>*/                 
 
     //Eliminar producto por ID del LS
     eliminarProductoLocalStorage(productoID){
@@ -202,11 +226,11 @@ class Carrito {
             location.href = "shopping-cart.php";
         }
     }
-/*
+
     //Calcular montos
     calcularTotal(){
         let productosLS;
-        let total = 0, igv = 0, subtotal = 0;
+        let total = 0, subtotal = 0;
         productosLS = this.obtenerProductosLocalStorage();
         for(let i = 0; i < productosLS.length; i++){
             let element = Number(productosLS[i].precio * productosLS[i].cantidad);
@@ -214,12 +238,11 @@ class Carrito {
             
         }
         
-        igv = parseFloat(total * 0.18).toFixed(2);
-        subtotal = parseFloat(total-igv).toFixed(2);
+        //igv = parseFloat(total * 0.18).toFixed(2);
+        subtotal = parseFloat(total).toFixed(2);
 
         document.getElementById('subtotal').innerHTML = "S/. " + subtotal;
-        document.getElementById('igv').innerHTML = "S/. " + igv;
-        document.getElementById('total').value = "S/. " + total.toFixed(2);
+        document.getElementById('total').innerHTML = "S/. " + total.toFixed(2);
     }
 
     obtenerEvento(e) {
@@ -227,9 +250,10 @@ class Carrito {
         let id, cantidad, producto, productosLS;
         if (e.target.classList.contains('cantidad')) {
             producto = e.target.parentElement.parentElement;
-            id = producto.querySelector('a').getAttribute('data-id');
-            cantidad = producto.querySelector('input').value;
-            let actualizarMontos = document.querySelectorAll('#subtotales');
+            id = producto.querySelector('a.borrar-producto').getAttribute('data-id');
+            cantidad = producto.querySelector('quant-input.input').value;
+            let actualizarMontos = document.querySelectorAll('#subtotales.span');
+            //console.log(actualizarMontos);
             productosLS = this.obtenerProductosLocalStorage();
             productosLS.forEach(function (productoLS, index) {
                 if (productoLS.id === id) {
@@ -243,5 +267,5 @@ class Carrito {
         else {
             console.log("click afuera");
         }
-    }*/
+    }
 }
