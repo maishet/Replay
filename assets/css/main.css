@@ -301,7 +301,7 @@ table {
 }
 .container .div3{
   margin: 10px 0px 10px 0px;
-  width: 90%;
+  width: 100%;
   padding-bottom: 30px;
 }
 .container .div4{
@@ -333,10 +333,14 @@ table {
   font-weight: normal;
   font-style: normal;
 }
+.body-content .texto .inactivo label {
+  display:none;
+}
 .body-content .texto p {
   font-size: 17px;
   font-style: normal;
   font-weight: normal;
+  width: auto;
 }
 .body-content .texto a {
   font-size: 15px;
@@ -364,18 +368,28 @@ table {
   background-color: #C4C4C4;
   color: white;
 }
+/* .contenedorSeguimiento{
+  padding-left: auto; 
+  padding-right: auto;
+  
+  
+} */
 .pedidoPasos{
   margin-top: 50px;
-  display: grid;
-  grid-template-columns: auto auto auto auto auto; 
+  display:flex; 
   text-align: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .pasos{
   /* display: inline-block; */
+  
 }
 .linea-PedidoPasos{
-  width: 250px;
+  /* width: 250px; */
+  width: 100%;
   padding-left: 0px;
   padding-right: 0px;
   /* display: inline-block; */
@@ -398,6 +412,47 @@ table {
 
 /*Detalles del Producto =====================================================================*/
 
+.product-info .link1,.product-info span,.product-info .reviews label{
+  font-weight: 600;
+}
+.single-product-gallery-item img, .item img{
+  border:1.5px solid rgb(21, 124, 209,0.35);
+  border-radius: 10px ;
+}
+.product-info i{
+    font-size: 22px;
+    color: #C4C4C4;
+}
+.product-info .activo{
+  color: #F2CB7F;
+}
+.product-info .puntaje{
+  margin-left: 7px;
+  font-size: 20px;
+}
+.product-info .link1{
+  font-size: 18px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+.product-info .codigo{
+  font-size: 17px;
+}
+.product-info .detalles{
+  display:grid;
+  grid-template-columns: auto auto;
+}
+.product-info .contenedor-codigo{
+  justify-content:end;
+  text-align: right;
+  padding-right: 20px;
+}
+.contenedor-codigo label{
+  font-size: 14px;
+}
+.product-info .linea-horizontal{
+  border-bottom: 3px solid #AFABAB; 
+}
 /*Fin Detalles del Producto =====================================================================*/
 
 /*===================================================================================*/
@@ -4369,15 +4424,21 @@ font-family: FontAwesome;
 /*  Product Detail
 /*===================================================================================*/
 
-.detail-block {
- background-color: #fff;
+.detail-block { 
+  width: 100%;
  padding: 20px;
  overflow:hidden;
  border-radius:5px
 	
 }
 
-.single-product .product-info-block .name {margin-top:0px; font-weight:600; letter-spacing:normal; font-size:40px}
+.single-product .product-info-block .name {
+  margin-top:0px; 
+  font-weight: 600; 
+  letter-spacing:normal; 
+  font-size:30px;
+   ;
+}
 
 .single-product .single-product-gallery {padding-bottom:30px}
 
