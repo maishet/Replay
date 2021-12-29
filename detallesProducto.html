@@ -380,24 +380,17 @@
   
 </header>
 <!-- ============================================== HEADER : END ============================================== -->
-<div class="breadcrumb">
-	<div class="container">
-		<div class="breadcrumb-inner">
-			
-		</div><!-- /.breadcrumb-inner -->
-	</div><!-- /.container -->
-</div><!-- /.breadcrumb -->
 
 <div class="body-content outer-top-xs">
 	<div class='container'>
 		<div class='row single-product'>
 			<div class='col-xs-12 col-sm-12'>
         <div class="detail-block">
+            <a href="#" class="btn regresar "> REGRESAR</a>
 				  <div class="row">
-                
+            
 					     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 gallery-holder">
     <div class="product-item-holder size-big single-product-gallery small-gallery">
-
         <div id="owl-single-product">
             <div class="single-product-gallery-item" id="slide1">
                 <a data-lightbox="image-1" data-title="Gallery" href="assets/images/products/p1.jpg">
@@ -532,8 +525,8 @@
                         <i class='bx bxs-star activo'></i>
                         <i class='bx bxs-star activo'></i>
                         <i class='bx bxs-star activo'></i>
-                        <i class='bx bxs-star '></i>
-                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star inactivo'></i>
+                        <i class='bx bxs-star inactivo'></i>
                         <span class="puntaje">5.0 (3)</span>
                       </div>
                       <div class="pull-left">
@@ -549,12 +542,48 @@
 								</div><!-- /.row -->		
 							</div><!-- /.rating-reviews -->
               <hr class="linea-horizontal">
-							<div class="stock-container info-container m-t-10">
+							<div class="stock-container info-container m-t-10 caracteristicas-cont">
+                <div class="row">
+                  <div class="col-lg-12">
+									  <span class="subt">Características especiales</span>
+                   </div>
+								</div><!-- /.row -->	
+                <div class="description-container m-t-20">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                
+                </div><!-- /.description-container -->
+                <a href="#description" class="ver-mas">Ver más características</a>
+							</div><!-- /.stock-container -->
+              <div>
+                <div>
+                  <h3>Tipo de entrega</h3>
+                  <div class="tipo-cont">
+                      <i class='bx bxs-truck' style="color:#157ED2; font-size:45px"></i>
+                      <p class="text">Despacho en domicilio</p>
+                  </div>    
+                </div>
+              </div>
+                
+							<div class="price-container info-container">
+                <!-- <div class="price-container stock-container info-container m-t-30"> -->
 								<div class="row">
-                                <div class="col-lg-12">
+									<div class="col-sm-6 col-xs-6">
+										<div class="price-box">
+											<span class="price">S/.800.00</span>
+										</div>
+                    <div class="price-box">
+											<span class="price-strike">S/.900.00</span>
+										</div>
+									</div>
+											<!-- <i class="fa fa-heart"></i> -->
+
+
+								</div><!-- /.row -->
+                <div class="row">
+                  <div class="col-lg-12">
 									<div class="pull-left">
 										<div class="stock-box">
-											<span class="label">Unidades disponibles :</span>
+											<span >Unidades disponibles :</span>
 										</div>	
 									</div>
 									<div class="pull-left">
@@ -562,43 +591,13 @@
 											<span class="value">5+</span>
 										</div>	
 									</div>
-                                    </div>
-								</div><!-- /.row -->	
-                <div class="row">
-                  <div class="col-lg-12">
-									  <span>Características especiales</span>
-                   </div>
-								</div><!-- /.row -->	
-							</div><!-- /.stock-container -->
-
-							<div class="description-container m-t-20">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                              
-							</div><!-- /.description-container -->
-                <a href="#description">Ver más características</a>
-                <h3>Tipo de entrega</h3>
-                <div>
-                  <i class='bx bxs-truck' style="color:#157ED2"></i>
-                  <span>Despacho en domicilio</span>
-                </div>
-                
-							<div class="price-container info-container m-t-30">
-								<div class="row">
-									
-
-									<div class="col-sm-6 col-xs-6">
-										<div class="price-box">
-											<span class="price">$800.00</span>
-											<span class="price-strike">$900.00</span>
-										</div>
-									</div>
-											<!-- <i class="fa fa-heart"></i> -->
-
-
-								</div><!-- /.row -->
+                  </div>
+								</div> <!-- /.row -->	
 							</div><!-- /.price-container -->
 
+
 							<div class="quantity-container info-container">
+                
 								<div class="row">
 									
 									<div class="qty-count">
@@ -611,14 +610,19 @@
 								                <input type="text" value="1">
 							              </div>
 							            </div>
-									</div>
-
-									<div class="add-btn">
-										<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart inner-right-vs"></i> Agregar al carrito</a>
-									</div>
-
-									
+									</div>							
 								</div><!-- /.row -->
+                <div class="row">
+                  <div class="add-btn">
+										<a class="btn  btn-agregar"><i class="fa fa-shopping-cart inner-right-vs"></i> AGREGAR AL CARRITO</a>
+									</div>
+                </div><!-- /.row -->
+                <div class="row">
+                  <div class="add-btn">
+
+                    <a class="btn btn-agregdeseos"><i class='bx bxs-heart'></i> AGREGAR A LISTA DE DESEOS</a>
+                  </div>
+                </div>
 							</div><!-- /.quantity-container -->
 							
 						</div><!-- /.product-info -->

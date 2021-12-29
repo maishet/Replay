@@ -419,9 +419,11 @@ table {
   border:1.5px solid rgb(21, 124, 209,0.35);
   border-radius: 10px ;
 }
-.product-info i{
-    font-size: 22px;
-    color: #C4C4C4;
+.product-info .inactivo,.activo{
+  font-size: 22px;
+}
+.product-info .inactivo{
+  color: #C4C4C4;
 }
 .product-info .activo{
   color: #F2CB7F;
@@ -453,6 +455,75 @@ table {
 .product-info .linea-horizontal{
   border-bottom: 3px solid #AFABAB; 
 }
+
+.container .regresar,.quantity-container .btn-agregar{
+  background-color: #FDD922;
+  color:#000;
+  font-weight: 600;
+}
+.container .regresar:hover,.quantity-container .btn-agregar:hover{
+   background-color: #157ED2;
+   color:white
+}
+.container .regresar{
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding-top: 12px;
+  height: 45px;
+  width: 145px;
+}
+.quantity-container .btn-agregar{
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding-top: 20px;
+  height: 60px;
+  width: 210px;
+  font-size: 14px;
+}
+.btn-agregdeseos{
+  color:#000;
+  font-weight: 600;
+  font-size: 14px;
+  padding-top: 10px;
+  height: 52px;
+  border-radius: 10px;
+
+}
+.btn-agregdeseos i {
+  color:#FB3449;
+}
+.btn-agregdeseos:hover{
+  background-color: #157ED2;
+   color:white;
+}
+.btn-agregdeseos i{
+  font-size: 25px;
+}
+
+.product-info .caracteristicas-cont{
+  background-color: rgba(232, 230, 230, 0.8);
+  padding: 25px 25px 10px 25px;
+}
+.product-info h3{
+  font-weight: 600;
+  font-size:18px
+}
+.info-container .subt,.product-info .ver-mas,.tipo-cont .text{
+  font-weight: 700;
+  font-size: 14px;
+}
+.tipo-cont{
+  display: flex;
+  width: auto;
+}
+.tipo-cont .text{
+  margin-top:12px;
+  margin-left: 6px;
+}
+.tipo-cont i{
+  color:#157ED2; font-size:45px;
+}
+
 /*Fin Detalles del Producto =====================================================================*/
 
 /*===================================================================================*/
