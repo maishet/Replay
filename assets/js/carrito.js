@@ -52,13 +52,14 @@ class Carrito {
                 <a href="detallesProducto.html"><img src="${producto.imagen}" alt=""></a>
             </td>
                 <h3 class="name"><a href="detallesProducto.html">${producto.titulo}</a></h3>
-                <div class="price">${producto.precio}</div>
+                <div class="price">S/.${producto.precio}</div>
             <td>
                 <a href="#" class="borrar-producto bx bxs-trash-alt bx-sm" data-id="${producto.id}"></a>
             </td>
         `;
         listaProductos.appendChild(row);
         this.guardarProductosLocalStorage(producto);
+        //this.calcularTotalhome();
         //<i class="fas fa-trash"></i>
         //<a href="#" class="borrar-producto fas fa-trash" data-id="${producto.id}"></a>
         //<div class="col-xs-7">
@@ -77,21 +78,26 @@ class Carrito {
             //console.log(productoID);
         }
         this.eliminarProductoLocalStorage(productoID);
+        this.calcularTotalhome();
         this.calcularTotal();
 
     }
 
-/*    //Elimina todos los productos
-    vaciarCarrito(e){
-        e.preventDefault();
-        while(listaProductos.firstChild){
-            listaProductos.removeChild(listaProductos.firstChild);
+    //Elimina todos los productos
+    calcularTotalhome(){
+        let productosLS;
+        let cant = 0, preciocarrito = 0;
+        productosLS = this.obtenerProductosLocalStorage();
+        for(let i = 0; i < productosLS.length; i++){
+            let element = Number(productosLS[i].precio * productosLS[i].cantidad);
+            preciocarrito = preciocarrito + element;
+            cant = cant + productosLS[i].cantidad;
         }
-        this.vaciarLocalStorage();
 
-        return false;
+        console.log(document.getElementById('cantCarrito').innerHTML = cant);
+        console.log(document.getElementById('precioCarrito').innerHTML = "S/. " + preciocarrito);
+        console.log(document.getElementById('precioCarritoS').innerHTML = "S/. " + preciocarrito);
     }
-*/
 
     //Almacenar en el LS
     guardarProductosLocalStorage(producto){
@@ -102,6 +108,7 @@ class Carrito {
         productos.push(producto);
         //Agregamos al LS
         localStorage.setItem('productos', JSON.stringify(productos));
+        this.calcularTotalhome();
     }
 
     //Comprobar que hay elementos en el LS
@@ -130,13 +137,14 @@ class Carrito {
                     <a href="detail.html"><img src="${producto.imagen}" alt=""></a>
                 </td>
                     <h3 class="name"><a href="detail.html">${producto.titulo}</a></h3>
-                    <div class="price">${producto.precio}</div>
+                    <div class="price">S/.${producto.precio}</div>
                 <td>
                     <a href="#" class="borrar-producto bx bxs-trash-alt bx-sm" data-id="${producto.id}"></a>
                 </td>
             `;
             listaProductos.appendChild(row);
         });
+        //$('#precioCarrito.value').html(json['total'] );
     }
 
     //Mostrar los productos guardados en el LS en shopping-cart.php
@@ -165,13 +173,13 @@ class Carrito {
                         </div>
                     </div>
                 </td>
-                <td class="cart-product-sub-total"><span class="cart-sub-total-price">${producto.precio}</span></td>
+                <td class="cart-product-sub-total"><span class="cart-sub-total-price">S/.${producto.precio}</span></td>
                 <td class="cart-product-quantity">
                     <div class="quant-input">
                         <input type="number" class="form-control cantidad" min="1" value="${producto.cantidad}">
                     </div>
                 </td>
-                <td id="subtotales" class="cart-product-grand-total"><span class="cart-grand-total-price">${producto.precio * producto.cantidad}</span></td>
+                <td id="subtotales" class="cart-product-grand-total"><span class="cart-grand-total-price">S/.${producto.precio}</span></td>
                 <td class="romove-item">
                     <a href="#" title="Eliminar" class="borrar-producto bx bxs-trash-alt bx-md" data-id="${producto.id}"></a>
                 </td>
@@ -248,7 +256,7 @@ class Carrito {
     obtenerEvento(e) {
         e.preventDefault();
         let id, cantidad, producto, productosLS;
-        if (e.target.classList.contains('cantidad')) {
+        if (e.target.classList.contains('cart-product-quantity.cantidad')) {
             producto = e.target.parentElement.parentElement;
             id = producto.querySelector('a.borrar-producto').getAttribute('data-id');
             cantidad = producto.querySelector('quant-input.input').value;
