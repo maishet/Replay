@@ -408,18 +408,18 @@
                   </div>
                   <div class="sale-offer-tag"><span>49%<br>
                     off</span></div>
-                  <div class="timing-wrapper">
+                  <div id="countdown" class="timing-wrapper">
                     <div class="box-wrapper">
-                      <div class="date box"> <span class="key">120</span> <span class="value">DAYS</span> </div>
+                      <div class="date box"> <span class="key dias"></span><span class="value">DIAS</span> </div>
                     </div>
                     <div class="box-wrapper">
-                      <div class="hour box"> <span class="key">20</span> <span class="value">HRS</span> </div>
+                        <div class="hour box"> <span class="key horas"></span><span class="value">HORAS</span> </div>
                     </div>
                     <div class="box-wrapper">
-                      <div class="minutes box"> <span class="key">36</span> <span class="value">MINS</span> </div>
+                        <div class="minutes box"> <span class="key minutos"></span><span class="value">MINS</span> </div>
                     </div>
                     <div class="box-wrapper">
-                      <div class="seconds box"> <span class="key">60</span> <span class="value">SEC</span> </div>
+                        <div class="seconds box"> <span class="key segundos"></span><span class="value">SEC</span> </div>
                     </div>
                   </div>
                 </div>
@@ -452,18 +452,18 @@
                    </div>
                   <div class="sale-offer-tag"><span>35%<br>
                     off</span></div>
-                  <div class="timing-wrapper">
+                  <div id="countdown1" class="timing-wrapper">
                     <div class="box-wrapper">
-                      <div class="date box"> <span class="key">120</span> <span class="value">Days</span> </div>
+                      <div class="date box"> <span class="key dias"></span><span class="value">DIAS</span> </div>
                     </div>
                     <div class="box-wrapper">
-                      <div class="hour box"> <span class="key">20</span> <span class="value">HRS</span> </div>
+                        <div class="hour box"> <span class="key horas"></span><span class="value">HORAS</span> </div>
                     </div>
                     <div class="box-wrapper">
-                      <div class="minutes box"> <span class="key">36</span> <span class="value">MINS</span> </div>
+                      <div class="minutes box"> <span class="key minutos"></span><span class="value">MINS</span> </div>
                     </div>
                     <div class="box-wrapper">
-                      <div class="seconds box"> <span class="key">60</span> <span class="value">SEC</span> </div>
+                      <div class="seconds box"> <span class="key segundos"></span><span class="value">SEC</span> </div>
                     </div>
                   </div>
                 </div>
@@ -496,18 +496,18 @@
                    </div>
                   <div class="sale-offer-tag"><span>45%<br>
                     off</span></div>
-                  <div class="timing-wrapper">
+                  <div id="countdown2" class="timing-wrapper">
                     <div class="box-wrapper">
-                      <div class="date box"> <span class="key">120</span> <span class="value">Days</span> </div>
+                      <div class="date box"> <span class="key dias"></span><span class="value">DIAS</span> </div>
                     </div>
                     <div class="box-wrapper">
-                      <div class="hour box"> <span class="key">20</span> <span class="value">HRS</span> </div>
+                        <div class="hour box"> <span class="key horas"></span><span class="value">HORAS</span> </div>
                     </div>
                     <div class="box-wrapper">
-                      <div class="minutes box"> <span class="key">36</span> <span class="value">MINS</span> </div>
+                        <div class="minutes box"> <span class="key minutos"></span><span class="value">MINS</span> </div>
                     </div>
                     <div class="box-wrapper">
-                      <div class="seconds box"> <span class="key">60</span> <span class="value">SEC</span> </div>
+                        <div class="seconds box"> <span class="key segundos"></span><span class="value">SEC</span> </div>
                     </div>
                   </div>
                 </div>
@@ -2393,25 +2393,25 @@
 							<ul class="hot-deal-countdown">
 								<li>
 									<div>
-										<h3>02</h3>
+										<h3 class="dias" ></h3>
 										<span>Días</span>
 									</div>
 								</li>
 								<li>
 									<div>
-										<h3>10</h3>
+										<h3 class="horas" ></h3>
 										<span>Horas</span>
 									</div>
 								</li>
 								<li>
 									<div>
-										<h3>34</h3>
+										<h3 class="minutos" ></h3>
 										<span>Mins</span>
 									</div>
 								</li>
 								<li>
 									<div>
-										<h3>60</h3>
+										<h3 class="segundos" ></h3>
 										<span>Secs</span>
 									</div>
 								</li>
