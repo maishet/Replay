@@ -1201,7 +1201,7 @@
           <div class="tab-content outer-top-xs">
             <div class="tab-pane in active" id="all">
               <div class="product-slider">
-                <div class="owl-carousel home-owl-carousel custom-carousel owl-theme">
+                <div id="lista-productos1" class="owl-carousel home-owl-carousel custom-carousel owl-theme">
                   <div class="item item-carousel">
                     <div class="products">
                       <div class="product">
@@ -1222,7 +1222,7 @@
                           <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">450.99</span> <span class="price-before-discount">S/. 800</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1231,11 +1231,12 @@
                           <div class="action">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button data-toggle="tooltip" class="btn btn-primary icon" type="button" title="Add Cart"> <i class="fa fa-shopping-cart"></i> </button>
-                                <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                                <button data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Add Cart"> <i class="fa fa-shopping-cart"></i> </button>
+                                <button class="btn btn-primary cart-btn agregar-carrito" type="button" data-id="4">Add to cart</button>
                               </li>
+                              <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+
                               <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -3203,31 +3204,39 @@
           <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand1.png" src="assets/images/blank.gif" alt=""> </a> </div>
           <!--/.item-->
           
-          <div class="item m-t-10"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand2.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand2.png" src="assets/images/blank.gif" alt=""> </a> </div>
           <!--/.item-->
           
-          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand3.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand3.png" src="assets/images/blank.gif" alt=""> </a> </div>
           <!--/.item-->
           
-          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand4.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand4.png" src="assets/images/blank.gif" alt=""> </a> </div>
           <!--/.item-->
           
-          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand5.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand5.png" src="assets/images/blank.gif" alt=""> </a> </div>
           <!--/.item-->
           
-          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand6.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand6.png" src="assets/images/blank.gif" alt=""> </a> </div>
           <!--/.item-->
           
-          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand2.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand7.png" src="assets/images/blank.gif" alt=""> </a> </div>
           <!--/.item-->
           
-          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand4.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand8.png" src="assets/images/blank.gif" alt=""> </a> </div>
           <!--/.item-->
           
-          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand1.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand9.png" src="assets/images/blank.gif" alt=""> </a> </div>
           <!--/.item-->
           
-          <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand5.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand10.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item--> 
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand11.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item-->
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand12.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item-->
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand13.png" src="assets/images/blank.gif" alt=""> </a> </div>
+          <!--/.item-->
+          <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand14.png" src="assets/images/blank.gif" alt=""> </a> </div>
           <!--/.item--> 
         </div>
         <!-- /.owl-carousel #logo-slider --> 

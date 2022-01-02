@@ -94,9 +94,9 @@ class Carrito {
             cant = cant + productosLS[i].cantidad;
         }
 
-        console.log(document.getElementById('cantCarrito').innerHTML = cant);
-        console.log(document.getElementById('precioCarrito').innerHTML = "S/. " + preciocarrito);
-        console.log(document.getElementById('precioCarritoS').innerHTML = "S/. " + preciocarrito);
+        document.getElementById('cantCarrito').innerHTML = cant;
+        document.getElementById('precioCarrito').innerHTML = "S/. " + preciocarrito;
+        document.getElementById('precioCarritoS').innerHTML = "S/. " + preciocarrito;
     }
 
     //Almacenar en el LS

@@ -3470,6 +3470,12 @@ font-family: FontAwesome;
   line-height: 30px;
   margin-right: 8px;
 }
+.product .product-info .product-price .moneda2 {
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+}
 .product .product-info .product-price .price-before-discount {
   text-decoration: line-through;
   color: #d3d3d3;
