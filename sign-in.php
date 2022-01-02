@@ -12,6 +12,7 @@
   <meta name="author" content="">
   <meta name="keywords" content="MediaCenter, Template, eCommerce">
   <meta name="robots" content="all">
+  <meta name="google-signin-client_id" content="89839726237-qjm73i6o825m11gp0h94u2m931r86ktv.apps.googleusercontent.com">
   <title>Marazzo premium HTML5 & CSS3 Template</title>
 
   <!-- Bootstrap Core CSS -->
@@ -158,27 +159,27 @@
           <div class="col-md-6 col-sm-6 create-new-account">
             <h4 class="checkout-subtitle">Crear una nueva cuenta</h4>
             <p class="text title-tag-line">Crea una nueva cuenta.</p>
-            <form  class="register-form outer-top-xs" role="form">
+            <form action="registrarse.php" method="post" class="register-form outer-top-xs" role="form">
               
               <div class="form-group">
                 <label class="info-title" for="exampleInputEmail1">Name <span>*</span></label>
-                <input type="text" class="form-control unicase-form-control text-input" id="exampleInputEmail1">
+                <input type="text" class="form-control unicase-form-control text-input" id="exampleInputEmail1" name="nombre">
               </div>
               <div class="form-group">
                 <label class="info-title" for="exampleInputEmail1">Apellido<span>*</span></label>
-                <input type="text" class="form-control unicase-form-control text-input" id="exampleInputEmail1">
+                <input type="text" class="form-control unicase-form-control text-input" id="exampleInputEmail1" name="apellido">
               </div>
               <div class="form-group">
                 <label class="info-title" for="exampleInputEmail1">DNI <span>*</span></label>
-                <input type="number" class="form-control unicase-form-control text-input" id="exampleInputEmail1">
+                <input type="number" class="form-control unicase-form-control text-input" id="exampleInputEmail1" name="DNI">
               </div>
               <div class="form-group">
                 <label class="info-title" for="exampleInputEmail2" >Correo <span>*</span></label>
-                <input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail2">
+                <input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail2" name="correo">
               </div>
               <div class="form-group">
                 <label class="info-title" for="exampleInputEmail1">Contraseña <span>*</span></label>
-                <input type="password" class="form-control unicase-form-control text-input" id="exampleInputEmail1">
+                <input type="password" class="form-control unicase-form-control text-input" id="exampleInputEmail1" name="contraseña">
               </div>
               <div class="form-group">
                 <input type="checkbox">	
@@ -334,6 +335,8 @@
   <script src="assets/js/bootstrap-select.min.js"></script>
   <script src="assets/js/wow.min.js"></script>
   <script src="assets/js/scripts.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script><!-- PAra loguinb con google -->
+  <script src="assets/js/signin.js"></script><!-- PAra loguinb con google -->
 </body>
 
 </html>
