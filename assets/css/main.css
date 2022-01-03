@@ -7816,9 +7816,25 @@ owl-main .item .caption .excerpt, #owl-main .item .caption .small {
 }
 
 @media (min-width:1200px) and (max-width:1300px) {
+ 
+  /*edit*/
+  .main-header .top-search-holder .search-area .control-group {
+    position: relative;
+    width: 80%;
+  }
+ .top-search-holder {
+    padding: 0 15px;
+} 
+.main-header .top-search-holder .search-area .search-field {
+    width: 20%;  
+  }
+  .main-header .top-search-holder .search-area .control-group .search-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  /*edit*/
 
-	
-	
     .shopping-cart tfoot > tr > td { padding: 10px !important; }
 .shopping-cart .estimate-ship-tax table thead tr > th {
     padding:10px;
