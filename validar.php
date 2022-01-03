@@ -5,14 +5,14 @@ session_start();
 $_SESSION['usuario']=$usuario;
 
 //Prueba de subida de archivo
-$conexion=mysqli_connect("localhost","root","1234","replay");
+$conexion=mysqli_connect("localhost","root","1234","database_to_import");
 
-$consulta="SELECT*FROM usuarios where correo='$usuario' and contrasena='$contraseña'";
+$consulta="SELECT*FROM users where email='$usuario' and password='$contraseña'";
 $resultado=mysqli_query($conexion,$consulta);
 
 $filas=mysqli_num_rows($resultado);
 
-echo "<script>window.alert ($userData);</script>";
+
 if($filas){
   
     header("location:home.php");

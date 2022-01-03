@@ -6,12 +6,13 @@ $dni=$_POST['DNI'];
 $correo=$_POST['correo'];
 $contraseña=$_POST['contraseña'];
 
+
 session_start();
-$_SESSION['usuario']=$usuario;
+//$_SESSION['usuario']=$usuario;
 
 //Prueba de subida de archivo
-$conexion=mysqli_connect("localhost","root","1234","replay");
-$consulta="SELECT*FROM usuarios where correo='$usuario' and contrasena='$contraseña'";  
+$conexion=new mysqli("localhost","root","1234","database_to_import");
+$consulta="SELECT*FROM users where email='$correo' and password='$contraseña'";  
 //$insertar="INSERT INTO usuarios (nombre, apellido, dni, correo, contrasena) values ($nombre, $apellido, $dni, $correo, $contrasena)";
 $resultado=mysqli_query($conexion,$consulta);
 
@@ -22,13 +23,13 @@ if($filas){
     print_r("Existe un usuario"); //hay que agregar una señalizacion
 
 }else{
-  $insert_value = "INSERT INTO usuarios (nombre, apellido, dni, correo, contrasena) values ('$nombre', '$apellido', '$dni', '$correo', '$contrasena')";
+  $insert_value = "INSERT INTO users (first_name, last_name, dni, email, password) values ('$nombre', '$apellido', '$dni', '$correo', '$contraseña')";
  
-  mysqli_select_db($conexion);
+  mysqli_select_db($conexion, "database_to_import");
   $retry_value = mysqli_query($conexion, $insert_value);
    
   if (!$retry_value) {
-     die('Error: ' . mysql_error());
+     die('Error: '.mysqli_error($conexion));
   }
    
   header('Location: sign-in.php');
