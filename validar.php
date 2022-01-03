@@ -1,5 +1,4 @@
 <?php
-//include('bd.php');
 $usuario=$_POST['correo'];
 $contraseña=$_POST['contraseña'];
 session_start();
@@ -13,6 +12,7 @@ $resultado=mysqli_query($conexion,$consulta);
 
 $filas=mysqli_num_rows($resultado);
 
+echo "<script>window.alert ($userData);</script>";
 if($filas){
   
     header("location:home.php");

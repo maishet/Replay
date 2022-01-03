@@ -106,8 +106,9 @@
                   
                   //Ceate an instance of the OauthUser class
                   $oauth_user_obj = new OauthUser();
+
                   $userData = $oauth_user_obj->verifyUser($fbUserData);
-                  print_r($userData);
+
                 } catch(FacebookResponseException $e) {
                   echo 'Graph returned an error: ' . $e->getMessage();
                   session_destroy();
@@ -133,7 +134,7 @@
                 $loginUrl = $helper->getLoginUrl($redirectUrl);
                 echo '<a class="facebook-sign-in" href="'.htmlspecialchars($loginUrl).'"><i class="fa fa-facebook"></i> Inicia sesión con facebook</a>';
               }
-        ?>
+            ?>
               <a href="?login=Twitter" class="twitter-sign-in"><i class="fa fa-twitter"></i> Inicia sesión con Twitter</a>
             </div>
             <form action="validar.php" method="post" class="register-form outer-top-xs" role="form">

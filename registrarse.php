@@ -19,7 +19,7 @@ $filas=mysqli_num_rows($resultado);
 
 if($filas){
   
-    print_r("Existe un usuario");
+    print_r("Existe un usuario"); //hay que agregar una señalizacion
 
 }else{
   $insert_value = "INSERT INTO usuarios (nombre, apellido, dni, correo, contrasena) values ('$nombre', '$apellido', '$dni', '$correo', '$contrasena')";

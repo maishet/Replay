@@ -1,0 +1,32 @@
+    .login-box {
+    width: 20%;
+    padding: 10px;
+    background: #dcdada;
+    
+}
+    .custom-login input{
+       display: block;
+       margin: 10px;
+       padding: 5px;
+       font-size: 20px;
+       width: 88%;
+       border: 1px solid #b1a2a2;
+    }
+
+    .custom-login input[type='submit']{
+        width: 93%;
+        background: #f97402;
+       color: white;
+    font-size: 20px;
+    border: 0px;
+    }
+    .fb-login{
+       background: #4267b2;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    width: 87%;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    }

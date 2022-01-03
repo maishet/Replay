@@ -9,7 +9,7 @@ use Facebook\Facebook;
 use Facebook\Exceptions\FacebookResponseException;
 use Facebook\Exceptions\FacebookSDKException;
 
-$redirectUrl   = 'https://127.0.0.1/proyecto/home.php'; //Callback URL
+$redirectUrl   = 'https://127.0.0.1/quisaFinal/index.php'; //Callback URL
 $permissions = array('email');  //Optional permissions
 
 $fb = new Facebook([
