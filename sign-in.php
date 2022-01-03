@@ -107,6 +107,7 @@
                   //Ceate an instance of the OauthUser class
                   $oauth_user_obj = new OauthUser();
                   $userData = $oauth_user_obj->verifyUser($fbUserData);
+                  print_r($userData);
                 } catch(FacebookResponseException $e) {
                   echo 'Graph returned an error: ' . $e->getMessage();
                   session_destroy();

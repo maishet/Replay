@@ -7,8 +7,8 @@ class OauthUser {
     private $host          = "localhost";
     private $username      = "root";
     private $password      = "1234";
-    private $database_name = "database_to_import";
-    private $table         = 'users';
+    private $database_name = "replay";
+    private $table         = 'usuarios';
 	private $db;
     
     function __construct(){
@@ -21,26 +21,25 @@ class OauthUser {
     }
 	
 	function verifyUser($userInfo) {
-		
+		//`picture`        = '".$userInfo['picture']['url']."'";
 		$qry_body = "	`oauth_provider` = 'facebook',
-							`oauth_id`		 = '".$userInfo['id']."',
-							`name`           = '".$userInfo['name']."',
-							`first_name`     = '".$userInfo['first_name']."', 
-							`last_name`      = '".$userInfo['last_name']."', 
-							`email`          = '".$userInfo['email']."', 
-							`picture`        = '".$userInfo['picture']['url']."'";
+							`idlogin`		 = '".$userInfo['id']."',
+							`nombre`           = '".$userInfo['first_name']."',
+							`apellido`     = '".$userInfo['last_name']."',
+							`correo`          = '".$userInfo['email']."'"; 
+							
 
 						//exit();
 
 		
-		$select_qry = "select * from `users` where `oauth_provider`='facebook' and `oauth_id`= '".$userInfo['id']."'";
+		$select_qry = "select * from `usuarios` where `oauth_provider`='facebook' and `oauth_id`= '".$userInfo['id']."'";
 		$res = $this->db->query($select_qry);
 		if($res->num_rows > 0) {
 			//Update user details if it is already exists in the table
             $qry = "update ".$this->table." set ".$qry_body." WHERE `oauth_provider` = 'facebook' AND `oauth_id` = '".$userInfo['id']."'";
 		} else {
 			//Insert into table if user not exists in the table
-            $qry = "insert into ".$this->table." set ".$qry_body.", `created_at`='".date("Y-m-d H:i:s")."'";		
+            $qry = "insert into ".$this->table." set ".$qry_body."";		
 		}
 
 		$this->db->query($qry);
@@ -52,6 +51,9 @@ class OauthUser {
 		$_SESSION['user_email']   = $userInfo['email'];
 		$_SESSION['user_picture'] = $userInfo['picture']['url'];
 		header('location:welcome.php');
+		print_r("sdasdadasdasdasdasssssssssssaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+		
+
 		exit();
 	}
 	
