@@ -149,35 +149,6 @@
 </div><!-- /.body-content -->
 <!-- ============================================================= FOOTER ============================================================= -->
 
-        <!-- ============================================== INFO BOXES ============================================== -->
-        <div class="row our-features-box" style="margin-top: 2%;">
-     <div class="container" >
-      <ul >
-        <li>
-          <div class="feature-box">
-            <div class="icon-truck"></div>
-            <div class="content-blocks">Seguro</div>
-          </div>
-        </li>
-        <li >
-          <div class="feature-box">
-            <div class="icon-support"></div>
-            <div class="content-blocks">Atención Al cliente</div>
-          </div>
-        </li>
-        <li>
-          <div class="feature-box">
-            <div class="icon-money"></div>
-            <div class="content-blocks">Garantía y Devolución</div>
-          </div>
-        </li>
-        
-      </ul>
-    </div>
-  </div>
-        <!-- /.info-boxes --> 
-        <!-- ============================================== INFO BOXES : END ============================================== --> 
-
 <!-- ============================================================= FOOTER ============================================================= -->
 
 <?php include('footer.html'); ?>

@@ -12,6 +12,7 @@ function cargarEventos(){
 
     //Se ejecuta cuando se presionar agregar carrito
     productos.addEventListener('click', (e)=>{carro.comprarProducto(e)});
+    productos1.addEventListener('click', (e)=>{carro.comprarProducto(e)});
     carro.calcularTotalhome();
 
     //Cuando se elimina productos del carrito

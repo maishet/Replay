@@ -1221,7 +1221,9 @@ table {
 .seller-product .products {
   margin-bottom: 35px;
 }
-
+.category_list .ct_item-active {
+  color: #0f6cb2;
+}
 .product-slider .products {margin-left:0px; margin-right:18px; padding-bottom:15px}
 .product-slider .products .cart-btn {display:none}
 .category-product .products .cart-btn {display: none;}

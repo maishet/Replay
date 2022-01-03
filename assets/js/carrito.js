@@ -10,6 +10,13 @@ class Carrito {
             this.leerDatosProducto(producto);
             //console.log(producto);
         }
+        //getElementById("myDIV").classList.contains("mystyle")
+        if(e.target.getElementById("btnaggcarro").classList.contains("agregar-carrito1")){ //"agregar-carrito
+            const producto = e.target.parentElement.parentElement;
+            //Enviamos el producto seleccionado para tomar sus datos
+            //this.leerDatosProducto(producto);
+            console.log(producto);
+        }
     }
 
     //Leer datos del producto
