@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <link rel="shortcut icon" href="assets/images/favicon.png">
-<title>Replay</title>
+<title>Replay.com</title>
 
 <!-- Bootstrap Core CSS -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -1200,7 +1200,7 @@
             <!-- /.nav-tabs --> 
           </div>
           <div class="tab-content outer-top-xs">
-            <div class="tab-pane in active" id="all">
+            <div class="tab-pane in active">
               <div class="product-slider">
                 <div id="lista-productos1" class="owl-carousel home-owl-carousel custom-carousel owl-theme">
                   <div class="item item-carousel product-item" category="muebles">
@@ -1532,7 +1532,7 @@
                   </div>
                   <!-- /.item -->
 
-                  <div class="item item-carousel product-item" category="deportes">
+                  <div class="item item-carousel product-item" category="deporte">
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
@@ -1776,25 +1776,20 @@
 			</div>
 			<!-- /container -->
 		</div>
-
         
-        <!-- ============================================== WIDE PRODUCTS : END ============================================== --> 
         <!-- ============================================== FEATURED PRODUCTS ============================================== -->
         <section class="section featured-product">
         <div class="row">
         <div class="col-lg-3">
-          <h3 class="section-title">Electronics & Digital</h3>
+          <h3 class="section-title">Tecnología & ElectroHogar</h3>
           <ul class="sub-cat">
-          <li><a href="#">Computers</a></li>
-          <li><a href="#">Air Condtion</a></li>
-          <li><a href="#">Mobile Phones</a></li>
-          <li><a href="#">Camera</a></li>
-          <li><a href="#">Television</a></li>
-          <li><a href="#">Sound & Speakers</a></li>
-          <li><a href="#">Games & Audio Music</a></li>
-          <li><a href="#">Digital Watches</a></li>
-          <li><a href="#">Washing Machines</a></li>
-         <li><a href="#">Office Electronics</a></li>
+          <li><a href="#">Computadoras</a></li>
+          <li><a href="#">Audifonos</a></li>
+          <li><a href="#">Mouse</a></li>
+          <li><a href="#">Televisores</a></li>
+          <li><a href="#">Cocina</a></li>
+          <li><a href="#">Lavadoras</a></li>
+          <li><a href="#">Refrigeración</a></li>
           </ul>
           </div>
           <div class="col-lg-9">
@@ -1805,8 +1800,8 @@
                   <div class="product-image">
                     <div class="image"> 
                           <a href="detail.html">
-                             <img src="assets/images/products/p13.jpg" alt=""> 
-                              <img src="assets/images/products/p13_hover.jpg" alt="" class="hover-image">
+                             <img src="image/Tecnologia/Computadoras/Compu3/Frente_caracteristicas.jpg" alt=""> 
+                             <img src="image/Tecnologia/Computadoras/Compu3/lado derecho.jpg" alt="" class="hover-image">
                           </a>
                           
                           </div>
@@ -1832,8 +1827,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
+                        <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                         <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -1846,21 +1841,21 @@
               <!-- /.products --> 
             </div>
             <!-- /.item -->
-            
+
             <div class="item item-carousel">
               <div class="products">
                 <div class="product">
                   <div class="product-image">
                     <div class="image"> 
                           <a href="detail.html">
-                             <img src="assets/images/products/p15.jpg" alt=""> 
-                              <img src="assets/images/products/p15_hover.jpg" alt="" class="hover-image">
+                             <img src="image/Tecnologia/Audifonos/Audifono2/caja.jpg" alt=""> 
+                              <img src="image/Tecnologia/Audifonos/Audifono2/Costado.jpg" alt="" class="hover-image">
                           </a>
                           
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag new"><span>new</span></div>
+                    <div class="tag new"><span>nuevo</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -1880,8 +1875,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
+                        <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                         <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -1894,15 +1889,15 @@
               <!-- /.products --> 
             </div>
             <!-- /.item -->
-            
+
             <div class="item item-carousel">
               <div class="products">
                 <div class="product">
                   <div class="product-image">
                     <div class="image"> 
                           <a href="detail.html">
-                             <img src="assets/images/products/p10.jpg" alt=""> 
-                              <img src="assets/images/products/p10_hover.jpg" alt="" class="hover-image">
+                             <img src="image/Tecnologia/Mouse/Mouse2/frente.jpg" alt=""> 
+                              <img src="image/Tecnologia/Mouse/Mouse2/lado_izquierdo.jpg" alt="" class="hover-image">
                           </a>
                           
                           </div>
@@ -1928,8 +1923,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
+                        <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                         <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -1942,15 +1937,15 @@
               <!-- /.products --> 
             </div>
             <!-- /.item -->
-            
+
             <div class="item item-carousel">
               <div class="products">
                 <div class="product">
                   <div class="product-image">
                     <div class="image"> 
                           <a href="detail.html">
-                             <img src="assets/images/products/p11.jpg" alt=""> 
-                              <img src="assets/images/products/p11_hover.jpg" alt="" class="hover-image">
+                             <img src="image/Tecnologia/Televisores/Tv2/frente.jpg" alt=""> 
+                              <img src="image/Tecnologia/Televisores/Tv2/lado izquierdo.jpg" alt="" class="hover-image">
                           </a>
                           
                           </div>
@@ -1976,8 +1971,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
+                        <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                         <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -1990,21 +1985,21 @@
               <!-- /.products --> 
             </div>
             <!-- /.item -->
-            
+
             <div class="item item-carousel">
               <div class="products">
                 <div class="product">
                   <div class="product-image">
                     <div class="image"> 
                           <a href="detail.html">
-                             <img src="assets/images/products/p8.jpg" alt=""> 
-                              <img src="assets/images/products/p8_hover.jpg" alt="" class="hover-image">
+                             <img src="image/ElectroHogar/Cocina/Cocina2/frente.jpg" alt=""> 
+                              <img src="image/ElectroHogar/Cocina/Cocina2/lado_derecho.jpg" alt="" class="hover-image">
                           </a>
                           
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag new"><span>new</span></div>
+                    <div class="tag hot"><span>hot</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -2024,8 +2019,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
+                        <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                         <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -2038,21 +2033,21 @@
               <!-- /.products --> 
             </div>
             <!-- /.item -->
-            
+
             <div class="item item-carousel">
               <div class="products">
                 <div class="product">
                   <div class="product-image">
                     <div class="image"> 
                           <a href="detail.html">
-                             <img src="assets/images/products/p7.jpg" alt=""> 
-                              <img src="assets/images/products/p7_hover.jpg" alt="" class="hover-image">
+                             <img src="image/ElectroHogar/Lavadora/Lav1/Abierto.jpg" alt=""> 
+                              <img src="image/ElectroHogar/Lavadora/Lav1/Derecha.jpg" alt="" class="hover-image">
                           </a>
                           
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag sale"><span>sale</span></div>
+                    <div class="tag hot"><span>hot</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -2072,8 +2067,8 @@
                           <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
                           <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
                         </li>
+                        <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                         <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -2085,7 +2080,57 @@
               </div>
               <!-- /.products --> 
             </div>
-            <!-- /.item --> 
+            <!-- /.item -->
+
+            <div class="item item-carousel">
+              <div class="products">
+                <div class="product">
+                  <div class="product-image">
+                    <div class="image"> 
+                          <a href="detail.html">
+                             <img src="image/ElectroHogar/Refrigeracion/refri1/frente_caracteristicas.jpg" alt=""> 
+                              <img src="image/ElectroHogar/Refrigeracion/refri1/abierto_lleno.jpg" alt="" class="hover-image">
+                          </a>
+                          
+                          </div>
+                    <!-- /.image -->
+                    
+                    <div class="tag hot"><span>hot</span></div>
+                  </div>
+                  <!-- /.product-image -->
+                  
+                  <div class="product-info text-left">
+                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <div class="rating rateit-small"></div>
+                    <div class="description"></div>
+                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <!-- /.product-price --> 
+                    
+                  </div>
+                  <!-- /.product-info -->
+                  <div class="cart clearfix animate-effect">
+                    <div class="action">
+                      <ul class="list-unstyled">
+                        <li class="add-cart-button btn-group">
+                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
+                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                        </li>
+                        <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                      </ul>
+                    </div>
+                    <!-- /.action --> 
+                  </div>
+                  <!-- /.cart --> 
+                </div>
+                <!-- /.product --> 
+                
+              </div>
+              <!-- /.products --> 
+            </div>
+            <!-- /.item -->
+            
+
           </div>
           </div>
           </div>
@@ -2098,15 +2143,15 @@
           <div class="row">
             <div class="col-md-8">
               <div class="wide-banner1 cnt-strip">
-                <div class="image"> <img class="img-responsive" src="assets/images/banners/home-banner.jpg" alt=""> </div>
+                <div class="image"> <img class="img-responsive" src="assets/images/banners/moda_mujer_banner.jpg" alt=""> </div>
                 <div class="strip strip-text">
                   <div class="strip-inner">
-                    <h2 class="text-right">Amazing Sunglasses<br>
-                      <span class="shopping-needs">Get 40% off on selected items</span></h2>
+                    <h2 class="text-right">Lo nuevo para este verano<br>
+                      <span class="shopping-needs">Hasta 20% de descuento en polos y vestidos</span></h2>
                   </div>
                 </div>
                 <div class="new-label">
-                  <div class="text">NEW</div>
+                  <div class="text">NUEVO</div>
                 </div>
                 <!-- /.new-label --> 
               </div>
@@ -2115,7 +2160,7 @@
             <!-- /.col --> 
             <div class="col-md-4">
               <div class="wide-banner cnt-strip">
-                <div class="image"> <img class="img-responsive" src="assets/images/banners/home-banner4.jpg" alt=""> </div>
+                <div class="image"> <img class="img-responsive" src="assets/images/banners/bannerdeportivo.jpg" alt=""> </div>
                 
                 
                 <!-- /.new-label --> 
@@ -2126,7 +2171,8 @@
           </div>
           <!-- /.row --> 
         </div>
-        <!-- /.wide-banners --> 
+        <!-- /.wide-banners -->
+
         <!-- ============================================== WIDE PRODUCTS : END ============================================== --> 
         
         
@@ -2135,118 +2181,13 @@
         <!-- ============================================== BEST SELLER : END ============================================== --> 
         
         <!-- ============================================== BLOG SLIDER ============================================== -->
-        <section class="section latest-blog outer-bottom-vs">
-          <h3 class="section-title">Latest form Blog</h3>
-          <div class="blog-slider-container outer-top-xs">
-            <div class="owl-carousel blog-slider custom-carousel">
-              <div class="item">
-                <div class="blog-post">
-                  <div class="blog-post-image">
-                    <div class="image"> <a href="blog.html"><img src="assets/images/blog-post/blog_big_01.jpg" alt=""></a> </div>
-                  </div>
-                  <!-- /.blog-post-image -->
-                  
-                  <div class="blog-post-info text-left">
-                    <h3 class="name"><a href="#">Voluptatem accusantium doloremque laudantium</a></h3>
-                    <span class="info">By Jone Doe &nbsp;|&nbsp; 21 March 2016 </span>
-                    <p class="text">Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                   </div>
-                  <!-- /.blog-post-info --> 
-                  
-                </div>
-                <!-- /.blog-post --> 
-              </div>
-              <!-- /.item -->
-              
-              <div class="item">
-                <div class="blog-post">
-                  <div class="blog-post-image">
-                    <div class="image"> <a href="blog.html"><img src="assets/images/blog-post/blog_big_02.jpg" alt=""></a> </div>
-                  </div>
-                  <!-- /.blog-post-image -->
-                  
-                  <div class="blog-post-info text-left">
-                    <h3 class="name"><a href="#">Dolorem eum fugiat quo voluptas nulla pariatur</a></h3>
-                    <span class="info">By Saraha Smith &nbsp;|&nbsp; 21 March 2016 </span>
-                    <p class="text">Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                   </div>
-                  <!-- /.blog-post-info --> 
-                  
-                </div>
-                <!-- /.blog-post --> 
-              </div>
-              <!-- /.item --> 
-              
-              <!-- /.item -->
-              
-              <div class="item">
-                <div class="blog-post">
-                  <div class="blog-post-image">
-                    <div class="image"> <a href="blog.html"><img src="assets/images/blog-post/blog_big_03.jpg" alt=""></a> </div>
-                  </div>
-                  <!-- /.blog-post-image -->
-                  
-                  <div class="blog-post-info text-left">
-                    <h3 class="name"><a href="#">Dolorem eum fugiat quo voluptas nulla pariatur</a></h3>
-                    <span class="info">By Saraha Smith &nbsp;|&nbsp; 21 March 2016 </span>
-                    <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
-                    </div>
-                  <!-- /.blog-post-info --> 
-                  
-                </div>
-                <!-- /.blog-post --> 
-              </div>
-              <!-- /.item -->
-              
-              <div class="item">
-                <div class="blog-post">
-                  <div class="blog-post-image">
-                    <div class="image"> <a href="blog.html"><img src="assets/images/blog-post/blog_big_01.jpg" alt=""></a> </div>
-                  </div>
-                  <!-- /.blog-post-image -->
-                  
-                  <div class="blog-post-info text-left">
-                    <h3 class="name"><a href="#">Dolorem eum fugiat quo voluptas nulla pariatur</a></h3>
-                    <span class="info">By Saraha Smith &nbsp;|&nbsp; 21 March 2016 </span>
-                    <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
-                    </div>
-                  <!-- /.blog-post-info --> 
-                  
-                </div>
-                <!-- /.blog-post --> 
-              </div>
-              <!-- /.item -->
-              
-              <div class="item">
-                <div class="blog-post">
-                  <div class="blog-post-image">
-                    <div class="image"> <a href="blog.html"><img src="assets/images/blog-post/blog_big_02.jpg" alt=""></a> </div>
-                  </div>
-                  <!-- /.blog-post-image -->
-                  
-                  <div class="blog-post-info text-left">
-                    <h3 class="name"><a href="#">Dolorem eum fugiat quo voluptas nulla pariatur</a></h3>
-                    <span class="info">By Saraha Smith &nbsp;|&nbsp; 21 March 2016 </span>
-                    <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
-                  </div>
-                  <!-- /.blog-post-info --> 
-                  
-                </div>
-                <!-- /.blog-post --> 
-              </div>
-              <!-- /.item --> 
-              
-            </div>
-            <!-- /.owl-carousel --> 
-          </div>
-          <!-- /.blog-slider-container --> 
-        </section>
+
         <!-- /.section --> 
         <!-- ============================================== BLOG SLIDER : END ============================================== --> 
         
         <!-- ============================================== FEATURED PRODUCTS ============================================== -->
         <section class="section new-arriavls">
-          <h3 class="section-title">Featured Products</h3>
+          <h3 class="section-title">Productos Destacados</h3>
           <div class="owl-carousel home-owl-carousel custom-carousel owl-theme outer-top-xs">
             <div class="item item-carousel">
               <div class="products">

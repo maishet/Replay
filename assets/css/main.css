@@ -7040,8 +7040,8 @@ display: none !important;
     padding-right: 6px;
 
 }   
-  .top-bar .cnt-account ul > li.check a:before {
-   content: '\f00c';
+  .top-bar .cnt-account ul > li.Seguimiento a:before {
+   content: '\f0d1';
     font-family: FontAwesome;
     font-size: 13px;
     padding-right: 6px;
