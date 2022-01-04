@@ -595,7 +595,7 @@ table {
    padding:0px 20px 10px 20px;
 }
 .especificaciones-informacion .especificaciones .caracteristicas td{
-  padding:20px 10px 20px 15px;
+  padding:16px 10px 16px 15px;
   font-size: 14px;
   font-family:"Open Sans";
   font-weight: 500;
@@ -654,12 +654,7 @@ table {
   padding:10px;
 }
 .calificacion-cont{
-  /* display:grid;
-  grid-template-columns: auto auto; */
-  width: 100%;
-}
-.comentarios-cont .subt{
-  
+  display:flex;
 }
 .comentarios-cont .boton{
   color:black;
@@ -671,6 +666,65 @@ table {
   width: auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+.calificacion-cont .subt{
+  margin-right: auto;
+  font-size: 18px;
+}
+.comentarios-cont .estrellas-comentarios{
+  font-size: 14px;
+  font-weight: 500;
+}
+.comentarios-cont .cont-bottom{
+  font-size:15px;
+  display:flex;
+
+}
+.comentarios-cont .cont-bottom .cont1{
+  margin-right: auto;
+}
+.comentarios-cont .cont-bottom .ordenar{
+  margin-left: 10px;
+  width: auto;
+}
+.comentarios-cont .estrellas-comentarios .bxs-star{
+  color: #F2CB7F;
+  margin-left: 1px;
+  margin-right: 5px;
+  font-size: 15px;
+}
+.comentarios-cont .calificacion-general i{
+  font-size:25px;
+}
+.comentarios-cont .comentario .cont1{
+   display: flex;
+   font-size: 14px;
+}
+.comentarios-cont .comentario .cont1 .autor{
+  margin-right: auto;
+  padding-right: 10px;
+  font-weight: 500;
+}
+.comentarios-cont .comentario .cont1 .tiempo{
+  color:#888;
+}
+.comentarios-cont .comentario .descripcion{
+  margin-top: 15px;
+  font-size: 14px;
+}
+.comentarios-cont .comentario .btn-si, .comentarios-cont .comentario .btn-no{
+  background-color: white;
+  border: 1px solid;
+  border-radius: 3px;
+  margin-left:8px;
+}
+.comentarios-cont .comentario .btn-si{
+  border-color:#157ED2;
+  color:#157ED2;
+}
+.comentarios-cont .comentario .btn-no{
+  border-color: #FB3449;
+  color:#FB3449;
 }
 /*Fin Detalles del Producto =====================================================================*/
 

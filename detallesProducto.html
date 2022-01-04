@@ -531,7 +531,7 @@
                       </div>
                       <div class="pull-left">
                         <div class="reviews">
-                        <a href="" class="link1">Escribir comentario</a>
+                        <a href="#" class="link1">Escribir comentario</a>
                         </div>
                       </div>
                     </div>
@@ -561,7 +561,7 @@
                       </ul>
                                     
                     </div><!-- /.description-container -->
-                    <a href="#description" class="ver-mas">Ver más características</a>
+                    <a href="#description"class="ver-mas">Ver más características</a>
                   </div><!-- /.stock-container -->
                   <div>
                     <div>
@@ -602,11 +602,12 @@
                       <div class="qty-count">
                         <div class="cart-quantity">
                           <div class="quant-input cantidad">
-                                    <div class="arrows">
-                                      <div class="arrow plus gradient"><span class="ir"><i class="icon fa fa-sort-asc"></i></span></div>
-                                      <div class="arrow minus gradient"><span class="ir"><i class="icon fa fa-sort-desc"></i></span></div>
+                                     <div class="arrows">
+                                      <div class="arrow plus gradient" onclick="sumar()"><span class="ir"><i class="icon fa fa-sort-asc"></i></span></div>
+                                      <div class="arrow minus gradient" onclick="restar()"><span class="ir"><i class="icon fa fa-sort-desc"></i></span></div>
                                     </div>
-                                    <input type="text" value="1">
+                                    <input type="text" id="input-number"value="1">
+                                    <!-- <input id="number" type="number" value="1" min="1"> -->
                                 </div>
                               </div>
                       </div>							
@@ -632,8 +633,8 @@
 				<div class="product-tabs inner-bottom-xs">
 					<div class="row ">
 						<div class="col-sm-12 ">
-							<div class="tabs contenedor-descripcion">								
-                 <div id="" class="titulos-cont">
+							<div class="tabs contenedor-descripcion" id="description">								
+                 <div class="titulos-cont">
                     <a  href="#tab1" class=" title active titulo-es">Especificaciones</a>
 
                     <a href="#tab2" class=" title titulo-in">Información del Producto</a>
@@ -723,9 +724,9 @@
                     <div class="calificacion-cont">
                       <span class="subt">Calificación general</span>	
                       <!-- <button class="boton">ESCRIBIR COMENTARIO</button> -->		
-                      <a class="btn boton pull-right">ESCRIBIR COMENTARIO</a>
+                      <a class="btn boton">ESCRIBIR COMENTARIO</a>
                     </div>	
-                    <div class="m-t-10">
+                    <div class="m-t-10 calificacion-general">
                       <i class='bx bxs-star activo'></i>
                         <i class='bx bxs-star activo'></i>
                         <i class='bx bxs-star activo'></i>
@@ -733,7 +734,46 @@
                         <i class='bx bxs-star inactivo'></i>
                         <span class="puntaje">5.0 (3)</span>
                     </div>
-                    
+                    <div class="m-t-20">
+                      <div class="estrellas-comentarios">
+                        <div><span>5</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
+                        <div><span>4</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
+                        <div><span>3</span><i class='bx bxs-star'></i><span>3</span><span> comentarios</span></div>
+                        <div><span>2</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
+                        <div><span>1</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
+                        
+                      </div>
+                      <div class="m-t-20 cont-bottom">
+                        <div class="cont1"><span>1-4 de 3 comentarios</span></div>
+                        <div class="ordenar">
+                            <p>Ordenar por:</p>
+                            <div ><span>Seleccionar <i class='bx bxs-down-arrow'></i></span></div>        
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="comentario">
+                        <div class="cont1">
+                          <p class="autor">Autor</p>
+                          <span class="tiempo">Hace 4 meses</span>
+                        </div>
+                        <div class="calificacion">
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star inactivo'></i>
+                          <i class='bx bxs-star inactivo'></i>
+                        </div>
+                        <div class="descripcion">
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. fugit quos tenetur, voluptates debitis 
+                          possimus asperiores doloremque.</p>
+                        </div>
+                        <div>
+                          <span>¿Te fue útil este comentario?</span> <button class="btn-si">Si: 0</button> 
+                          <button class="btn-no">No: 0</button>
+                        </div>
+                        <hr>
+                      </div>
+                    </div>
 									</div>	
 								</div><!-- /.tab-pane -->
 							</div><!-- /.tab-content -->
