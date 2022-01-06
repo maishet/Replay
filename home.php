@@ -1107,13 +1107,13 @@
         
         <div id="hero">
           <div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
-            <div class="item" style="background-image: url(assets/images/sliders/01.jpg);"> <!--- fondo de seccion -->
+            <div class="item" style="background-image: url(image/FotosDanielcalato/Banners_verano.jpg);"> <!--- fondo de seccion -->
               <div class="container-fluid">
                 <div class="caption bg-color vertical-center text-left">
-                  <div class="slider-header fadeInDown-1">Top Brands</div>
-                  <div class="big-text fadeInDown-1"> New Collections </div>
-                  <div class="excerpt fadeInDown-2 hidden-xs"> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> </div>
-                  <div class="button-holder fadeInDown-3"> <a href="index6c11.html?page=single-product" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Shop Now</a> </div>
+                  <div class="slider-header fadeInDown-1">Mejores Marcas</div>
+                  <div class="big-text fadeInDown-1"> Nuevas Colecciones </div>
+                  <div class="excerpt fadeInDown-2 hidden-xs"> <span>Disfruta de este verano con lo ultimo de la moda</span> </div>
+                  <div class="button-holder fadeInDown-3"> <a href="index6c11.html?page=single-product" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Comprar</a> </div>
                 </div>
                 <!-- /.caption --> 
               </div>
@@ -1121,13 +1121,13 @@
             </div>
             <!-- /.item -->
             
-            <div class="item" style="background-image: url(assets/images/sliders/02.jpg);"> <!--- fondo de seccion -->
+            <div class="item" style="background-image: url(image/FotosDanielcalato/Banners_verano2.jpg);"> <!--- fondo de seccion -->
               <div class="container-fluid">
                 <div class="caption bg-color vertical-center text-left">
                   <div class="slider-header fadeInDown-1">Verano 2022</div>
-                  <div class="big-text fadeInDown-1"> Moda Mujer </div>
-                  <div class="excerpt fadeInDown-2 hidden-xs"> <span>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</span> </div>
-                  <div class="button-holder fadeInDown-3"> <a href="index6c11.html?page=single-product" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Shop Now</a> </div>
+                  <div class="big-text fadeInDown-1"> Moda Hombre </div>
+                  <div class="excerpt fadeInDown-2 hidden-xs"> <span>No permitas que el verano te quite el estilo</span> </div>
+                  <div class="button-holder fadeInDown-3"> <a href="index6c11.html?page=single-product" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Comprar</a> </div>
                 </div>
                 <!-- /.caption --> 
               </div>
@@ -1149,7 +1149,7 @@
             <ul class="nav nav-tabs nav-tab-line pull-right category_list" id="new-products-1">
               <li><a class="category_item" data-transition-type="backSlide" href="#" data-toggle="tab" category="all">Todos</a></li>
               <li><a class="category_item" data-transition-type="backSlide" href="#" data-toggle="tab" category="deporte">Deportes</a></li>
-              <li><a class="category_item" data-transition-type="backSlide" href="#" data-toggle="tab" category="tecnología">Electronicos</a></li>
+              <li><a class="category_item" data-transition-type="backSlide" href="#" data-toggle="tab" category="tecnología">Tecnología</a></li>
               <li><a class="category_item" data-transition-type="backSlide" href="#" data-toggle="tab" category="muebles">Muebles</a></li>
             </ul>
             <!-- /.nav-tabs --> 
@@ -1767,10 +1767,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="detail.html">FVivoBook 15 K513 Core i7 11a 15.6'' FHD IPS 512GB SSD 8GB RAM</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <div class="product-price"> <span class="price"> S/ 4,499 </span> <span class="price-before-discount">S/ 5,599</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -1815,10 +1815,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="detail.html">FGamer Cybertel Xtreme</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <div class="product-price"> <span class="price"> S/ 80 </span>  </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -1863,10 +1863,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="detail.html">MOUSE LOGITECH G203 RGB</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <div class="product-price"> <span class="price"> S/ 189 </span>  </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -1911,10 +1911,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="detail.html">Televisor 50" Borderless 4K Ultra HD Smart TV 50PUD7625</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <div class="product-price"> <span class="price"> S/ 1,899 </span> <span class="price-before-discount">S/ 2,499</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -1959,10 +1959,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="detail.html">Cocina LG RSG315T Gas 6 Hornillas con Easy Clean Acero inoxidable</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <div class="product-price"> <span class="price"> S/ 2,799 </span> <span class="price-before-discount">S/ 4,149</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2007,10 +2007,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="detail.html">Lavadora LG Carga Superior Smart Inverter con TurboDrum WT13BSB 13 Kg Negra</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <div class="product-price"> <span class="price"> S/ 1,499 </span> <span class="price-before-discount">S/ 1,979</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2055,10 +2055,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="detail.html">Refrigeradora SBS 685L FAMILY HUB RS27T5561B1/PE</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <div class="product-price"> <span class="price"> S/ 6,999 </span> <span class="price-before-discount">S/ 9,999</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2150,8 +2150,8 @@
                   <div class="product-image">
                     <div class="image"> 
                           <a href="detail.html">
-                             <img src="assets/images/products/p10.jpg" alt=""> 
-                              <img src="assets/images/products/p10_hover.jpg" alt="" class="hover-image">
+                             <img src="image/Deporte/Accesorios/AC1/frente.jpg" alt=""> 
+                              <img src="image\Deporte\Accesorios\AC1\unidad.jpg" alt="" class="hover-image">
                           </a>
                           
                           </div>
@@ -2162,10 +2162,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="detail.html">Guantes Essential</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <div class="product-price"> <span class="price"> S/ 49.90 </span>  </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2198,8 +2198,8 @@
                   <div class="product-image">
                     <div class="image"> 
                           <a href="detail.html">
-                             <img src="assets/images/products/p2.jpg" alt=""> 
-                              <img src="assets/images/products/p2_hover.jpg" alt="" class="hover-image">
+                             <img src="image\Deporte\Maquinas\Maquina1\frente.jpg" alt=""> 
+                              <img src="image\Deporte\Maquinas\Maquina1\lado_derecho.jpg" alt="" class="hover-image">
                           </a>
                           
                           </div>
@@ -2210,10 +2210,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="detail.html">Banca de Entrenamiento Press Stamina</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <div class="product-price"> <span class="price"> S/ 659 </span> <span class="price-before-discount">S/ 1,099.90</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2246,8 +2246,8 @@
                   <div class="product-image">
                     <div class="image"> 
                           <a href="detail.html">
-                             <img src="assets/images/products/p3.jpg" alt=""> 
-                              <img src="assets/images/products/p3_hover.jpg" alt="" class="hover-image">
+                             <img src="image\Deporte\RopaDeportivaHombre\RDH4\frente.jpg" alt=""> 
+                              <img src="image\Deporte\RopaDeportivaHombre\RDH4\atras.jpg" alt="" class="hover-image">
                           </a>
                           
                           </div>
@@ -2258,10 +2258,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="detail.html">Polo Deportivo Hombre</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <div class="product-price"> <span class="price"> S/ 41.90 </span> <span class="price-before-discount">S/ 59.90</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2294,8 +2294,8 @@
                   <div class="product-image">
                     <div class="image"> 
                           <a href="detail.html">
-                             <img src="assets/images/products/p1.jpg" alt=""> 
-                              <img src="assets/images/products/p1_hover.jpg" alt="" class="hover-image">
+                             <img src="image\Deporte\RopaDeportivaMujer\RDF3\frente.jpg" alt=""> 
+                              <img src="image\Deporte\RopaDeportivaMujer\RDF3\Atras.jpg" alt="" class="hover-image">
                           </a>
                           
                           </div>
@@ -2306,10 +2306,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="detail.html">Short Deportivo Mujer</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <div class="product-price"> <span class="price"> S/26.96 </span> <span class="price-before-discount">S/ 30</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2342,8 +2342,8 @@
                   <div class="product-image">
                     <div class="image"> 
                           <a href="detail.html">
-                             <img src="assets/images/products/p7.jpg" alt=""> 
-                              <img src="assets/images/products/p7_hover.jpg" alt="" class="hover-image">
+                             <img src="image\JugueteriayBebe\Juegos\J1\frente.jpg" alt=""> 
+                              <img src="image\JugueteriayBebe\Juegos\J1\detalle5.jpg" alt="" class="hover-image">
                           </a>
                           
                           </div>
@@ -2354,10 +2354,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="detail.html">Cama Saltarina Azul 1.83 M</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <div class="product-price"> <span class="price"> S/ 559.90 </span> <span class="price-before-discount">S/ 799.90</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2390,8 +2390,8 @@
                   <div class="product-image">
                     <div class="image"> 
                           <a href="detail.html">
-                             <img src="assets/images/products/p9.jpg" alt=""> 
-                              <img src="assets/images/products/p9_hover.jpg" alt="" class="hover-image">
+                             <img src="image\Zapatos\ZapatosVaron\ZV4\frente.jpg" alt=""> 
+                              <img src="image\Zapatos\ZapatosVaron\ZV4\detalle.jpg" alt="" class="hover-image">
                           </a>
                           
                           </div>
@@ -2402,10 +2402,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                    <h3 class="name"><a href="detail.html">Zapatillas Urbanas Hombre adidas Originals Nizza</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                    <div class="product-price"> <span class="price"> S/ 229 </span>  </div>
                     <!-- /.product-price --> 
                     
                   </div>
