@@ -1149,7 +1149,7 @@
             <ul class="nav nav-tabs nav-tab-line pull-right category_list" id="new-products-1">
               <li><a class="category_item" data-transition-type="backSlide" href="#" data-toggle="tab" category="all">Todos</a></li>
               <li><a class="category_item" data-transition-type="backSlide" href="#" data-toggle="tab" category="deporte">Deportes</a></li>
-              <li><a class="category_item" data-transition-type="backSlide" href="#" data-toggle="tab" category="electronicos">Electronicos</a></li>
+              <li><a class="category_item" data-transition-type="backSlide" href="#" data-toggle="tab" category="tecnología">Electronicos</a></li>
               <li><a class="category_item" data-transition-type="backSlide" href="#" data-toggle="tab" category="muebles">Muebles</a></li>
             </ul>
             <!-- /.nav-tabs --> 
@@ -1175,10 +1175,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="detail.html">Silla de Oficina Bone</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">450.99</span> <span class="price-before-discount">S/. 800</span> </div>
+                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">299.90</span> <span class="price-before-discount">S/. 399.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1222,10 +1222,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="detail.html">Centro de TV 50" Sensación</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"> <span class="price"> $649 </span> <span class="price-before-discount">$999</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1269,10 +1269,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="detail.html">Mesa de Comedor Gold 8 Sillas Rectangular</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"> <span class="price"> $1,699 </span> <span class="price-before-discount">$ 2,599</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1299,7 +1299,7 @@
                   </div>
                   <!-- /.item -->
                   
-                  <div class="item item-carousel product-item" category="electronicos">
+                  <div class="item item-carousel product-item" category="tecnología">
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
@@ -1316,10 +1316,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="detail.html">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"> <span class="price"> $180 </span> <span class="price-before-discount">$ 230</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1346,7 +1346,7 @@
                   </div>
                   <!-- /.item -->
                   
-                  <div class="item item-carousel product-item" category="electronicos">
+                  <div class="item item-carousel product-item" category="tecnología">
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
@@ -1363,10 +1363,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="detail.html">Mouse Gamer Cobra M711-RGB 10000 DPI</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"> <span class="price"> $99 </span> <span class="price-before-discount">$ 109</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1393,7 +1393,7 @@
                   </div>
                   <!-- /.item -->
                   
-                  <div class="item item-carousel product-item" category="electronicos">
+                  <div class="item item-carousel product-item" category="tecnología">
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
@@ -1410,10 +1410,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="detail.html">Televisor Samsung Smart TV 55" UHD 4K UN55AU7000GXPE (2021)</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"> <span class="price"> $1,999</span> <span class="price-before-discount">$ 2,099</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1440,7 +1440,7 @@
                   </div>
                   <!-- /.item -->
                   
-                  <div class="item item-carousel product-item" category="electronicos">
+                  <div class="item item-carousel product-item" category="tecnología">
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
@@ -1457,10 +1457,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="detail.html">IdeaCentre AIO 3i Intel Core i3 23.8" Full HD 1TB 4GB RAM Foggy White</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="price"> $450.99 </span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"> <span class="price"> $1,999 </span> <span class="price-before-discount">$ 2,099</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1504,10 +1504,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="detail.html">Polera Essentials Mélange Casual Hombre</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">450.99</span> <span class="price-before-discount">S/. 800</span> </div>
+                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">179.90</span>  </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1551,10 +1551,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="detail.html">Buzo Deportivo Essentials Piping Training Hombre</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">450.99</span> <span class="price-before-discount">S/. 800</span> </div>
+                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">199.90</span>  </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1598,10 +1598,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="detail.html">Polera Identity Fleece Training Mujer</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">450.99</span> <span class="price-before-discount">S/. 800</span> </div>
+                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">119.92</span> <span class="price-before-discount">S/. 149.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1645,10 +1645,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="detail.html">Top Deportivo Mujer</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">450.99</span> <span class="price-before-discount">S/. 800</span> </div>
+                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">17.94</span> <span class="price-before-discount">S/. 29.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
