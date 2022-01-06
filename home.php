@@ -400,8 +400,8 @@
                 <div class="hot-deal-wrapper">
                   <div class="image"> 
                   <a href="#">
-                  <img src="assets/images/hot-deals/p13.jpg" alt=""> 
-                  <img src="assets/images/hot-deals/p13_hover.jpg" alt="" class="hover-image">
+                  <img src="image\ModaHombre\Ternos\T2\frente.jpg" alt=""> 
+                  <img src="image\ModaHombre\Ternos\T2\atras.jpg" alt="" class="hover-image">
                   </a>
                   </div>
                   <div class="sale-offer-tag"><span>49%<br>
@@ -424,16 +424,16 @@
                 <!-- /.hot-deal-wrapper -->
                 
                 <div class="product-info text-left m-t-20">
-                  <h3 class="name"><a href="detallesProducto.html">Floral Print Buttoned</a></h3>
+                  <h3 class="name"><a href="detallesProducto.html">Saco de Vestir Hombre</a></h3>
                   <div class="rating rateit-small"></div>
-                  <div class="product-price"><span class="moneda">S/.</span> <span class="price">600.00</span> <span class="price-before-discount">S/.800.00</span> </div>
+                  <div class="product-price"><span class="moneda">S/.</span> <span class="price">177.99</span> <span class="price-before-discount">S/.349.00</span> </div>
                   <!-- /.product-price --> 
                   
                 </div>
                 <!-- /.product-info -->
                 
                 <div class="cart clearfix animate-effect">
-                  <a class="btn btn-primary cart-btn agregar-carrito" type="button" data-id="1">Add to cart</a>
+                  <a class="btn btn-primary cart-btn agregar-carrito" type="button" data-id="1">Añadir al carrito</a>
                   <!-- /.action --> 
                 </div>
                 <!-- /.cart --> 
@@ -444,8 +444,8 @@
                 <div class="hot-deal-wrapper">
                   <div class="image"> 
                    <a href="#">
-                  <img src="assets/images/hot-deals/p14.jpg" alt=""> 
-                  <img src="assets/images/hot-deals/p14_hover.jpg" alt="" class="hover-image">
+                  <img src="image\ModaHombre\Pantalones\Ps1\frente.jpg" alt=""> 
+                  <img src="image\ModaHombre\Pantalones\Ps1\atras.jpg" alt="" class="hover-image">
                   </a>
                    </div>
                   <div class="sale-offer-tag"><span>35%<br>
@@ -468,16 +468,16 @@
                 <!-- /.hot-deal-wrapper -->
                 
                 <div class="product-info text-left m-t-20">
-                  <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                  <h3 class="name"><a href="detail.html">Pantalón Jogger Hombre</a></h3>
                   <div class="rating rateit-small"></div>
-                  <div class="product-price"><span class="moneda">S/.</span> <span class="price">600.00</span> <span class="price-before-discount">S/.800.00</span> </div>
+                  <div class="product-price"><span class="moneda">S/.</span> <span class="price">97.40</span> <span class="price-before-discount">S/.129.90</span> </div>
                   <!-- /.product-price --> 
                   
                 </div>
                 <!-- /.product-info -->
                 
                 <div class="cart clearfix animate-effect">
-                  <a class="btn btn-primary cart-btn agregar-carrito" type="button"data-id="2">Add to cart</a>
+                  <a class="btn btn-primary cart-btn agregar-carrito" type="button"data-id="2">Añadir al carrito</a>
                   <!-- /.action --> 
                 </div>
                 <!-- /.cart --> 
@@ -488,11 +488,11 @@
                 <div class="hot-deal-wrapper">
                   <div class="image">
                    <a href="#">
-                  <img src="assets/images/hot-deals/p15.jpg" alt=""> 
-                  <img src="assets/images/hot-deals/p15_hover.jpg" alt="" class="hover-image">
+                  <img src="image\ModaHombre\Polos\P4\lejos.jpg" alt=""> 
+                  <img src="image\ModaHombre\Polos\P4\espalda.jpg" alt="" class="hover-image">
                   </a>
                    </div>
-                  <div class="sale-offer-tag"><span>45%<br>
+                  <div class="sale-offer-tag"><span>55%<br>
                     off</span></div>
                   <div id="countdown2" class="timing-wrapper">
                     <div class="box-wrapper">
@@ -512,16 +512,16 @@
                 <!-- /.hot-deal-wrapper -->
                 
                 <div class="product-info text-left m-t-20">
-                  <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                  <h3 class="name"><a href="detail.html">Polo Manga Corta 100% Algodón Hombre</a></h3>
                   <div class="rating rateit-small"></div>
-                  <div class="product-price"><span class="moneda">S/.</span> <span class="price">600.00</span> <span class="price-before-discount">S/.800.00</span> </div>
+                  <div class="product-price"><span class="moneda">S/.</span> <span class="price">22.46</span> <span class="price-before-discount">S/.49.90</span> </div>
                   <!-- /.product-price --> 
                   
                 </div>
                 <!-- /.product-info -->
                 
                 <div class="cart clearfix animate-effect">
-                  <a class="btn btn-primary cart-btn agregar-carrito" type="button"data-id="3">Add to cart</a>
+                  <a class="btn btn-primary cart-btn agregar-carrito" type="button"data-id="3">Añadir al carrito</a>
                   <!-- /.action --> 
                 </div>
                 <!-- /.cart --> 
@@ -545,7 +545,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p5.jpg" alt=""> </a> </div>
+                            <div class="image"> <a href="#"> <img src="image\ModaMujer\Vestidos,ShortyPantalones\V1\frente.jpg" alt=""> </a> </div>
                             <!-- /.image --> 
                             
                           </div>
@@ -554,9 +554,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Vestido Corto Estampado Mujer Mango</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 225.96 </span> </div>
                             <!-- /.product-price --> 
                             
                           </div>
@@ -573,7 +573,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p9.jpg" alt=""> </a> </div>
+                            <div class="image"> <a href="#"> <img src="image\ModaMujer\Vestidos,ShortyPantalones\V2\lejos.jpg" alt=""> </a> </div>
                             <!-- /.image --> 
                             
                           </div>
@@ -582,9 +582,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Jean Mom Mujer Basement</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 119.90 </span> </div>
                             <!-- /.product-price --> 
                             
                           </div>
@@ -601,7 +601,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p11.jpg" alt=""> </a> </div>
+                            <div class="image"> <a href="#"> <img src="image\ModaMujer\BlusasyPolos\BP1\lejos.jpg" alt=""> </a> </div>
                             <!-- /.image --> 
                             
                           </div>
@@ -610,97 +610,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Blusa Manga Corta Mujer Sybilla</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
-                            <!-- /.product-price --> 
-                            
-                          </div>
-                        </div>
-                        <!-- /.col --> 
-                      </div>
-                      <!-- /.product-micro-row --> 
-                    </div>
-                    <!-- /.product-micro --> 
-                    
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="products special-product">
-                  <div class="product">
-                    <div class="product-micro">
-                      <div class="row product-micro-row">
-                        <div class="col col-xs-5">
-                          <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p15.jpg" alt=""> </a> </div>
-                            <!-- /.image --> 
-                            
-                          </div>
-                          <!-- /.product-image --> 
-                        </div>
-                        <!-- /.col -->
-                        <div class="col col-xs-7">
-                          <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
-                            <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
-                            <!-- /.product-price --> 
-                            
-                          </div>
-                        </div>
-                        <!-- /.col --> 
-                      </div>
-                      <!-- /.product-micro-row --> 
-                    </div>
-                    <!-- /.product-micro --> 
-                    
-                  </div>
-                  <div class="product">
-                    <div class="product-micro">
-                      <div class="row product-micro-row">
-                        <div class="col col-xs-5">
-                          <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p13.jpg" alt=""> </a> </div>
-                            <!-- /.image --> 
-                            
-                          </div>
-                          <!-- /.product-image --> 
-                        </div>
-                        <!-- /.col -->
-                        <div class="col col-xs-7">
-                          <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
-                            <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
-                            <!-- /.product-price --> 
-                            
-                          </div>
-                        </div>
-                        <!-- /.col --> 
-                      </div>
-                      <!-- /.product-micro-row --> 
-                    </div>
-                    <!-- /.product-micro --> 
-                    
-                  </div>
-                  <div class="product">
-                    <div class="product-micro">
-                      <div class="row product-micro-row">
-                        <div class="col col-xs-5">
-                          <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p12.jpg" alt=""> </a> </div>
-                            <!-- /.image --> 
-                            
-                          </div>
-                          <!-- /.product-image --> 
-                        </div>
-                        <!-- /.col -->
-                        <div class="col col-xs-7">
-                          <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
-                            <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 89.90 </span> </div>
                             <!-- /.product-price --> 
                             
                           </div>
@@ -721,7 +633,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p1.jpg"  alt=""> </a> </div>
+                            <div class="image"> <a href="#"> <img src="image\ModaMujer\Vestidos,ShortyPantalones\V4\lejos.jpg" alt=""> </a> </div>
                             <!-- /.image --> 
                             
                           </div>
@@ -730,9 +642,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Falda Short Mujer</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 79.90 </span> </div>
                             <!-- /.product-price --> 
                             
                           </div>
@@ -749,7 +661,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p3.jpg" alt=""> </a> </div>
+                            <div class="image"> <a href="#"> <img src="image\ModaMujer\BlusasyPolos\BP3\lejos.jpg" alt=""> </a> </div>
                             <!-- /.image --> 
                             
                           </div>
@@ -758,9 +670,97 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Polo Manga Corta Mujer Superdry</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 119.90 </span> </div>
+                            <!-- /.product-price --> 
+                            
+                          </div>
+                        </div>
+                        <!-- /.col --> 
+                      </div>
+                      <!-- /.product-micro-row --> 
+                    </div>
+                    <!-- /.product-micro --> 
+                    
+                  </div>
+                  <div class="product">
+                    <div class="product-micro">
+                      <div class="row product-micro-row">
+                        <div class="col col-xs-5">
+                          <div class="product-image">
+                            <div class="image"> <a href="#"> <img src="image\ModaMujer\BlusasyPolos\BP4\lejos.jpg" alt=""> </a> </div>
+                            <!-- /.image --> 
+                            
+                          </div>
+                          <!-- /.product-image --> 
+                        </div>
+                        <!-- /.col -->
+                        <div class="col col-xs-7">
+                          <div class="product-info">
+                            <h3 class="name"><a href="#">Polo Manga Corta 100% Algodón Mujer Superdry</a></h3>
+                            <div class="rating rateit-small"></div>
+                            <div class="product-price"> <span class="price"> S/ 129.90 </span> </div>
+                            <!-- /.product-price --> 
+                            
+                          </div>
+                        </div>
+                        <!-- /.col --> 
+                      </div>
+                      <!-- /.product-micro-row --> 
+                    </div>
+                    <!-- /.product-micro --> 
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="products special-product">
+                  <div class="product">
+                    <div class="product-micro">
+                      <div class="row product-micro-row">
+                        <div class="col col-xs-5">
+                          <div class="product-image">
+                            <div class="image"> <a href="#"> <img src="image\ModaMujer\Linceria\L1\lejos.jpg"  alt=""> </a> </div>
+                            <!-- /.image --> 
+                            
+                          </div>
+                          <!-- /.product-image --> 
+                        </div>
+                        <!-- /.col -->
+                        <div class="col col-xs-7">
+                          <div class="product-info">
+                            <h3 class="name"><a href="#">Camisa de Dormir Mujer University Club</a></h3>
+                            <div class="rating rateit-small"></div>
+                            <div class="product-price"> <span class="price"> S/ 24.95 </span> </div>
+                            <!-- /.product-price --> 
+                            
+                          </div>
+                        </div>
+                        <!-- /.col --> 
+                      </div>
+                      <!-- /.product-micro-row --> 
+                    </div>
+                    <!-- /.product-micro --> 
+                    
+                  </div>
+                  <div class="product">
+                    <div class="product-micro">
+                      <div class="row product-micro-row">
+                        <div class="col col-xs-5">
+                          <div class="product-image">
+                            <div class="image"> <a href="#"> <img src="image\ModaMujer\Linceria\L3\lejos.jpg" alt=""> </a> </div>
+                            <!-- /.image --> 
+                            
+                          </div>
+                          <!-- /.product-image --> 
+                        </div>
+                        <!-- /.col -->
+                        <div class="col col-xs-7">
+                          <div class="product-info">
+                            <h3 class="name"><a href="#">Pack Pijama Mujer Sybilla</a></h3>
+                            <div class="rating rateit-small"></div>
+                            <div class="product-price"> <span class="price"> S/ 39.90 </span> </div>
                             <!-- /.product-price --> 
                           </div>
                         </div>
@@ -776,7 +776,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p7.jpg" alt=""> </a> </div>
+                            <div class="image"> <a href="#"> <img src="image\ModaMujer\Linceria\L2\atras.jpg" alt=""> </a> </div>
                             <!-- /.image --> 
                             
                           </div>
@@ -785,9 +785,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Short Pijama Mujer</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 39.90 </span> </div>
                             <!-- /.product-price --> 
                             
                           </div>
@@ -822,7 +822,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p8.jpg"  alt=""> </a> </div>
+                            <div class="image"> <a href="#"> <img src="image\Zapatos\Zapatos Mujer\ZM1\ambas.jpg"  alt=""> </a> </div>
                             <!-- /.image --> 
                             
                           </div>
@@ -831,9 +831,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Zapatillas Mujer Training Flexagon Energy 3</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 111.93</span> </div>
                             <!-- /.product-price --> 
                             
                           </div>
@@ -850,7 +850,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p5.jpg"  alt=""> </a> </div>
+                            <div class="image"> <a href="#"> <img src="image\Zapatos\ZapatosNiñoyNiña\ZpN1\ambos.jpg"  alt=""> </a> </div>
                             <!-- /.image --> 
                             
                           </div>
@@ -859,9 +859,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Zapatillas Urbanas Niña Coniglio Sp Cut2 Pri</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 79.90 </span> </div>
                             <!-- /.product-price --> 
                             
                           </div>
@@ -878,7 +878,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p6.jpg"  alt="image"> </a> </div>
+                            <div class="image"> <a href="#"> <img src="image\Zapatos\ZapatosVaron\ZV3\ambos.jpg"  alt="image"> </a> </div>
                             <!-- /.image --> 
                             
                           </div>
@@ -887,9 +887,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Sandalias Hombre Crocs Crocband Unisex</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 174.30 </span> </div>
                             <!-- /.product-price --> 
                             
                           </div>
@@ -910,7 +910,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p8.jpg" alt=""> </a> </div>
+                            <div class="image"> <a href="#"> <img src="image\SaludyBelleza\LiempiezaFacial\SB1\lado_derecho.jpg" alt=""> </a> </div>
                             <!-- /.image --> 
                             
                           </div>
@@ -919,9 +919,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Cerave gel limpiador espumoso 236ml</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 52.40 </span> </div>
                             <!-- /.product-price --> 
                             
                           </div>
@@ -938,7 +938,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p7.jpg" alt=""> </a> </div>
+                            <div class="image"> <a href="#"> <img src="image\SaludyBelleza\Maquillaje\MQ1\en_uso.jpg" alt=""> </a> </div>
                             <!-- /.image --> 
                             
                           </div>
@@ -947,9 +947,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Kit 5 favoritos de maquillaje 2</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 249 </span> </div>
                             <!-- /.product-price --> 
                             
                           </div>
@@ -966,7 +966,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p6.jpg" alt=""> </a> </div>
+                            <div class="image"> <a href="#"> <img src="image\SaludyBelleza\Perfumes\P1\presentacion2.jpg" alt=""> </a> </div>
                             <!-- /.image --> 
                             
                           </div>
@@ -975,9 +975,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Nina EDT 80 ml + Nina Rouge EDT Miniatura 4ml + Nina Rose EDT Miniatura 4ml + Bolsa de Regalo</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 299 </span> </div>
                             <!-- /.product-price --> 
                           </div>
                         </div>
@@ -997,7 +997,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p5.jpg" alt="images">
+                            <div class="image"> <a href="#"> <img src="image\ModaHombre\Pantalones\Ps2\lejos.jpg" alt="images">
                               <div class="zoom-overlay"></div>
                               </a> </div>
                             <!-- /.image --> 
@@ -1008,9 +1008,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Pantalón Hombre</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 69.93 </span> </div>
                             <!-- /.product-price --> 
                             
                           </div>
@@ -1027,7 +1027,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p4.jpg"  alt="">
+                            <div class="image"> <a href="#"> <img src="image\ModaHombre\Polos\P3\lejos.jpg"  alt="">
                               <div class="zoom-overlay"></div>
                               </a> </div>
                             <!-- /.image --> 
@@ -1038,9 +1038,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Polo Manga Corta Hombre</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 49.90 </span> </div>
                             <!-- /.product-price --> 
                             
                           </div>
@@ -1057,7 +1057,7 @@
                       <div class="row product-micro-row">
                         <div class="col col-xs-5">
                           <div class="product-image">
-                            <div class="image"> <a href="#"> <img src="assets/images/products/p13.jpg" alt="image"> </a> </div>
+                            <div class="image"> <a href="#"> <img src="image\ModaHombre\Short\S3\lejos.jpg" alt="image"> </a> </div>
                             <!-- /.image --> 
                             
                           </div>
@@ -1066,9 +1066,9 @@
                         <!-- /.col -->
                         <div class="col col-xs-7">
                           <div class="product-info">
-                            <h3 class="name"><a href="#">Floral Print Shirt</a></h3>
+                            <h3 class="name"><a href="#">Short Hombre</a></h3>
                             <div class="rating rateit-small"></div>
-                            <div class="product-price"> <span class="price"> $450.99 </span> </div>
+                            <div class="product-price"> <span class="price"> S/ 55.93 </span> </div>
                             <!-- /.product-price --> 
                             
                           </div>
