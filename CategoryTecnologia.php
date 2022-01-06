@@ -20,6 +20,7 @@
 <link rel="stylesheet" href="assets/css/animate.min.css">
 <link rel="stylesheet" href="assets/css/rateit.css">
 <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+<link rel="stylesheet" href="assets/css/jPages.css">
 
 <!-- Icons/Glyphs -->
 <link rel="stylesheet" href="assets/css/font-awesome.css">
@@ -464,7 +465,7 @@
                 <h4 class="widget-title">Barra de precios</h4>
               </div>
               <div class="sidebar-widget-body m-t-10">
-                <div class="price-range-holder"> <span class="min-max"> <span class="pull-left">S/.20.00</span> <span class="pull-right">S/.2,000.00</span> </span>
+                <div class="price-range-holder"> <span class="min-max"> <span class="pull-left">S/20.00</span> <span class="pull-right">S/2,000.00</span> </span>
                   <input type="text" id="amount" style="border:0; color:#666666; font-weight:bold;text-align:center;">
                   <input type="text" class="price-slider" value="" >
                 </div>
@@ -558,17 +559,7 @@
             </div>
             <!-- /.col -->
             <div class="col col-sm-6 col-md-4 col-xs-6 col-lg-4 text-right">
-              <div class="pagination-container">
-                <ul class="list-inline list-unstyled">
-                  <li class="prev"><a href="#"><i class="fa fa-angle-left"></i></a></li>
-                  <li><a href="#">1</a></li>
-                  <li class="active"><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li class="next"><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                </ul>
-                <!-- /.list-inline --> 
-              </div>
+              <div class="pagination-container"></div>
               <!-- /.pagination-container --> </div>
             <!-- /.col --> 
           </div>
@@ -577,8 +568,8 @@
         <div class="search-result-container ">
           <div id="myTabContent" class="tab-content category-list">
             <div class="tab-pane active " id="grid-container">
-              <div class="category-product">
-                <div class="row productos-filtrar">
+              <div class="category-product"> <!-- /.category-product controlador paginado-->
+                <div class="row productos-filtrar" id="itemContainer">
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
                   <div class="item producto-item" category="audifonos" >
                     <div class="products">
@@ -1230,15 +1221,6 @@
           <div class="clearfix filters-container bottom-row">
             <div class="text-right">
               <div class="pagination-container">
-                <ul class="list-inline list-unstyled">
-                  <li class="prev"><a href="#"><i class="fa fa-angle-left"></i></a></li>
-                  <li><a href="#">1</a></li>
-                  <li class="active"><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li class="next"><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                </ul>
-                <!-- /.list-inline --> 
               </div>
               <!-- /.pagination-container --> </div>
             <!-- /.text-right --> 
@@ -1301,8 +1283,11 @@
 
 <!-- ============================================================= FOOTER ============================================================= -->
 <?php include('footer.html'); ?>
+<script type="text/javascript" src="assets/js/ordenarprecio.js"></script>
+<script src="assets/js/jPages.min.js"></script>
 <script src="assets/js/pedido.js"></script>
 <script type="text/javascript" src="assets/js/ordenarprecio.js"></script>
+<script src="assets/js/paginado.js"></script>
 <!-- <script src="assets/js/compra.js"></script> -->
 <!-- ============================================================= FOOTER : END============================================================= --> 
 
