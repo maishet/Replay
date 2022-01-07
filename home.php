@@ -35,9 +35,17 @@
 </head>
 <body class="cnt-home">
 <!-- ============================================== HEADER ============================================== -->
+<?php session_start();?>
+<?php 
 
-<?php include('header.html'); ?>
+if(!isset($_SESSION['user_is_login']) || @$_SESSION['user_is_login']==false){
 
+  include('header.html'); 
+}
+else{
+  include('headerLogueado.html'); 
+}
+?>
 <!-- ============================================== HEADER : END ============================================== -->
 <div class="body-content outer-top-vs" id="top-banner-and-menu">
   <div class="container">
