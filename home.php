@@ -45,6 +45,7 @@
       <!-- ============================================== SIDEBAR ============================================== -->
       <div class="col-xs-12 col-sm-12 col-md-3 sidebar"> 
         
+<<<<<<< HEAD
       <!-- ================================== TOP NAVIGATION ================================== -->
         <div class="side-menu animate-dropdown outer-bottom-xs">
           <div class="head"><i class="icon fa fa-align-justify fa-fw"></i> Categorias</div>
@@ -599,6 +600,10 @@
           </nav>
           <!-- /.megamenu-horizontal --> 
         </div>
+=======
+        <!-- ================================== TOP NAVIGATION ================================== -->
+        <?php include('tablaCategorias.html'); ?>
+>>>>>>> db762ddc8cafbbccbf4f80ec582be6bd5a2ea6da
         <!-- /.side-menu --> 
       <!-- ================================== TOP NAVIGATION : END ================================== --> 
         <!-- ============================================== HOT DEALS ============================================== -->
