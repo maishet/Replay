@@ -726,6 +726,87 @@ table {
   border-color: #FB3449;
   color:#FB3449;
 }
+
+.ventana-comentario{
+  width: 80%;
+  border-radius: 17px !important;
+  position: fixed;
+  z-index: 1000;
+  top:0;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+}
+.inactivo{
+  display:none !important;
+}
+.ventana-comentario .contenedor-escribirComentario{
+    padding: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+.ventana-comentario .contenedor-escribirComentario h1{
+  margin:0px;
+  font-size: 24px;
+  font-weight: 500;
+  width: auto;
+}
+.contenedor-escribirComentario h2{
+  font-size: 18px;
+  font-weight: 600;
+}
+.contenedor-escribirComentario .recomendaciones{
+  margin-top: 15px;
+}
+.contenedor-escribirComentario span{
+  font-size: 17px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.contenedor-escribirComentario .input{
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  padding: 5px 12px 3px;
+}
+ .contenedor-escribirComentario .textarea{
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  padding: 7px 12px 3px;
+}
+.contenedor-escribirComentario .btn-si,.contenedor-escribirComentario .btn-no{
+   border-radius: 15px;
+   font-size: 19px;
+   font-weight: 600;
+   border: 1px solid #000000;
+   box-sizing: border-box;
+   padding: 3px 2.5%;
+   width: auto;
+}
+.contenedor-escribirComentario .btn-si{ 
+  background: #BCBBFF;
+  border-radius: 10px 0px 0px 10px;
+}
+.contenedor-escribirComentario .btn-no{
+  background: rgba(251, 11, 11, 0.2);
+  border-radius: 0px 10px 10px 0px;
+}
+.contenedor-escribirComentario .btn-publicar{
+  background: #FDD922;
+  border: 1px solid #FDD922;
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-size: 18px;
+  padding: 8px 20px;
+  font-weight: 600;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+
 /*Fin Detalles del Producto =====================================================================*/
 
 /*===================================================================================*/
