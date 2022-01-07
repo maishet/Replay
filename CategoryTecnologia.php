@@ -597,7 +597,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono1.html">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"><span class="monedas">S/.</span> <span class="price">200.00</span> <span class="price-before-discount">$ 800</span> </div>
@@ -635,8 +635,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="detail.html">
-                             <img src="image/Tecnologia/Audifonos/Audifono1/Frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Audifonos/Audifono1/lado.jpg" alt="" class="hover-image">
+                             <img src="image/Tecnologia/Audifonos/Audifono2/Frente.jpg" alt=""> 
+                              <img src="image/Tecnologia/Audifonos/Audifono2/Costado.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -646,7 +646,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono2.html">XTREME HG502 RGB Auricular Gamer</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"><span class="monedas">S/.</span> <span class="price">200.00</span> <span class="price-before-discount">$ 800</span> </div>
@@ -684,8 +684,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="detail.html">
-                             <img src="image/Tecnologia/Audifonos/Audifono1/Frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Audifonos/Audifono1/lado.jpg" alt="" class="hover-image">
+                             <img src="image/Tecnologia/Audifonos/Audifono3/frente.jpg" alt=""> 
+                              <img src="image/Tecnologia/Audifonos/Audifono3/caja.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -695,7 +695,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono3.html">Audífonos Gamer Onikuma K9</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"><span class="monedas">S/.</span> <span class="price">200.00</span> <span class="price-before-discount">$ 800</span> </div>
@@ -733,8 +733,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="detail.html">
-                             <img src="image/Tecnologia/Computadoras/Compu3/frente_caracteristicas.jpg" alt=""> 
-                              <img src="image/Tecnologia/Computadoras/Compu3/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image/Tecnologia/Computadoras/Compu1/frente_caracteristicas.jpg" alt=""> 
+                              <img src="image/Tecnologia/Computadoras/Compu1/lado derecho.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -744,7 +744,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc1.html">IdeaCentre AIO 3i Intel Core i3 23.8" Full HD</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">450.99</span> <span class="price-before-discount">$ 800</span> </div>
@@ -782,8 +782,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="detail.html">
-                             <img src="image/Tecnologia/Computadoras/Compu3/frente_caracteristicas.jpg" alt=""> 
-                              <img src="image/Tecnologia/Computadoras/Compu3/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image/Tecnologia/Computadoras/Compu2/Frente_caracteristicas.jpg" alt=""> 
+                              <img src="image/Tecnologia/Computadoras/Compu2/lado derecho.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -793,7 +793,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">HUAWEI LAPTOP MATEBOOK D 14 14"</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">450.99</span> <span class="price-before-discount">$ 800</span> </div>
@@ -830,7 +830,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoPc3.html">
                              <img src="image/Tecnologia/Computadoras/Compu3/frente_caracteristicas.jpg" alt=""> 
                               <img src="image/Tecnologia/Computadoras/Compu3/lado derecho.jpg" alt="" class="hover-image">
                           </a> 
@@ -842,7 +842,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Floral Print Buttoned</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc3.html">VivoBook 15 K513 Core i7 11a 15.6''</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">450.99</span> <span class="price-before-discount">$ 800</span> </div>
