@@ -33,6 +33,12 @@
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body class="cnt-home">
+
+<!-- ============================================== POP-UP============================================== -->
+<div id="pop-up"> <!-- Para oscurecer el fondo al mostrar la venta de comentarios -->
+</div>
+<!-- ============================================== POP-UP END============================================== -->
+
 <!-- ============================================== HEADER ============================================== -->
 <header class="header-style-1"> 
   
@@ -531,7 +537,7 @@
                       </div>
                       <div class="pull-left">
                         <div class="reviews">
-                        <a href="#" class="link1">Escribir comentario</a>
+                        <a id="btn-abrir1" class="link1">Escribir comentario</a>
                         </div>
                       </div>
                     </div>
@@ -723,8 +729,8 @@
                     <hr class="linea-horizontal-description">		
                     <div class="calificacion-cont">
                       <span class="subt">Calificación general</span>	
-                      <!-- <button class="boton">ESCRIBIR COMENTARIO</button> -->		
-                      <a class="btn boton">ESCRIBIR COMENTARIO</a>
+                      <!-- <button class="boton" id="btn-abrir">ESCRIBIR COMENTARIO</button>	 -->
+                      <a class="btn boton" id="btn-abrir2">ESCRIBIR COMENTARIO</a>
                     </div>	
                     <div class="m-t-10 calificacion-general">
                       <i class='bx bxs-star activo'></i>
@@ -781,11 +787,13 @@
 					</div><!-- /.row -->
           
 				</div><!-- /.product-tabs -->
-        <div class="product-tabs inner-bottom-xs ventana-comentario inactivo">
+        <!-- <div class="product-tabs inner-bottom-xs ventana-comentario inactivo"> -->
+        <!-- <div class="product-tabs inner-bottom-xs ventana-comentario"id="ventana-comentario">
 					<div class="row ">
 						<div class="col-sm-12 ">
+              <span id="btn-cerrar"><i class='bx bxs-x-circle'></i></span>
               <div class="contenedor-escribirComentario">
-                <h1>Tu opinión nos importa !Evalúa tu producto!</h1>
+                <h1>Tu opinión nos importa !Evalúa tu producto!</h1>  
                 <div>
                   <h2>Calificación general:</h2>
                 </div>
@@ -805,9 +813,9 @@
                   <button class="btn-publicar">PUBLICAR COMENTARIO</button>
                 </div>
               </div>
-            </div><!-- /.col -->
-					</div><!-- /.row -->
-				</div><!-- /.product-tabs -->
+            </div>
+					</div>
+				</div> -->
 			</div><!-- /.col -->
 			<div class="clearfix"></div>
 		</div><!-- /.row -->
@@ -1050,7 +1058,38 @@
 <!-- For demo purposes – can be removed on production : End --> 
 
 <!-- JavaScripts placed at the end of the document so the pages load faster --> 
- 
+
+  <!-- ==============================================Escribir comentario============================================== -->
+  <div class="product-tabs inner-bottom-xs ventana-comentario" id="ventana-comentario">
+    <div class="row ">
+      <div class="col-sm-12 ">
+        <span id="btn-cerrar"><i class='bx bxs-x-circle'></i></span>
+        <div class="contenedor-escribirComentario">
+          <h1>Tu opinión nos importa !Evalúa tu producto!</h1>  
+          <div>
+            <h2>Calificación general:</h2>
+          </div>
+          <div>
+            <h2>Título del comentario</h2>
+            <input type="text" placeholder="Ejemplo: !Lo puedo llevar a todos lados!" class="input"/>
+          </div>
+          <div>
+            <h2>Comentario</h2>
+            <textarea name="" id="" cols="30" rows="10"placeholder="Es muy fácil de traladar, es liviano..." class="textarea"></textarea>
+          </div>
+          <div class="recomendaciones">
+            <span>¿Recomendarías este producto a un amigo?</span> 
+            <button class="btn-si">SI</button><button class="btn-no">NO</button>
+          </div>
+          <div style="text-align: center;">
+            <button class="btn btn-publicar">PUBLICAR COMENTARIO</button>
+          </div>
+        </div>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.product-tabs -->
+  <!-- ==============================================Escribir comentario END============================================== -->
+  
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
 	
 	<script src="assets/js/bootstrap.min.js"></script>

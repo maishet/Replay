@@ -22,3 +22,19 @@ function restar(){
 	}
 	document.getElementById("input-number").value=String(input);
 }  
+
+//ventana comentario
+
+document.getElementById("btn-abrir1").addEventListener("click",abrir);
+document.getElementById("btn-abrir2").addEventListener("click",abrir);
+document.getElementById("btn-cerrar").addEventListener("click",cerrar);
+document.getElementById("pop-up").addEventListener("click",cerrar);
+
+function abrir(){
+	document.getElementById("ventana-comentario").style.display = "block";
+	 document.getElementById("pop-up").style.display = "block";
+}
+function cerrar(){
+	document.getElementById("ventana-comentario").style.display = "none";
+	document.getElementById("pop-up").style.display = "none";
+}

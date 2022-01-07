@@ -729,17 +729,24 @@ table {
 
 .ventana-comentario{
   width: 80%;
+  /* height: 90%; */
+  /* max-height: 565px; */
+  height: 570px;
   border-radius: 17px !important;
   position: fixed;
   z-index: 1000;
-  top:0;
+  top:5%;
   bottom: 0;
+  bottom: auto;
   left: 10%;
   right: 10%;
+  display:none ;
+  opacity:1 !important;
+  background-color: white;
 }
-.inactivo{
+/* .inactivo{
   display:none !important;
-}
+} */
 .ventana-comentario .contenedor-escribirComentario{
     padding: 22px;
     margin-left: auto;
@@ -751,13 +758,14 @@ table {
   font-size: 24px;
   font-weight: 500;
   width: auto;
+  display: inline-block;
 }
 .contenedor-escribirComentario h2{
   font-size: 18px;
   font-weight: 600;
 }
 .contenedor-escribirComentario .recomendaciones{
-  margin-top: 15px;
+  margin-top: 1%;
 }
 .contenedor-escribirComentario span{
   font-size: 17px;
@@ -786,12 +794,18 @@ table {
    width: auto;
 }
 .contenedor-escribirComentario .btn-si{ 
-  background: #BCBBFF;
+  background: rgb(188, 187, 255);
   border-radius: 10px 0px 0px 10px;
 }
 .contenedor-escribirComentario .btn-no{
   background: rgba(251, 11, 11, 0.2);
   border-radius: 0px 10px 10px 0px;
+}
+.contenedor-escribirComentario .btn-si:hover, .contenedor-escribirComentario .btn-si:after{
+  background: rgb(125, 123, 252);
+}
+.contenedor-escribirComentario .btn-no:hover{
+  background: rgba(251, 11, 11, 0.65);
 }
 .contenedor-escribirComentario .btn-publicar{
   background: #FDD922;
@@ -805,7 +819,38 @@ table {
   margin-top: 20px;
   margin-bottom: 5px;
 }
-
+.contenedor-escribirComentario .btn-publicar:hover{
+  background-color: #157ED2;
+  border-color:#157ED2;
+  color:white;
+  transition:250ms;
+}
+#btn-cerrar{
+  float: right;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+#btn-cerrar:hover,#btn-abrir1:hover,#btn-abrir2:hover{
+  cursor: pointer;
+}
+#btn-cerrar i{
+  color:#666666;
+  font-size: 40px;
+}
+.cubierta-emergente{
+  opacity:.5;
+  filter:alpha(opacity=50);
+  z-index: 10;
+}
+#pop-up{
+  background-color: #000;
+  opacity: 0.35 !important;;
+  z-index: 500;
+  width: 100%;
+  height: 100%;
+  position:fixed;
+  display: none;
+}
 
 /*Fin Detalles del Producto =====================================================================*/
 
