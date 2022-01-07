@@ -1423,7 +1423,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                           <a href="detail.html">
+                           <a href="categorias/detallesProductoMouse2.html">
                              <img src="image/Tecnologia/Audifonos/Audifono1/Frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Audifonos/Audifono1/lado.jpg" alt="" class="hover-image">
                           </a> 
@@ -1435,7 +1435,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span><span class="price">180.00</span> <span class="price-before-discount">$ 230</span> </div>
@@ -1482,7 +1482,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Mouse Gamer Cobra M711-RGB 10000 DPI</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">Mouse Gamer Cobra M711-RGB 10000 DPI</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"><span class="monedas">S/.</span> <span class="price">99.90</span> <span class="price-before-discount">$ 109</span> </div>
@@ -1873,7 +1873,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoPc3.html">
                              <img src="image/Tecnologia/Computadoras/Compu3/Frente_caracteristicas.jpg" alt=""> 
                              <img src="image/Tecnologia/Computadoras/Compu3/lado derecho.jpg" alt="" class="hover-image">
                           </a>
@@ -1886,7 +1886,7 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">FVivoBook 15 K513 Core i7 11a 15.6'' FHD IPS 512GB SSD 8GB RAM</a></h3>
+                    <h3 class="name"><a href="categorias/detallesProductoPc3.html">FVivoBook 15 K513 Core i7 11a 15.6''</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> S/ 4,499 </span> <span class="price-before-discount">S/ 5,599</span> </div>
@@ -1921,7 +1921,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoAudifono2.html">
                              <img src="image/Tecnologia/Audifonos/Audifono2/caja.jpg" alt=""> 
                               <img src="image/Tecnologia/Audifonos/Audifono2/Costado.jpg" alt="" class="hover-image">
                           </a>
@@ -1934,7 +1934,7 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">FGamer Cybertel Xtreme</a></h3>
+                    <h3 class="name"><a href="categorias/detallesProductoAudifono2.html">FGamer Cybertel Xtreme</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> S/ 80 </span>  </div>
@@ -1969,7 +1969,7 @@
                 <div class="product">
                   <div class="product-image">
                     <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoMouse2.html">
                              <img src="image/Tecnologia/Mouse/Mouse2/frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Mouse/Mouse2/lado_izquierdo.jpg" alt="" class="hover-image">
                           </a>
@@ -1982,7 +1982,7 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">MOUSE LOGITECH G203 RGB</a></h3>
+                    <h3 class="name"><a href="categorias/detallesProductoMouse2.html">MOUSE LOGITECH G203 RGB</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> S/ 189 </span>  </div>
@@ -2030,7 +2030,7 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Televisor 50" Borderless 4K Ultra HD Smart TV 50PUD7625</a></h3>
+                    <h3 class="name"><a href="categorias/detallesProductoTv1.html">Televisor 50" Borderless 4K Ultra HD Smart TV 50PUD7625</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="price"> S/ 1,899 </span> <span class="price-before-discount">S/ 2,499</span> </div>
