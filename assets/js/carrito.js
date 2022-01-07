@@ -1,6 +1,6 @@
 class Carrito {
 
-    //Añadir producto al carrito
+    //Añadir producto al carrito de OFERTAS
     comprarProducto(e){
         e.preventDefault();
         //Delegado para agregar al carrito
@@ -9,7 +9,7 @@ class Carrito {
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProducto(producto);
             //console.log(producto);
-        }
+        }e.stopPropagation();
         //getElementById("myDIV").classList.contains("mystyle")
 /*         if(e.target.getElementById("btnaggcarro").classList.contains("agregar-carrito1")){ //"agregar-carrito
             const producto = e.target.parentElement.parentElement;
@@ -24,12 +24,54 @@ class Carrito {
     comprarProductonuevos(e){
         e.preventDefault();
         //Delegado para agregar al carrito
+        //console.log(e.target); //captura el elemento que selecciono
         if(e.target.classList.contains('agregar-carrito1')){ //"agregar-carrito
             const producto1 = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProducto(producto1);
             //console.log(producto1);
-        }
+        }e.stopPropagation();
+    }
+
+    // añadir productos tecnologia al carrito
+
+    comprarProductoTecnologia(e){
+        e.preventDefault();
+        //Delegado para agregar al carrito
+        //console.log(e.target); //captura el elemento que selecciono
+        if(e.target.classList.contains('agregar-carrito2')){ //"agregar-carrito
+            const producto2 = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
+            //Enviamos el producto seleccionado para tomar sus datos
+            this.leerDatosProducto(producto2);
+            //console.log(producto1);
+        }e.stopPropagation();
+    }
+
+    // añadir productos destacados al carrito
+
+    comprarProductoDestacados(e){
+        e.preventDefault();
+        //Delegado para agregar al carrito
+        //console.log(e.target); //captura el elemento que selecciono
+        if(e.target.classList.contains('agregar-carrito3')){ //"agregar-carrito
+            const producto3 = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
+            //Enviamos el producto seleccionado para tomar sus datos
+            this.leerDatosProducto(producto3);
+            //console.log(producto1);
+        }e.stopPropagation();
+    }
+
+    // añadir en producto por categoria
+    comprarProductoctg(e){
+        e.preventDefault();
+        //Delegado para agregar al carrito
+        //console.log(e.target); //captura el elemento que selecciono
+        if(e.target.classList.contains('agregar-carrito')){ //"agregar-carrito
+            const producto = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
+            //Enviamos el producto seleccionado para tomar sus datos
+            this.leerDatosProducto(producto);
+            //console.log(producto);
+        }e.stopPropagation();
     }
 
     //Leer datos del producto
@@ -39,6 +81,7 @@ class Carrito {
             titulo: producto.querySelector('h3').textContent,
             precio: producto.querySelector('.product-price span.price').textContent,
             id: producto.querySelector('.cart a').getAttribute('data-id'), //si recoge el atributo data-id con .cart a (home.php)
+            link: producto.querySelector('a').getAttribute('href'),
             cantidad: 1
         }
         let productosLS;
@@ -70,9 +113,9 @@ class Carrito {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>
-                <a href="detallesProducto.html"><img src="${producto.imagen}" alt=""></a>
+                <a href="${producto.link}"><img src="${producto.imagen}" alt=""></a>
             </td>
-                <h3 class="name"><a href="detallesProducto.html">${producto.titulo}</a></h3>
+                <h3 class="name"><a href="${producto.link}">${producto.titulo}</a></h3>
                 <div class="price">S/.${producto.precio}</div>
             <td>
                 <a href="#" class="borrar-producto bx bxs-trash-alt bx-sm" data-id="${producto.id}"></a>
@@ -155,9 +198,9 @@ class Carrito {
             const row = document.createElement('tr');
             row.innerHTML = `
                 <td>
-                    <a href="detail.html"><img src="${producto.imagen}" alt=""></a>
+                    <a href="${producto.link}"><img src="${producto.imagen}" alt=""></a>
                 </td>
-                    <h3 class="name"><a href="detail.html">${producto.titulo}</a></h3>
+                    <h3 class="name"><a href="${producto.link}">${producto.titulo}</a></h3>
                     <div class="price">S/.${producto.precio}</div>
                 <td>
                     <a href="#" class="borrar-producto bx bxs-trash-alt bx-sm" data-id="${producto.id}"></a>
@@ -175,21 +218,22 @@ class Carrito {
         productosLS.forEach(function (producto){
             //Construir plantilla
             const row = document.createElement('tr');
+            var reseña = Math.floor((Math.random() * (21-3))+3); //genera un numero aleatorio entre 3 y 20
             row.innerHTML = `
                 <td class="cart-image">
-                    <a class="entry-thumbnail" href="detail.html">
+                    <a class="entry-thumbnail" href="${producto.link}">
                         <img src="${producto.imagen}" alt="">
                     </a>
                 </td>
                 <td class="cart-product-name-info">
-                    <h4 class='cart-product-description'><a href="detail.html">${producto.titulo}</a></h4>
+                    <h4 class='cart-product-description'><a href="${producto.link}">${producto.titulo}</a></h4>
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="rating rateit-small"></div>
                         </div>
                         <div class="col-sm-12">
                             <div class="reviews">
-                                (06 Reviews)
+                                (${reseña} Reseñas)
                             </div>
                         </div>
                     </div>

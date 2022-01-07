@@ -496,9 +496,110 @@
               <!-- /.menu-item -->
               
               <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-tshirt"></i>Moda Infantil</a> 
+                <ul class="dropdown-menu mega-menu">
+                  <li class="yamm-content">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-4"> 
+                      <h2 class="title">Polos,Camisas y Blusas</h2>
+                        <ul class="links list-unstyled">
+                          <li><a href="CategoryTecnologia.php">Harvest</a></li>
+                          <li><a href="CategoryTecnologia.php">Cloudbreak</a></li>
+                          <li><a href="CategoryTecnologia.php">INDEX</a></li>
+                          <li><a href="CategoryTecnologia.php">Colloky</a></li>
+                          <li><a href="CategoryTecnologia.php">Next</a></li>
+                          <li><a href="CategoryTecnologia.php">Personajes favoritos</a></li>
+                          <li><a href="CategoryTecnologia.php">Offcorss</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-12 col-md-4">
+                      <h2 class="title">Pantalones y Short</h2>
+                        <ul class="links list-unstyled">
+                          <li><a href="CategoryTecnologia.php">Harvest</a></li>
+                          <li><a href="CategoryTecnologia.php">Pepe Jeans</a></li>
+                          <li><a href="CategoryTecnologia.php">INDEX</a></li>
+                          <li><a href="CategoryTecnologia.php">Colloky</a></li>
+                          <li><a href="CategoryTecnologia.php">Gap</a></li>
+                          <li><a href="CategoryTecnologia.php">Personajes favoritos</a></li>
+                          <li><a href="CategoryTecnologia.php">Pioneir</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-12 col-md-4">
+                      <h2 class="title">Poleras y casacas</h2>
+                        <ul class="links list-unstyled">
+                          <li><a href="CategoryTecnologia.php">Harvest</a></li>
+                          <li><a href="CategoryTecnologia.php">Pepe Jeans</a></li>
+                          <li><a href="CategoryTecnologia.php">Cloudbreak</a></li>
+                          <li><a href="CategoryTecnologia.php">Colloky</a></li>
+                          <li><a href="CategoryTecnologia.php">Next</li>
+                          <li><a href="CategoryTecnologia.php">Levis</a></li>
+                        </ul>
+                      </div>
+                      <!-- /.col --> 
+                    </div>
+                    <!-- /.row --> 
+                  </li>
+                  <!-- /.yamm-content -->
+                </ul>
                 <!-- /.dropdown-menu --> </li>
               <!-- /.menu-item -->
               <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-baby-carriage"></i>Jugueteria y Bebés</a> 
+                <ul class="dropdown-menu mega-menu">
+                  <li class="yamm-content">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-4"> 
+                      <h2 class="title">Juguetes</h2>
+                        <ul class="links list-unstyled">
+                          <li><a href="CategoryTecnologia.php">Carros y pistas</a></li>
+                          <li><a href="CategoryTecnologia.php">Cocinitas y juego de roles</a></li>
+                          <li><a href="CategoryTecnologia.php">Desarrollo y aprendizaje</a></li>
+                          <li><a href="CategoryTecnologia.php">Disfraces</a></li>
+                          <li><a href="CategoryTecnologia.php">Figuras de acción y sets</a></li>
+                          <li><a href="CategoryTecnologia.php">Juguetes bebé</a></li>
+                          <li><a href="CategoryTecnologia.php">Juguetes a control remoto</a></li>
+                          <li><a href="CategoryTecnologia.php">Juegos de mesa</a></li>
+                          <li><a href="CategoryTecnologia.php">Lego y armables</a></li>
+                          <li><a href="CategoryTecnologia.php">Manualidades y arte</a></li>
+                          <li><a href="CategoryTecnologia.php">Maquillaje infantil</a></li>
+                          <li><a href="CategoryTecnologia.php">Muñecas y accesorios</a></li>
+                          <li><a href="CategoryTecnologia.php">Peluches y mascotas</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-12 col-md-4">
+                      <h2 class="title">Juegos</h2>
+                        <ul class="links list-unstyled">
+                          <li><a href="CategoryTecnologia.php">Autos a batería</a></li>
+                          <li><a href="CategoryTecnologia.php">Bicicletas infantiles</a></li>
+                          <li><a href="CategoryTecnologia.php">Camas elásticas</a></li>
+                          <li><a href="CategoryTecnologia.php">Casitas y juegos de jardín</a></li>
+                          <li><a href="CategoryTecnologia.php">Juguetes deportivos</a></li>
+                          <li><a href="CategoryTecnologia.php">Patines y skates</a></li>
+                          <li><a href="CategoryTecnologia.php">Piscinas e inflables</a></li>
+                          <li><a href="CategoryTecnologia.php">Scooters y triciclos</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-12 col-md-4">
+                      <h2 class="title">Todo Bebé</h2>
+                        <ul class="links list-unstyled">
+                          <li><a href="CategoryTecnologia.php">Alimentacion infantil</a></li>
+                          <li><a href="CategoryTecnologia.php">Andadores y caminadores</a></li>
+                          <li><a href="CategoryTecnologia.php">Baño bebé</a></li>
+                          <li><a href="CategoryTecnologia.php">Bolsos y portabebes</a></li>
+                          <li><a href="CategoryTecnologia.php">Biberones y chupones</li>
+                          <li><a href="CategoryTecnologia.php">Coches para bebés</a></li>
+                          <li><a href="CategoryTecnologia.php">Corrales y colchones</a></li>
+                          <li><a href="CategoryTecnologia.php">Gimnasios</a></li>
+                          <li><a href="CategoryTecnologia.php">Juguetes bebé</a></li>
+                          <li><a href="CategoryTecnologia.php">Lactancia</a></li>
+                          <li><a href="CategoryTecnologia.php">Salud y cuidado</a></li>
+                          <li><a href="CategoryTecnologia.php">Pañales y toallitas</a></li>
+                        </ul>
+                      </div>
+                      <!-- /.col --> 
+                    </div>
+                    <!-- /.row --> 
+                  </li>
+                  <!-- /.yamm-content -->
+                </ul>
                 <!-- /.dropdown-menu --> </li>
               <!-- /.menu-item -->
 
@@ -1306,11 +1407,11 @@
                           <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="4"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Agregar" data-id="4"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1353,11 +1454,11 @@
                           <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="5"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Agregar" data-id="5"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1391,7 +1492,7 @@
                           <h3 class="name"><a href="detail.html">Mesa de Comedor Gold 8 Sillas Rectangular</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1,699.00</span> <span class="price-before-discount">$ 2,599</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1699.00</span> <span class="price-before-discount">$ 2,599</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1400,11 +1501,11 @@
                           <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="6"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Agregar" data-id="6"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1447,11 +1548,11 @@
                           <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="7"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Agregar" data-id="7"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1494,11 +1595,11 @@
                           <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="8"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Agregar" data-id="8"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1532,7 +1633,7 @@
                           <h3 class="name"><a href="detail.html">Televisor Samsung Smart TV 55" UHD 4K UN55AU7000GXPE (2021)</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1,999.90</span> <span class="price-before-discount">$ 2,099</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1999.90</span> <span class="price-before-discount">$ 2,099</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1541,11 +1642,11 @@
                           <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="9"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Agregar" data-id="9"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1579,7 +1680,7 @@
                           <h3 class="name"><a href="detail.html">IdeaCentre AIO 3i Intel Core i3 23.8" Full HD 1TB 4GB RAM Foggy White</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1,999.90</span> <span class="price-before-discount">$ 2,099</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1999.90</span> <span class="price-before-discount">$ 2,099</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1588,11 +1689,11 @@
                           <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="10"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Agregar" data-id="10"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1635,11 +1736,11 @@
                           <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="11"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Agregar" data-id="11"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1682,11 +1783,11 @@
                           <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="12"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Agregar" data-id="12"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1729,11 +1830,11 @@
                           <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="13"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Agregar" data-id="13"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1776,11 +1877,11 @@
                           <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="14"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Agregar" data-id="14"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1851,23 +1952,23 @@
 			<!-- /container -->
 		</div>
         
-        <!-- ============================================== FEATURED PRODUCTS ============================================== -->
+        <!-- ============================================== Tecnologia & Electrohogar ============================================== -->
         <section class="section featured-product">
         <div class="row">
         <div class="col-lg-3">
           <h3 class="section-title">Tecnología & ElectroHogar</h3>
           <ul class="sub-cat">
-          <li><a href="#">Computadoras</a></li>
-          <li><a href="#">Audifonos</a></li>
-          <li><a href="#">Mouse</a></li>
-          <li><a href="#">Televisores</a></li>
-          <li><a href="#">Cocina</a></li>
-          <li><a href="#">Lavadoras</a></li>
-          <li><a href="#">Refrigeración</a></li>
+          <li><a href="CategoryTecnologia.php">Computadoras</a></li>
+          <li><a href="CategoryTecnologia.php">Audifonos</a></li>
+          <li><a href="CategoryTecnologia.php">Mouse</a></li>
+          <li><a href="CategoryTecnologia.php">Televisores</a></li>
+          <li><a href="CategoryElectrohogar.php">Cocina</a></li>
+          <li><a href="CategoryElectrohogar.php">Lavadoras</a></li>
+          <li><a href="CategoryElectrohogar.php">Refrigeración</a></li>
           </ul>
           </div>
           <div class="col-lg-9">
-          <div class="owl-carousel homepage-owl-carousel custom-carousel owl-theme outer-top-xs">
+          <div id="lista-productos2" class="owl-carousel homepage-owl-carousel custom-carousel owl-theme outer-top-xs">
             <div class="item item-carousel">
               <div class="products">
                 <div class="product">
@@ -1889,7 +1990,7 @@
                     <h3 class="name"><a href="categorias/detallesProductoPc3.html">FVivoBook 15 K513 Core i7 11a 15.6''</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> S/ 4,499 </span> <span class="price-before-discount">S/ 5,599</span> </div>
+                    <div class="product-price"> <span class="monedas">S/.</span> <span class="price">4499.95</span> <span class="price-before-discount">S/ 5,599</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -1898,11 +1999,10 @@
                     <div class="action">
                       <ul class="list-unstyled">
                         <li class="add-cart-button btn-group">
-                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                          <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito2" type="button" title="Agregar" data-id="15"> <i class="fa fa-shopping-cart"></i> </a>
                         </li>
                         <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -1937,7 +2037,7 @@
                     <h3 class="name"><a href="categorias/detallesProductoAudifono2.html">FGamer Cybertel Xtreme</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> S/ 80 </span>  </div>
+                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">80.90</span>  </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -1946,11 +2046,10 @@
                     <div class="action">
                       <ul class="list-unstyled">
                         <li class="add-cart-button btn-group">
-                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                          <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito2" type="button" title="Agregar" data-id="16"> <i class="fa fa-shopping-cart"></i> </a>
                         </li>
                         <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -1985,7 +2084,7 @@
                     <h3 class="name"><a href="categorias/detallesProductoMouse2.html">MOUSE LOGITECH G203 RGB</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> S/ 189 </span>  </div>
+                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">189.95</span>  </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -1994,11 +2093,10 @@
                     <div class="action">
                       <ul class="list-unstyled">
                         <li class="add-cart-button btn-group">
-                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                          <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito2" type="button" title="Agregar" data-id="17"> <i class="fa fa-shopping-cart"></i> </a>
                         </li>
                         <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -2033,7 +2131,7 @@
                     <h3 class="name"><a href="categorias/detallesProductoTv1.html">Televisor 50" Borderless 4K Ultra HD Smart TV 50PUD7625</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> S/ 1,899 </span> <span class="price-before-discount">S/ 2,499</span> </div>
+                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">1899.90</span> <span class="price-before-discount">S/ 2,499</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2042,11 +2140,10 @@
                     <div class="action">
                       <ul class="list-unstyled">
                         <li class="add-cart-button btn-group">
-                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                        <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito2" type="button" title="Agregar" data-id="18"> <i class="fa fa-shopping-cart"></i> </a>
                         </li>
                         <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -2081,7 +2178,7 @@
                     <h3 class="name"><a href="detail.html">Cocina LG RSG315T Gas 6 Hornillas con Easy Clean Acero inoxidable</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> S/ 2,799 </span> <span class="price-before-discount">S/ 4,149</span> </div>
+                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">2799.90 </span> <span class="price-before-discount">S/ 4,149</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2090,11 +2187,10 @@
                     <div class="action">
                       <ul class="list-unstyled">
                         <li class="add-cart-button btn-group">
-                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                          <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito2" type="button" title="Agregar" data-id="19"> <i class="fa fa-shopping-cart"></i> </a>
                         </li>
                         <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -2129,7 +2225,7 @@
                     <h3 class="name"><a href="detail.html">Lavadora LG Carga Superior Smart Inverter con TurboDrum WT13BSB 13 Kg Negra</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> S/ 1,499 </span> <span class="price-before-discount">S/ 1,979</span> </div>
+                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">1499.95</span> <span class="price-before-discount">S/ 1,979</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2138,11 +2234,10 @@
                     <div class="action">
                       <ul class="list-unstyled">
                         <li class="add-cart-button btn-group">
-                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                          <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito2" type="button" title="Agregar" data-id="20"> <i class="fa fa-shopping-cart"></i> </a>
                         </li>
                         <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -2177,7 +2272,7 @@
                     <h3 class="name"><a href="detail.html">Refrigeradora SBS 685L FAMILY HUB RS27T5561B1/PE</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> S/ 6,999 </span> <span class="price-before-discount">S/ 9,999</span> </div>
+                    <div class="product-price"> <span class="monedas">S/.</span><span class="price">6999.90</span> <span class="price-before-discount">S/ 9,999</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2186,11 +2281,10 @@
                     <div class="action">
                       <ul class="list-unstyled">
                         <li class="add-cart-button btn-group">
-                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                          <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito2" type="button" title="Agregar" data-id="21"> <i class="fa fa-shopping-cart"></i> </a>
                         </li>
                         <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -2203,7 +2297,7 @@
               <!-- /.products --> 
             </div>
             <!-- /.item -->
-            
+            <!-- ===========item 21 en productos================= -->
 
           </div>
           </div>
@@ -2212,7 +2306,7 @@
         </section>
         <!-- /.section --> 
         <!-- ============================================== FEATURED PRODUCTS : END ============================================== --> 
-        <!-- ============================================== WIDE PRODUCTS ============================================== -->
+        <!-- ============================================== BANNER VERANO ZZONA MEDIO ============================================== -->
         <div class="wide-banners outer-bottom-xs">
           <div class="row">
             <div class="col-md-8">
@@ -2247,28 +2341,18 @@
         </div>
         <!-- /.wide-banners -->
 
-        <!-- ============================================== WIDE PRODUCTS : END ============================================== --> 
-        
-        
-        
-        <!-- /.sidebar-widget --> 
-        <!-- ============================================== BEST SELLER : END ============================================== --> 
-        
-        <!-- ============================================== BLOG SLIDER ============================================== -->
-
-        <!-- /.section --> 
-        <!-- ============================================== BLOG SLIDER : END ============================================== --> 
-        
+        <!-- ============================================== BANNER VERANO ZZONA MEDIO : END ============================================== --> 
+          
         <!-- ============================================== FEATURED PRODUCTS ============================================== -->
         <section class="section new-arriavls">
           <h3 class="section-title">Productos Destacados</h3>
-          <div class="owl-carousel home-owl-carousel custom-carousel owl-theme outer-top-xs">
+          <div id="lista_productos3"class="owl-carousel home-owl-carousel custom-carousel owl-theme outer-top-xs">
             <div class="item item-carousel">
               <div class="products">
                 <div class="product">
                   <div class="product-image">
                     <div class="image"> 
-                          <a href="detail.html">
+                          <a href="guanteessential.html">
                              <img src="image/Deporte/Accesorios/AC1/frente.jpg" alt=""> 
                               <img src="image\Deporte\Accesorios\AC1\unidad.jpg" alt="" class="hover-image">
                           </a>
@@ -2281,10 +2365,10 @@
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="detail.html">Guantes Essential</a></h3>
+                    <h3 class="name"><a href="guanteessential.html">Guantes Essential</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> S/ 49.90 </span>  </div>
+                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">49.90</span>  </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2293,11 +2377,10 @@
                     <div class="action">
                       <ul class="list-unstyled">
                         <li class="add-cart-button btn-group">
-                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                          <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito3" type="button" title="Agregar" data-id="22"> <i class="fa fa-shopping-cart"></i> </a>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -2332,7 +2415,7 @@
                     <h3 class="name"><a href="detail.html">Banca de Entrenamiento Press Stamina</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> S/ 659 </span> <span class="price-before-discount">S/ 1,099.90</span> </div>
+                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">659.90</span> <span class="price-before-discount">S/ 1,099.90</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2341,11 +2424,10 @@
                     <div class="action">
                       <ul class="list-unstyled">
                         <li class="add-cart-button btn-group">
-                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                          <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito3" type="button" title="Agregar" data-id="23"> <i class="fa fa-shopping-cart"></i> </a>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -2380,7 +2462,7 @@
                     <h3 class="name"><a href="detail.html">Polo Deportivo Hombre</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> S/ 41.90 </span> <span class="price-before-discount">S/ 59.90</span> </div>
+                    <div class="product-price"> <span class="monedas">S/.</span><span class="price">41.90</span> <span class="price-before-discount">S/ 59.90</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2389,11 +2471,10 @@
                     <div class="action">
                       <ul class="list-unstyled">
                         <li class="add-cart-button btn-group">
-                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                          <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito3" type="button" title="Agregar" data-id="24"> <i class="fa fa-shopping-cart"></i> </a>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -2428,7 +2509,7 @@
                     <h3 class="name"><a href="detail.html">Short Deportivo Mujer</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> S/26.96 </span> <span class="price-before-discount">S/ 30</span> </div>
+                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">26.96</span> <span class="price-before-discount">S/ 30</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2437,11 +2518,10 @@
                     <div class="action">
                       <ul class="list-unstyled">
                         <li class="add-cart-button btn-group">
-                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                          <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito3" type="button" title="Agregar" data-id="25"> <i class="fa fa-shopping-cart"></i> </a>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -2476,7 +2556,7 @@
                     <h3 class="name"><a href="detail.html">Cama Saltarina Azul 1.83 M</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> S/ 559.90 </span> <span class="price-before-discount">S/ 799.90</span> </div>
+                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">559.90</span> <span class="price-before-discount">S/ 799.90</span> </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2485,11 +2565,10 @@
                     <div class="action">
                       <ul class="list-unstyled">
                         <li class="add-cart-button btn-group">
-                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                          <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito3" type="button" title="Agregar" data-id="26"> <i class="fa fa-shopping-cart"></i> </a>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -2524,7 +2603,7 @@
                     <h3 class="name"><a href="detail.html">Zapatillas Urbanas Hombre adidas Originals Nizza</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"> <span class="price"> S/ 229 </span>  </div>
+                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">229.00</span>  </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -2533,11 +2612,10 @@
                     <div class="action">
                       <ul class="list-unstyled">
                         <li class="add-cart-button btn-group">
-                          <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                          <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                          <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito3" type="button" title="Agregar" data-id="27"> <i class="fa fa-shopping-cart"></i> </a>
                         </li>
-                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                        <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                        <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                       </ul>
                     </div>
                     <!-- /.action --> 
@@ -2553,7 +2631,7 @@
           </div>
           <!-- /.home-owl-carousel --> 
         </section>
-        <!-- /.section --> 
+        <!-- /.section ===================item data id =27 =============--> 
         <!-- ============================================== FEATURED PRODUCTS : END ============================================== --> 
         
       </div>

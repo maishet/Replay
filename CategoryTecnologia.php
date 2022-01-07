@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 <!-- Meta -->
@@ -24,6 +24,7 @@
 
 <!-- Icons/Glyphs -->
 <link rel="stylesheet" href="assets/css/font-awesome.css">
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script> <!--load all styles -->
 
 
@@ -567,16 +568,16 @@
         </div>
         <div class="search-result-container ">
           <div id="myTabContent" class="tab-content category-list">
-            <div class="tab-pane active " id="grid-container">
-              <div class="category-product"> <!-- /.category-product controlador paginado-->
-                <div class="row productos-filtrar" id="itemContainer">
+            <div class="tab-pane active">
+              <div class="category-product" id="lista-productoscatg"> 
+                <div class="row productos-filtrar" id="itemContainer"> <!-- /.category-product controlador paginado-->
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
                   <div class="item producto-item" category="audifonos" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoAudifono1.html">
                              <img src="image/Tecnologia/Audifonos/Audifono1/Frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Audifonos/Audifono1/lado.jpg" alt="" class="hover-image">
                           </a> 
@@ -591,7 +592,7 @@
                           <h3 class="name"><a href="categorias/detallesProductoAudifono1.html">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">200.00</span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">180.00</span> <span class="price-before-discount">$ 800</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -600,8 +601,7 @@
                           <div class="action">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                                <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="7"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal"></i> </a> </li>
                               <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
@@ -625,7 +625,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoAudifono2.html">
                              <img src="image/Tecnologia/Audifonos/Audifono2/Frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Audifonos/Audifono2/Costado.jpg" alt="" class="hover-image">
                           </a> 
@@ -674,7 +674,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoAudifono3.html">
                              <img src="image/Tecnologia/Audifonos/Audifono3/frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Audifonos/Audifono3/caja.jpg" alt="" class="hover-image">
                           </a> 
@@ -723,7 +723,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoPc1.html">
                              <img src="image/Tecnologia/Computadoras/Compu1/frente_caracteristicas.jpg" alt=""> 
                               <img src="image/Tecnologia/Computadoras/Compu1/lado derecho.jpg" alt="" class="hover-image">
                           </a> 
@@ -772,7 +772,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoPc2.html">
                              <img src="image/Tecnologia/Computadoras/Compu2/Frente_caracteristicas.jpg" alt=""> 
                               <img src="image/Tecnologia/Computadoras/Compu2/lado derecho.jpg" alt="" class="hover-image">
                           </a> 
@@ -870,7 +870,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoMouse1.html">
                              <img src="image/Tecnologia/Mouse/Mouse1/frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Mouse/Mouse1/lado derecho.jpg" alt="" class="hover-image">
                           </a> 
@@ -1286,8 +1286,6 @@
 <script src="assets/js/pedido2.js"></script>
 <script type="text/javascript" src="assets/js/ordenarprecio.js"></script>
 <script src="assets/js/jPages.min.js"></script>
-
-<script type="text/javascript" src="assets/js/ordenarprecio.js"></script>
 <script src="assets/js/paginado.js"></script>
 <!-- <script src="assets/js/compra.js"></script> -->
 <!-- ============================================================= FOOTER : END============================================================= --> 
