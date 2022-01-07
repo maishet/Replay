@@ -61,6 +61,19 @@ class Carrito {
         }e.stopPropagation();
     }
 
+    // añadir en producto por categoria
+    comprarProductoctg(e){
+        e.preventDefault();
+        //Delegado para agregar al carrito
+        //console.log(e.target); //captura el elemento que selecciono
+        if(e.target.classList.contains('agregar-carrito')){ //"agregar-carrito
+            const producto = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
+            //Enviamos el producto seleccionado para tomar sus datos
+            this.leerDatosProducto(producto);
+            //console.log(producto);
+        }e.stopPropagation();
+    }
+
     //Leer datos del producto
     leerDatosProducto(producto){
         const infoProducto = {
