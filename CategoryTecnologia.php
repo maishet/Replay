@@ -576,7 +576,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoAudifono1.html">
                              <img src="image/Tecnologia/Audifonos/Audifono1/Frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Audifonos/Audifono1/lado.jpg" alt="" class="hover-image">
                           </a> 
@@ -625,7 +625,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoAudifono2.html">
                              <img src="image/Tecnologia/Audifonos/Audifono2/Frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Audifonos/Audifono2/Costado.jpg" alt="" class="hover-image">
                           </a> 
@@ -674,7 +674,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoAudifono3.html">
                              <img src="image/Tecnologia/Audifonos/Audifono3/frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Audifonos/Audifono3/caja.jpg" alt="" class="hover-image">
                           </a> 
@@ -723,7 +723,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoPc1.html">
                              <img src="image/Tecnologia/Computadoras/Compu1/frente_caracteristicas.jpg" alt=""> 
                               <img src="image/Tecnologia/Computadoras/Compu1/lado derecho.jpg" alt="" class="hover-image">
                           </a> 
@@ -772,7 +772,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoPc2.html">
                              <img src="image/Tecnologia/Computadoras/Compu2/Frente_caracteristicas.jpg" alt=""> 
                               <img src="image/Tecnologia/Computadoras/Compu2/lado derecho.jpg" alt="" class="hover-image">
                           </a> 
@@ -870,7 +870,7 @@
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoMouse1.html">
                              <img src="image/Tecnologia/Mouse/Mouse1/frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Mouse/Mouse1/lado derecho.jpg" alt="" class="hover-image">
                           </a> 
