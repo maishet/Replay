@@ -496,9 +496,110 @@
               <!-- /.menu-item -->
               
               <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-tshirt"></i>Moda Infantil</a> 
+                <ul class="dropdown-menu mega-menu">
+                  <li class="yamm-content">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-4"> 
+                      <h2 class="title">Polos,Camisas y Blusas</h2>
+                        <ul class="links list-unstyled">
+                          <li><a href="CategoryTecnologia.php">Harvest</a></li>
+                          <li><a href="CategoryTecnologia.php">Cloudbreak</a></li>
+                          <li><a href="CategoryTecnologia.php">INDEX</a></li>
+                          <li><a href="CategoryTecnologia.php">Colloky</a></li>
+                          <li><a href="CategoryTecnologia.php">Next</a></li>
+                          <li><a href="CategoryTecnologia.php">Personajes favoritos</a></li>
+                          <li><a href="CategoryTecnologia.php">Offcorss</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-12 col-md-4">
+                      <h2 class="title">Pantalones y Short</h2>
+                        <ul class="links list-unstyled">
+                          <li><a href="CategoryTecnologia.php">Harvest</a></li>
+                          <li><a href="CategoryTecnologia.php">Pepe Jeans</a></li>
+                          <li><a href="CategoryTecnologia.php">INDEX</a></li>
+                          <li><a href="CategoryTecnologia.php">Colloky</a></li>
+                          <li><a href="CategoryTecnologia.php">Gap</a></li>
+                          <li><a href="CategoryTecnologia.php">Personajes favoritos</a></li>
+                          <li><a href="CategoryTecnologia.php">Pioneir</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-12 col-md-4">
+                      <h2 class="title">Poleras y casacas</h2>
+                        <ul class="links list-unstyled">
+                          <li><a href="CategoryTecnologia.php">Harvest</a></li>
+                          <li><a href="CategoryTecnologia.php">Pepe Jeans</a></li>
+                          <li><a href="CategoryTecnologia.php">Cloudbreak</a></li>
+                          <li><a href="CategoryTecnologia.php">Colloky</a></li>
+                          <li><a href="CategoryTecnologia.php">Next</li>
+                          <li><a href="CategoryTecnologia.php">Levis</a></li>
+                        </ul>
+                      </div>
+                      <!-- /.col --> 
+                    </div>
+                    <!-- /.row --> 
+                  </li>
+                  <!-- /.yamm-content -->
+                </ul>
                 <!-- /.dropdown-menu --> </li>
               <!-- /.menu-item -->
               <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-baby-carriage"></i>Jugueteria y Bebés</a> 
+                <ul class="dropdown-menu mega-menu">
+                  <li class="yamm-content">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-4"> 
+                      <h2 class="title">Juguetes</h2>
+                        <ul class="links list-unstyled">
+                          <li><a href="CategoryTecnologia.php">Carros y pistas</a></li>
+                          <li><a href="CategoryTecnologia.php">Cocinitas y juego de roles</a></li>
+                          <li><a href="CategoryTecnologia.php">Desarrollo y aprendizaje</a></li>
+                          <li><a href="CategoryTecnologia.php">Disfraces</a></li>
+                          <li><a href="CategoryTecnologia.php">Figuras de acción y sets</a></li>
+                          <li><a href="CategoryTecnologia.php">Juguetes bebé</a></li>
+                          <li><a href="CategoryTecnologia.php">Juguetes a control remoto</a></li>
+                          <li><a href="CategoryTecnologia.php">Juegos de mesa</a></li>
+                          <li><a href="CategoryTecnologia.php">Lego y armables</a></li>
+                          <li><a href="CategoryTecnologia.php">Manualidades y arte</a></li>
+                          <li><a href="CategoryTecnologia.php">Maquillaje infantil</a></li>
+                          <li><a href="CategoryTecnologia.php">Muñecas y accesorios</a></li>
+                          <li><a href="CategoryTecnologia.php">Peluches y mascotas</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-12 col-md-4">
+                      <h2 class="title">Juegos</h2>
+                        <ul class="links list-unstyled">
+                          <li><a href="CategoryTecnologia.php">Autos a batería</a></li>
+                          <li><a href="CategoryTecnologia.php">Bicicletas infantiles</a></li>
+                          <li><a href="CategoryTecnologia.php">Camas elásticas</a></li>
+                          <li><a href="CategoryTecnologia.php">Casitas y juegos de jardín</a></li>
+                          <li><a href="CategoryTecnologia.php">Juguetes deportivos</a></li>
+                          <li><a href="CategoryTecnologia.php">Patines y skates</a></li>
+                          <li><a href="CategoryTecnologia.php">Piscinas e inflables</a></li>
+                          <li><a href="CategoryTecnologia.php">Scooters y triciclos</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-12 col-md-4">
+                      <h2 class="title">Todo Bebé</h2>
+                        <ul class="links list-unstyled">
+                          <li><a href="CategoryTecnologia.php">Alimentacion infantil</a></li>
+                          <li><a href="CategoryTecnologia.php">Andadores y caminadores</a></li>
+                          <li><a href="CategoryTecnologia.php">Baño bebé</a></li>
+                          <li><a href="CategoryTecnologia.php">Bolsos y portabebes</a></li>
+                          <li><a href="CategoryTecnologia.php">Biberones y chupones</li>
+                          <li><a href="CategoryTecnologia.php">Coches para bebés</a></li>
+                          <li><a href="CategoryTecnologia.php">Corrales y colchones</a></li>
+                          <li><a href="CategoryTecnologia.php">Gimnasios</a></li>
+                          <li><a href="CategoryTecnologia.php">Juguetes bebé</a></li>
+                          <li><a href="CategoryTecnologia.php">Lactancia</a></li>
+                          <li><a href="CategoryTecnologia.php">Salud y cuidado</a></li>
+                          <li><a href="CategoryTecnologia.php">Pañales y toallitas</a></li>
+                        </ul>
+                      </div>
+                      <!-- /.col --> 
+                    </div>
+                    <!-- /.row --> 
+                  </li>
+                  <!-- /.yamm-content -->
+                </ul>
                 <!-- /.dropdown-menu --> </li>
               <!-- /.menu-item -->
 
