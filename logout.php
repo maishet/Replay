@@ -10,5 +10,5 @@ session_destroy();
 //unset($_SESSION['userData']);
 
 // Redirect to the homepage
-header("Location:./");
+header("Location: home.php");
 ?>
