@@ -1,4 +1,4 @@
-$(document).ready(function() {
+ $(document).ready(function() {
 	$(".tabs .title").click(function() {    
 		$(".tabs .title").removeClass("active");
 		$(this).addClass("active"); 
@@ -8,6 +8,8 @@ $(document).ready(function() {
 		return false;
 	});
 });0 
+document.getElementById("sumar").addEventListener("click",sumar);
+document.getElementById("restar").addEventListener("click",restar);
 function sumar(){
 	let input=Number(document.getElementById("input-number").value);
 	input++;
@@ -19,4 +21,4 @@ function restar(){
 		input--;
 	}
 	document.getElementById("input-number").value=String(input);
-}
+}  
