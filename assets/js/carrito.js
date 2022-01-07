@@ -11,11 +11,24 @@ class Carrito {
             //console.log(producto);
         }
         //getElementById("myDIV").classList.contains("mystyle")
-        if(e.target.getElementById("btnaggcarro").classList.contains("agregar-carrito1")){ //"agregar-carrito
+/*         if(e.target.getElementById("btnaggcarro").classList.contains("agregar-carrito1")){ //"agregar-carrito
             const producto = e.target.parentElement.parentElement;
             //Enviamos el producto seleccionado para tomar sus datos
             //this.leerDatosProducto(producto);
             console.log(producto);
+        } */
+    }
+
+    //añadir de nuevos productos al carrito
+
+    comprarProductonuevos(e){
+        e.preventDefault();
+        //Delegado para agregar al carrito
+        if(e.target.classList.contains('agregar-carrito1')){ //"agregar-carrito
+            const producto1 = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
+            //Enviamos el producto seleccionado para tomar sus datos
+            this.leerDatosProducto(producto1);
+            //console.log(producto1);
         }
     }
 
@@ -47,6 +60,7 @@ class Carrito {
         }
         else {
             this.insertarCarrito(infoProducto);
+            //console.log(infoProducto);
         }
         //this.insertarCarrito(infoProducto); //ya esta en el else
     }
@@ -102,8 +116,8 @@ class Carrito {
         }
 
         document.getElementById('cantCarrito').innerHTML = cant;
-        document.getElementById('precioCarrito').innerHTML = "S/. " + preciocarrito;
-        document.getElementById('precioCarritoS').innerHTML = "S/. " + preciocarrito;
+        document.getElementById('precioCarrito').innerHTML = "S/. " + preciocarrito.toFixed(2);
+        document.getElementById('precioCarritoS').innerHTML = "S/. " + preciocarrito.toFixed(2);
     }
 
     //Almacenar en el LS

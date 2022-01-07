@@ -1,0 +1,96 @@
+.pagination-container {
+	margin: 15px 0;
+}
+
+.pagination-container a {
+	font-size: 20px;
+	cursor: pointer;
+	margin: 0 5px;
+	color: #333;
+	border-radius: 10px;
+	padding: 10px;
+	/*color: white !important;*/
+}
+
+.pagination-container a:hover {
+	background-color: #157ed2;
+	color: white !important;
+	text-decoration: none !important;
+}
+
+.pagination-container a.jp-previous { 
+	margin-right: 15px;
+	background: #ff7878;
+	color: white !important;
+}
+.pagination-container a.jp-next { 
+	margin-left: 15px;
+	background: #ff7878;
+	color: white !important;
+}
+
+.pagination-container a.jp-current, a.jp-current:hover { 
+	color: white;
+	font-weight: bold;
+	background: #157ed2 !important;
+}
+
+.pagination-container a.jp-disabled, a.jp-disabled:hover {
+	color: #797a7c;
+	text-transform: none !important;
+}
+
+.pagination-container a.jp-current, a.jp-current:hover,
+.pagination-container a.jp-disabled, a.jp-disabled:hover {
+	cursor: default; 
+	background: none;
+}
+
+.pagination-container span { margin: 0 5px; }
+
+
+/*** Responsive ***/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.pagination-container a {
+		font-size: 16px;
+	}
+}
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.pagination-container a {
+		font-size: 15px;
+	}
+}
+
+/* xs */
+
+@media (min-width: 480px) and (max-width: 767px) {
+	.pagination-container a {
+		font-size: 15px;
+	}
+}
+
+
+/* XS Portrait */
+
+@media (max-width: 479px) {
+	.pagination-container{
+		margin: 15px 0 10px -10px;
+	}
+	.pagination-container a {
+		font-size: 14px;
+		margin: 0px;
+	}
+	.pagination-container a.jp-previous { 
+		margin-right: 0px;
+		background: #ff7878;
+		color: white !important;
+	}
+	.pagination-container a.jp-next { 
+		margin-left: 0px;
+		background: #ff7878;
+		color: white !important;
+	}
+}

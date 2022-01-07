@@ -1,7 +1,7 @@
 const carro = new Carrito();
 const carrito = document.getElementById('carrito');///////////////////////////////
-const productos = document.getElementById('lista-productosofertas');//////////////////////////////seccion ofertas
-const productos1 = document.getElementById('lista-productos1');/////////////////////////////seccion nuevos productos all
+//const productos = document.getElementById('lista-productosofertas');//////////////////////////////seccion ofertas
+//const productos1 = document.getElementById('lista-productos1');/////////////////////////////seccion nuevos productos all
 
 const listaProductos = document.querySelector('#lista-carrito tbody');///////////////////////
 //const vaciarCarritoBtn = document.getElementById('vaciar-carrito');/////////////////////////
@@ -12,9 +12,9 @@ cargarEventos();
 function cargarEventos(){
 
     //Se ejecuta cuando se presionar agregar carrito
-    productos.addEventListener('click', (e)=>{carro.comprarProducto(e)});
+    //productos.addEventListener('click', (e)=>{carro.comprarProducto(e)});
     
-    productos1.addEventListener('click', (e)=>{carro.comprarProductonuevos(e)});
+    //productos1.addEventListener('click', (e)=>{carro.comprarProductonuevos(e)});
     carro.calcularTotalhome();
 
     //Cuando se elimina productos del carrito
