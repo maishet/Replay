@@ -45,7 +45,7 @@
       <!-- ============================================== SIDEBAR ============================================== -->
       <div class="col-xs-12 col-sm-12 col-md-3 sidebar"> 
         
-        <!-- ================================== TOP NAVIGATION ================================== -->
+      <!-- ================================== TOP NAVIGATION ================================== -->
         <div class="side-menu animate-dropdown outer-bottom-xs">
           <div class="head"><i class="icon fa fa-align-justify fa-fw"></i> Categorias</div>
           <nav class="yamm megamenu-horizontal">
@@ -121,8 +121,7 @@
                   <!-- /.yamm-content -->
                 </ul>
                 <!-- /.dropdown-menu --> </li>
-              <!-- /.menu-item -->
-              
+              <!-- /.menu-item -->            
               <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-tablet" aria-hidden="true"></i>ElectroHogar</a> 
                 <!-- ================================== MEGAMENU VERTICAL ================================== -->
                 <ul class="dropdown-menu mega-menu">
@@ -169,8 +168,7 @@
                 </ul>
                 <!-- /.dropdown-menu --> 
                 <!-- ================================== MEGAMENU VERTICAL ================================== --> </li>
-              <!-- /.menu-item -->
-              
+              <!-- /.menu-item -->              
               <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-couch" aria-hidden="true"></i>Muebles</a>
                 <ul class="dropdown-menu mega-menu">
                   <li class="yamm-content">
@@ -220,8 +218,7 @@
                   <!-- /.yamm-content -->
                 </ul>
                 <!-- /.dropdown-menu --> </li>
-              <!-- /.menu-item -->
-              
+              <!-- /.menu-item -->             
               <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-futbol"></i>Deportes</a>
                 <ul class="dropdown-menu mega-menu">
                   <li class="yamm-content">
@@ -286,8 +283,7 @@
                   <!-- /.yamm-content -->
                 </ul>
                 <!-- /.dropdown-menu --> </li>
-              <!-- /.menu-item -->
-              
+              <!-- /.menu-item -->      
               <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-shoe-prints"></i>Calzado</a>
                 <ul class="dropdown-menu mega-menu">
                   <li class="yamm-content">
@@ -334,8 +330,7 @@
                   <!-- /.yamm-content -->
                 </ul>
                 <!-- /.dropdown-menu --> </li>
-              <!-- /.menu-item -->
-              
+              <!-- /.menu-item -->  
               <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-heartbeat"></i>Salud y Belleza</a>
                 <ul class="dropdown-menu mega-menu">
                   <li class="yamm-content">
@@ -380,8 +375,7 @@
                   <!-- /.yamm-content -->
                 </ul>
                 <!-- /.dropdown-menu --> </li>
-              <!-- /.menu-item -->
-              
+              <!-- /.menu-item -->    
               <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-male"></i>Moda Hombre</a> 
                 <ul class="dropdown-menu mega-menu">
                   <li class="yamm-content">
@@ -445,10 +439,9 @@
                   <!-- /.yamm-content -->
                 </ul>
                 <!-- /.dropdown-menu --> </li>
-              <!-- /.menu-item -->
-              
+              <!-- /.menu-item -->     
               <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-female"></i>Moda Mujer</a> 
-              <ul class="dropdown-menu mega-menu">
+                <ul class="dropdown-menu mega-menu">
                   <li class="yamm-content">
                     <div class="row">
                       <div class="col-sm-12 col-md-4"> 
@@ -493,8 +486,7 @@
                   <!-- /.yamm-content -->
                 </ul>
                 <!-- /.dropdown-menu --> </li>
-              <!-- /.menu-item -->
-              
+              <!-- /.menu-item -->           
               <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-tshirt"></i>Moda Infantil</a> 
                 <ul class="dropdown-menu mega-menu">
                   <li class="yamm-content">
@@ -602,15 +594,13 @@
                 </ul>
                 <!-- /.dropdown-menu --> </li>
               <!-- /.menu-item -->
-
             </ul>
             <!-- /.nav --> 
           </nav>
           <!-- /.megamenu-horizontal --> 
         </div>
         <!-- /.side-menu --> 
-        <!-- ================================== TOP NAVIGATION : END ================================== --> 
-        
+      <!-- ================================== TOP NAVIGATION : END ================================== --> 
         <!-- ============================================== HOT DEALS ============================================== -->
         <div class="sidebar-widget hot-deals outer-bottom-xs">
           <h3 class="section-title">Ofertas</h3>
@@ -1666,8 +1656,8 @@
                         <div class="product-image">
                           <div class="image"> 
                            <a href="detail.html">
-                             <img src="image/Tecnologia/Computadoras/Compu1/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Computadoras/Compu1/lado derecho.jpg" alt="" class="hover-image">
+                            <img src="image\Tecnologia\Computadoras\Compu1\1.jpg" alt=""> 
+                              <img src="image\Tecnologia\Computadoras\Compu1\4.jpg" alt="" class="hover-image">
                           </a> 
                           </div>
                           <!-- /.image -->

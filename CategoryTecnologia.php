@@ -802,7 +802,7 @@
                           <h3 class="name"><a href="categorias/detallesProductoAudifono1.html">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">180.00</span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">189.00</span> <span class="price-before-discount">S/ 229/span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -850,7 +850,7 @@
                           <h3 class="name"><a href="categorias/detallesProductoAudifono2.html">XTREME HG502 RGB Auricular Gamer</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">200.00</span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">69.00</span> <span class="price-before-discount">S/ 89.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -899,7 +899,7 @@
                           <h3 class="name"><a href="categorias/detallesProductoAudifono3.html">Audífonos Gamer Onikuma K9</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">200.00</span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">639.00</span>  </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -934,8 +934,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoPc1.html">
-                             <img src="image/Tecnologia/Computadoras/Compu1/frente_caracteristicas.jpg" alt=""> 
-                              <img src="image/Tecnologia/Computadoras/Compu1/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\Tecnologia\Computadoras\Compu1\1.jpg" alt=""> 
+                              <img src="image\Tecnologia\Computadoras\Compu1\4.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -948,7 +948,7 @@
                           <h3 class="name"><a href="categorias/detallesProductoPc1.html">IdeaCentre AIO 3i Intel Core i3 23.8" Full HD</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">450.99</span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span.> <span class="price-before-discount">S/ 2099.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -983,8 +983,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoPc2.html">
-                             <img src="image/Tecnologia/Computadoras/Compu2/Frente_caracteristicas.jpg" alt=""> 
-                              <img src="image/Tecnologia/Computadoras/Compu2/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\Tecnologia\Computadoras\Compu2\1.jpg" alt=""> 
+                              <img src="image\Tecnologia\Computadoras\Compu2\2.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -994,10 +994,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">HUAWEI LAPTOP MATEBOOK D 14 14"</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">ZenBook 14 UM425 Ryzen 5 5500U 14'' FHD 512GB SSD 8GB RAM</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">450.99</span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">3599.00</span> <span class="price-before-discount">S/ 4699.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1046,7 +1046,7 @@
                           <h3 class="name"><a href="categorias/detallesProductoPc3.html">VivoBook 15 K513 Core i7 11a 15.6''</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">450.99</span> <span class="price-before-discount">$ 800</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">4499.00</span> <span class="price-before-discount">S/ 5599.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
