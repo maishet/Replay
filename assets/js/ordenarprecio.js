@@ -1,5 +1,3 @@
-
-
 let field = document.querySelector('.productos-filtrar');
 let li = Array.from(field.children);
 let select = document.getElementById('select');

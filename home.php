@@ -23,6 +23,7 @@
 
 <!-- Icons/Glyphs -->
 <link rel="stylesheet" href="assets/css/font-awesome.css">
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script> <!--load all styles -->
 
 
@@ -512,7 +513,7 @@
         <!-- ============================================== HOT DEALS ============================================== -->
         <div class="sidebar-widget hot-deals outer-bottom-xs">
           <h3 class="section-title">Ofertas</h3>
-          <div id="lista-productos" class="owl-carousel sidebar-carousel custom-carousel owl-theme outer-top-ss">
+          <div id="lista-productosofertas" class="owl-carousel sidebar-carousel custom-carousel owl-theme outer-top-ss">
             <div class="item">
               <div class="products">
                 <div class="hot-deal-wrapper">
@@ -1296,16 +1297,16 @@
                           <h3 class="name"><a href="detail.html">Silla de Oficina Bone</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">299.90</span> <span class="price-before-discount">S/. 399.90</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">299.90</span> <span class="price-before-discount">S/. 399.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
                         <!-- /.product-info -->
-                        <div class="cart clearfix animate-effect">
-                          <div class="action">
+                        <div class="cart clearfix animate-effect ">
+                          <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Add Cart"> <i class="fa fa-shopping-cart"></i> </button>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="4"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
@@ -1343,20 +1344,20 @@
                           <h3 class="name"><a href="detail.html">Centro de TV 50" Sensación</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="price"> $649 </span> <span class="price-before-discount">$999</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">649.00</span> <span class="price-before-discount">$999</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
                         <!-- /.product-info -->
-                        <div class="cart clearfix animate-effect">
-                          <div class="action">
+                        <div class="cart clearfix animate-effect ">
+                          <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                                <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="5"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1390,20 +1391,20 @@
                           <h3 class="name"><a href="detail.html">Mesa de Comedor Gold 8 Sillas Rectangular</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="price"> $1,699 </span> <span class="price-before-discount">$ 2,599</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1,699.00</span> <span class="price-before-discount">$ 2,599</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
                         <!-- /.product-info -->
-                        <div class="cart clearfix animate-effect">
-                          <div class="action">
+                        <div class="cart clearfix animate-effect ">
+                          <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                                <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="6"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1437,20 +1438,20 @@
                           <h3 class="name"><a href="detail.html">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="price"> $180 </span> <span class="price-before-discount">$ 230</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span><span class="price">180.00</span> <span class="price-before-discount">$ 230</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
                         <!-- /.product-info -->
-                        <div class="cart clearfix animate-effect">
-                          <div class="action">
+                        <div class="cart clearfix animate-effect ">
+                          <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                                <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="7"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1484,20 +1485,20 @@
                           <h3 class="name"><a href="detail.html">Mouse Gamer Cobra M711-RGB 10000 DPI</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="price"> $99 </span> <span class="price-before-discount">$ 109</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">99.90</span> <span class="price-before-discount">$ 109</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
                         <!-- /.product-info -->
-                        <div class="cart clearfix animate-effect">
-                          <div class="action">
+                        <div class="cart clearfix animate-effect ">
+                          <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                                <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="8"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1531,20 +1532,20 @@
                           <h3 class="name"><a href="detail.html">Televisor Samsung Smart TV 55" UHD 4K UN55AU7000GXPE (2021)</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="price"> $1,999</span> <span class="price-before-discount">$ 2,099</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1,999.90</span> <span class="price-before-discount">$ 2,099</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
                         <!-- /.product-info -->
-                        <div class="cart clearfix animate-effect">
-                          <div class="action">
+                        <div class="cart clearfix animate-effect ">
+                          <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                                <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="9"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1578,20 +1579,20 @@
                           <h3 class="name"><a href="detail.html">IdeaCentre AIO 3i Intel Core i3 23.8" Full HD 1TB 4GB RAM Foggy White</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="price"> $1,999 </span> <span class="price-before-discount">$ 2,099</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1,999.90</span> <span class="price-before-discount">$ 2,099</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
                         <!-- /.product-info -->
-                        <div class="cart clearfix animate-effect">
-                          <div class="action">
+                        <div class="cart clearfix animate-effect ">
+                          <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button class="btn btn-primary icon" data-toggle="dropdown" type="button"> <i class="fa fa-shopping-cart"></i> </button>
-                                <button class="btn btn-primary cart-btn" type="button">Add to cart</button>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="10"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
-                              <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
-                              <li class="lnk"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+                              <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
+
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1625,16 +1626,16 @@
                           <h3 class="name"><a href="detail.html">Polera Essentials Mélange Casual Hombre</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">179.90</span>  </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">179.90</span>  </div>
                           <!-- /.product-price --> 
                           
                         </div>
                         <!-- /.product-info -->
-                        <div class="cart clearfix animate-effect">
-                          <div class="action">
+                        <div class="cart clearfix animate-effect ">
+                          <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Add Cart"> <i class="fa fa-shopping-cart"></i> </button>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="11"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
@@ -1672,16 +1673,16 @@
                           <h3 class="name"><a href="detail.html">Buzo Deportivo Essentials Piping Training Hombre</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">199.90</span>  </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">199.90</span>  </div>
                           <!-- /.product-price --> 
                           
                         </div>
                         <!-- /.product-info -->
-                        <div class="cart clearfix animate-effect">
-                          <div class="action">
+                        <div class="cart clearfix animate-effect ">
+                          <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Add Cart"> <i class="fa fa-shopping-cart"></i> </button>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="12"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
@@ -1719,16 +1720,16 @@
                           <h3 class="name"><a href="detail.html">Polera Identity Fleece Training Mujer</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">119.92</span> <span class="price-before-discount">S/. 149.90</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">119.92</span> <span class="price-before-discount">S/. 149.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
                         <!-- /.product-info -->
-                        <div class="cart clearfix animate-effect">
-                          <div class="action">
+                        <div class="cart clearfix animate-effect ">
+                          <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Add Cart"> <i class="fa fa-shopping-cart"></i> </button>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="13"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
@@ -1766,16 +1767,16 @@
                           <h3 class="name"><a href="detail.html">Top Deportivo Mujer</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="moneda2">S/.</span> <span class="price">17.94</span> <span class="price-before-discount">S/. 29.90</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">17.94</span> <span class="price-before-discount">S/. 29.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
                         <!-- /.product-info -->
-                        <div class="cart clearfix animate-effect">
-                          <div class="action">
+                        <div class="cart clearfix animate-effect ">
+                          <div class="action ">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <button data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Add Cart"> <i class="fa fa-shopping-cart"></i> </button>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito1" type="button" title="Add Cart" data-id="14"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 

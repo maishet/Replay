@@ -1283,9 +1283,10 @@
 
 <!-- ============================================================= FOOTER ============================================================= -->
 <?php include('footer.html'); ?>
+<script src="assets/js/pedido2.js"></script>
 <script type="text/javascript" src="assets/js/ordenarprecio.js"></script>
 <script src="assets/js/jPages.min.js"></script>
-<script src="assets/js/pedido.js"></script>
+
 <script type="text/javascript" src="assets/js/ordenarprecio.js"></script>
 <script src="assets/js/paginado.js"></script>
 <!-- <script src="assets/js/compra.js"></script> -->
