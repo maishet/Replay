@@ -979,7 +979,7 @@ else{
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                           <a href="categorias/detallesProductoMouse2.html">
+                           <a href="detail.html">
                              <img src="image/Tecnologia/Audifonos/Audifono1/Frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Audifonos/Audifono1/lado.jpg" alt="" class="hover-image">
                           </a> 
@@ -991,10 +991,10 @@ else{
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
+                          <h3 class="name"><a href="detail.html">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span><span class="price">180.00</span> <span class="price-before-discount">$ 230</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">189.00</span> <span class="price-before-discount">S/ 229</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1038,10 +1038,10 @@ else{
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">Mouse Gamer Cobra M711-RGB 10000 DPI</a></h3>
+                          <h3 class="name"><a href="detail.html">Mouse Gamer Cobra M711-RGB 10000 DPI</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">99.90</span> <span class="price-before-discount">$ 109</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">99.00</span> <span class="price-before-discount">S/ 109.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1074,7 +1074,7 @@ else{
                         <div class="product-image">
                           <div class="image"> 
                            <a href="detail.html">
-                             <img src="image/Tecnologia/Televisores/Tv1/frente.jpg" alt=""> 
+                              <img src="image/Tecnologia/Televisores/Tv1/frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Televisores/Tv1/lado derecho.jpg" alt="" class="hover-image">
                           </a>
                           </div>
@@ -1085,10 +1085,10 @@ else{
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Televisor Samsung Smart TV 55" UHD 4K UN55AU7000GXPE (2021)</a></h3>
+                          <h3 class="name"><a href="detail.html">TELEVISOR SAMSUNG CRYSTAL ULTRA HD 4K 55'' SMART TV </a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1999.90</span> <span class="price-before-discount">$ 2,099</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span> <span class="price-before-discount">2099.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -1132,10 +1132,10 @@ else{
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">IdeaCentre AIO 3i Intel Core i3 23.8" Full HD 1TB 4GB RAM Foggy White</a></h3>
+                          <h3 class="name"><a href="detail.html">IdeaCentre AIO 3i Intel Core i3 23.8" Full HD</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1999.90</span> <span class="price-before-discount">$ 2,099</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span.> <span class="price-before-discount">S/ 2099.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>

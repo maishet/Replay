@@ -10,13 +10,6 @@ class Carrito {
             this.leerDatosProducto(producto);
             //console.log(producto);
         }e.stopPropagation();
-        //getElementById("myDIV").classList.contains("mystyle")
-/*         if(e.target.getElementById("btnaggcarro").classList.contains("agregar-carrito1")){ //"agregar-carrito
-            const producto = e.target.parentElement.parentElement;
-            //Enviamos el producto seleccionado para tomar sus datos
-            //this.leerDatosProducto(producto);
-            console.log(producto);
-        } */
     }
 
     //añadir de nuevos productos al carrito
@@ -38,7 +31,6 @@ class Carrito {
     comprarProductoTecnologia(e){
         e.preventDefault();
         //Delegado para agregar al carrito
-        //console.log(e.target); //captura el elemento que selecciono
         if(e.target.classList.contains('agregar-carrito2')){ //"agregar-carrito
             const producto2 = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
             //Enviamos el producto seleccionado para tomar sus datos
@@ -52,7 +44,6 @@ class Carrito {
     comprarProductoDestacados(e){
         e.preventDefault();
         //Delegado para agregar al carrito
-        //console.log(e.target); //captura el elemento que selecciono
         if(e.target.classList.contains('agregar-carrito3')){ //"agregar-carrito
             const producto3 = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
             //Enviamos el producto seleccionado para tomar sus datos
@@ -65,7 +56,6 @@ class Carrito {
     comprarProductoctg(e){
         e.preventDefault();
         //Delegado para agregar al carrito
-        //console.log(e.target); //captura el elemento que selecciono
         if(e.target.classList.contains('agregar-carrito')){ //"agregar-carrito
             const producto = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
             //Enviamos el producto seleccionado para tomar sus datos
@@ -110,6 +100,7 @@ class Carrito {
 
     //muestra producto seleccionado en carrito
     insertarCarrito(producto){
+        //listaProductos.innerHTML = ''; //limpia el carrito
         const row = document.createElement('tr');
         row.innerHTML = `
             <td>
@@ -117,6 +108,7 @@ class Carrito {
             </td>
                 <h3 class="name"><a href="${producto.link}">${producto.titulo}</a></h3>
                 <div class="price">S/.${producto.precio}</div>
+                <h6>Cantidad: ${producto.cantidad}</h6>    
             <td>
                 <a href="#" class="borrar-producto bx bxs-trash-alt bx-sm" data-id="${producto.id}"></a>
             </td>
@@ -202,6 +194,7 @@ class Carrito {
                 </td>
                     <h3 class="name"><a href="${producto.link}">${producto.titulo}</a></h3>
                     <div class="price">S/.${producto.precio}</div>
+                    <h6>Cantidad:${producto.cantidad}</h6>
                 <td>
                     <a href="#" class="borrar-producto bx bxs-trash-alt bx-sm" data-id="${producto.id}"></a>
                 </td>
