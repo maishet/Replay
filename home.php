@@ -35,16 +35,25 @@
 </head>
 <body class="cnt-home">
 <!-- ============================================== HEADER ============================================== -->
-<?php session_start();?>
+
 <?php 
+session_start();
+error_reporting(0);
+$varsesion=$_SESSION['usuario'];
+if($varsesion==null || $varsesion=''){
+  if(!isset($_SESSION['user_is_login']) || @$_SESSION['user_is_login']==false){
 
-if(!isset($_SESSION['user_is_login']) || @$_SESSION['user_is_login']==false){
-
-  include('header.html'); 
+    include('header.html'); 
+  }
+  else{
+    include('headerLogueado.html'); 
+  } 
 }
 else{
   include('headerLogueado.html'); 
-}
+} 
+
+
 ?>
 <!-- ============================================== HEADER : END ============================================== -->
 <div class="body-content outer-top-vs" id="top-banner-and-menu">
