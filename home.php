@@ -788,7 +788,7 @@ else{
                   <div class="slider-header fadeInDown-1">Mejores Marcas</div>
                   <div class="big-text fadeInDown-1"> Nuevas Colecciones </div>
                   <div class="excerpt fadeInDown-2 hidden-xs"> <span>Disfruta de este verano con lo ultimo de la moda</span> </div>
-                  <div class="button-holder fadeInDown-3"> <a href="index6c11.html?page=single-product" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Comprar</a> </div>
+                  <div class="button-holder fadeInDown-3"> <a href="CategoryModaMujer.php" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Comprar</a> </div>
                 </div>
                 <!-- /.caption --> 
               </div>
@@ -802,7 +802,7 @@ else{
                   <div class="slider-header fadeInDown-1">Verano 2022</div>
                   <div class="big-text fadeInDown-1"> Moda Hombre </div>
                   <div class="excerpt fadeInDown-2 hidden-xs"> <span>No permitas que el verano te quite el estilo</span> </div>
-                  <div class="button-holder fadeInDown-3"> <a href="index6c11.html?page=single-product" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Comprar</a> </div>
+                  <div class="button-holder fadeInDown-3"> <a href="CategoryModaHombre.php" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Comprar</a> </div>
                 </div>
                 <!-- /.caption --> 
               </div>
