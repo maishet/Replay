@@ -222,14 +222,14 @@
               <div class="category-product" id="lista-productoscatg"> 
                 <div class="row productos-filtrar" id="itemContainer"> <!-- /.category-product controlador paginado-->
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
-                  <div class="item producto-item" category="polos" >
+                  <div class="item producto-item" category="Polos y Blusas" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoAudifono1.html">
-                             <img src="image/Tecnologia/Audifonos/Audifono1/Frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Audifonos/Audifono1/lado.jpg" alt="" class="hover-image">
+                             <img src="image\ModaMujer\BlusasyPolos\BP1\frente.jpg" alt=""> 
+                              <img src="image\ModaMujer\BlusasyPolos\BP1\atras.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -239,10 +239,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoAudifono1.html">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono1.html">Blusa Manga Corta Mujer Sybilla</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">189.00</span> <span class="price-before-discount">S/ 229</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">89.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -270,14 +270,14 @@
                   <!-- /.item -->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
-                  <div class="item producto-item" category="polos" >
+                  <div class="item producto-item" category="Polos y Blusas" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoAudifono2.html">
-                             <img src="image/Tecnologia/Audifonos/Audifono2/Frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Audifonos/Audifono2/Costado.jpg" alt="" class="hover-image">
+                             <img src="image\ModaMujer\BlusasyPolos\BP2\frente.jpg" alt=""> 
+                              <img src="image\ModaMujer\BlusasyPolos\BP2\atras.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -287,10 +287,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoAudifono2.html">XTREME HG502 RGB Auricular Gamer</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono2.html">Top Crop Mujer Denimlab</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">69.00</span> <span class="price-before-discount">S/ 89.00</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">49.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -318,14 +318,14 @@
                   <!-- /.item -->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
-                  <div class="item producto-item" category="polos" >
+                  <div class="item producto-item" category="Polos y Blusas" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoAudifono3.html">
-                             <img src="image/Tecnologia/Audifonos/Audifono3/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Audifonos/Audifono3/caja.jpg" alt="" class="hover-image">
+                             <img src="image\ModaMujer\BlusasyPolos\BP3\frente.jpg" alt=""> 
+                              <img src="image\ModaMujer\BlusasyPolos\BP3\detalle1.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -335,10 +335,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoAudifono3.html">Audífonos Gamer Onikuma K9</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono3.html">Polo Manga Corta Mujer Superdry</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">639.00</span>  </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">119.90</span>  </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -367,14 +367,14 @@
                   <!-- /.item -->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
-                  <div class="item producto-item" category="polos" >
+                  <div class="item producto-item" category="Polos y Blusas" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoPc1.html">
-                             <img src="image\Tecnologia\Computadoras\Compu1\1.jpg" alt=""> 
-                              <img src="image\Tecnologia\Computadoras\Compu1\4.jpg" alt="" class="hover-image">
+                             <img src="image\ModaMujer\BlusasyPolos\BP4\frente.jpg" alt=""> 
+                              <img src="image\ModaMujer\BlusasyPolos\BP4\atras.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -384,10 +384,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc1.html">IdeaCentre AIO 3i Intel Core i3 23.8" Full HD</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc1.html">Polo Manga Corta 100% Algodón Mujer Superdry</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span.> <span class="price-before-discount">S/ 2099.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">129.90</span.> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -416,14 +416,14 @@
                   <!-- /.item -->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
-                  <div class="item producto-item" category="faldas" >
+                  <div class="item producto-item" category="Faldas, Pantalones y Vestidos" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoPc2.html">
-                             <img src="image\Tecnologia\Computadoras\Compu2\1.jpg" alt=""> 
-                              <img src="image\Tecnologia\Computadoras\Compu2\2.jpg" alt="" class="hover-image">
+                             <img src="image\ModaMujer\Vestidos,ShortyPantalones\V1\frente.jpg" alt=""> 
+                              <img src="image\ModaMujer\Vestidos,ShortyPantalones\V1\atras.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -433,10 +433,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">ZenBook 14 UM425 Ryzen 5 5500U 14'' FHD 512GB SSD 8GB RAM</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">Vestido Corto Estampado Mujer Mango</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">3599.00</span> <span class="price-before-discount">S/ 4699.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">225.96</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -465,14 +465,14 @@
                   <!-- /.item -->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
-                  <div class="item producto-item" category="faldas" >
+                  <div class="item producto-item" category="Faldas, Pantalones y Vestidos" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoPc3.html">
-                             <img src="image/Tecnologia/Computadoras/Compu3/frente_caracteristicas.jpg" alt=""> 
-                              <img src="image/Tecnologia/Computadoras/Compu3/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\ModaMujer\Vestidos,ShortyPantalones\V2\frente.jpg" alt=""> 
+                              <img src="image\ModaMujer\Vestidos,ShortyPantalones\V2\atras.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -482,10 +482,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc3.html">VivoBook 15 K513 Core i7 11a 15.6''</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc3.html">Jean Mom Mujer Basement</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">4499.00</span> <span class="price-before-discount">S/ 5599.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">119.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -514,14 +514,14 @@
                   <!-- /.item -->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
-                  <div class="item producto-item" category="faldas" >
+                  <div class="item producto-item" category="Faldas, Pantalones y Vestidos" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoMouse1.html">
-                             <img src="image/Tecnologia/Mouse/Mouse1/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Mouse/Mouse1/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\ModaMujer\Vestidos,ShortyPantalones\V3\frente.jpg" alt=""> 
+                              <img src="image\ModaMujer\Vestidos,ShortyPantalones\V3\atras.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -531,10 +531,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoMouse1.html">Mouse Gamer Cobra M711-RGB 10000</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoMouse1.html">Enterizo 100% Lino Mujer Mango</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">99.00</span> <span class="price-before-discount">S/ 109.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">299.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -563,14 +563,14 @@
                   <!-- /.item -->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
-                  <div class="item producto-item" category="faldas" >
+                  <div class="item producto-item" category="Faldas, Pantalones y Vestidos" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoMouse2.html">
-                             <img src="image/Tecnologia/Mouse/Mouse2/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Mouse/Mouse2/lado_arriba.jpg" alt="" class="hover-image">
+                             <img src="image\ModaMujer\Vestidos,ShortyPantalones\V4\frente.jpg" alt=""> 
+                              <img src="image\ModaMujer\Vestidos,ShortyPantalones\V4\atras.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -580,10 +580,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">MOUSE LOGITECH G203 RGB</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">Falda Short Mujer</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">189.00</span>  </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">79.90</span>  </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -612,14 +612,14 @@
                   <!-- /.item -->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
-                  <div class="item producto-item" category="lenceria" >
+                  <div class="item producto-item" category="Lencería" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="detail.html">
-                             <img src="image/Tecnologia/Mouse/Mouse1/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Mouse/Mouse1/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\ModaMujer\Linceria\L1\frente.jpg" alt=""> 
+                              <img src="image\ModaMujer\Linceria\L1\atras.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -629,10 +629,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Mouse Gaming G360 Black</a></h3>
+                          <h3 class="name"><a href="detail.html">Camisa de Dormir Mujer University Club</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">139.00</span> <span class="price-before-discount">S/ 159.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">24.95</span> <span class="price-before-discount">S/ 49.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -661,14 +661,14 @@
                   <!-- /.item -->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
-                  <div class="item producto-item" category="lenceria" >
+                  <div class="item producto-item" category="Lencería" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoTv1.html">
-                             <img src="image/Tecnologia/Televisores/Tv1/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Televisores/Tv1/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\ModaMujer\Linceria\L2\frente.jpg" alt=""> 
+                              <img src="image\ModaMujer\Linceria\L2\atras.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -678,10 +678,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoTv1.html">TELEVISOR SAMSUNG CRYSTAL ULTRA HD 4K 55'' SMART TV </a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoTv1.html">Short Pijama Mujer</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span> <span class="price-before-discount">2099.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">39.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -710,14 +710,14 @@
                   <!-- /.item -->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
-                  <div class="item producto-item" category="lenceria" >
+                  <div class="item producto-item" category="Lencería" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="detail.html">
-                             <img src="image\Tecnologia\Televisores\Tv2\Frente.jpg" alt=""> 
-                              <img src="image\Tecnologia\Televisores\Tv2\lado_derecho.jpg" alt="" class="hover-image">
+                             <img src="image\ModaMujer\Linceria\L3\frente.jpg" alt=""> 
+                              <img src="image\ModaMujer\Linceria\L3\atras.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -727,10 +727,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Televisor 50" Borderless 4K Ultra HD Smart TV 50PUD7625</a></h3>
+                          <h3 class="name"><a href="detail.html">Pack Pijama Mujer Sybilla</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1899.00</span> <span class="price-before-discount">S/ 2499.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">39.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -759,14 +759,14 @@
                   <!-- /.item -->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
-                  <div class="item producto-item" category="lenceria" >
+                  <div class="item producto-item" category="Lencería" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="detail.html">
-                             <img src="image\Tecnologia\Televisores\Tv3\frente.jpg" alt=""> 
-                              <img src="image\Tecnologia\Televisores\Tv3\lado_iquierdo.jpg" alt="" class="hover-image">
+                             <img src="image\ModaMujer\Linceria\L4\frente.jpg" alt=""> 
+                              <img src="image\ModaMujer\Linceria\L4\atras.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -776,10 +776,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Televisor 58" Borderless 4K Ultra HD Smart TV 58PUD7625</a></h3>
+                          <h3 class="name"><a href="detail.html">Pantalón Pijama Mujer University Club</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1949.00</span> <span class="price-before-discount">S/ 2899.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">39.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
