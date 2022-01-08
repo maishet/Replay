@@ -222,14 +222,15 @@
               <div class="category-product" id="lista-productoscatg"> 
                 <div class="row productos-filtrar" id="itemContainer"> <!-- /.category-product controlador paginado-->
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
+
                   <div class="item producto-item" category="comedor" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoAudifono1.html">
-                             <img src="image/Tecnologia/Audifonos/Audifono1/Frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Audifonos/Audifono1/lado.jpg" alt="" class="hover-image">
+                             <img src="image\Muebles\Comedor\C1\frente.jpg" alt=""> 
+                              <img src="image\Muebles\Comedor\C1\tamaño.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -239,10 +240,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoAudifono1.html">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono1.html">Mesa de Comedor Gold 8 Sillas Rectangularx</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">189.00</span> <span class="price-before-discount">S/ 229</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1699.00</span> <span class="price-before-discount">S/ 2599</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -276,8 +277,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoAudifono2.html">
-                             <img src="image/Tecnologia/Audifonos/Audifono2/Frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Audifonos/Audifono2/Costado.jpg" alt="" class="hover-image">
+                             <img src="image\Muebles\Comedor\C2\Frente.jpg" alt=""> 
+                              <img src="image\Muebles\Comedor\C2\tamaño.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -287,10 +288,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoAudifono2.html">XTREME HG502 RGB Auricular Gamer</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono2.html">Silla de Comedor Croisette Set x 2</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">69.00</span> <span class="price-before-discount">S/ 89.00</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1199.00</span> <span class="price-before-discount">S/ 1799.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -324,8 +325,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoAudifono3.html">
-                             <img src="image/Tecnologia/Audifonos/Audifono3/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Audifonos/Audifono3/caja.jpg" alt="" class="hover-image">
+                             <img src="image\Muebles\Comedor\C3\Frente.jpg" alt=""> 
+                              <img src="image\Muebles\Comedor\C3\de_lado.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -335,10 +336,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoAudifono3.html">Audífonos Gamer Onikuma K9</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono3.html">Juego de Comedor Morten 6 Sillas</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">639.00</span>  </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">999.00</span> <span class="price-before-discount">S/ 1499.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -373,8 +374,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoPc1.html">
-                             <img src="image\Tecnologia\Computadoras\Compu1\1.jpg" alt=""> 
-                              <img src="image\Tecnologia\Computadoras\Compu1\4.jpg" alt="" class="hover-image">
+                             <img src="image\Muebles\Escritorio\Escritorio1\Frente.jpg" alt=""> 
+                              <img src="image\Muebles\Escritorio\Escritorio1\lado_derecho.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -384,10 +385,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc1.html">IdeaCentre AIO 3i Intel Core i3 23.8" Full HD</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc1.html">Silla de Oficina Bone</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span.> <span class="price-before-discount">S/ 2099.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">299.90</span.> <span class="price-before-discount">S/ 399.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -422,8 +423,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoPc2.html">
-                             <img src="image\Tecnologia\Computadoras\Compu2\1.jpg" alt=""> 
-                              <img src="image\Tecnologia\Computadoras\Compu2\2.jpg" alt="" class="hover-image">
+                             <img src="image\Muebles\Escritorio\Escritorio2\Frente.jpg" alt=""> 
+                              <img src="image\Muebles\Escritorio\Escritorio2\delado.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -433,10 +434,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">ZenBook 14 UM425 Ryzen 5 5500U 14'' FHD 512GB SSD 8GB RAM</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">Escritorio Vintage</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">3599.00</span> <span class="price-before-discount">S/ 4699.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">549.00</span> <span class="price-before-discount">S/ 899.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -471,8 +472,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoPc3.html">
-                             <img src="image/Tecnologia/Computadoras/Compu3/frente_caracteristicas.jpg" alt=""> 
-                              <img src="image/Tecnologia/Computadoras/Compu3/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\Muebles\Escritorio\Escritorio3\frente.jpg" alt=""> 
+                              <img src="image\Muebles\Escritorio\Escritorio3\lado_derecho.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -482,10 +483,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc3.html">VivoBook 15 K513 Core i7 11a 15.6''</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc3.html">Escritorio Portugal CAST</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">4499.00</span> <span class="price-before-discount">S/ 5599.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">399.90</span> <span class="price-before-discount">S/ 499.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -520,8 +521,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoMouse1.html">
-                             <img src="image/Tecnologia/Mouse/Mouse1/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Mouse/Mouse1/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\Muebles\Escritorio\Escritorio4\frente.jpg" alt=""> 
+                              <img src="image\Muebles\Escritorio\Escritorio4\tamaño.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -531,10 +532,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoMouse1.html">Mouse Gamer Cobra M711-RGB 10000</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoMouse1.html">Escritorio Axis-Wen. / Artico</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">99.00</span> <span class="price-before-discount">S/ 109.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">549.22</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -569,8 +570,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoMouse2.html">
-                             <img src="image/Tecnologia/Mouse/Mouse2/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Mouse/Mouse2/lado_arriba.jpg" alt="" class="hover-image">
+                             <img src="image\Muebles\Sala\sala1\Frente.jpg" alt=""> 
+                              <img src="image\Muebles\Sala\sala1\lado_derecho.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -580,10 +581,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">MOUSE LOGITECH G203 RGB</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">Mesa de TV 65' Joy</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">189.00</span>  </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">299.90</span> <span class="price-before-discount">S/ 499.90</span>  </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -618,8 +619,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="detail.html">
-                             <img src="image/Tecnologia/Mouse/Mouse1/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Mouse/Mouse1/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\Muebles\Sala\sala2\frente.jpg" alt=""> 
+                              <img src="image\Muebles\Sala\sala2\lado_izquierdo.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -629,10 +630,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Mouse Gaming G360 Black</a></h3>
+                          <h3 class="name"><a href="detail.html">Centro de TV 50" Sensación</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">139.00</span> <span class="price-before-discount">S/ 159.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">649.00</span> <span class="price-before-discount">S/ 999.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -667,8 +668,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoTv1.html">
-                             <img src="image/Tecnologia/Televisores/Tv1/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Televisores/Tv1/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\Muebles\Sala\sala3\frente.jpg" alt=""> 
+                              <img src="image\Muebles\Sala\sala3\lado_derecho.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -678,10 +679,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoTv1.html">TELEVISOR SAMSUNG CRYSTAL ULTRA HD 4K 55'' SMART TV </a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoTv1.html">Juego de Sala Alaska 3-2-1 Cuerpos </a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span> <span class="price-before-discount">2099.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">2099.00</span> <span class="price-before-discount">S/ 2799.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -716,8 +717,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="detail.html">
-                             <img src="image\Tecnologia\Televisores\Tv2\Frente.jpg" alt=""> 
-                              <img src="image\Tecnologia\Televisores\Tv2\lado_derecho.jpg" alt="" class="hover-image">
+                             <img src="image\Muebles\Sala\sala4\uso.jpg" alt=""> 
+                              <img src="image\Muebles\Sala\sala4\frente.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -727,10 +728,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Televisor 50" Borderless 4K Ultra HD Smart TV 50PUD7625</a></h3>
+                          <h3 class="name"><a href="detail.html">Seccional Jeremy 3 Cuerpos Intercambiable</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1899.00</span> <span class="price-before-discount">S/ 2499.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1099.00</span> <span class="price-before-discount">S/ 1399.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
