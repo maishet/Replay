@@ -45,8 +45,22 @@
         <span id="btn-cerrar"><i class='bx bxs-x-circle'></i></span>
         <div class="contenedor-escribirComentario">
           <h1>Tu opinión nos importa !Evalúa tu producto!</h1>  
-          <div>
+          <div class="calificacion-comentario">
             <h2>Calificación general:</h2>
+            <!-- 
+            <i class='bx bxs-star id="1estrella" onclick="calificar(this)"'></i>
+            <i class='bx bxs-star id="2estrella" onclick="calificar(this)"'></i>
+            <i class='bx bxs-star id="3estrella"onclick="calificar(this)"'></i>
+            <i class='bx bxs-star id="4estrella" onclick="calificar(this)"'></i> 
+          <i class='bx bxs-star id="5estrella" onclick="calificar(this)"'></i>-->
+            <div class="rating">
+              <span id="1fondo-estrella"><i class='bx bxs-star' id="1estrella" onclick="calificar(this)"></i></span>
+              <span id="2fondo-estrella"><i class='bx bxs-star' id="2estrella" onclick="calificar(this)" ></i></span>
+              <span  id="3fondo-estrella"><i class='bx bxs-star'id="3estrella"onclick="calificar(this)"></i></span>
+              <span  id="4fondo-estrella"><i class='bx bxs-star'  id="4estrella"onclick="calificar(this)"></i></span>
+              <span id="5fondo-estrella"><i class='bx bxs-star'  id="5estrella" onclick="calificar(this)"></i></span>
+            </div>
+            <span id="calificacion" onclick="calificar()">(0)</span>
           </div>
           <div>
             <h2>Título del comentario</h2>
@@ -768,26 +782,27 @@
                         <i class='bx bxs-star activo'></i>
                         <i class='bx bxs-star inactivo'></i>
                         <i class='bx bxs-star inactivo'></i>
-                        <span class="puntaje">5.0 (3)</span>
+                        <span class="puntaje">3 (3 calificaciones)</span>
                     </div>
                     <div class="m-t-20">
                       <div class="estrellas-comentarios">
-                        <div><span>5</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
-                        <div><span>4</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
-                        <div><span>3</span><i class='bx bxs-star'></i><span>3</span><span> comentarios</span></div>
-                        <div><span>2</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
-                        <div><span>1</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
+                        <div><span>5</span><i class='bx bxs-star'></i><span>0</span><span> calificaciones</span></div>
+                        <div><span>4</span><i class='bx bxs-star'></i><span>0</span><span> calificaciones</span></div>
+                        <div><span>3</span><i class='bx bxs-star'></i><span>3</span><span> calificaciones</span></div>
+                        <div><span>2</span><i class='bx bxs-star'></i><span>0</span><span> calificaciones</span></div>
+                        <div><span>1</span><i class='bx bxs-star'></i><span>0</span><span> calificaciones</span></div>
                         
                       </div>
                       <div class="m-t-20 cont-bottom">
-                        <div class="cont1"><span>1-4 de 3 comentarios</span></div>
+                        <div class="cont1"><span>3 comentarios</span></div>
                         <div class="ordenar">
                             <p>Ordenar por:</p>
                             <div ><span>Seleccionar <i class='bx bxs-down-arrow'></i></span></div>        
                         </div>
                       </div>
-                      <hr>
+                      
                       <div class="comentario">
+                        <hr>
                         <div class="cont1">
                           <p class="autor">Autor</p>
                           <span class="tiempo">Hace 4 meses</span>
@@ -804,12 +819,66 @@
                           possimus asperiores doloremque.</p>
                         </div>
                         <div>
-                          <span>¿Te fue útil este comentario?</span> <button class="btn-si">Si: 0</button> 
-                          <button class="btn-no">No: 0</button>
+                          <span>¿Te fue útil este comentario?</span> 
+                          <button class="btn-si"  onclick="sumarSi(this)" id="1comentarios-si">Si:0</button> 
+                          <button class="btn-no"  onclick="sumarNo(this)" id="1comentarios-no">No:0</button>
                         </div>
-                        <hr>
                       </div>
+                      <div class="comentario">
+                        <hr>
+                        <div class="cont1">
+                          <p class="autor">Autor</p>
+                          <span class="tiempo">Hace 3 meses</span>
+                        </div>
+                        <div class="calificacion">
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star inactivo'></i>
+                          <i class='bx bxs-star inactivo'></i>
+                        </div>
+                        <div class="m-t-10">
+                          <span class="recomienda">Recomienda este producto </span>✔Sí<span></span>
+                        </div> 
+                        <div class="descripcion">
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. fugit quos tenetur, voluptates debitis 
+                          possimus asperiores doloremque.</p>
+                        </div>
+                        <div>
+                          <span>¿Te fue útil este comentario?</span> 
+                          <button class="btn-si"  onclick="sumarSi(this)" id="2comentarios-si">Si:0</button> 
+                          <button class="btn-no"  onclick="sumarNo(this)" id="2comentarios-no">No:0</button>
+                        </div>
+                      </div>
+                      <div class="comentario">
+                        <hr>
+                        <div class="cont1">
+                          <p class="autor">Autor</p>
+                          <span class="tiempo">Hace 5 meses</span>
+                        </div>
+                        <div class="calificacion">
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star inactivo'></i>
+                          <i class='bx bxs-star inactivo'></i>
+                        </div>
+                        <div class="m-t-10">
+                          <span class="recomienda">Recomienda este producto </span>✖No<span></span>
+                        </div> 
+                        <div class="descripcion">
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. fugit quos tenetur, voluptates debitis 
+                          possimus asperiores doloremque.</p>
+                        </div>
+                        <div>
+                          <span>¿Te fue útil este comentario?</span> 
+                          <button class="btn-si"  onclick="sumarSi(this)" id="3comentarios-si">Si:0</button> 
+                          <button class="btn-no"  onclick="sumarNo(this)" id="3comentarios-no">No:0</button>
+                        </div>
+                      </div>
+                      
                     </div>
+                    <hr>
 									</div>	
 								</div><!-- /.tab-pane -->
 							</div><!-- /.tab-content -->

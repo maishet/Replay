@@ -710,23 +710,31 @@ table {
 }
 .comentarios-cont .comentario .descripcion{
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .comentarios-cont .comentario .btn-si, .comentarios-cont .comentario .btn-no{
   background-color: white;
   border: 1px solid;
   border-radius: 3px;
   margin-left:8px;
+  font-weight: 500;
 }
 .comentarios-cont .comentario .btn-si{
   border-color:#157ED2;
   color:#157ED2;
 }
+.comentarios-cont .comentario .btn-si:hover,.comentarios-cont .comentario .btn-si:focus{
+  background-color: #157ED2;
+  color:white;
+}
 .comentarios-cont .comentario .btn-no{
   border-color: #FB3449;
   color:#FB3449;
 }
-
+.comentarios-cont .comentario .btn-no:hover,.comentarios-cont .comentario .btn-no:focus{
+  background-color: #FB3449;
+  color:white;
+}
 .ventana-comentario{
   width: 80%;
   /* height: 90%; */
@@ -763,6 +771,7 @@ table {
 .contenedor-escribirComentario h2{
   font-size: 18px;
   font-weight: 600;
+  margin-top: 10px;
 }
 .contenedor-escribirComentario .recomendaciones{
   margin-top: 1%;
@@ -788,7 +797,7 @@ table {
    border-radius: 15px;
    font-size: 19px;
    font-weight: 600;
-   border: 1px solid #000000;
+   border:0px;
    box-sizing: border-box;
    padding: 3px 2.5%;
    width: auto;
@@ -801,11 +810,13 @@ table {
   background: rgba(251, 11, 11, 0.2);
   border-radius: 0px 10px 10px 0px;
 }
-.contenedor-escribirComentario .btn-si:hover, .contenedor-escribirComentario .btn-si:after{
+.contenedor-escribirComentario .btn-si:hover, .contenedor-escribirComentario .btn-si:focus{
   background: rgb(125, 123, 252);
+  border:1px solid #000000;
 }
-.contenedor-escribirComentario .btn-no:hover{
+.contenedor-escribirComentario .btn-no:hover,.contenedor-escribirComentario .btn-no:focus{
   background: rgba(251, 11, 11, 0.65);
+  border: 1px solid #000000;
 }
 .contenedor-escribirComentario .btn-publicar{
   background: #FDD922;
@@ -844,14 +855,54 @@ table {
 }
 #pop-up{
   background-color: #000;
-  opacity: 0.35 !important;;
+  opacity: 0.35 !important;
   z-index: 500;
   width: 100%;
   height: 100%;
   position:fixed;
   display: none;
 }
-
+.contenedor-escribirComentario .calificacion-comentario {
+  display: flex;
+}
+.contenedor-escribirComentario .calificacion-comentario i{
+  cursor:pointer;
+}
+.rating {
+  width:165px;
+  height: 30px;
+  padding-top: 4px;
+}
+.rating span { 
+  width: auto;
+  float:right; 
+  position:relative; 
+  padding:0px;
+  margin:0px
+}
+.rating span i {
+  width:30px;
+  height:30px;
+  text-align:center;
+  color:#c4c4c4;
+  font-size:25px;
+  margin-right:2px;
+  line-height:30px;
+}
+.rating span:hover ~ span i,
+.rating span:hover i{
+  background:#eebf61 !important;
+  color:#FFF !important;
+}
+.calificacion-comentario #calificacion{
+   margin-top: 5px;
+   margin-left: 1px;
+   font-size: 19px;
+}
+.comentario span{
+  font-size:14px;
+  font-weight: 500;
+}
 /*Fin Detalles del Producto =====================================================================*/
 
 /*===================================================================================*/
