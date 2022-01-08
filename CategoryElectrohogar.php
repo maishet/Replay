@@ -222,14 +222,15 @@
               <div class="category-product" id="lista-productoscatg"> 
                 <div class="row productos-filtrar" id="itemContainer"> <!-- /.category-product controlador paginado-->
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
+                  
                   <div class="item producto-item" category="cocina" >
                     <div class="products">
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoAudifono1.html">
-                             <img src="image/Tecnologia/Audifonos/Audifono1/Frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Audifonos/Audifono1/lado.jpg" alt="" class="hover-image">
+                             <img src="image\Electrohogar\Cocina\Cocina1\Frente.jpg" alt=""> 
+                              <img src="image\Electrohogar\Cocina\Cocina1\Tamaño.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -239,10 +240,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoAudifono1.html">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono1.html">Cocina a gas Mabe 30" Acero Inox</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">189.00</span> <span class="price-before-discount">S/ 229</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">1899.00</span> <span class="price-before-discount">S/ 2869.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -276,8 +277,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoAudifono2.html">
-                             <img src="image/Tecnologia/Audifonos/Audifono2/Frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Audifonos/Audifono2/Costado.jpg" alt="" class="hover-image">
+                             <img src="image\Electrohogar\Cocina\Cocina2\Frente.jpg" alt=""> 
+                              <img src="image\Electrohogar\Cocina\Cocina2\lado_derecho.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -287,10 +288,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoAudifono2.html">XTREME HG502 RGB Auricular Gamer</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono2.html">Cocina LG RSG315T Gas 6 Hornillas con Easy Clean Acero inoxidable</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">69.00</span> <span class="price-before-discount">S/ 89.00</span> </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">2799.00</span> <span class="price-before-discount">S/ 4149.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -324,8 +325,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoAudifono3.html">
-                             <img src="image/Tecnologia/Audifonos/Audifono3/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Audifonos/Audifono3/caja.jpg" alt="" class="hover-image">
+                             <img src="image\Electrohogar\Cocina\Cocina3\Frente.jpg" alt=""> 
+                              <img src="image\Electrohogar\Cocina\Cocina3\Lado_izquierdo.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -335,10 +336,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoAudifono3.html">Audífonos Gamer Onikuma K9</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono3.html">Cocina Cadiz Spazio Plus Croma 4h</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">639.00</span>  </div>
+                          <div class="product-price"><span class="monedas">S/.</span> <span class="price">849.00</span>  </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -373,8 +374,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoPc1.html">
-                             <img src="image\Tecnologia\Computadoras\Compu1\1.jpg" alt=""> 
-                              <img src="image\Tecnologia\Computadoras\Compu1\4.jpg" alt="" class="hover-image">
+                             <img src="image\Electrohogar\Lavadora\Lav1\Frente.jpg" alt=""> 
+                              <img src="image\Electrohogar\Lavadora\Lav1\Derecha.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -384,10 +385,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc1.html">IdeaCentre AIO 3i Intel Core i3 23.8" Full HD</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc1.html">Lavadora LG Carga Superior Smart Inverter con TurboDrum WT13BSB 13 Kg Negra</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span.> <span class="price-before-discount">S/ 2099.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1499.00</span.> <span class="price-before-discount">S/ 1979.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -422,8 +423,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoPc2.html">
-                             <img src="image\Tecnologia\Computadoras\Compu2\1.jpg" alt=""> 
-                              <img src="image\Tecnologia\Computadoras\Compu2\2.jpg" alt="" class="hover-image">
+                             <img src="image\Electrohogar\Lavadora\Lav2\Frente.jpg" alt=""> 
+                              <img src="image\Electrohogar\Lavadora\Lav2\abierto.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -433,10 +434,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">ZenBook 14 UM425 Ryzen 5 5500U 14'' FHD 512GB SSD 8GB RAM</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">Lavadora Black Edition 19 kg</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">3599.00</span> <span class="price-before-discount">S/ 4699.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">2299.00</span> <span class="price-before-discount">S/ 2999.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -471,8 +472,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoPc3.html">
-                             <img src="image/Tecnologia/Computadoras/Compu3/frente_caracteristicas.jpg" alt=""> 
-                              <img src="image/Tecnologia/Computadoras/Compu3/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\Electrohogar\Lavadora\Lav3\frente.jpg" alt=""> 
+                              <img src="image\Electrohogar\Lavadora\Lav3\lado_derecho.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -482,10 +483,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc3.html">VivoBook 15 K513 Core i7 11a 15.6''</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc3.html">Lavadora Eco Inverter 19 kg Blanca</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">4499.00</span> <span class="price-before-discount">S/ 5599.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1699.00</span> <span class="price-before-discount">S/ 2499.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -520,8 +521,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoMouse1.html">
-                             <img src="image/Tecnologia/Mouse/Mouse1/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Mouse/Mouse1/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\Electrohogar\Refrigeracion\refri1\frente_caracteristicas.jpg" alt=""> 
+                              <img src="image\Electrohogar\Refrigeracion\refri1\lado derecho.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -531,10 +532,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoMouse1.html">Mouse Gamer Cobra M711-RGB 10000</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoMouse1.html">Refrigeradora SBS 685L FAMILY HUB RS27T5561B1/PE</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">99.00</span> <span class="price-before-discount">S/ 109.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">6999.00</span> <span class="price-before-discount">S/ 9999.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -569,8 +570,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoMouse2.html">
-                             <img src="image/Tecnologia/Mouse/Mouse2/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Mouse/Mouse2/lado_arriba.jpg" alt="" class="hover-image">
+                             <img src="image\Electrohogar\Refrigeracion\refri2\frente_caracteristicas.jpg" alt=""> 
+                              <img src="image\Electrohogar\Refrigeracion\refri2\abierto_derecho.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -580,10 +581,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">MOUSE LOGITECH G203 RGB</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">Refrigeradora LG French Door con Puerta Mágica 426 LT LM57SDT Blanca</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">189.00</span>  </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">6199.00</span> <span class="price-before-discount">S/ 10149.00</span>  </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -618,8 +619,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="detail.html">
-                             <img src="image/Tecnologia/Mouse/Mouse1/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Mouse/Mouse1/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\Electrohogar\Refrigeracion\refri3\frente.jpg" alt=""> 
+                              <img src="image\Electrohogar\Refrigeracion\refri3\tamaño.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -629,10 +630,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Mouse Gaming G360 Black</a></h3>
+                          <h3 class="name"><a href="detail.html">Refrigeradora Side by Side 517 L ERSO52B2HUS</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">139.00</span> <span class="price-before-discount">S/ 159.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">3399.00</span> <span class="price-before-discount">S/ 4349.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -667,8 +668,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="categorias/detallesProductoTv1.html">
-                             <img src="image/Tecnologia/Televisores/Tv1/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Televisores/Tv1/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image\Electrohogar\Refrigeracion\refri4\frente_caracteristica.jpg" alt=""> 
+                              <img src="image\Electrohogar\Refrigeracion\refri4\lado_derecho.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -678,10 +679,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoTv1.html">TELEVISOR SAMSUNG CRYSTAL ULTRA HD 4K 55'' SMART TV </a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoTv1.html">Refrigerador 400 Lt RMP400FZPC Negro</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span> <span class="price-before-discount">2099.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">2249.00</span> <span class="price-before-discount">S/ 2809.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
