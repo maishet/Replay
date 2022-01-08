@@ -79,7 +79,7 @@
                   </div>
                   <!-- /.accordion-group -->
                   <div class="accordion-group">
-                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="polos"> Polos y Blusas </a> </div>
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="Polos y Blusas"> Polos y Blusas </a> </div>
                     <!-- /.accordion-heading -->
 
                     <!-- /.accordion-body --> 
@@ -87,7 +87,7 @@
                   <!-- /.accordion-group -->
 
                   <div class="accordion-group">
-                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="faldas"> Faldas, Pantalones y Vestidos </a> </div>
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="Faldas, Pantalones y Vestidos"> Faldas, Pantalones y Vestidos </a> </div>
                     <!-- /.accordion-heading -->
 
                     <!-- /.accordion-body --> 
@@ -95,7 +95,7 @@
                   <!-- /.accordion-group -->
                   
                   <div class="accordion-group">
-                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="lenceria"> Lenceria </a> </div>
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="Lencería"> Lencería </a> </div>
                     <!-- /.accordion-heading -->
 
                     <!-- /.accordion-body --> 
