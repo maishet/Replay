@@ -866,7 +866,7 @@ else{
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart agregar-deseos" type="button" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -913,7 +913,7 @@ else{
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart agregar-deseos" type="button" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -960,7 +960,7 @@ else{
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart agregar-deseos" type="button" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1007,7 +1007,7 @@ else{
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart agregar-deseos" type="button" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1054,7 +1054,7 @@ else{
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart agregar-deseos" type="button" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1101,7 +1101,7 @@ else{
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart agregar-deseos" type="button" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1148,7 +1148,7 @@ else{
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart agregar-deseos" type="button" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1195,7 +1195,7 @@ else{
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart agregar-deseos" type="button" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1242,7 +1242,7 @@ else{
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart agregar-deseos" type="button" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1289,7 +1289,7 @@ else{
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart agregar-deseos" type="button" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -1336,7 +1336,7 @@ else{
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal" aria-hidden="true"></i> </a> </li>
 
-                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart" href="detail.html" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
+                              <li class="lnk wishlist"> <a data-toggle="tooltip" class="add-to-cart agregar-deseos" type="button" title="Lista de Deseos"> <i class="icon fa fa-heart"></i> </a> </li>
                             </ul>
                           </div>
                           <!-- /.action --> 
@@ -2153,6 +2153,8 @@ else{
 <?php include('footer.html'); ?>
 <script src="assets/js/pedido.js"></script>
 <!-- <script src="assets/js/compra.js"></script> -->
+<script src="assets/js/pedirdeseos.js"></script>
+<script src="assets/js/deseos.js"></script>
 <!-- ============================================================= FOOTER : END============================================================= -->
 </body>
 
