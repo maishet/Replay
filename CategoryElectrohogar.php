@@ -254,7 +254,7 @@
                           <div class="action">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="7"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="33"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal"></i> </a> </li>
                               <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
@@ -302,7 +302,7 @@
                           <div class="action">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="16"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="19"> <i class="fa fa-shopping-cart"></i> </a>
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal"></i> </a> </li>
                               <li class="lnk wishlist"> <a class="add-to-cart" href="detail.html" title="Wishlist"> <i class="icon fa fa-heart"></i> </a> </li>
@@ -350,7 +350,7 @@
                           <div class="action">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="28"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="34"> <i class="fa fa-shopping-cart"></i> </a>
 
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal"></i> </a> </li>
@@ -399,7 +399,7 @@
                           <div class="action">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="10"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="20"> <i class="fa fa-shopping-cart"></i> </a>
 
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal"></i> </a> </li>
@@ -448,7 +448,7 @@
                           <div class="action">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="29"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="35"> <i class="fa fa-shopping-cart"></i> </a>
 
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal"></i> </a> </li>
@@ -465,7 +465,7 @@
                     <!-- /.products --> 
                     </div>
                   </div>
-                  <!-- /.item -->
+                  <!-- /.item 35-->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
                   <div class="item producto-item" category="lavado" >
@@ -497,7 +497,7 @@
                           <div class="action">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="15"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="36"> <i class="fa fa-shopping-cart"></i> </a>
 
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal"></i> </a> </li>
@@ -514,7 +514,7 @@
                     <!-- /.products --> 
                     </div>
                   </div>
-                  <!-- /.item -->
+                  <!-- /.item 36-->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
                   <div class="item producto-item" category="refri" >
@@ -546,7 +546,7 @@
                           <div class="action">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="8"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="21"> <i class="fa fa-shopping-cart"></i> </a>
 
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal"></i> </a> </li>
@@ -563,7 +563,7 @@
                     <!-- /.products --> 
                     </div>
                   </div>
-                  <!-- /.item -->
+                  <!-- /.item 21-->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
                   <div class="item producto-item" category="refri" >
@@ -595,7 +595,7 @@
                           <div class="action">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="17"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="37"> <i class="fa fa-shopping-cart"></i> </a>
 
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal"></i> </a> </li>
@@ -612,7 +612,7 @@
                     <!-- /.products --> 
                     </div>
                   </div>
-                  <!-- /.item -->
+                  <!-- /.item 37-->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
                   <div class="item producto-item" category="refri" >
@@ -644,7 +644,7 @@
                           <div class="action">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="30"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="38"> <i class="fa fa-shopping-cart"></i> </a>
 
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal"></i> </a> </li>
@@ -661,7 +661,7 @@
                     <!-- /.products --> 
                     </div>
                   </div>
-                  <!-- /.item -->
+                  <!-- /.item 38-->
 
                   <div class="col-sm-6 col-md-4 col-lg-3" data-price="">
                   <div class="item producto-item" category="refri" >
@@ -693,7 +693,7 @@
                           <div class="action">
                             <ul class="list-unstyled">
                               <li class="add-cart-button btn-group">
-                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="9"> <i class="fa fa-shopping-cart"></i> </a>
+                                <a data-toggle="tooltip" class="btn btn-primary icon agregar-carrito" type="button" title="Agregar" data-id="39"> <i class="fa fa-shopping-cart"></i> </a>
 
                               </li>
                               <li class="lnk" style="visibility: hidden;"> <a class="add-to-cart" href="detail.html" title="Compare"> <i class="fa fa-signal"></i> </a> </li>
@@ -710,9 +710,9 @@
                     <!-- /.products --> 
                     </div>
                   </div>
-                  <!-- /.item -->
+                  <!-- /.item 39-->
 
-                  <!-- ============================================ data item = ### ============= -->
+                  <!-- ============================================ data item = 39 ============= -->
                 </div>
                 <!-- /.row --> 
               </div>
