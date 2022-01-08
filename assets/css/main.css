@@ -894,6 +894,9 @@ table {
   background:#eebf61 !important;
   color:#FFF !important;
 }
+.calificacion-comentario{
+  margin-top:10px;
+}
 .calificacion-comentario #calificacion{
    margin-top: 5px;
    margin-left: 1px;
