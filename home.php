@@ -40,6 +40,7 @@
 session_start();
 error_reporting(0);
 $varsesion=$_SESSION['usuario'];
+//colocar variable de session de "correo"
 if($varsesion==null || $varsesion=''){
   if(!isset($_SESSION['user_is_login']) || @$_SESSION['user_is_login']==false){
 
@@ -80,7 +81,7 @@ else{
                   </a>
                   </div>
                   <div class="sale-offer-tag"><span>49%<br>
-                    off</span></div>
+                    desc</span></div>
                   <div id="countdown" class="timing-wrapper">
                     <div class="box-wrapper">
                       <div class="date box"> <span class="key dias"></span><span class="value">DIAS</span> </div>
@@ -124,7 +125,7 @@ else{
                   </a>
                    </div>
                   <div class="sale-offer-tag"><span>35%<br>
-                    off</span></div>
+                    desc</span></div>
                   <div id="countdown1" class="timing-wrapper">
                     <div class="box-wrapper">
                       <div class="date box"> <span class="key dias"></span><span class="value">DIAS</span> </div>
@@ -168,7 +169,7 @@ else{
                   </a>
                    </div>
                   <div class="sale-offer-tag"><span>55%<br>
-                    off</span></div>
+                    desc</span></div>
                   <div id="countdown2" class="timing-wrapper">
                     <div class="box-wrapper">
                       <div class="date box"> <span class="key dias"></span><span class="value">DIAS</span> </div>
@@ -845,7 +846,7 @@ else{
                        </div>
                           <!-- /.image -->
                           
-                          <div class="tag new"><span>new</span></div>
+                          <div class="tag new"><span>nuevo</span></div>
                         </div>
                         <!-- /.product-image -->
                         
@@ -939,7 +940,7 @@ else{
                            </div>
                           <!-- /.image -->
                           
-                          <div class="tag sale"><span>sale</span></div>
+                          <div class="tag sale"><span>oferta</span></div>
                         </div>
                         <!-- /.product-image -->
                         
@@ -1033,7 +1034,6 @@ else{
                           </div>
                           <!-- /.image -->
                           
-                          <div class="tag hot"><span>hot</span></div>
                         </div>
                         <!-- /.product-image -->
                         
@@ -1080,7 +1080,7 @@ else{
                           </div>
                           <!-- /.image -->
                           
-                          <div class="tag new"><span>new</span></div>
+                          <div class="tag new"><span>nuevo</span></div>
                         </div>
                         <!-- /.product-image -->
                         
@@ -1174,7 +1174,7 @@ else{
                        </div>
                           <!-- /.image -->
                           
-                          <div class="tag new"><span>new</span></div>
+                          <div class="tag new"><span>nuevo</span></div>
                         </div>
                         <!-- /.product-image -->
                         
@@ -1220,8 +1220,6 @@ else{
                           </a> 
                        </div>
                           <!-- /.image -->
-                          
-                          <div class="tag new"><span>new</span></div>
                         </div>
                         <!-- /.product-image -->
                         
@@ -1267,8 +1265,6 @@ else{
                           </a> 
                        </div>
                           <!-- /.image -->
-                          
-                          <div class="tag new"><span>new</span></div>
                         </div>
                         <!-- /.product-image -->
                         
@@ -1315,7 +1311,7 @@ else{
                        </div>
                           <!-- /.image -->
                           
-                          <div class="tag new"><span>new</span></div>
+                          <div class="tag new"><span>nuevo</span></div>
                         </div>
                         <!-- /.product-image -->
                         
@@ -1396,9 +1392,9 @@ else{
 									</div>
 								</li>
 							</ul>
-							<h2 class="text-uppercase">hot deal this week</h2>
-							<p>New Collection Up to 50% OFF</p>
-							<a class="btn btn-primary" href="category.html">Comprar ahora</a>
+							<h2 class="text-uppercase">Semana de Ofertas</h2>
+							<p>Nuevos productos con 50% de desc</p>
+							<a class="btn btn-primary" href="CategoryTecnologia.php">Comprar ahora</a>
 						</div>
 					</div>
 				</div>
@@ -1437,7 +1433,6 @@ else{
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag hot"><span>hot</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -1531,7 +1526,7 @@ else{
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag sale"><span>sale</span></div>
+                    <div class="tag sale"><span>oferta</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -1572,13 +1567,12 @@ else{
                     <div class="image"> 
                           <a href="detail.html">
                              <img src="image/Tecnologia/Televisores/Tv2/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Televisores/Tv2/lado izquierdo.jpg" alt="" class="hover-image">
+                              <img src="image/Tecnologia/Televisores/Tv2/lado_izquierdo.jpg" alt="" class="hover-image">
                           </a>
                           
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag hot"><span>hot</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -1625,7 +1619,6 @@ else{
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag hot"><span>hot</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -1672,7 +1665,6 @@ else{
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag hot"><span>hot</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -1719,7 +1711,6 @@ else{
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag hot"><span>hot</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -1815,7 +1806,7 @@ else{
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag new"><span>new</span></div>
+                    <div class="tag new"><span>nuevo</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -1862,7 +1853,7 @@ else{
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag new"><span>new</span></div>
+                    <div class="tag new"><span>nuevo</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -1909,7 +1900,6 @@ else{
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag hot"><span>hot</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -1956,7 +1946,7 @@ else{
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag hot"><span>hot</span></div>
+                    <div class="tag hot"><span>oferta</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -2003,7 +1993,7 @@ else{
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag sale"><span>sale</span></div>
+                    <div class="tag sale"><span>oferta</span></div>
                   </div>
                   <!-- /.product-image -->
                   
@@ -2050,7 +2040,7 @@ else{
                           </div>
                     <!-- /.image -->
                     
-                    <div class="tag sale"><span>sale</span></div>
+                    <div class="tag sale"><span>oferta</span></div>
                   </div>
                   <!-- /.product-image -->
                   
