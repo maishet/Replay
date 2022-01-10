@@ -53,7 +53,7 @@ class OauthUser {
 		$_SESSION['user_lname']   = $userInfo['last_name'];
 		$_SESSION['user_email']   = $userInfo['email'];
 		$_SESSION['user_picture'] = $userInfo['picture']['url'];
-		header('location:home.php'); //esto se cambia para direccionar
+		header('location:homeLogueado.php'); //esto se cambia para direccionar
 		//$qry = "insert into ".$this->table."(oauth_id, name, first_name, last_name, email) values ('".$userInfo['id']."', '".$userInfo['name']."', '".$userInfo['first_name']."', '".$userInfo['last_name']."', '".$userInfo['email']."')";
 
 		exit();

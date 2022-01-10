@@ -1,4 +1,6 @@
-<html>
+<?php session_start();?>
+<?php
+  <html>
     <header class="header-style-1"> 
   
         <!-- ============================================== TOP MENU ============================================== -->
@@ -7,7 +9,8 @@
             <div class="header-top-inner">
               <div class="cnt-account">
                 <ul class="list-unstyled">
-                  <li class="myaccount"><a href="#"><span>Mi cuenta</span></a></li>
+                
+                  <li class="myaccount"><a href="miCuenta.php"><span>Mi cuenta</span></a></li>
                   <li class="wishlist"><a href="#"><span>Lista de Deseos</span></a></li>
                   <li class="Seguimiento"><a href="Seguimiento-Compras.php"><span>Seguimiento de Compras</span></a></li>
                   <li class="login"><a href="logout.php"><span>Cerrar Sesión</span></a></li>
@@ -336,3 +339,4 @@
         
       </header>
 </html>
+?>
