@@ -1,3 +1,32 @@
+<?php
+if(!empty($_POST)){
+  $alert='';
+  if(empty($_POST['nombre'])||empty($_POST['apellido'])||empty($_POST['correo'])){
+    $alert='<p>Todos los campos son obligatorios.</p>';
+  }
+}
+
+if(empty($_GET['id'])){
+    header('Location: homeLogueado.php');
+}
+$conexion1=mysqli_connect("localhost","root","1234","database_to_import");
+$iduser=$_GET['id'];
+$consulta1="SELECT*FROM users where oauth_id='$iduser'";
+$sql1=mysqli_query($conexion1, $consulta1);
+$result_sql=mysqli_num_rows($sql1);
+if($result_sql=0){
+  header('Location:homeLogueado.php');
+}
+else{
+
+  while($data=mysqli_fetch_array($sql1)){
+        $idnombre=$data['first_name'];
+        $idapellido=$data['last_name'];
+        $idemail=$data['email'];
+        $idpassword=$data['password'];
+  }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -396,23 +425,23 @@
       <div class="tamañoCuenta">
         <!-- Mis Datos -->
         <div class="cuadroActualizaDatos">
-          <form class="" role="form"> 
+          <form class="" role="form" method="post" ACTION="miCuenta.php"> 
             
             <div class="formActualizaDatos">
               <div class="subtituloCuenta">Actualiza tus datos</div>
                 <hr class="" width=100%>
               <p class="fontCuenta">Actualiza tus datos</p>
               <div class="form-group">
-                <label class="info-title" for="exampleInputEmail1">Nombre: <span>*</span></label>
-                <input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1">
+                <label class="info-title"  for="exampleInputEmail1">Nombre: <span>*</span></label>
+                <input type="text" name="nombres" class="form-control unicase-form-control text-input" id="exampleInputEmail1" value="<?php echo($idnombre)?>">
               </div>
               <div class="form-group">
                 <label class="info-title" for="exampleInputEmail1">Apellido: <span>*</span></label>
-                <input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1">
+                <input type="text" name="apellido" class="form-control unicase-form-control text-input" id="exampleInputEmail1" value="<?php echo($idapellido)?>">
               </div>
               <div class="form-group">
                 <label class="info-title" for="exampleInputPassword1">Correo: <span>*</span></label>
-                <input type="password" class="form-control unicase-form-control text-input" id="exampleInputPassword1">
+                <input type="email" name="correo" class="form-control unicase-form-control text-input" id="exampleInputPassword1" value="<?php echo($idemail)?>">
               </div>
             </div>
             <div class="posicionBoton">
@@ -426,7 +455,7 @@
                 <div class="contraseñaCambioCuenta">
                   <div class="form-group">
                     <label class="info-title" for="exampleInputEmail1">Contraseña Actual: <span>*</span></label>
-                    <input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1">
+                    <input type="password" class="form-control unicase-form-control text-input" id="exampleInputEmail1" value="<?php echo($idpassword)?>">
                   </div>
                   <div class="form-group">
                     <label class="info-title" for="exampleInputPassword1">Contraseña Nueva  : <span>*</span></label>
