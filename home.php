@@ -2146,6 +2146,7 @@ else{
 <script src="assets/js/pedirdeseos.js"></script>
 <script src="assets/js/deseos.js"></script>
 <!-- ============================================================= FOOTER : END============================================================= -->
+<!-- Código de instalación Cliengo para Replay --> 
 </body>
 
 </html>
