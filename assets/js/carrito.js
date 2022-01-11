@@ -138,6 +138,21 @@ class Carrito {
         this.calcularTotal();
 
     }
+    //Eliminar el producto del carrito en el DOM
+    eliminarProductoPedido(e){
+        e.preventDefault();
+        let producto, productoID;
+        if(e.target.classList.contains('borrar-producto')){
+            e.target.parentElement.parentElement.remove();
+            producto = e.target.parentElement.parentElement;
+            productoID = producto.querySelector('a.borrar-producto').getAttribute('data-id'); // esta sacando null (corregido de 'a')
+            //console.log(productoID);
+        }
+        this.eliminarProductoLocalStorage(productoID);
+        //this.calcularTotalhome();
+        this.calcularTotal();
+
+    }
 
     //Elimina todos los productos
     calcularTotalhome(){
@@ -147,10 +162,10 @@ class Carrito {
         for(let i = 0; i < productosLS.length; i++){
             let element = Number(productosLS[i].precio * productosLS[i].cantidad);
             preciocarrito = preciocarrito + element;
-            cant = cant + productosLS[i].cantidad;
+            //cant = cant + productosLS[i].cantidad;
         }
 
-        document.getElementById('cantCarrito').innerHTML = cant;
+        //document.getElementById('cantCarrito').innerHTML = cant;
         document.getElementById('precioCarrito').innerHTML = "S/. " + preciocarrito.toFixed(2);
         document.getElementById('precioCarritoS').innerHTML = "S/. " + preciocarrito.toFixed(2);
     }
@@ -314,17 +329,21 @@ class Carrito {
     obtenerEvento(e) {
         e.preventDefault();
         let id, cantidad, producto, productosLS;
-        if (e.target.classList.contains('cart-product-quantity.cantidad')) {
-            producto = e.target.parentElement.parentElement;
+        //console.log(e.target);
+        if (e.target.classList.contains('cantidad')) {
+            producto = e.target.parentElement.parentElement.parentElement;
+            //console.log(producto);
             id = producto.querySelector('a.borrar-producto').getAttribute('data-id');
-            cantidad = producto.querySelector('quant-input.input').value;
-            let actualizarMontos = document.querySelectorAll('#subtotales.span');
+            //console.log(id); imprime 7
+            cantidad = producto.querySelector('input').value;
+            //console.log(cantidad);
+            let actualizarMontos = document.querySelectorAll('#subtotales span');
             //console.log(actualizarMontos);
             productosLS = this.obtenerProductosLocalStorage();
             productosLS.forEach(function (productoLS, index) {
                 if (productoLS.id === id) {
                     productoLS.cantidad = cantidad;                    
-                    actualizarMontos[index].innerHTML = Number(cantidad * productosLS[index].precio);
+                    actualizarMontos[index].innerHTML = "S/. "+ Number(cantidad * productosLS[index].precio).toFixed(2);
                 }    
             });
             localStorage.setItem('productos', JSON.stringify(productosLS));
