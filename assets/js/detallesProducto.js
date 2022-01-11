@@ -1,4 +1,4 @@
- $(document).ready(function() {
+$(document).ready(function() {
 	$(".tabs .title").click(function() {    
 		$(".tabs .title").removeClass("active");
 		$(this).addClass("active"); 
@@ -61,8 +61,9 @@ function cerrar(){
 	document.getElementById("calificacion").innerHTML="(0)";
 }
 var contador;
+let contadorEstrellas;
 function calificar(item){
-	let contadorEstrellas=0;
+	contadorEstrellas=0;
 	contador=item.id[0];
 	let nombre=item.id.substring(1);
 
@@ -76,6 +77,58 @@ function calificar(item){
 			contadorEstrellas++
 		}
 	}
-	console.log("la calificacion es: "+contadorEstrellas);
 	document.getElementById("calificacion").innerHTML="("+String(contadorEstrellas)+")";
+}
+
+//publicar comentario
+
+let tituloComent="a";
+let autor="a";
+let descripcion="a";
+
+function publicar(){
+	let tituloComent=document.getElementById("tituloComentario").value;
+	let autor=document.getElementById("autorComentario").value;
+	let calificacion=contadorEstrellas;
+	let descripcion=document.getElementById("comentarioCont").value;
+	console.log("Titulo: "+tituloComent);
+	console.log("autor: "+autor);
+	console.log("calificacion: "+calificacion);
+	console.log("descripcion: "+descripcion);
+	const div = document.createElement("div");
+	let contenedor=document.getElementById("contenedor-comentarios");
+	div.innerHTML=`<div class="comentario">
+                        <hr>
+                        <h2>${tituloComent}</h2>
+                        <div class="cont1">
+                          <p class="autor">${autor}</p>
+                          <span class="tiempo">Hace 3 meses</span>
+                        </div>
+                        <div class="calificacion" id="calificacionEstrellas">
+                        </div>
+                        <div class="descripcion">
+                          <p>${descripcion}</p>
+                        </div>
+                        <div>
+                          <span>¿Te fue útil este comentario?</span> 
+                          <button class="btn-si"  onclick="sumarSi(this)" id="2comentarios-si">Si:0</button> 
+                          <button class="btn-no"  onclick="sumarNo(this)" id="2comentarios-no">No:0</button>
+                        </div>
+                      </div>`;
+	contenedor.insertAdjacentElement("beforeend", div);
+	for(j=0;j<5;j++){
+		let i=document.createElement("i");
+		i.classList.add('bx','bxs-star');
+		contadorEstrellas--;
+		if(contadorEstrellas>=0){
+			i.classList.add('activo')
+		}else{
+			i.classList.add('inactivo')
+		}
+		document.getElementById("calificacionEstrellas").insertAdjacentElement("beforeend",i);
+	}
+	document.getElementById("calificacionEstrellas").removeAttribute("id");
+	document.getElementById("ventana-comentario").style.display = "none";
+	document.getElementById("pop-up").style.display = "none";
+
 }
