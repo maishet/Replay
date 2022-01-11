@@ -131,13 +131,40 @@
 	</div>
 </div><!-- /.shopping-cart-table -->
 
-<div class="col-md-4 col-sm-12 cart-shopping-total">
+<div class="col-md-4 col-sm-12 cart-shopping-total">		<!-- cupon de descuento -->
+	<div class="estimate-ship-tax">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>
+						<span class="estimate-title">Cupón de descuento</span>
+						<p>Digite el código del cupón</p>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+					<tr>
+						<td>
+							<div class="form-group">
+								<input type="text" class="form-control unicase-form-control text-input" placeholder="Código...">
+							</div>
+							<div class="clearfix pull-right">
+								<button type="submit" class="btn-upper btn btn-primary">APLICAR CUPÓN</button>
+							</div>
+						</td>
+					</tr>
+			</tbody>
+		</table>
+	</div>
 	<table class="table">
 		<thead>
 			<tr>
 				<th>
 					<div class="cart-sub-total">
 						Subtotal<span id="subtotal" class="inner-left-md"></span>
+					</div>
+					<div class="cart-descuento">
+						<!-- Descuento<span id="cupondescuento" class="inner-left-md">S/. 0</span> -->
 					</div>
 					<div class="cart-grand-total">
 						Total<span id="total" class="inner-left-md"></span>
@@ -164,31 +191,7 @@
 
 <span class="footer-more-product"><a href="home.php">Ver más productos</a></span>
 
-		<!-- cupon de descuento -->
-		<!-- <div class="col-md-4 col-sm-12 estimate-ship-tax">
-			<table class="table">
-				<thead>
-					<tr>
-						<th>
-							<span class="estimate-title">Discount Code</span>
-							<p>Enter your coupon code if you have one..</p>
-						</th>
-					</tr>
-				</thead>
-				<tbody>
-						<tr>
-							<td>
-								<div class="form-group">
-									<input type="text" class="form-control unicase-form-control text-input" placeholder="You Coupon..">
-								</div>
-								<div class="clearfix pull-right">
-									<button type="submit" class="btn-upper btn btn-primary">APPLY COUPON</button>
-								</div>
-							</td>
-						</tr>
-				</tbody>
-			</table>
-		</div> -->
+
 <!-- ============================================== CARRUSEL DE PRODUCTOS ============================================== -->
 <!-- <div id="brands-carousel" class="logo-slider wow fadeInUp">
 
