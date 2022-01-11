@@ -237,7 +237,7 @@ class Carrito {
                         <input type="number" class="form-control cantidad" min="1" value="${producto.cantidad}">
                     </div>
                 </td>
-                <td id="subtotales" class="cart-product-grand-total"><span class="cart-grand-total-price">S/.${producto.precio}</span></td>
+                <td id="subtotales" class="cart-product-grand-total"><span class="cart-grand-total-price">S/.${producto.precio * producto.cantidad}</span></td>
                 <td class="romove-item">
                     <a href="#" title="Eliminar" class="borrar-producto bx bxs-trash-alt bx-md" data-id="${producto.id}"></a>
                 </td>

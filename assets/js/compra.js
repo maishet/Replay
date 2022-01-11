@@ -1,7 +1,7 @@
 const compra = new Carrito();
 const listaCompra = document.querySelector("#lista-compra tbody");
 const carritopedido = document.getElementById('carritopedido');
-//const procesarCompraBtn = document.getElementById('procesar-compra');
+const procesarCompraBtn = document.getElementById('procesar-despacho');
 //const cliente = document.getElementById('cliente');
 //const correo = document.getElementById('correo');
 
@@ -15,29 +15,29 @@ function cargarEventos() {
 
     compra.calcularTotal();
 
-/*
+
     //cuando se selecciona procesar Compra
     procesarCompraBtn.addEventListener('click', procesarCompra);
 
-    carrito.addEventListener('change', (e) => { compra.obtenerEvento(e) });
-    carrito.addEventListener('keyup', (e) => { compra.obtenerEvento(e) });*/
+    carritopedido.addEventListener('change', (e) => { compra.obtenerEvento(e) });
+    carritopedido.addEventListener('keyup', (e) => { compra.obtenerEvento(e) });
 
 }
-/*
+
 function procesarCompra() {
-    // e.preventDefault();
+    e.preventDefault();
     if (compra.obtenerProductosLocalStorage().length === 0) {
         Swal.fire({
-            type: 'error',
+            icon: 'error',
             title: 'Oops...',
             text: 'No hay productos, selecciona alguno',
             showConfirmButton: false,
             timer: 2000
         }).then(function () {
-            window.location = "index.html";
+            window.location = "home.php";
         })
     }
-    else if (cliente.value === '' || correo.value === '') {
+    /*else if (cliente.value === '' || correo.value === '') {
         Swal.fire({
             type: 'error',
             title: 'Oops...',
@@ -109,9 +109,9 @@ function procesarCompra() {
                         alert("Error al enviar el email\r\n Response:\n " + JSON.stringify(err));
                     });
             });
-    }
+    }*/
 }
-
+/*
 
 function generarTabla(productosLS) {
     let div = document.createElement("div");

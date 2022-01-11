@@ -37,7 +37,7 @@
 <!-- ============================================== HEADER ============================================== -->
 
 
-<!-- ?php include('header.html'); ?-->
+<?php include('header.html'); ?>
 
 <!-- ============================================== HEADER : END ============================================== -->
 <div class="breadcrumb">
@@ -176,7 +176,7 @@
 				<tr>
 					<td>
 						<div class="cart-checkout-btn pull-right">
-							<button type="submit" class="btn btn-primary checkout-btn">CONTINUAR</button>
+							<button id="procesar-despacho" type="submit" class="btn btn-primary checkout-btn">CONTINUAR</button>
 						</div>
 					</td>
 				</tr>
@@ -191,81 +191,10 @@
 
 <span class="footer-more-product"><a href="home.php">Ver más productos</a></span>
 
-
-<!-- ============================================== CARRUSEL DE PRODUCTOS ============================================== -->
-<!-- <div id="brands-carousel" class="logo-slider wow fadeInUp">
-
-		<div class="logo-slider-inner">	
-			<div id="brand-slider" class="owl-carousel brand-slider custom-carousel owl-theme">
-				<div class="item m-t-15">
-					<a href="#" class="image">
-						<img data-echo="assets/images/brands/brand1.png" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-				<div class="item m-t-10">
-					<a href="#" class="image">
-						<img data-echo="assets/images/brands/brand2.png" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="assets/images/brands/brand3.png" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="assets/images/brands/brand4.png" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="assets/images/brands/brand5.png" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="assets/images/brands/brand6.png" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="assets/images/brands/brand2.png" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="assets/images/brands/brand4.png" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="assets/images/brands/brand1.png" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="assets/images/brands/brand5.png" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
-		    </div>
-		</div>
-	
-</div> -->
-<!-- ============================================== CARRUSEL DE PRODUCTOS : END ============================================== -->
-
 <!-- ============================================================= FOOTER ============================================================= -->
 
 <?php include 'footer.html'; ?>
-<!-- <script src="assets/js/pedido.js"></script> -->
+<script src="assets/js/pedido3.js"></script>
 <script src="assets/js/compra.js"></script>
 <!-- ============================================================= FOOTER : END============================================================= --> 
 </body>
