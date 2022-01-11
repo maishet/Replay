@@ -64,23 +64,34 @@
           </div>
           <div>
             <h2>Título del comentario</h2>
-            <input type="text" placeholder="Ejemplo: !Lo puedo llevar a todos lados!" class="input"/>
+            <input id="tituloComentario" type="text" placeholder="Ejemplo: !Lo puedo llevar a todos lados!" class="input" value=""/>
           </div>
           <div>
             <h2>Comentario</h2>
-            <textarea name="" id="" cols="30" rows="10"placeholder="Es muy fácil de traladar, es liviano..." class="textarea"></textarea>
+            <textarea name="" id="comentarioCont" cols="30" rows="6"placeholder="Es muy fácil de traladar, es liviano..." class="textarea"></textarea>
           </div>
           <div class="recomendaciones">
             <span>¿Recomendarías este producto a un amigo?</span> 
-            <button class="btn-si">SI</button><button class="btn-no">NO</button>
+            <button id="boton-si" class="btn-si">SI</button><button id="boton-no" class="btn-no">NO</button>
+          </div>
+          <div class="nombre-email">
+            <div>
+              <h3>Nombre</h3>
+              <input id="autorComentario" type="text" placeholder="Ejemplo: María">
+            </div>
+            <div >
+              <h3>Correo electrónico*</h3>
+              <input type="text" placeholder="Ejemplo: tucorreoelectrónico@ejemplo.com" >
+            </div>
           </div>
           <div style="text-align: center;">
-            <button class="btn btn-publicar">PUBLICAR COMENTARIO</button>
+            <button class="btn btn-publicar" id="publicarComentario" onclick="publicar()">PUBLICAR COMENTARIO</button>
           </div>
         </div>
       </div><!-- /.col -->
     </div><!-- /.row -->
   </div><!-- /.product-tabs -->
+     <!-- ============================================== Confirmacion de comentario============================================== -->
   <!-- ==============================================Escribir comentario END============================================== -->
 
 <!-- ============================================== HEADER ============================================== -->
@@ -769,7 +780,7 @@
 							<div class="tab-content">								
 								<div class="tab-pane in active">
 									<div class="comentarios-cont">
-                    <h4>Comentarios</h4>
+                    <h1>Comentarios</h1>
                     <hr class="linea-horizontal-description">		
                     <div class="calificacion-cont">
                       <span class="subt">Calificación general</span>	
@@ -784,7 +795,7 @@
                         <i class='bx bxs-star inactivo'></i>
                         <span class="puntaje">3 (3 calificaciones)</span>
                     </div>
-                    <div class="m-t-20">
+                    <div class="m-t-20" id="contenedor-comentarios">
                       <div class="estrellas-comentarios">
                         <div><span>5</span><i class='bx bxs-star'></i><span>0</span><span> calificaciones</span></div>
                         <div><span>4</span><i class='bx bxs-star'></i><span>0</span><span> calificaciones</span></div>
@@ -803,6 +814,7 @@
                       
                       <div class="comentario">
                         <hr>
+                        <h2>Título</h2>
                         <div class="cont1">
                           <p class="autor">Autor</p>
                           <span class="tiempo">Hace 4 meses</span>
@@ -826,6 +838,7 @@
                       </div>
                       <div class="comentario">
                         <hr>
+                        <h2>Título</h2>
                         <div class="cont1">
                           <p class="autor">Autor</p>
                           <span class="tiempo">Hace 3 meses</span>
@@ -852,6 +865,7 @@
                       </div>
                       <div class="comentario">
                         <hr>
+                        <h2>Título</h2>
                         <div class="cont1">
                           <p class="autor">Autor</p>
                           <span class="tiempo">Hace 5 meses</span>
@@ -878,8 +892,8 @@
                       </div>
                       
                     </div>
-                    <hr>
 									</div>	
+                  <hr>
 								</div><!-- /.tab-pane -->
 							</div><!-- /.tab-content -->
 						</div><!-- /.col -->
@@ -1038,7 +1052,7 @@
           <!-- /.module-heading -->
           
           <div class="module-body">
-            <ul class="toggle-footer" style="">
+            <ul class="toggle-footer">
               <li class="media">
                 <div class="pull-left"> <span class="icon fa-stack fa-lg"> <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i> </span> </div>
                 <div class="media-body">

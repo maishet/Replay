@@ -585,7 +585,7 @@ table {
   font-size:18px;
   color:black;
 }
-.comentarios-cont h4{
+.comentarios-cont h1{
   font-weight: 600;
   margin-bottom: 0px;
   font-size:18px;
@@ -696,6 +696,10 @@ table {
 .comentarios-cont .calificacion-general i{
   font-size:25px;
 }
+.comentarios-cont .comentario h2{
+  font-size:16px;
+  font-weight: 600;
+}
 .comentarios-cont .comentario .cont1{
    display: flex;
    font-size: 14px;
@@ -736,18 +740,21 @@ table {
   color:white;
 }
 .ventana-comentario{
-  width: 80%;
+  width: 75%;
   /* height: 90%; */
   /* max-height: 565px; */
-  height: 570px;
+/*   height: 570px; */
+  height: 555px;
   border-radius: 17px !important;
   position: fixed;
   z-index: 1000;
-  top:5%;
-  bottom: 0;
+/*   top:5%; */
+  top:6%;
   bottom: auto;
-  left: 10%;
-  right: 10%;
+/*   left: 10%;
+  right: 10%; */
+  left: 12.5%;
+  right: 12.5%;
   display:none ;
   opacity:1 !important;
   background-color: white;
@@ -904,6 +911,23 @@ table {
 }
 .comentario span{
   font-size:14px;
+  font-weight: 500;
+}
+.contenedor-escribirComentario .nombre-email{
+  display: grid;
+  grid-template-columns: auto  auto;
+  padding-left: 10px;
+}
+.contenedor-escribirComentario .nombre-email input{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 600px;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0,0.4);
+}
+.contenedor-escribirComentario .nombre-email h3{
+  font-size: 17px;
   font-weight: 500;
 }
 /*Fin Detalles del Producto =====================================================================*/
