@@ -102,12 +102,27 @@
 							<li id="opcion1"><a href="#opcion1" >Tarjetas de Crédito y Débito (Visa, Mastercard, Amex, Diners)</a>
 								<ul>
 								<li>
-									<form class="" role="form" method="post"> 
+									<form class="formPago" role="form" method="post"> 
 										<div>
-											<div><label class="info-title"  for="exampleInputEmail1">Nombre: <span>*</span></label>
-                  								<input type="text" name="" id="" class="form-control unicase-form-control text-input"></div>
+											<div>
+												<label class="info-title"  for="exampleInputEmail1" class="contenedorTexto">Numero de Tarjeta</label>
+                  								<input type="text" name="" id="" class="inputText">
+											</div>	
+											<div class="contenedorGral">
+												<div class="contenedorExpiracion">
+													<label class="info-title"  for="exampleInputEmail1" class="contenedorTextoNro">Numero de Expiración</label>
+													<input type="text" name="" id="" class="inputTextNro">
+												</div>
+												<div class="espaciador">
+
+												</div>
+												<div class="contenedorCVV">
+													<label class="info-title"  for="exampleInputEmail1" class="contenedorTextoNro">Código CVV</label>
+													<input type="text" name="" id="" class="inputTextNro">
+												</div>
+											</div>
 											<div class="posicionBoton">
-												<button type="submit" class="btn-upper btn btn-primary checkout-page-button">Usar Tarjeta</button>
+												<button type="submit" class="botonTarjeta">Usar Tarjeta</button>
 											</div>
 
 										</div>
@@ -118,9 +133,9 @@
 							</li>
 							<li id="opcion2" ><a href="#opcion2" >Pago con código QR (Yape, Lukita, Tunki) </a>
 								<ul>
-								<li><a href="URL21">Opción 2.1</a></li>
-								<li><a href="URL22">Opción 2.2</a></li>
-								<li><a href="URL23">Opción 2.3</a></li>
+								<center>
+								<img src="image/gif/qr.gif" class="gif">
+								</center>
 								</ul>
 							</li>
 							<li id="opcion3"><a href="#opcion3">Pago por banca móvil o banca por internet</a>
@@ -140,7 +155,7 @@
 						
 					</div>
 
-					<div class="opcionesDespachoDer">
+					<div class="opcionesPagoDer">
 						<!-- cupon de descuento -->
 						<table class="table">
 							<thead>

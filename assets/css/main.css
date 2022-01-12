@@ -451,11 +451,7 @@ table {
 
 
 ul.acorh,
-ul.acorh * {
-margin: 0;
-padding: 0;
-border: 0;
-}
+
 ul.acorh {
 margin: 10px auto;
 padding: 0;
@@ -489,8 +485,8 @@ padding: 10px 10px 10px 40px;
 background: #999;
 color: #000;
 font-size: 16px;
-border: 0;
-border-bottom: 1px solid #ccc;
+border: 1px solid #000;
+border-bottom: 1px solid rgb(0, 0, 0);
 box-sizing: border-box;
 }
 ul.acorc li li:last-child a {
@@ -501,10 +497,70 @@ ul.acorh li:target ul {
   transition: .3s all ease-in;
   }
 ul.acorh li a:hover {
-background: #666;
+background: #108BEA;
 color: #fff;
 }
+.formPago{
+  background-color: #ffffff;
+}
+.contenedorTexto{
+  display: block;
+}
+.inputText{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  display: block;
+  width: 90%;  
+  height: 35px;
+}
+.contenedorGral{
+  display: flex;
+}
+.contenedorExpiracion{
+  width: 40%; 
+  
+}
+.contenedorCVV{
+  width: 40%;
+  
+}
+.espaciador{
+  width: 10%;
+}
+.contenedorTextoNro{
 
+}
+.inputTextNro{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  display: block;
+   
+  height: 35px;
+}
+.posicionBoton{
+  margin-top: 20px;
+}
+.botonTarjeta{
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #108BEA;
+  color: #f8f8f8;
+  border: 1px solid #108BEA;
+}
+.gif{
+  width: 55%;
+}
+.opcionesPagoDer{
+  width: 90%;
+  /*background-color: #25414b;*/
+  margin-left: 150px;
+  margin-right: 80px;
+  margin-top: 60px;
+ 
+}
 
 /*fin pago*/
 /*Estado de mi Pedido =====================================================================*/
