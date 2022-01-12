@@ -384,6 +384,7 @@ class Carrito {
             for(let i=0; i<res.length; i++){
                 if(res[i].code === cupontext.codigo){
                     //console.log(res[i].code);
+                    //res[i].status = 0;
                     this.aplicarDescuento(res[i]);
                     return;
                 }
@@ -393,15 +394,27 @@ class Carrito {
     }
 
     aplicarDescuento(cupon){
-        let subt = 0, total= 0;
+        let subt = 0;
         document.getElementById("formcupon").style.display = 'none'; //ocultamos el formulario
         document.getElementById("cuponvalido").style.display = 'block'; //mostramos el mensaje de cupon valido
         document.getElementById("textocupon").innerHTML = `Usted tiene un descuento de ${cupon.valor}%`; //mostramos el cupon ingresado
         //console.log(cupon.valor); 15
         subt = document.getElementById("subtotal").innerHTML; //obtenemos el subtotal
         //console.log(subt); //imprime S/. 378.00
-        document.getElementById("descuentocupon").innerHTML = `S/. ${(subt * cupon.valor / 100).toFixed(2)}`; //mostramos el descuento
-        total = subt - (subt * cupon.valor / 100); //calculamos el total
-        document.getElementById("total").innerHTML = `S/. ${total.toFixed(2)}`; //mostramos el total
+        var numercupon = Number(cupon.valor); //convertimos el valor del cupon a numero
+        var numeroSubt = Number(subt.substring(3)); //convertimos el subtotal a numero
+        //console.log(numercupon);
+        //console.log(numeroSubt);
+        document.getElementById("descuentocupon").innerHTML = `S/. ${(numeroSubt * numercupon / 100).toFixed(2)}`; //mostramos el descuento
+        var numtotal = numeroSubt - (numeroSubt * numercupon / 100); //calculamos el total
+        document.getElementById("total").innerHTML = `S/. ${numtotal.toFixed(2)}`; //mostramos el total
+
+        let resumen = {numeroSubt, numercupon, numtotal}; //creamos un objeto con los valores
+
+       this.guardardatosconcupon(resumen);
+    }
+
+    guardardatosconcupon(resumen){
+        //console.log(resumen);
     }
 }

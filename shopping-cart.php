@@ -155,7 +155,7 @@
 								</div>
 							</div>
 							<div id="cuponvalido" style="display: none;">
-								<h4 id="textocupon" class="text-sucess"></h4>
+								<h4 id="textocupon" class="text-success" style="color: #84b943;"></h4>
 							</div>
 						</td>
 					</tr>
