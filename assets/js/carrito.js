@@ -357,22 +357,22 @@ class Carrito {
     //Calcular montos
     calcularTotal(){
         let productosLS;
-        let total = 0, subtotal = 0;
+        let numtotal = 0, subtotal = 0;
         productosLS = this.obtenerProductosLocalStorage();
         for(let i = 0; i < productosLS.length; i++){
             let element = Number(productosLS[i].precio * productosLS[i].cantidad);
-            total = total + element;
+            numtotal = numtotal + element;
             
         }
         
         //igv = parseFloat(total * 0.18).toFixed(2);
-        subtotal = parseFloat(total).toFixed(2);
-        let sutotalll = Number(subtotal);
-        let numdesc = 0;
-
+        subtotal = parseFloat(numtotal).toFixed(2);
+        let numeroSubt = Number(subtotal);
+        let numercupon = 0;
+        //numeroSubt, numercupon, numtotal
         document.getElementById('subtotal').innerHTML = "S/. " + subtotal;
-        document.getElementById('total').innerHTML = "S/. " + total.toFixed(2);
-        let resumen = {sutotalll, numdesc, total};
+        document.getElementById('total').innerHTML = "S/. " + numtotal.toFixed(2);
+        let resumen = {numeroSubt, numercupon, numtotal};
 
         this.guardardatosconcupon(resumen);
     }
@@ -487,36 +487,43 @@ class Carrito {
         let resumen;
         resumen = this.obtenerResuemenCompra();
         //console.log(resumen);
-        let subtotal=0;
-        if(resumen.sutotalll !== undefined){
-            subtotal = resumen.sutotalll;
-        }
-        if(resumen.numeroSubt !== undefined){
-            subtotal = resumen.numeroSubt;
-        }
-
-        let descuento = resumen.numercupon;
-        let total = resumen.numtotal;
+        let subtotal=0, descuento = 0, total = 0;
+        
+        subtotal = resumen.numeroSubt;
+        descuento = resumen.numeroSubt * resumen.numercupon / 100;
+        total = resumen.numtotal;
         //resumen.forEach(function (producto){
             const row = document.createElement('tr');
             row.innerHTML = `
-                <td>									
-                    <div class="subTitulos">Subtotal
-                        <span id="subtotalresumen" class="inner-left-md">${subtotal}</span>
-                    </div>
-                </td>
-                <td>									
-                    <div class="subTitulos">Subtotal
-                        <span id="descuentoresumen" class="inner-left-md">${descuento}</span>
-                    </div>
-                </td>
-                <td>									
-                    <div class="subTitulos">Subtotal
-                        <span id="totalresumen" class="inner-left-md">${total}</span>
-                    </div>
-                </td>
+            <th>
+                <div class="cart-sub-total">
+                    Subtotal<span id="subtotal" class="inner-left-md">${subtotal.toFixed(2)}</span>
+                </div>
+                <div class="cart-sub-total">
+                    Descuento<span id="descuentocupon" class="inner-left-md">${descuento.toFixed(2)}</span>
+                </div>
+                <div class="cart-grand-total">
+                    Total<span id="total" class="inner-left-md">${total.toFixed(2)}</span>
+                </div>
+            </th>
             `;
             listaresumen.appendChild(row);
         //});
     }
-}
+}   
+    /*
+                <td>									
+                    <div class="subTitulos">Subtotal
+                        <span id="subtotalresumen" class="inner-left-md">${subtotal.toFixed(2)}</span>
+                    </div>
+                </td>
+                <td>									
+                    <div class="subTitulos">Descuento
+                        <span id="descuentoresumen" class="inner-left-md">${descuento.toFixed(2)}</span>
+                    </div>
+                </td>
+                <td>									
+                    <div class="subTitulos">Total
+                        <span id="totalresumen" class="inner-left-md">${total.toFixed(2)}</span>
+                    </div>
+                </td>*/
