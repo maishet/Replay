@@ -1,5 +1,18 @@
 class Carrito {
 
+    //Añadir producto al carrito de deseos
+    comprarProductoDeseo(e){
+        e.preventDefault();
+        console.log(e.target);
+        //Delegado para agregar al carrito
+        if(e.target.classList.contains('agregar-carrito')){ //"agregar-carrito
+            const producto = e.target.parentElement.parentElement;
+            //Enviamos el producto seleccionado para tomar sus datos
+            this.leerDatosProductoDeseo(producto);
+            //console.log(producto);
+        }e.stopPropagation();
+    }
+
     //Añadir producto al carrito de OFERTAS
     comprarProducto(e){
         e.preventDefault();
@@ -97,7 +110,40 @@ class Carrito {
         }
         //this.insertarCarrito(infoProducto); //ya esta en el else
     }
+    
+    //Leer datos del producto de deseos
+    leerDatosProductoDeseo(producto){
+        const infoProducto = {
+            imagen : producto.querySelector('img').src,
+            titulo: producto.querySelector('product-name a').textContent,
+            precio: producto.querySelector('price').textContent,
+            id: producto.querySelector('.agregar-carrito').getAttribute('data-id'), //si recoge el atributo data-id con .cart a (home.php)
+            link: producto.querySelector('a').getAttribute('href'),
+            cantidad: 1
+        }
+        let productosLS;
+        productosLS = this.obtenerProductosLocalStorage();
+        productosLS.forEach(function (productoLS){
+            if(productoLS.id === infoProducto.id){
+                productosLS = productoLS.id;
+            }
+        });
 
+        if(productosLS === infoProducto.id){
+            Swal.fire({
+                icon: 'warning',
+                title: 'Oops...',
+                text: 'El producto ya está agregado',
+                showConfirmButton: false,
+                timer: 1000
+            })
+        }
+        else {
+            this.insertarCarrito(infoProducto);
+            //console.log(infoProducto);
+        }
+        //this.insertarCarrito(infoProducto); //ya esta en el else
+    }
     //muestra producto seleccionado en carrito
     insertarCarrito(producto){
         //listaProductos.innerHTML = ''; //limpia el carrito
@@ -321,9 +367,14 @@ class Carrito {
         
         //igv = parseFloat(total * 0.18).toFixed(2);
         subtotal = parseFloat(total).toFixed(2);
+        let sutotalll = Number(subtotal);
+        let numdesc = 0;
 
         document.getElementById('subtotal').innerHTML = "S/. " + subtotal;
         document.getElementById('total').innerHTML = "S/. " + total.toFixed(2);
+        let resumen = {sutotalll, numdesc, total};
+
+        this.guardardatosconcupon(resumen);
     }
 
     obtenerEvento(e) {
@@ -362,7 +413,7 @@ class Carrito {
     }
 
     
-    aplicarCupon(e){
+    agregarCupon(e){
         //console.log(e.target);
         if(e.target.classList.contains('btn-primary')){
             const cup = e.target.parentElement.parentElement; //div que contiene el cupon
@@ -376,7 +427,6 @@ class Carrito {
             codigo: cup.querySelector('input').value,
             //status: 1
         }
-        //console.log(cupontext); //imprime el cupon ingresado
 
         fetch('assets/js/codigos.json')
         .then(res => res.json())
@@ -384,7 +434,7 @@ class Carrito {
             for(let i=0; i<res.length; i++){
                 if(res[i].code === cupontext.codigo){
                     //console.log(res[i].code);
-                    //res[i].status = 0;
+                    res[i].status = 0;
                     this.aplicarDescuento(res[i]);
                     return;
                 }
@@ -406,8 +456,8 @@ class Carrito {
         //console.log(numercupon);
         //console.log(numeroSubt);
         document.getElementById("descuentocupon").innerHTML = `S/. ${(numeroSubt * numercupon / 100).toFixed(2)}`; //mostramos el descuento
-        var numtotal = numeroSubt - (numeroSubt * numercupon / 100); //calculamos el total
-        document.getElementById("total").innerHTML = `S/. ${numtotal.toFixed(2)}`; //mostramos el total
+        var numtotal = Number((numeroSubt - (numeroSubt * numercupon / 100)).toFixed(2)); //calculamos el total
+        document.getElementById("total").innerHTML = `S/. ${numtotal}`; //mostramos el total
 
         let resumen = {numeroSubt, numercupon, numtotal}; //creamos un objeto con los valores
 
@@ -416,5 +466,57 @@ class Carrito {
 
     guardardatosconcupon(resumen){
         //console.log(resumen);
+        localStorage.setItem('resumencompra', JSON.stringify(resumen));
+    }
+
+
+    //Comprobar que hay elementos en el LS
+    obtenerResuemenCompra(){
+        let resumen;
+
+        //Comprobar si hay algo en LS
+        if(localStorage.getItem('resumencompra') === null){
+            resumen = [];
+        }
+        else {
+            resumen = JSON.parse(localStorage.getItem('resumencompra'));
+        }
+        return resumen;
+    }
+    leerdatosresumen(){
+        let resumen;
+        resumen = this.obtenerResuemenCompra();
+        //console.log(resumen);
+        let subtotal=0;
+        if(resumen.sutotalll !== undefined){
+            subtotal = resumen.sutotalll;
+        }
+        if(resumen.numeroSubt !== undefined){
+            subtotal = resumen.numeroSubt;
+        }
+
+        let descuento = resumen.numercupon;
+        let total = resumen.numtotal;
+        //resumen.forEach(function (producto){
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>									
+                    <div class="subTitulos">Subtotal
+                        <span id="subtotalresumen" class="inner-left-md">${subtotal}</span>
+                    </div>
+                </td>
+                <td>									
+                    <div class="subTitulos">Subtotal
+                        <span id="descuentoresumen" class="inner-left-md">${descuento}</span>
+                    </div>
+                </td>
+                <td>									
+                    <div class="subTitulos">Subtotal
+                        <span id="totalresumen" class="inner-left-md">${total}</span>
+                    </div>
+                </td>
+            `;
+            listaresumen.appendChild(row);
+        //});
     }
 }

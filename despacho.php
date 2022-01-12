@@ -159,7 +159,7 @@
 
 					<div class="opcionesDespachoDer">
 						<!-- cupon de descuento -->
-						<table class="table">
+						<table id="listaresumen" class="table">
 							<thead>
 								<tr>
 										<div class="tituloResumenCompra">
@@ -203,17 +203,20 @@
 								<tr>
 									<th>
 										<div class="subTitulos">
-											Subtotal<span id="subtotal" class=""></span>
-										</div>
-										<div class="">
-											<!-- Descuento<span id="cupondescuento" class="inner-left-md">S/. 0</span> -->
+											Subtotal<span id="subtotalresumen" class="inner-left-md"></span>
 										</div>
 										<div class="subTitulos">
-											Total<span id="total" class=""></span>
+											Descuento<span id="descuentoresumen" class="inner-left-md">S/. 0</span>
+										</div>
+										<div class="subTitulos">
+											Total<span id="totalresumen" class="inner-left-md"></span>
 										</div>
 									</th>
 								</tr>
 							</thead><!-- /thead -->
+							<tbody>
+								
+							</tbody>
 							
 						</table><!-- /table -->
 					</div><!-- /.cart-shopping-total -->
@@ -231,7 +234,7 @@
 
 	<?php include 'footer.html'; ?>
 	<!-- <script src="assets/js/pedido.js"></script> -->
-	<script src="assets/js/compra.js"></script>
+	<script src="assets/js/despachocompra.js"></script>
 	<!-- ============================================================= FOOTER : END============================================================= -->
 </body>
 

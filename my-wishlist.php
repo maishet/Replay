@@ -24,7 +24,7 @@
 <!-- Icons/Glyphs -->
 <link rel="stylesheet" href="assets/css/font-awesome.css">
 <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script> <!--load all styles -->
+<!-- <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script> -->
 
 
 <!-- Fonts -->
