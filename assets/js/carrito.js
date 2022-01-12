@@ -496,14 +496,14 @@ class Carrito {
             const row = document.createElement('tr');
             row.innerHTML = `
             <th>
-                <div class="cart-sub-total">
-                    Subtotal<span id="subtotal" class="inner-left-md">${subtotal.toFixed(2)}</span>
+                <div class="subTitulos">
+                    Subtotal<span id="subtotalresumen" class="inner-left-md">S/. ${subtotal.toFixed(2)}</span>
                 </div>
-                <div class="cart-sub-total">
-                    Descuento<span id="descuentocupon" class="inner-left-md">${descuento.toFixed(2)}</span>
+                <div class="subTitulos">
+                    Descuento<span id="descuentoresumen" class="inner-left-md">S/. ${descuento.toFixed(2)}</span>
                 </div>
-                <div class="cart-grand-total">
-                    Total<span id="total" class="inner-left-md">${total.toFixed(2)}</span>
+                <div class="subTitulos text-success">
+                    Total<span id="totalresumen" class="inner-left-md text-success">S/. ${total.toFixed(2)}</span>
                 </div>
             </th>
             `;

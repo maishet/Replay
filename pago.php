@@ -66,13 +66,13 @@
 						Compras</span>
 				</div>
 				<div
-					class="fbra_tab fbra_checkoutDeliverySteps__easyDeliveryStep fbra_test_checkoutDeliverySteps__easyDeliveryStep fbra_tab--inProgress fbra_tab--enabled fbra_tab--active">
-					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__easyDeliveryStepText fbra_selected"
+					class="fbra_tab fbra_checkoutDeliverySteps__easyDeliveryStep fbra_test_checkoutDeliverySteps__easyDeliveryStep fbra_tab--completed fbra_tab--enabled fbra_tab--active">
+					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__easyDeliveryStepText"
 						title="">Despacho</span>
 				</div>
 				<div
-					class="fbra_tab fbra_checkoutDeliverySteps__securePaymentStep fbra_test_checkoutDeliverySteps__securePaymentStep fbra_tab--disabled fbra_tab--inactive">
-					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__securePaymentStepText"
+					class="fbra_tab fbra_checkoutDeliverySteps__securePaymentStep fbra_test_checkoutDeliverySteps__securePaymentStep fbra_tab--inProgress fbra_tab--active">
+					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__securePaymentStepText fbra_selected"
 						title="">Pago</span>
 				</div>
 				<div
@@ -165,15 +165,12 @@
 										</div>
 								</tr>
 							</thead><!-- /thead -->
-							<thead class="cuadroColor" >
-								<div >
+							<thead class="cuadroColor">
+								<div>
 								<tr>
 									<th>
 										<div class="productosResumenCompra">
 											Productos<span id="subtotal" class=""></span>
-										</div>
-										<div class="">
-											<!-- Descuento<span id="cupondescuento" class="inner-left-md">S/. 0</span> -->
 										</div>
 										<div class="totalResumenCompra">
 											Total<span id="total" class=""></span>
@@ -183,33 +180,30 @@
 								</div>
 							</thead><!-- /thead -->
 							<thead class="cuadroColor">
-								<tr>
+								<tr>		<!-- /supuestamente aqui pongo los prodctos pero se descuadra :c -->
 									<th>
 										<div class="">
-											Image Here from boxStore
+											<td>
+												<a href="#"><img src="image/Deporte/Accesorios/AC1/frente.jpg" alt="imagen" style="width:50px;"></a>
+											</td>
+											<td>
+												<h3 class="name"><a href="#">Zapatilla negro</a></h3>
+												<div class="price">S/.250.90</div>
+												<h6>Cantidad: 2</h6>
+											</td>
 										</div>
 										
 										<div class="iconoYVolverBolsa">
 											<img src="image/icon/bolsa.png" width="35" height="35">
-											<a href="" class="enlaceVolverBolsa"> <u>Volver a la bolsa</u></a>
+											<a href="#" class="enlaceVolverBolsa"> <u>Volver a la bolsa</u></a>
 										</div>
 										
 									</th>
 								</tr>
 							</thead><!-- /thead -->
-							<thead class="cuadroColor">
+							<thead id="weaderesumen" class="cuadroColor">
 								<tr>
-									<th>
-										<div class="subTitulos">
-											Subtotal<span id="subtotal" class=""></span>
-										</div>
-										<div class="">
-											<!-- Descuento<span id="cupondescuento" class="inner-left-md">S/. 0</span> -->
-										</div>
-										<div class="subTitulos">
-											Total<span id="total" class=""></span>
-										</div>
-									</th>
+									<!-- code js -->
 								</tr>
 							</thead><!-- /thead -->
 							
@@ -229,7 +223,7 @@
 
 	<?php include 'footer.html'; ?>
 	<!-- <script src="assets/js/pedido.js"></script> -->
-	<script src="assets/js/compra.js"></script>
+	<script src="assets/js/despachocompra.js"></script>
 	<!-- ============================================================= FOOTER : END============================================================= -->
 </body>
 
