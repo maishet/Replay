@@ -311,8 +311,8 @@ table {
 .opcionesDespachoDer{
   width: 40%;
   /*background-color: #25414b;*/
-  margin-left: 400px;
-  margin-right: 300px;
+  margin-left: 350px;
+  margin-right: 200px;
   margin-top: 60px;
  
 }
@@ -439,6 +439,74 @@ table {
 }
 
 /*Fin despacho*/
+/*pago*/
+.opcionesDespachoIzqPago{
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 60px;
+  /*background-color: #027ba5;*/
+  display: flex;
+ 
+}
+
+
+ul.acorh,
+ul.acorh * {
+margin: 0;
+padding: 0;
+border: 0;
+}
+ul.acorh {
+margin: 10px auto;
+padding: 0;
+list-style: none;
+width: 100%;
+font-size: 18px;
+}
+ul.acorh li {
+list-style: none;
+}
+ul.acorh li a {
+display: block;
+padding: 10px 10px 10px 20px;
+background: rgb(245, 243, 243);
+color: rgb(0, 0, 0);
+border: 1px solid #000;
+
+text-decoration: none;
+box-sizing: border-box;
+}
+ul.acorh li ul {
+max-height: 0;
+margin: 15px;
+padding: 0;
+list-style: none;
+overflow: hidden;
+transition: .3s all ease-in;
+}
+ul.acorh li li a {
+padding: 10px 10px 10px 40px;
+background: #999;
+color: #000;
+font-size: 16px;
+border: 0;
+border-bottom: 1px solid #ccc;
+box-sizing: border-box;
+}
+ul.acorc li li:last-child a {
+border-bottom: 0;
+}
+ul.acorh li:target ul {
+  max-height: 300px;
+  transition: .3s all ease-in;
+  }
+ul.acorh li a:hover {
+background: #666;
+color: #fff;
+}
+
+
+/*fin pago*/
 /*Estado de mi Pedido =====================================================================*/
 
 .titulo{

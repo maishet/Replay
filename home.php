@@ -38,14 +38,14 @@
 <!-- ============================================== HEADER ============================================== -->
 
 <?php 
-session_start();
+/*session_start();
 error_reporting(0);
 $varsesion=$_SESSION['usuario'];
 //colocar variable de session de "correo"
 if($varsesion==null || $varsesion=''){
   if(!isset($_SESSION['user_is_login']) || @$_SESSION['user_is_login']==false){
-
-    include('header.html'); 
+*/
+    include('header.html'); /*
   }
   else{
     include('headerLogueado.html'); 
@@ -54,7 +54,7 @@ if($varsesion==null || $varsesion=''){
 else{
   include('headerLogueado.html'); 
 } 
-
+*/
 
 ?>
 <!-- ============================================== HEADER : END ============================================== -->
