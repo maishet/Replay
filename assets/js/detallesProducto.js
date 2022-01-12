@@ -61,7 +61,7 @@ function cerrar(){
 	document.getElementById("calificacion").innerHTML="(0)";
 }
 var contador;
-let contadorEstrellas;
+let contadorEstrellas=0;
 function calificar(item){
 	contadorEstrellas=0;
 	contador=item.id[0];
@@ -80,16 +80,14 @@ function calificar(item){
 	document.getElementById("calificacion").innerHTML="("+String(contadorEstrellas)+")";
 }
 
+
 //publicar comentario
-
-let tituloComent="a";
-let autor="a";
-let descripcion="a";
-
 function publicar(){
+
 	let tituloComent=document.getElementById("tituloComentario").value;
 	let autor=document.getElementById("autorComentario").value;
-	let calificacion=contadorEstrellas;
+	let calificacion=0
+	calificacion=contadorEstrellas;
 	let descripcion=document.getElementById("comentarioCont").value;
 	console.log("Titulo: "+tituloComent);
 	console.log("autor: "+autor);
@@ -97,7 +95,32 @@ function publicar(){
 	console.log("descripcion: "+descripcion);
 	const div = document.createElement("div");
 	let contenedor=document.getElementById("contenedor-comentarios");
-	div.innerHTML=`<div class="comentario">
+
+	//Contar comentarios
+	var getParents = function() 
+	{
+		var items = new Array();
+	
+		var elems =  contenedor.children;
+	
+		for(i = 0; i < elems.length-2; i++)//quitarle los divs que no llevan la clase comentario
+		{
+		 if(elems[i].tagName == 'DIV')
+			items.push(elems[i]);
+		}  
+		return items;
+	}
+	
+	var divs = getParents();// contador de divs
+
+	let cantidadComentarios=0;
+	cantidadComentarios=divs.length+1;
+	document.getElementById("cantidad-comentarios").innerHTML=String(cantidadComentarios);
+	document.getElementById("cantidad-comentarios2").innerHTML=String(cantidadComentarios);
+
+	//contar estrellas
+
+	div.innerHTML=`<div class="comentario" id="${cantidadComentarios}comentario">
                         <hr>
                         <h2>${tituloComent}</h2>
                         <div class="cont1">
@@ -106,21 +129,24 @@ function publicar(){
                         </div>
                         <div class="calificacion" id="calificacionEstrellas">
                         </div>
+						<span >(<span id="${cantidadComentarios}calificacion-num">${calificacion}</span>)</span>
                         <div class="descripcion">
                           <p>${descripcion}</p>
                         </div>
                         <div>
                           <span>¿Te fue útil este comentario?</span> 
-                          <button class="btn-si"  onclick="sumarSi(this)" id="2comentarios-si">Si:0</button> 
-                          <button class="btn-no"  onclick="sumarNo(this)" id="2comentarios-no">No:0</button>
+                          <button class="btn-si"  onclick="sumarSi(this)" id="${cantidadComentarios}comentarios-si">Si:0</button> 
+                          <button class="btn-no"  onclick="sumarNo(this)" id="${cantidadComentarios}comentarios-no">No:0</button>
                         </div>
                       </div>`;
+					  
 	contenedor.insertAdjacentElement("beforeend", div);
 	for(j=0;j<5;j++){
 		let i=document.createElement("i");
 		i.classList.add('bx','bxs-star');
-		contadorEstrellas--;
-		if(contadorEstrellas>=0){
+		/* contadorEstrellas--; */
+		if(contadorEstrellas>0){
+			contadorEstrellas--;
 			i.classList.add('activo')
 		}else{
 			i.classList.add('inactivo')
@@ -130,5 +156,27 @@ function publicar(){
 	document.getElementById("calificacionEstrellas").removeAttribute("id");
 	document.getElementById("ventana-comentario").style.display = "none";
 	document.getElementById("pop-up").style.display = "none";
-
+	
+	let estrellas=0;
+	let contador=[0,0,0,0,0];
+	for(j=0;j<cantidadComentarios;j++){
+		 estrellas=Number(document.getElementById((j+1)+"calificacion-num").textContent);
+		 console.log(estrellas);
+		if(estrellas==5){
+			contador[4]++;
+		}else if(estrellas==4){
+			contador[3]++;
+		}else if(estrellas==3){
+			contador[2]++;
+		}else if(estrellas==2){
+			contador[1]++;
+		}else if(estrellas==1){
+			contador[0]++;
+		} 
+	}
+	for(k=4;k>=0;k--){
+		console.log((k+1)+".Estrellas: "+contador[k]);
+		document.getElementById((k+1)+"estrellas").textContent=String(contador[k]);
+	} 
+	//calcular calificacion general
 }

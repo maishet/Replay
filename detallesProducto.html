@@ -47,12 +47,6 @@
           <h1>Tu opinión nos importa !Evalúa tu producto!</h1>  
           <div class="calificacion-comentario">
             <h2>Calificación general:</h2>
-            <!-- 
-            <i class='bx bxs-star id="1estrella" onclick="calificar(this)"'></i>
-            <i class='bx bxs-star id="2estrella" onclick="calificar(this)"'></i>
-            <i class='bx bxs-star id="3estrella"onclick="calificar(this)"'></i>
-            <i class='bx bxs-star id="4estrella" onclick="calificar(this)"'></i> 
-          <i class='bx bxs-star id="5estrella" onclick="calificar(this)"'></i>-->
             <div class="rating">
               <span id="1fondo-estrella"><i class='bx bxs-star' id="1estrella" onclick="calificar(this)"></i></span>
               <span id="2fondo-estrella"><i class='bx bxs-star' id="2estrella" onclick="calificar(this)" ></i></span>
@@ -793,26 +787,26 @@
                         <i class='bx bxs-star activo'></i>
                         <i class='bx bxs-star inactivo'></i>
                         <i class='bx bxs-star inactivo'></i>
-                        <span class="puntaje">3 (3 calificaciones)</span>
+                        <span class="puntaje"><span>3</span> (<span id="cantidad-comentarios">3</span> calificaciones)</span>
                     </div>
                     <div class="m-t-20" id="contenedor-comentarios">
                       <div class="estrellas-comentarios">
-                        <div><span>5</span><i class='bx bxs-star'></i><span>0</span><span> calificaciones</span></div>
-                        <div><span>4</span><i class='bx bxs-star'></i><span>0</span><span> calificaciones</span></div>
-                        <div><span>3</span><i class='bx bxs-star'></i><span>3</span><span> calificaciones</span></div>
-                        <div><span>2</span><i class='bx bxs-star'></i><span>0</span><span> calificaciones</span></div>
-                        <div><span>1</span><i class='bx bxs-star'></i><span>0</span><span> calificaciones</span></div>
+                        <div><span>5</span><i class='bx bxs-star'></i><span id="5estrellas">0</span><span> calificaciones</span></div>
+                        <div><span>4</span><i class='bx bxs-star'></i><span id="4estrellas">0</span><span> calificaciones</span></div>
+                        <div><span>3</span><i class='bx bxs-star'></i><span id="3estrellas">3</span><span> calificaciones</span></div>
+                        <div><span>2</span><i class='bx bxs-star'></i><span id="2estrellas">0</span><span> calificaciones</span></div>
+                        <div><span>1</span><i class='bx bxs-star'></i><span id="1estrellas">0</span><span> calificaciones</span></div>
                         
                       </div>
                       <div class="m-t-20 cont-bottom">
-                        <div class="cont1"><span>3 comentarios</span></div>
+                        <div class="cont1"><span id="cantidad-comentarios2">3</span><span> comentarios</span></div>
                         <div class="ordenar">
                             <p>Ordenar por:</p>
                             <div ><span>Seleccionar <i class='bx bxs-down-arrow'></i></span></div>        
                         </div>
                       </div>
                       
-                      <div class="comentario">
+                      <div class="comentario" id="1comentario">
                         <hr>
                         <h2>Título</h2>
                         <div class="cont1">
@@ -826,6 +820,7 @@
                           <i class='bx bxs-star inactivo'></i>
                           <i class='bx bxs-star inactivo'></i>
                         </div>
+                        <span >(<span id="1calificacion-num">3</span>)</span>
                         <div class="descripcion">
                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. fugit quos tenetur, voluptates debitis 
                           possimus asperiores doloremque.</p>
@@ -836,7 +831,7 @@
                           <button class="btn-no"  onclick="sumarNo(this)" id="1comentarios-no">No:0</button>
                         </div>
                       </div>
-                      <div class="comentario">
+                      <div class="comentario" id="2comentario">
                         <hr>
                         <h2>Título</h2>
                         <div class="cont1">
@@ -850,6 +845,7 @@
                           <i class='bx bxs-star inactivo'></i>
                           <i class='bx bxs-star inactivo'></i>
                         </div>
+                        <span >(<span id="2calificacion-num">3</span>)</span>
                         <div class="m-t-10">
                           <span class="recomienda">Recomienda este producto </span>✔Sí<span></span>
                         </div> 
@@ -863,7 +859,7 @@
                           <button class="btn-no"  onclick="sumarNo(this)" id="2comentarios-no">No:0</button>
                         </div>
                       </div>
-                      <div class="comentario">
+                      <div class="comentario" id="3comentario">
                         <hr>
                         <h2>Título</h2>
                         <div class="cont1">
@@ -877,6 +873,7 @@
                           <i class='bx bxs-star inactivo'></i>
                           <i class='bx bxs-star inactivo'></i>
                         </div>
+                        <span >(<span id="3calificacion-num">3</span>)</span>
                         <div class="m-t-10">
                           <span class="recomienda">Recomienda este producto </span>✖No<span></span>
                         </div> 
