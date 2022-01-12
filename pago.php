@@ -179,33 +179,22 @@
 								</tr>
 								</div>
 							</thead><!-- /thead -->
-							<thead class="cuadroColor">
-								<tr>		<!-- /supuestamente aqui pongo los prodctos pero se descuadra :c -->
-									<th>
-										<div class="">
-											<td>
-												<a href="#"><img src="image/Deporte/Accesorios/AC1/frente.jpg" alt="imagen" style="width:50px;"></a>
-											</td>
-											<td>
-												<h3 class="name"><a href="#">Zapatilla negro</a></h3>
-												<div class="price">S/.250.90</div>
-												<h6>Cantidad: 2</h6>
-											</td>
-										</div>
-										
-										<div class="iconoYVolverBolsa">
-											<img src="image/icon/bolsa.png" width="35" height="35">
-											<a href="#" class="enlaceVolverBolsa"> <u>Volver a la bolsa</u></a>
-										</div>
-										
-									</th>
-								</tr>
-							</thead><!-- /thead -->
+
+							<thead id="prodresumen" class="cuadroColor">
+								<div class="iconoYVolverBolsa">
+									<img src="image/icon/bolsa.png" width="35" height="35">
+									<a href="#" class="enlaceVolverBolsa"> <u>Volver a la bolsa</u></a>
+								</div>
+
+								<!--=== code js ====-->
+
+							</thead>
+							
 							<thead id="weaderesumen" class="cuadroColor">
-								<tr>
-									<!-- code js -->
-								</tr>
-							</thead><!-- /thead -->
+
+								<!--=== code js ====-->
+
+							</thead>
 							
 						</table><!-- /table -->
 					</div><!-- /.cart-shopping-total -->

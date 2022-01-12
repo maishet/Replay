@@ -510,6 +510,29 @@ class Carrito {
             listaresumen.appendChild(row);
         //});
     }
+
+    leerLocalStorageResumen(){
+        let productosLS;
+        productosLS = this.obtenerProductosLocalStorage();
+        productosLS.forEach(function (producto){
+            //Construir plantilla
+            const row = document.createElement('tr');
+            var reseña = Math.floor((Math.random() * (21-3))+3); //genera un numero aleatorio entre 3 y 20
+            row.innerHTML = `
+                <td class="cart-image">
+                    <a class="entry-thumbnail" href="${producto.link}">
+                        <img src="${producto.imagen}" alt="">
+                    </a>
+                </td>
+                <td class="cart-product-name-info">
+                    <h4 class='cart-product-description'><a href="${producto.link}">${producto.titulo}</a></h4>
+                </td>
+                <td class="cart-product-sub-total"><span class="cart-sub-total-price">S/.${producto.precio}</span></td>
+                <h6>Cantidad: ${producto.cantidad}</h6>  
+            `;
+            listaprodresumen.appendChild(row);
+        });
+    }
 }   
     /*
                 <td>									
