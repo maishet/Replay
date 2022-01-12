@@ -844,6 +844,7 @@ table {
 .comentarios-cont .estrellas-comentarios{
   font-size: 14px;
   font-weight: 500;
+  text-align: left;
 }
 .comentarios-cont .cont-bottom{
   font-size:15px;
@@ -865,6 +866,9 @@ table {
 }
 .comentarios-cont .calificacion-general i{
   font-size:25px;
+}
+.comentarios-cont .comentario{
+  text-align:left;
 }
 .comentarios-cont .comentario h2{
   font-size:16px;
@@ -987,11 +991,11 @@ table {
   background: rgba(251, 11, 11, 0.2);
   border-radius: 0px 10px 10px 0px;
 }
-.contenedor-escribirComentario .btn-si:hover, .contenedor-escribirComentario .btn-si:focus{
+.contenedor-escribirComentario .btn-si:hover, .contenedor-escribirComentario .btn-si:focus,.contenedor-escribirComentario .activo-si{
   background: rgb(125, 123, 252);
   border:1px solid #000000;
 }
-.contenedor-escribirComentario .btn-no:hover,.contenedor-escribirComentario .btn-no:focus{
+.contenedor-escribirComentario .btn-no:hover,.contenedor-escribirComentario .btn-no:focus,.contenedor-escribirComentario .activo-no{
   background: rgba(251, 11, 11, 0.65);
   border: 1px solid #000000;
 }
@@ -1083,6 +1087,15 @@ table {
   font-size:14px;
   font-weight: 500;
 }
+.comentario .recomienda{
+  font-size:14px;
+  font-weight: 500;
+  display: inline-block;
+  margin-right: 10px;
+}
+#recomienda-display{
+  
+}
 .contenedor-escribirComentario .nombre-email{
   display: grid;
   grid-template-columns: auto  auto;
@@ -1094,6 +1107,7 @@ table {
   width: 90%;
   max-width: 600px;
   border: none;
+  font-size: 15px;
   border-bottom: 1px solid rgb(0, 0, 0,0.4);
 }
 .contenedor-escribirComentario .nombre-email h3{

@@ -75,7 +75,7 @@
             </div>
             <div >
               <h3>Correo electrónico*</h3>
-              <input type="text" placeholder="Ejemplo: tucorreoelectrónico@ejemplo.com" >
+              <input type="text" id="autoremail" placeholder="Ejemplo: tucorreoelectrónico@ejemplo.com" >
             </div>
           </div>
           <div style="text-align: center;">
@@ -582,7 +582,7 @@
                         <i class='bx bxs-star activo'></i>
                         <i class='bx bxs-star inactivo'></i>
                         <i class='bx bxs-star inactivo'></i>
-                        <span class="puntaje">5.0 (3)</span>
+                        <span class="puntaje"><span id="calificacion-general1">3</span> (<span id="cantidad-comentarios1">3</span>)</span>
                       </div>
                       <div class="pull-left">
                         <div class="reviews">
@@ -787,7 +787,7 @@
                         <i class='bx bxs-star activo'></i>
                         <i class='bx bxs-star inactivo'></i>
                         <i class='bx bxs-star inactivo'></i>
-                        <span class="puntaje"><span>3</span> (<span id="cantidad-comentarios">3</span> calificaciones)</span>
+                        <span class="puntaje"><span id="calificacion-general2">3</span> (<span id="cantidad-comentarios2">3</span> calificaciones)</span>
                     </div>
                     <div class="m-t-20" id="contenedor-comentarios">
                       <div class="estrellas-comentarios">
@@ -799,7 +799,7 @@
                         
                       </div>
                       <div class="m-t-20 cont-bottom">
-                        <div class="cont1"><span id="cantidad-comentarios2">3</span><span> comentarios</span></div>
+                        <div class="cont1"><span id="cantidad-comentarios3">3</span><span> comentarios</span></div>
                         <div class="ordenar">
                             <p>Ordenar por:</p>
                             <div ><span>Seleccionar <i class='bx bxs-down-arrow'></i></span></div>        
@@ -835,7 +835,7 @@
                         <hr>
                         <h2>Título</h2>
                         <div class="cont1">
-                          <p class="autor">Autor</p>
+                          <span class="autor">Autor</span>
                           <span class="tiempo">Hace 3 meses</span>
                         </div>
                         <div class="calificacion">
@@ -847,7 +847,7 @@
                         </div>
                         <span >(<span id="2calificacion-num">3</span>)</span>
                         <div class="m-t-10">
-                          <span class="recomienda">Recomienda este producto </span>✔Sí<span></span>
+                          <span class="recomienda">Recomienda este producto <span>✔Sí</span></span>
                         </div> 
                         <div class="descripcion">
                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. fugit quos tenetur, voluptates debitis 
@@ -875,7 +875,7 @@
                         </div>
                         <span >(<span id="3calificacion-num">3</span>)</span>
                         <div class="m-t-10">
-                          <span class="recomienda">Recomienda este producto </span>✖No<span></span>
+                          <span class="recomienda">Recomienda este producto <span>✖No</span></span>
                         </div> 
                         <div class="descripcion">
                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. fugit quos tenetur, voluptates debitis 
@@ -890,42 +890,13 @@
                       
                     </div>
 									</div>	
-                  <hr>
+
 								</div><!-- /.tab-pane -->
 							</div><!-- /.tab-content -->
 						</div><!-- /.col -->
 					</div><!-- /.row -->
           
 				</div><!-- /.product-tabs -->
-        <!-- <div class="product-tabs inner-bottom-xs ventana-comentario inactivo"> -->
-        <!-- <div class="product-tabs inner-bottom-xs ventana-comentario"id="ventana-comentario">
-					<div class="row ">
-						<div class="col-sm-12 ">
-              <span id="btn-cerrar"><i class='bx bxs-x-circle'></i></span>
-              <div class="contenedor-escribirComentario">
-                <h1>Tu opinión nos importa !Evalúa tu producto!</h1>  
-                <div>
-                  <h2>Calificación general:</h2>
-                </div>
-                <div>
-                  <h2>Título del comentario</h2>
-                  <input type="text" placeholder="Ejemplo: !Lo puedo llevar a todos lados!" class="input"/>
-                </div>
-                <div>
-                  <h2>Comentario</h2>
-                  <textarea name="" id="" cols="30" rows="10"placeholder="Es muy fácil de traladar, es liviano..." class="textarea"></textarea>
-                </div>
-                <div class="recomendaciones">
-                  <span>¿Recomendarías este producto a un amigo?</span> 
-                  <button class="btn-si">SI</button><button class="btn-no">NO</button>
-                </div>
-                <div style="text-align: center;">
-                  <button class="btn-publicar">PUBLICAR COMENTARIO</button>
-                </div>
-              </div>
-            </div>
-					</div>
-				</div> -->
 			</div><!-- /.col -->
 			<div class="clearfix"></div>
 		</div><!-- /.row -->

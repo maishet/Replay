@@ -50,7 +50,17 @@ document.getElementById("pop-up").addEventListener("click",cerrar);
 function abrir(){
 	document.getElementById("ventana-comentario").style.display = "block";
 	document.getElementById("pop-up").style.display = "block";
+	document.getElementById("calificacion").innerHTML="(0)";
+	if(document.getElementById('boton-no').classList.contains("activo-no")){
+		document.getElementById('boton-no').classList.remove("activo-no");
+	 }
+	 if(document.getElementById('boton-si').classList.contains("activo-si")){
+		document.getElementById('boton-si').classList.remove("activo-si");
+	 }
+	document.getElementById("comentarioCont").value="";
+	document.getElementById("tituloComentario").value="";
 }
+//cerrar ventana de comentarios
 function cerrar(){
 	document.getElementById("ventana-comentario").style.display = "none";
 	document.getElementById("pop-up").style.display = "none";
@@ -58,7 +68,8 @@ function cerrar(){
 		document.getElementById((i+1)+"estrella").style.color="#c4c4c4";
 	    document.getElementById((i+1)+"estrella").style.backgroundColor="white";
 	}
-	document.getElementById("calificacion").innerHTML="(0)";
+	document.getElementById("autorComentario").value="";
+	document.getElementById("autoremail").value="";
 }
 var contador;
 let contadorEstrellas=0;
@@ -79,7 +90,30 @@ function calificar(item){
 	}
 	document.getElementById("calificacion").innerHTML="("+String(contadorEstrellas)+")";
 }
-
+//botones recomendaciones
+var boton2 = document.getElementById("boton-si");
+var boton1 = document.getElementById("boton-no");
+document.getElementById('boton-si').addEventListener("click", function(){
+  
+	if(boton1.classList.contains("activo-no")){
+	   boton1.classList.remove("activo-no");
+	}
+   
+	if(!boton2.classList.contains("activo-si")){
+	   boton2.classList.add("activo-si");
+	}
+   
+ });
+ document.getElementById('boton-no').addEventListener("click", function(){
+  
+	if(boton2.classList.contains("activo-si")){
+	   boton2.classList.remove("activo-si");
+	}
+   
+	if(!boton1.classList.contains("activo-no")){
+	   boton1.classList.add("activo-no");
+	}
+ });
 
 //publicar comentario
 function publicar(){
@@ -115,9 +149,9 @@ function publicar(){
 
 	let cantidadComentarios=0;
 	cantidadComentarios=divs.length+1;
-	document.getElementById("cantidad-comentarios").innerHTML=String(cantidadComentarios);
+	document.getElementById("cantidad-comentarios1").innerHTML=String(cantidadComentarios);
 	document.getElementById("cantidad-comentarios2").innerHTML=String(cantidadComentarios);
-
+	document.getElementById("cantidad-comentarios3").innerHTML=String(cantidadComentarios);
 	//contar estrellas
 
 	div.innerHTML=`<div class="comentario" id="${cantidadComentarios}comentario">
@@ -129,12 +163,15 @@ function publicar(){
                         </div>
                         <div class="calificacion" id="calificacionEstrellas">
                         </div>
-						<span >(<span id="${cantidadComentarios}calificacion-num">${calificacion}</span>)</span>
-                        <div class="descripcion">
+						<span>(<span id="${cantidadComentarios}calificacion-num">${calificacion}</span>)</span>
+						<div id="recomienda-display">
+							<span class="recomienda" id="recomienda"></span>
+						</div>
+                        <div class="descripcion" >
                           <p>${descripcion}</p>
-                        </div>
+                        </div>		
                         <div>
-                          <span>¿Te fue útil este comentario?</span> 
+							<span>¿Te fue útil este comentario?</span> 
                           <button class="btn-si"  onclick="sumarSi(this)" id="${cantidadComentarios}comentarios-si">Si:0</button> 
                           <button class="btn-no"  onclick="sumarNo(this)" id="${cantidadComentarios}comentarios-no">No:0</button>
                         </div>
@@ -154,9 +191,24 @@ function publicar(){
 		document.getElementById("calificacionEstrellas").insertAdjacentElement("beforeend",i);
 	}
 	document.getElementById("calificacionEstrellas").removeAttribute("id");
-	document.getElementById("ventana-comentario").style.display = "none";
-	document.getElementById("pop-up").style.display = "none";
 	
+	//Recomendaciones
+	let recomienda=document.getElementById("recomienda");
+	if(boton1.classList.contains("activo-no")){
+		document.getElementById("recomienda").classList.add("m-t-10");
+		recomienda.innerHTML="Recomienda este producto ✖No";
+/* 		span.innerHTML=`<span class="recomienda">Recomienda este producto </span>✖No<span></span>`;
+		document.getElementsById("descripcion").insertAdjacentElement("beforebegin",span); */
+	 }
+
+	 if(boton2.classList.contains("activo-si")){
+		document.getElementById("recomienda").classList.add("m-t-10");
+		recomienda.innerHTML="Recomienda este producto ✔Sí";
+/* 		span.innerHTML=`<span class="recomienda">Recomienda este producto </span>✔Sí<span></span>`;
+		document.getElementsById("descripcion").insertAdjacentElement("beforebegin",span); */
+	}
+	document.getElementById("recomienda").removeAttribute("id");
+
 	let estrellas=0;
 	let contador=[0,0,0,0,0];
 	for(j=0;j<cantidadComentarios;j++){
@@ -179,4 +231,11 @@ function publicar(){
 		document.getElementById((k+1)+"estrellas").textContent=String(contador[k]);
 	} 
 	//calcular calificacion general
+	calificacionGen=(1*contador[0]+2*contador[1]+3*contador[2]+4*contador[3]+5*contador[4])/(contador[0]+contador[1]+contador[2]+contador[3]+contador[4]);
+	console.log("Calificacion General: "+calificacionGen);
+	document.getElementById("calificacion-general1").textContent=String(calificacionGen.toFixed(1));
+	document.getElementById("calificacion-general2").textContent=String(calificacionGen.toFixed(1));
+
+	cerrar();
+	document.getElementById("autorComentario").value=autor;
 }
