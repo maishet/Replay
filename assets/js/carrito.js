@@ -138,6 +138,21 @@ class Carrito {
         this.calcularTotal();
 
     }
+    //Eliminar el producto del carrito en el DOM
+    eliminarProductoPedido(e){
+        e.preventDefault();
+        let producto, productoID;
+        if(e.target.classList.contains('borrar-producto')){
+            e.target.parentElement.parentElement.remove();
+            producto = e.target.parentElement.parentElement;
+            productoID = producto.querySelector('a.borrar-producto').getAttribute('data-id'); // esta sacando null (corregido de 'a')
+            //console.log(productoID);
+        }
+        this.eliminarProductoLocalStorage(productoID);
+        //this.calcularTotalhome();
+        this.calcularTotal();
+
+    }
 
     //Elimina todos los productos
     calcularTotalhome(){
@@ -147,10 +162,10 @@ class Carrito {
         for(let i = 0; i < productosLS.length; i++){
             let element = Number(productosLS[i].precio * productosLS[i].cantidad);
             preciocarrito = preciocarrito + element;
-            cant = cant + productosLS[i].cantidad;
+            //cant = cant + productosLS[i].cantidad;
         }
 
-        document.getElementById('cantCarrito').innerHTML = cant;
+        //document.getElementById('cantCarrito').innerHTML = cant;
         document.getElementById('precioCarrito').innerHTML = "S/. " + preciocarrito.toFixed(2);
         document.getElementById('precioCarritoS').innerHTML = "S/. " + preciocarrito.toFixed(2);
     }
@@ -314,17 +329,21 @@ class Carrito {
     obtenerEvento(e) {
         e.preventDefault();
         let id, cantidad, producto, productosLS;
-        if (e.target.classList.contains('cart-product-quantity.cantidad')) {
-            producto = e.target.parentElement.parentElement;
+        //console.log(e.target);
+        if (e.target.classList.contains('cantidad')) {
+            producto = e.target.parentElement.parentElement.parentElement;
+            //console.log(producto);
             id = producto.querySelector('a.borrar-producto').getAttribute('data-id');
-            cantidad = producto.querySelector('quant-input.input').value;
-            let actualizarMontos = document.querySelectorAll('#subtotales.span');
+            //console.log(id); imprime 7
+            cantidad = producto.querySelector('input').value;
+            //console.log(cantidad);
+            let actualizarMontos = document.querySelectorAll('#subtotales span');
             //console.log(actualizarMontos);
             productosLS = this.obtenerProductosLocalStorage();
             productosLS.forEach(function (productoLS, index) {
                 if (productoLS.id === id) {
                     productoLS.cantidad = cantidad;                    
-                    actualizarMontos[index].innerHTML = Number(cantidad * productosLS[index].precio);
+                    actualizarMontos[index].innerHTML = "S/. "+ Number(cantidad * productosLS[index].precio).toFixed(2);
                 }    
             });
             localStorage.setItem('productos', JSON.stringify(productosLS));
@@ -333,5 +352,56 @@ class Carrito {
         else {
             console.log("click afuera");
         }
+    }
+
+    
+    ///////////////////zona de cupones ///////////////////////////////
+
+    ocultar(){
+        document.getElementById("error-cupon").style.display = 'none';
+    }
+
+    
+    aplicarCupon(e){
+        //console.log(e.target);
+        if(e.target.classList.contains('btn-primary')){
+            const cup = e.target.parentElement.parentElement; //div que contiene el cupon
+            //console.log(cup);
+            this.leerinpput(cup);
+        }
+    }
+
+    leerinpput(cup){
+        const cupontext = {
+            codigo: cup.querySelector('input').value,
+            //status: 1
+        }
+        //console.log(cupontext); //imprime el cupon ingresado
+
+        fetch('assets/js/codigos.json')
+        .then(res => res.json())
+        .then(res => {
+            for(let i=0; i<res.length; i++){
+                if(res[i].code === cupontext.codigo){
+                    //console.log(res[i].code);
+                    this.aplicarDescuento(res[i]);
+                    return;
+                }
+            }
+            document.getElementById("error-cupon").style.display = 'block';
+        })   
+    }
+
+    aplicarDescuento(cupon){
+        let subt = 0, total= 0;
+        document.getElementById("formcupon").style.display = 'none'; //ocultamos el formulario
+        document.getElementById("cuponvalido").style.display = 'block'; //mostramos el mensaje de cupon valido
+        document.getElementById("textocupon").innerHTML = `Usted tiene un descuento de ${cupon.valor}%`; //mostramos el cupon ingresado
+        //console.log(cupon.valor); 15
+        subt = document.getElementById("subtotal").innerHTML; //obtenemos el subtotal
+        //console.log(subt); //imprime S/. 378.00
+        document.getElementById("descuentocupon").innerHTML = `S/. ${(subt * cupon.valor / 100).toFixed(2)}`; //mostramos el descuento
+        total = subt - (subt * cupon.valor / 100); //calculamos el total
+        document.getElementById("total").innerHTML = `S/. ${total.toFixed(2)}`; //mostramos el total
     }
 }

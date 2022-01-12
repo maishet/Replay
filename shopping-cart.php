@@ -37,7 +37,7 @@
 <!-- ============================================== HEADER ============================================== -->
 
 
-<?php include('header.html'); ?>
+<!-- ?php include('header.html'); ?> -->
 
 <!-- ============================================== HEADER : END ============================================== -->
 <div class="breadcrumb">
@@ -145,11 +145,17 @@
 			<tbody>
 					<tr>
 						<td>
-							<div class="form-group">
-								<input type="text" class="form-control unicase-form-control text-input" placeholder="Código...">
+							<div id="formcupon">
+								<div class="form-group">
+									<input id="text-cup" type="text" class="form-control unicase-form-control text-input" placeholder="Código...">
+								</div>
+								<h4 id="error-cupon" style="display: none;" class="text-danger">Cupón no valido</h4>
+								<div class="clearfix pull-right">
+									<button id="aplicarcupon" type="submit" class="btn-upper btn btn-primary">APLICAR CUPÓN</button>
+								</div>
 							</div>
-							<div class="clearfix pull-right">
-								<button type="submit" class="btn-upper btn btn-primary">APLICAR CUPÓN</button>
+							<div id="cuponvalido" style="display: none;">
+								<h4 id="textocupon" class="text-sucess"></h4>
 							</div>
 						</td>
 					</tr>
@@ -163,8 +169,8 @@
 					<div class="cart-sub-total">
 						Subtotal<span id="subtotal" class="inner-left-md"></span>
 					</div>
-					<div class="cart-descuento">
-						<!-- Descuento<span id="cupondescuento" class="inner-left-md">S/. 0</span> -->
+					<div class="cart-sub-total">
+						Descuento<span id="descuentocupon" class="inner-left-md">S/. 0</span>
 					</div>
 					<div class="cart-grand-total">
 						Total<span id="total" class="inner-left-md"></span>
@@ -194,7 +200,8 @@
 <!-- ============================================================= FOOTER ============================================================= -->
 
 <?php include 'footer.html'; ?>
-<script src="assets/js/pedido3.js"></script>
+<!-- <script src="assets/js/pedido3.js"></script> -->
+<script src="assets/js/cupondesc.js"></script>
 <script src="assets/js/compra.js"></script>
 <!-- ============================================================= FOOTER : END============================================================= --> 
 </body>
