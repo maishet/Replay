@@ -353,4 +353,55 @@ class Carrito {
             console.log("click afuera");
         }
     }
+
+    
+    ///////////////////zona de cupones ///////////////////////////////
+
+    ocultar(){
+        document.getElementById("error-cupon").style.display = 'none';
+    }
+
+    
+    aplicarCupon(e){
+        //console.log(e.target);
+        if(e.target.classList.contains('btn-primary')){
+            const cup = e.target.parentElement.parentElement; //div que contiene el cupon
+            //console.log(cup);
+            this.leerinpput(cup);
+        }
+    }
+
+    leerinpput(cup){
+        const cupontext = {
+            codigo: cup.querySelector('input').value,
+            //status: 1
+        }
+        //console.log(cupontext); //imprime el cupon ingresado
+
+        fetch('assets/js/codigos.json')
+        .then(res => res.json())
+        .then(res => {
+            for(let i=0; i<res.length; i++){
+                if(res[i].code === cupontext.codigo){
+                    //console.log(res[i].code);
+                    this.aplicarDescuento(res[i]);
+                    return;
+                }
+            }
+            document.getElementById("error-cupon").style.display = 'block';
+        })   
+    }
+
+    aplicarDescuento(cupon){
+        let subt = 0, total= 0;
+        document.getElementById("formcupon").style.display = 'none'; //ocultamos el formulario
+        document.getElementById("cuponvalido").style.display = 'block'; //mostramos el mensaje de cupon valido
+        document.getElementById("textocupon").innerHTML = `Usted tiene un descuento de ${cupon.valor}%`; //mostramos el cupon ingresado
+        //console.log(cupon.valor); 15
+        subt = document.getElementById("subtotal").innerHTML; //obtenemos el subtotal
+        //console.log(subt); //imprime S/. 378.00
+        document.getElementById("descuentocupon").innerHTML = `S/. ${(subt * cupon.valor / 100).toFixed(2)}`; //mostramos el descuento
+        total = subt - (subt * cupon.valor / 100); //calculamos el total
+        document.getElementById("total").innerHTML = `S/. ${total.toFixed(2)}`; //mostramos el total
+    }
 }
