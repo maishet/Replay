@@ -1,5 +1,5 @@
 const cupondesc = new Carrito();
-const aplicarcupon = document.getElementById('aplicarcupon'); //boton aplicar cupon
+const agregarcupon = document.getElementById('aplicarcupon'); //boton aplicar cupon
 
 const diverror = document.getElementById('text-cup');
 
@@ -11,8 +11,9 @@ function cargarEventos() {
     //document.addEventListener('DOMContentLoaded', leerCupon);
     diverror.addEventListener('keyup', (e) => { cupondesc.ocultar() });
     
+    //cupondesc.guardardatosconcupon();
 
-    aplicarcupon.addEventListener('click', (e) => { cupondesc.aplicarCupon(e) });
+    agregarcupon.addEventListener('click', (e) => { cupondesc.agregarCupon(e) });
 }
 
 function leerCupon() {

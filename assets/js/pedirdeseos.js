@@ -118,7 +118,7 @@ class Deseos {
                     </div>
                 </td>
                 <td class="col-md-2 ">
-                    <a href="${productodeseo.link}" class="btn-upper btn btn-primary">Añadir Carrito</a>
+                    <a href="#" class="btn-upper btn btn-primary agregar-carrito" data-id="${productodeseo.id}">Añadir Carrito</a>
                 </td>
                 <td class="col-md-1 close-btn">
                     <a href="#" title="Eliminar" class="borrar-deseo bx bxs-trash-alt bx-md" data-id="${productodeseo.id}"></a>
