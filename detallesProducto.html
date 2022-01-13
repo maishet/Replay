@@ -576,12 +576,14 @@
 								<div class="row">
                   <div class="col-lg-12 detalles">
                     <div >
-                      <div class="pull-left">
-                        <i class='bx bxs-star activo'></i>
-                        <i class='bx bxs-star activo'></i>
-                        <i class='bx bxs-star activo'></i>
-                        <i class='bx bxs-star inactivo'></i>
-                        <i class='bx bxs-star inactivo'></i>
+                      <div class="pull-left" >
+                        <span id="calEstrellasGen1">
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star inactivo'></i>
+                          <i class='bx bxs-star inactivo'></i>
+                        </span>
                         <span class="puntaje"><span id="calificacion-general1">3</span> (<span id="cantidad-comentarios1">3</span>)</span>
                       </div>
                       <div class="pull-left">
@@ -781,12 +783,14 @@
                       <!-- <button class="boton" id="btn-abrir">ESCRIBIR COMENTARIO</button>	 -->
                       <a class="btn boton" id="btn-abrir2">ESCRIBIR COMENTARIO</a>
                     </div>	
-                    <div class="m-t-10 calificacion-general">
-                      <i class='bx bxs-star activo'></i>
+                    <div class="m-t-10 calificacion-general" >
+                      <span id="calEstrellasGen2">
                         <i class='bx bxs-star activo'></i>
-                        <i class='bx bxs-star activo'></i>
-                        <i class='bx bxs-star inactivo'></i>
-                        <i class='bx bxs-star inactivo'></i>
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star activo'></i>
+                          <i class='bx bxs-star inactivo'></i>
+                          <i class='bx bxs-star inactivo'></i>
+                      </span>
                         <span class="puntaje"><span id="calificacion-general2">3</span> (<span id="cantidad-comentarios2">3</span> calificaciones)</span>
                     </div>
                     <div class="m-t-20" id="contenedor-comentarios">
@@ -800,12 +804,17 @@
                       </div>
                       <div class="m-t-20 cont-bottom">
                         <div class="cont1"><span id="cantidad-comentarios3">3</span><span> comentarios</span></div>
-                        <div class="ordenar">
+                         <div class="ordenar">
                             <p>Ordenar por:</p>
-                            <div ><span>Seleccionar <i class='bx bxs-down-arrow'></i></span></div>        
-                        </div>
+                            <!-- <div ><span>Seleccionar <i class='bx bxs-down-arrow'></i></span></div>      -->   
+                            <select name="" id="ordenarComentarios">
+                              <option value="1" selected>Más recientes</option>
+                              <option value="2">De menor a mayor calificación</option>
+                              <option value="3">De mayor a menor calificación</option>
+                            </select>
+                        </div> 
+
                       </div>
-                      
                       <div class="comentario" id="1comentario">
                         <hr>
                         <h2>Título</h2>
@@ -820,7 +829,7 @@
                           <i class='bx bxs-star inactivo'></i>
                           <i class='bx bxs-star inactivo'></i>
                         </div>
-                        <span >(<span id="1calificacion-num">3</span>)</span>
+                        <span >(<span id="1calificacion-num">1</span>)</span>
                         <div class="descripcion">
                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. fugit quos tenetur, voluptates debitis 
                           possimus asperiores doloremque.</p>
@@ -873,7 +882,7 @@
                           <i class='bx bxs-star inactivo'></i>
                           <i class='bx bxs-star inactivo'></i>
                         </div>
-                        <span >(<span id="3calificacion-num">3</span>)</span>
+                        <span >(<span id="3calificacion-num">4</span>)</span>
                         <div class="m-t-10">
                           <span class="recomienda">Recomienda este producto <span>✖No</span></span>
                         </div> 
@@ -889,6 +898,7 @@
                       </div>
                       
                     </div>
+                    <hr>
 									</div>	
 
 								</div><!-- /.tab-pane -->
@@ -1142,7 +1152,6 @@
 
   
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
-	
 	<script src="assets/js/bootstrap.min.js"></script>
 	
 	<script src="assets/js/bootstrap-hover-dropdown.min.js"></script>

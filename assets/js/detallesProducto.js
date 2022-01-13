@@ -197,15 +197,11 @@ function publicar(){
 	if(boton1.classList.contains("activo-no")){
 		document.getElementById("recomienda").classList.add("m-t-10");
 		recomienda.innerHTML="Recomienda este producto ✖No";
-/* 		span.innerHTML=`<span class="recomienda">Recomienda este producto </span>✖No<span></span>`;
-		document.getElementsById("descripcion").insertAdjacentElement("beforebegin",span); */
 	 }
 
 	 if(boton2.classList.contains("activo-si")){
 		document.getElementById("recomienda").classList.add("m-t-10");
 		recomienda.innerHTML="Recomienda este producto ✔Sí";
-/* 		span.innerHTML=`<span class="recomienda">Recomienda este producto </span>✔Sí<span></span>`;
-		document.getElementsById("descripcion").insertAdjacentElement("beforebegin",span); */
 	}
 	document.getElementById("recomienda").removeAttribute("id");
 
@@ -236,6 +232,52 @@ function publicar(){
 	document.getElementById("calificacion-general1").textContent=String(calificacionGen.toFixed(1));
 	document.getElementById("calificacion-general2").textContent=String(calificacionGen.toFixed(1));
 
+	calGenRedond=Math.round(calificacionGen.toFixed(1));
+
+	let calEstrellas1=document.getElementById("calEstrellasGen1");
+	calEstrellas1.innerHTML="";
+	let calEstrellas2=document.getElementById("calEstrellasGen2");
+	calEstrellas2.innerHTML="";
+	
+	for(j = 0; j < 5; j++)
+	{
+		let estrella1=document.createElement("i");
+		let estrella2=document.createElement("i");
+		estrella1.classList.add('bx','bxs-star');
+		estrella2.classList.add('bx','bxs-star');
+		if(calGenRedond>0){
+			estrella1.classList.add("activo");
+			estrella2.classList.add("activo");
+			calGenRedond--;
+		}else{
+			estrella1.classList.add("inactivo");
+			estrella2.classList.add("inactivo");
+		}
+		calEstrellas1.insertAdjacentElement("beforeend",estrella1);
+		calEstrellas2.insertAdjacentElement("beforeend",estrella2);
+		
+	}  
+
 	cerrar();
 	document.getElementById("autorComentario").value=autor;
 }
+
+
+//ordenar comentarios
+
+
+var select = document.getElementById('ordenarComentarios');
+select.addEventListener('change',ordenarCom());
+function ordenarCom(){
+	var selecccion = select.options[select.selectedIndex];
+	if(selecccion.value==1||seleccion.value==2){
+		/* ordenarxCal(); */
+
+	}else if(selecccion.value==3){
+		/* ordenarTiempo(); */
+	}
+  }
+  function ordenarxCal(){} 
+  function ordenarTiempo(){
+
+  }
