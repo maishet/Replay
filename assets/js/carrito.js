@@ -1,5 +1,16 @@
 class Carrito {
-
+    //añadir de un producto detallado
+    comprarProductoDetalle(e){
+        e.preventDefault();
+        //Delegado para agregar al carrito
+        //console.log(e.target);
+        if(e.target.classList.contains('btn-agregar')){ //"agregar-carrito
+            const producto = e.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
+            //Enviamos el producto seleccionado para tomar sus datos
+            this.leerDatosProductoDetalle(producto);
+            //console.log(producto);
+        }e.stopPropagation();
+    }
     //Añadir producto al carrito de deseos
     comprarProductoDeseo(e){
         e.preventDefault();
@@ -76,7 +87,40 @@ class Carrito {
             //console.log(producto);
         }e.stopPropagation();
     }
+    //leer de productos detalle
+    leerDatosProductoDetalle(producto){
+        const infoProducto = {
+            imagen: producto.querySelector('img').src,
+            titulo: producto.querySelector('h1').textContent,
+            precio: producto.querySelector('.precio span.price').textContent,
+            id: producto.querySelector('.quantity-container a.btn-agregar').getAttribute('data-id'),
+            link: producto.querySelector('a').getAttribute('href'),
+            cantidad: 1
+        }
+        //console.log(infoProducto.link);
+        let productosLS;
+        productosLS = this.obtenerProductosLocalStorage();
+        productosLS.forEach(function (productoLS){
+            if(productoLS.id === infoProducto.id){
+                productosLS = productoLS.id;
+            }
+        });
 
+        if(productosLS === infoProducto.id){
+            Swal.fire({
+                icon: 'warning',
+                title: 'Oops...',
+                text: 'El producto ya está agregado',
+                showConfirmButton: false,
+                timer: 1000
+            })
+        }
+        else {
+            this.insertarCarrito(infoProducto);
+            //console.log(infoProducto);
+        }
+        //this.insertarCarrito(infoProducto); //ya esta en el else
+    }
     //Leer datos del producto
     leerDatosProducto(producto){
         const infoProducto = {

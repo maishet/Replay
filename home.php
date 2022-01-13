@@ -981,7 +981,7 @@ else{
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                           <a href="detail.html">
+                           <a href="categorias/detallesProductoAudifono1.php">
                              <img src="image/Tecnologia/Audifonos/Audifono1/Frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Audifonos/Audifono1/lado.jpg" alt="" class="hover-image">
                           </a> 
@@ -993,7 +993,7 @@ else{
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono1.php">Audífonos Gamer para Ps4 Pc Xbox</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"><span class="monedas">S/.</span> <span class="price">189.00</span> <span class="price-before-discount">S/ 229</span> </div>
@@ -1028,7 +1028,7 @@ else{
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                           <a href="detail.html">
+                           <a href="categorias/detallesProductoMouse1.php">
                              <img src="image/Tecnologia/Mouse/Mouse1/frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Mouse/Mouse1/con humo.jpg" alt="" class="hover-image">
                           </a> 
@@ -1039,7 +1039,7 @@ else{
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Mouse Gamer Cobra M711-RGB 10000 DPI</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoMouse1.php">Mouse Gamer Cobra M711-RGB 10000 DPI</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">99.00</span> <span class="price-before-discount">S/ 109.00</span> </div>
@@ -1074,7 +1074,7 @@ else{
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                           <a href="detail.html">
+                           <a href="categorias/detallesProductoTv1.php">
                               <img src="image/Tecnologia/Televisores/Tv1/frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Televisores/Tv1/lado derecho.jpg" alt="" class="hover-image">
                           </a>
@@ -1086,7 +1086,7 @@ else{
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">TELEVISOR SAMSUNG CRYSTAL ULTRA HD 4K 55'' SMART TV </a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoTv1.php">TELEVISOR SAMSUNG CRYSTAL ULTRA HD 4K 55'' SMART TV </a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span> <span class="price-before-discount">2099.00</span> </div>
@@ -1121,7 +1121,7 @@ else{
                       <div class="product">
                         <div class="product-image">
                           <div class="image"> 
-                           <a href="detail.html">
+                           <a href="categorias/detallesProductoPc1.php">
                             <img src="image\Tecnologia\Computadoras\Compu1\1.jpg" alt=""> 
                               <img src="image\Tecnologia\Computadoras\Compu1\4.jpg" alt="" class="hover-image">
                           </a> 
@@ -1133,7 +1133,7 @@ else{
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">IdeaCentre AIO 3i Intel Core i3 23.8" Full HD</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc1.php">IdeaCentre AIO 3i Intel Core i3 23.8" Full HD</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span.> <span class="price-before-discount">S/ 2099.00</span> </div>
@@ -1426,7 +1426,7 @@ else{
                 <div class="product">
                   <div class="product-image">
                     <div class="image"> 
-                          <a href="categorias/detallesProductoPc3.html">
+                          <a href="categorias/detallesProductoPc3.php">
                              <img src="image/Tecnologia/Computadoras/Compu3/Frente_caracteristicas.jpg" alt=""> 
                              <img src="image/Tecnologia/Computadoras/Compu3/lado derecho.jpg" alt="" class="hover-image">
                           </a>
@@ -1438,7 +1438,7 @@ else{
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="categorias/detallesProductoPc3.html">FVivoBook 15 K513 Core i7 11a 15.6''</a></h3>
+                    <h3 class="name"><a href="categorias/detallesProductoPc3.php">FVivoBook 15 K513 Core i7 11a 15.6''</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"> <span class="monedas">S/.</span> <span class="price">4499.95</span> <span class="price-before-discount">S/ 5,599</span> </div>
@@ -1472,7 +1472,7 @@ else{
                 <div class="product">
                   <div class="product-image">
                     <div class="image"> 
-                          <a href="categorias/detallesProductoAudifono2.html">
+                          <a href="categorias/detallesProductoAudifono2.php">
                              <img src="image/Tecnologia/Audifonos/Audifono2/caja.jpg" alt=""> 
                               <img src="image/Tecnologia/Audifonos/Audifono2/Costado.jpg" alt="" class="hover-image">
                           </a>
@@ -1485,10 +1485,10 @@ else{
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="categorias/detallesProductoAudifono2.html">FGamer Cybertel Xtreme</a></h3>
+                    <h3 class="name"><a href="categorias/detallesProductoAudifono2.php">Gamer Cybertel Xtreme</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">80.90</span>  </div>
+                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">69.00</span>  </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -1519,7 +1519,7 @@ else{
                 <div class="product">
                   <div class="product-image">
                     <div class="image"> 
-                          <a href="categorias/detallesProductoMouse2.html">
+                          <a href="categorias/detallesProductoMouse2.php">
                              <img src="image/Tecnologia/Mouse/Mouse2/frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Mouse/Mouse2/lado_izquierdo.jpg" alt="" class="hover-image">
                           </a>
@@ -1532,10 +1532,10 @@ else{
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="categorias/detallesProductoMouse2.html">MOUSE LOGITECH G203 RGB</a></h3>
+                    <h3 class="name"><a href="categorias/detallesProductoMouse2.php">MOUSE LOGITECH G203 RGB</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
-                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">189.95</span>  </div>
+                    <div class="product-price"><span class="monedas">S/.</span> <span class="price">189.00</span>  </div>
                     <!-- /.product-price --> 
                     
                   </div>
@@ -1566,7 +1566,7 @@ else{
                 <div class="product">
                   <div class="product-image">
                     <div class="image"> 
-                          <a href="detail.html">
+                          <a href="categorias/detallesProductoTv2.html">
                              <img src="image/Tecnologia/Televisores/Tv2/frente.jpg" alt=""> 
                               <img src="image/Tecnologia/Televisores/Tv2/lado_izquierdo.jpg" alt="" class="hover-image">
                           </a>
@@ -1578,7 +1578,7 @@ else{
                   <!-- /.product-image -->
                   
                   <div class="product-info text-left">
-                    <h3 class="name"><a href="categorias/detallesProductoTv1.html">Televisor 50" Borderless 4K Ultra HD Smart TV 50PUD7625</a></h3>
+                    <h3 class="name"><a href="categorias/detallesProductoTv2.html">Televisor 50" Borderless 4K Ultra HD Smart TV 50PUD7625</a></h3>
                     <div class="rating rateit-small"></div>
                     <div class="description"></div>
                     <div class="product-price"><span class="monedas">S/.</span> <span class="price">1899.90</span> <span class="price-before-discount">S/ 2,499</span> </div>

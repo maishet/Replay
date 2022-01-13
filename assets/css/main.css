@@ -5353,6 +5353,12 @@ font-family: FontAwesome;
   font-weight: 600;
   line-height: 50px;
 }
+.single-product .product-info .price-container .price-box .monedaspf {
+  color: #ff7878;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 50px;
+}
 .single-product .product-info .price-container .price-box .price-strike {
   color: #aaa;
   font-size: 24px;

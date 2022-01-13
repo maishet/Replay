@@ -1,5 +1,16 @@
 class Deseos {
 
+    //añadir de productos detalle
+    agregardeseosPDDetalles(e){
+        e.preventDefault();
+        //Delegado para agregar al carrito
+        if(e.target.classList.contains('btn-agregdeseos')){ //"agregar-deseos
+            const producto = e.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement;
+            //Enviamos el producto seleccionado para tomar sus datos
+            this.leerDatosProductoPD(producto);
+            //console.log(producto);
+        }e.stopPropagation();
+    }
     //Añadir producto al carrito de OFERTAS
     agregardeseos(e){
         e.preventDefault();
@@ -11,7 +22,39 @@ class Deseos {
             //console.log(producto);
         }e.stopPropagation();
     }
+    //leer datos del producto detalle
+    leerDatosProductoPD(producto){
+        const infoProductoP = {
+            imagen: producto.querySelector('img').src,
+            titulo: producto.querySelector('h1').textContent,
+            precio: producto.querySelector('.precio span.price').textContent,
+            id: producto.querySelector('.quantity-container a.btn-agregar').getAttribute('data-id'),
+            link: producto.querySelector('a').getAttribute('href'),
+            cantidad: 1
+        }
+        let productosLSLD;
+        productosLSLD = this.obtenerProductosLocalStorage();
+        productosLSLD.forEach(function (productoLSLD){
+            if(productoLSLD.id === infoProductoP.id){
+                productosLSLD = productoLSLD.id;
+            }
+        });
 
+        if(productosLSLD === infoProductoP.id){
+            Swal.fire({
+                icon: 'warning',
+                title: 'Oops...',
+                text: 'El producto ya está agregado a la Lista de Deseos',
+                showConfirmButton: false,
+                timer: 1000
+            })
+        }
+        else {
+            this.insertarDeseo(infoProductoP);
+            //console.log(infoProductoLD);
+        }
+        //this.insertarCarrito(infoProducto); //ya esta en el else
+    }
     //Leer datos del producto
     leerDatosProducto(producto){
         const infoProductoLD = {
