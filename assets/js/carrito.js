@@ -3,7 +3,7 @@ class Carrito {
     //Añadir producto al carrito de deseos
     comprarProductoDeseo(e){
         e.preventDefault();
-        console.log(e.target);
+        //console.log(e.target);
         //Delegado para agregar al carrito
         if(e.target.classList.contains('agregar-carrito')){ //"agregar-carrito
             const producto = e.target.parentElement.parentElement;
@@ -115,12 +115,13 @@ class Carrito {
     leerDatosProductoDeseo(producto){
         const infoProducto = {
             imagen : producto.querySelector('img').src,
-            titulo: producto.querySelector('product-name a').textContent,
-            precio: producto.querySelector('price').textContent,
+            titulo: producto.querySelector('.product-name a.nombrep').textContent,
+            precio: producto.querySelector('.product-price span.price').textContent,
             id: producto.querySelector('.agregar-carrito').getAttribute('data-id'), //si recoge el atributo data-id con .cart a (home.php)
             link: producto.querySelector('a').getAttribute('href'),
             cantidad: 1
         }
+        //console.log(infoProducto.imagen);
         let productosLS;
         productosLS = this.obtenerProductosLocalStorage();
         productosLS.forEach(function (productoLS){

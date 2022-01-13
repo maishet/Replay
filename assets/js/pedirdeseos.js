@@ -104,7 +104,7 @@ class Deseos {
             <tr>
                 <td class="col-md-2 col-sm-6 col-xs-6"><img src="${productodeseo.imagen}" alt=""></td>
                 <td class="col-md-7 col-sm-6 col-xs-6">
-                    <div class="product-name"><a href="${productodeseo.link}">${productodeseo.titulo}</a></div>
+                    <div class="product-name"><a class="nombrep" href="${productodeseo.link}">${productodeseo.titulo}</a></div>
                     <div class="rating">
                         <i class="fa fa-star rate"></i>
                         <i class="fa fa-star rate"></i>
@@ -113,8 +113,8 @@ class Deseos {
                         <i class="fa fa-star non-rate"></i>
                         <span class="review">( ${reseña} Reseñas )</span>
                     </div>
-                    <div class="price">
-                        ${productodeseo.precio}
+                    <div class="product-price">
+                        <span class="price">${productodeseo.precio}</span>
                     </div>
                 </td>
                 <td class="col-md-2 ">
