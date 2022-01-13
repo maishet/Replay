@@ -157,7 +157,7 @@
 
 					<div class="opcionesPagoDer">
 						<!-- cupon de descuento -->
-						<table class="table">
+						<table class="">
 							<thead>
 								<tr>
 										<div class="tituloResumenCompra">
@@ -181,14 +181,15 @@
 							</thead><!-- /thead -->
 
 							<thead id="prodresumen" class="cuadroColor">
-								<div class="iconoYVolverBolsa">
-									<img src="image/icon/bolsa.png" width="35" height="35">
-									<a href="#" class="enlaceVolverBolsa"> <u>Volver a la bolsa</u></a>
-								</div>
+								
 
 								<!--=== code js ====-->
 
 							</thead>
+							<div class="iconoYVolverBolsa">
+									<img src="image/icon/bolsa.png" width="35" height="35">
+									<a href="#" class="enlaceVolverBolsa"> <u>Volver a la bolsa</u></a>
+								</div>
 							
 							<thead id="weaderesumen" class="cuadroColor">
 

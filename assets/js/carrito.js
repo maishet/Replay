@@ -566,11 +566,11 @@ class Carrito {
             row.innerHTML = `
                 <td class="cart-image">
                     <a class="entry-thumbnail" href="${producto.link}">
-                        <img src="${producto.imagen}" alt="">
+                        <img class="imgpago" src="${producto.imagen}" alt="">
                     </a>
                 </td>
                 <td class="cart-product-name-info">
-                    <h4 class='cart-product-description'><a href="${producto.link}">${producto.titulo}</a></h4>
+                    <h4 class=''><a href="${producto.link}">${producto.titulo}</a></h4>
                 </td>
                 <td class="cart-product-sub-total"><span class="cart-sub-total-price">S/.${producto.precio}</span></td>
                 <h6>Cantidad: ${producto.cantidad}</h6>  

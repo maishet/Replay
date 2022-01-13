@@ -197,17 +197,19 @@ img[src="assets/images/blank.gif"] {
   margin-right: 1%;
 }
 .cuadroActualizaDatos{
-  width: 50%;
-  display: flex;
+  width: 70%;
+  
 }
 
 .formActualizaDatos{
+  width: 100%;
   border-color: black;
   border-width: 1px;
   border-style: solid;
   margin-right: 2.5%;
   padding: 10% 8% 5% 8%;
   background: white;
+  display: block;
 }
 .misComprasCuenta{
   width: 50%;
@@ -223,11 +225,12 @@ img[src="assets/images/blank.gif"] {
   
 }
 .cuadroCambioCuenta{
-  width: 97%;
+  width: 50%;
+  display: inline;
 }
 .contraseñaCambioCuenta{
   background: white;
-  margin-top: 0px;
+  margin-top: 15px;
   border-color: black;
   border-width: 1px;
   border-style: solid;
@@ -402,7 +405,7 @@ table {
 .cuadroColor{
   border-width:1px;
   border-style: solid;
-  border-color:black;
+  border-color:rgb(0, 0, 0);
 }
 .tituloResumenCompra{
   font-family:'Barlow', sans-serif;
@@ -554,10 +557,10 @@ color: #fff;
   width: 55%;
 }
 .opcionesPagoDer{
-  width: 90%;
+  width: 100%;
   /*background-color: #25414b;*/
-  margin-left: 150px;
-  margin-right: 80px;
+  margin-left: 300px;
+  margin-right: 150px;
   margin-top: 60px;
  
 }
@@ -6592,8 +6595,13 @@ font-family: FontAwesome;
 }
 
 .shopping-cart .cart-image img {
- width:150px
+ width:150px;
+
+ 
 }
+.shopping-cart .cart-image .imgpago{
+  width:150px;
+ }
 
 .cart-shopping-total {background:#f8f8f8}
 
@@ -6606,7 +6614,7 @@ font-family: FontAwesome;
   color: #e91e63;
 }
 .shopping-cart .shopping-cart-table table tbody tr .cart-image .entry-thumbnail {
-  display: block;
+  display: inline;
   text-align: center;
 }
 .shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info {
@@ -6616,8 +6624,11 @@ font-family: FontAwesome;
   margin-top: 0px;
   font-size: 16px;
   font-family: 'Barlow', sans-serif;
-  font-weight:400
+  font-weight:400;
 
+}
+.imgpago{
+  width: 150px;
 }
 .shopping-cart .shopping-cart-table table tbody tr .cart-product-name-info h4 a {
   color: #555;
