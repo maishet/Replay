@@ -62,6 +62,7 @@ function abrir(){
 }
 //cerrar ventana de comentarios
 function cerrar(){
+	contadorEstrellas=0;
 	document.getElementById("ventana-comentario").style.display = "none";
 	document.getElementById("pop-up").style.display = "none";
 	for(let i=0;i<5;i++){
@@ -69,7 +70,7 @@ function cerrar(){
 	    document.getElementById((i+1)+"estrella").style.backgroundColor="white";
 	}
 	document.getElementById("autorComentario").value="";
-	document.getElementById("autoremail").value="";
+	document.getElementById("advertenciaEstrellas").style.display="none";
 }
 var contador;
 let contadorEstrellas=0;
@@ -89,6 +90,8 @@ function calificar(item){
 		}
 	}
 	document.getElementById("calificacion").innerHTML="("+String(contadorEstrellas)+")";
+	document.getElementById("advertenciaEstrellas").style.display="none";
+	
 }
 //botones recomendaciones
 var boton2 = document.getElementById("boton-si");
@@ -114,10 +117,11 @@ document.getElementById('boton-si').addEventListener("click", function(){
 	   boton1.classList.add("activo-no");
 	}
  });
-
+ let confirmacion=false;
 //publicar comentario
 function publicar(){
-
+	
+	document.getElementById('my-form').onsubmit = function() { return false; }
 	let tituloComent=document.getElementById("tituloComentario").value;
 	let autor=document.getElementById("autorComentario").value;
 	let calificacion=0
@@ -129,7 +133,17 @@ function publicar(){
 	console.log("descripcion: "+descripcion);
 	const div = document.createElement("div");
 	let contenedor=document.getElementById("comentarios");
-
+	console.log(confirmacion);
+	
+	if(calificacion==0){
+		document.getElementById("advertenciaEstrellas").style.display="block";
+	}
+	if(tituloComent!=""&&calificacion!=0&&descripcion!=""&&autor!=""){
+		if(confirmacion){
+			document.getElementById("confirmacion-comentario").style.display="none";
+			document.getElementById("confirmacion-comentario").removeAttribute("id");
+		}
+		document.getElementById("advertenciaEstrellas").style.display="none";
 	//Contar comentarios
 	var getParents = function() 
 	{
@@ -159,7 +173,7 @@ function publicar(){
                         <h2>${tituloComent}</h2>
                         <div class="cont1">
                           <p class="autor">${autor}</p>
-                          <span class="tiempo">Hace 3 meses</span>
+                          <span class="tiempo">Hace un momento</span>
                         </div>
                         <div class="calificacion" id="calificacionEstrellas">
                         </div>
@@ -171,6 +185,7 @@ function publicar(){
                           <p>${descripcion}</p>
                         </div>		
                         <div>
+							<p class="confirmacion-comentario" id="confirmacion-comentario">Su comentario ha sido publicado</p>
 							<span>¿Te fue útil este comentario?</span> 
                           <button class="btn-si"  onclick="sumarSi(this)" id="${cantidadComentarios}comentarios-si">Si:0</button> 
                           <button class="btn-no"  onclick="sumarNo(this)" id="${cantidadComentarios}comentarios-no">No:0</button>
@@ -181,6 +196,8 @@ function publicar(){
 	div.classList.add("comentario");
 	div.setAttribute("id",`${cantidadComentarios}comentario`);
 	div.setAttribute("data-sort",calificacion);
+	div.setAttribute("date",cantidadComentarios);
+
 	for(j=0;j<5;j++){
 		let i=document.createElement("i");
 		i.classList.add('bx','bxs-star');
@@ -262,18 +279,26 @@ function publicar(){
 		calEstrellas2.insertAdjacentElement("beforeend",estrella2);
 		
 	}  
+	//validar datos
+	
 
+	Swal.fire(
+		'Se ha enviado tu comentario!',
+		'',
+		'success'
+	  )
 	cerrar();
 	document.getElementById("autorComentario").value=autor;
 	if(select.selectedIndex==2||select.selectedIndex==3){
 		select.selectedIndex=0;
 	}
-	
+	}
+	confirmacion=true;
 }
 
 
-//ordenar comentarios
 
+//ordenar comentarios
 
 var select = document.getElementById('ordenarComentarios');
 let comentariosContenedor=document.getElementById("comentarios");
@@ -285,13 +310,14 @@ select.addEventListener('change',
 	console.log(listacomentarios);
     console.log(selecccion.value + ': ' + selecccion.text);
 	if(selecccion.value==1){
-		
+		ordenarxTiempo(listacomentarios);
 	}else if(selecccion.value==2){
 		ordenarxCal(listacomentarios,selecccion.value);
 	}else if(selecccion.value==3){
 		/* ordenarxCalMenor(listacomentarios); */
 		ordenarxCal(listacomentarios,selecccion.value);
 	}
+	
   });
   function ordenarxCal(listacomentarios,value){
 	function getSorted(selector, attrName) { 
@@ -320,4 +346,25 @@ select.addEventListener('change',
 		comentariosContenedor.insertAdjacentElement("beforeend",div);
 	} 
   } 
-
+  function ordenarxTiempo(listacomentarios){
+	function getSorted(selector, attrName) { 
+		return $($(selector).toArray().sort(function(a, b){ 
+		 var aVal = parseInt(a.getAttribute(attrName)), 
+		  bVal = parseInt(b.getAttribute(attrName));
+		  	return  bVal-aVal; 
+		}));
+	}
+	console.log(getSorted(".comentario","id"));
+	listacomentarios=getSorted(".comentario","id");
+	console.log(listacomentarios[1]);
+	comentariosContenedor.innerHTML="";
+	for(i=0;i<listacomentarios.length;i++){
+		let contenido=listacomentarios[i].innerHTML;
+		let div=document.createElement("div");
+		div.classList.add("comentario");
+		div.setAttribute("id",listacomentarios[i].getAttribute("id"));
+		div.setAttribute("data-sort",listacomentarios[i].getAttribute("data-sort"));
+		div.innerHTML=contenido;	
+		comentariosContenedor.insertAdjacentElement("beforeend",div);
+	} 
+  }
