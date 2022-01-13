@@ -292,8 +292,9 @@ function publicar(){
 	if(select.selectedIndex==2||select.selectedIndex==3){
 		select.selectedIndex=0;
 	}
-	}
 	confirmacion=true;
+	}
+	
 }
 
 
