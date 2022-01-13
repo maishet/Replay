@@ -128,7 +128,7 @@ function publicar(){
 	console.log("calificacion: "+calificacion);
 	console.log("descripcion: "+descripcion);
 	const div = document.createElement("div");
-	let contenedor=document.getElementById("contenedor-comentarios");
+	let contenedor=document.getElementById("comentarios");
 
 	//Contar comentarios
 	var getParents = function() 
@@ -154,7 +154,7 @@ function publicar(){
 	document.getElementById("cantidad-comentarios3").innerHTML=String(cantidadComentarios);
 	//contar estrellas
 
-	div.innerHTML=`<div class="comentario" id="${cantidadComentarios}comentario">
+	div.innerHTML=`
                         <hr>
                         <h2>${tituloComent}</h2>
                         <div class="cont1">
@@ -163,7 +163,7 @@ function publicar(){
                         </div>
                         <div class="calificacion" id="calificacionEstrellas">
                         </div>
-						<span>(<span id="${cantidadComentarios}calificacion-num">${calificacion}</span>)</span>
+						<span>(<span id="${cantidadComentarios}calificacion-num" >${calificacion}</span>)</span>
 						<div id="recomienda-display">
 							<span class="recomienda" id="recomienda"></span>
 						</div>
@@ -175,9 +175,11 @@ function publicar(){
                           <button class="btn-si"  onclick="sumarSi(this)" id="${cantidadComentarios}comentarios-si">Si:0</button> 
                           <button class="btn-no"  onclick="sumarNo(this)" id="${cantidadComentarios}comentarios-no">No:0</button>
                         </div>
-                      </div>`;
+                     `
 					  
 	contenedor.insertAdjacentElement("beforeend", div);
+	div.classList.add("comentario");
+	div.setAttribute("id",`${cantidadComentarios}comentario`);
 	for(j=0;j<5;j++){
 		let i=document.createElement("i");
 		i.classList.add('bx','bxs-star');
@@ -269,17 +271,33 @@ function publicar(){
 
 
 var select = document.getElementById('ordenarComentarios');
-select.addEventListener('change',ordenarCom());
-function ordenarCom(){
-	var selecccion = select.options[select.selectedIndex];
-	if(selecccion.value==1||seleccion.value==2){
-		/* ordenarxCal(); */
+let comentariosContenedor=document.getElementById("comentarios");
 
+select.addEventListener('change',
+  function(){
+    var selecccion = this.options[select.selectedIndex];
+	const listacomentarios=comentariosContenedor.querySelectorAll(".comentario");
+	console.log(listacomentarios);
+    console.log(selecccion.value + ': ' + selecccion.text);
+	if(selecccion.value==1){
+		
+	}else if(selecccion.value==2){
+		ordenarxCal(listacomentarios);
 	}else if(selecccion.value==3){
-		/* ordenarTiempo(); */
+
 	}
-  }
-  function ordenarxCal(){} 
+  });
+  function ordenarxCal(listacomentarios){
+	  const listaOrdenar=[];
+	for(i=0;i<listacomentarios.length;i++){
+		listaOrdenar[i]=document.getElementById((i+1)+"calificacion-num").textContent;
+		listacomentarios[i].setAttribute("data-sort",document.getElementById((i+1)+"calificacion-num").textContent)
+		console.log(listacomentarios[i]);
+	}
+	console.log(listaOrdenar);
+	console.log(listaOrdenar.sort());
+	console.log(listaOrdenar);
+  } 
   function ordenarTiempo(){
 
   }
