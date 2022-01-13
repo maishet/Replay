@@ -137,7 +137,7 @@ function publicar(){
 	
 		var elems =  contenedor.children;
 	
-		for(i = 0; i < elems.length-2; i++)//quitarle los divs que no llevan la clase comentario
+		for(i = 0; i < elems.length; i++)
 		{
 		 if(elems[i].tagName == 'DIV')
 			items.push(elems[i]);
@@ -197,11 +197,13 @@ function publicar(){
 	if(boton1.classList.contains("activo-no")){
 		document.getElementById("recomienda").classList.add("m-t-10");
 		recomienda.innerHTML="Recomienda este producto ✖No";
+		recomienda.style.display="inline-block";
 	 }
 
 	 if(boton2.classList.contains("activo-si")){
 		document.getElementById("recomienda").classList.add("m-t-10");
 		recomienda.innerHTML="Recomienda este producto ✔Sí";
+		recomienda.style.display="inline-block";
 	}
 	document.getElementById("recomienda").removeAttribute("id");
 
