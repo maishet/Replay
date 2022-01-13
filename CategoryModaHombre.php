@@ -167,13 +167,14 @@
         
         <div id="category" class="category-carousel hidden-xs">
           <div class="item">
-            <div class="image"> <img src="assets/images/banners/banner-laptop2.jpg" alt="" class="img-responsive"> </div>
+            <div class="image"> <img src="image/FotosDanielcalato/Banners_ModaHombre.png" alt="" class="img-responsive"> </div>
             <div class="container-fluid">
               <div class="caption vertical-top text-left">
-                <div class="big-text"> SÚPER </div>
-                <div class="big-text"> OFERTA </div>
-                <div class="excerpt hidden-sm hidden-md"> HASTA 25% DSCTO </div>
-                <div class="excerpt-normal hidden-sm hidden-md"> ¡Encuentra tu laptop ideal! </div>
+                <div class="big-text"> APROVECHA</div>
+                <div class="big-text"> LAS </div>
+                <div class="big-text"> OFERTAS </div>
+                <div class="excerpt hidden-sm hidden-md"> HASTA 50% EN DESCUENTO</div>
+                <div class="excerpt-normal hidden-sm hidden-md"> ¡Encuentra tu prenda ideal! </div>
                 <div class="buy-btn"><a href="#" class="lnk btn btn-primary">Comprar Ahora</a></div>
               </div>
               <!-- /.caption --> 
