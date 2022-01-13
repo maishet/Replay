@@ -807,16 +807,17 @@
                          <div class="ordenar">
                             <p>Ordenar por:</p>
                             <!-- <div ><span>Seleccionar <i class='bx bxs-down-arrow'></i></span></div>      -->   
-                            <select name=""  id="ordenarComentarios">
+                            <select name=""  id="ordenarComentarios" >
+                              <option value="" id="first">Seleccionar</option>
                               <option value="1" selected>Más recientes</option>
-                              <option value="2">De menor a mayor calificación</option>
-                              <option value="3">De mayor a menor calificación</option>
+                              <option value="2" >De menor a mayor calificación</option>
+                              <option value="3" >De mayor a menor calificación</option>
                             </select>
                         </div> 
                   
                       </div>
                       <div id="comentarios">
-                        <div class="comentario" id="1comentario">
+                        <div class="comentario" id="3comentario" data-sort="3">
                           <hr>
                           <h2>Título</h2>
                           <div class="cont1">
@@ -830,18 +831,18 @@
                             <i class='bx bxs-star inactivo'></i>
                             <i class='bx bxs-star inactivo'></i>
                           </div>
-                          <span >(<span id="1calificacion-num">1</span>)</span>
+                          <span >(<span id="3calificacion-num" >3</span>)</span>
                           <div class="descripcion">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. fugit quos tenetur, voluptates debitis 
                             possimus asperiores doloremque.</p>
                           </div>
                           <div>
                             <span>¿Te fue útil este comentario?</span> 
-                            <button class="btn-si"  onclick="sumarSi(this)" id="1comentarios-si">Si:0</button> 
-                            <button class="btn-no"  onclick="sumarNo(this)" id="1comentarios-no">No:0</button>
+                            <button class="btn-si"  onclick="sumarSi(this)" id="3comentarios-si">Si:0</button> 
+                            <button class="btn-no"  onclick="sumarNo(this)" id="3comentarios-no">No:0</button>
                           </div>
                         </div>
-                        <div class="comentario" id="2comentario">
+                        <div class="comentario" id="2comentario" data-sort="3">
                           <hr>
                           <h2>Título</h2>
                           <div class="cont1">
@@ -855,9 +856,9 @@
                             <i class='bx bxs-star inactivo'></i>
                             <i class='bx bxs-star inactivo'></i>
                           </div>
-                          <span >(<span id="2calificacion-num">5</span>)</span>
+                          <span >(<span id="2calificacion-num">3</span>)</span>
                           <div class="m-t-10">
-                            <span class="recomienda">Recomienda este producto <span>✔Sí</span></span>
+                            <span class="recomienda" style="display: inline-block;">Recomienda este producto <span>✔Sí</span></span>
                           </div> 
                           <div class="descripcion">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. fugit quos tenetur, voluptates debitis 
@@ -869,7 +870,7 @@
                             <button class="btn-no"  onclick="sumarNo(this)" id="2comentarios-no">No:0</button>
                           </div>
                         </div>
-                        <div class="comentario" id="3comentario">
+                        <div class="comentario" id="1comentario" data-sort="3">
                           <hr>
                           <h2>Título</h2>
                           <div class="cont1">
@@ -883,9 +884,9 @@
                             <i class='bx bxs-star inactivo'></i>
                             <i class='bx bxs-star inactivo'></i>
                           </div>
-                          <span >(<span id="3calificacion-num">4</span>)</span>
+                          <span >(<span id="1calificacion-num">3</span>)</span>
                           <div class="m-t-10">
-                            <span class="recomienda">Recomienda este producto <span>✖No</span></span>
+                            <span class="recomienda" style="display: inline-block;">Recomienda este producto <span>✖No</span></span>
                           </div> 
                           <div class="descripcion">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. fugit quos tenetur, voluptates debitis 
@@ -893,8 +894,8 @@
                           </div>
                           <div>
                             <span>¿Te fue útil este comentario?</span> 
-                            <button class="btn-si"  onclick="sumarSi(this)" id="3comentarios-si">Si:0</button> 
-                            <button class="btn-no"  onclick="sumarNo(this)" id="3comentarios-no">No:0</button>
+                            <button class="btn-si"  onclick="sumarSi(this)" id="1comentarios-si">Si:0</button> 
+                            <button class="btn-no"  onclick="sumarNo(this)" id="1comentarios-no">No:0</button>
                           </div>
                         </div>
                       </div>

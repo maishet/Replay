@@ -1241,6 +1241,9 @@ color: #fff;
 .comentario .calificacion{
   display:inline-block;
 }
+#ordenarComentarios option:first-child {
+  display:none;
+}
 /*Fin Detalles del Producto =====================================================================*/
 
 /*===================================================================================*/

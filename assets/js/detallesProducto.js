@@ -177,9 +177,10 @@ function publicar(){
                         </div>
                      `
 					  
-	contenedor.insertAdjacentElement("beforeend", div);
+	contenedor.insertAdjacentElement("afterbegin", div);
 	div.classList.add("comentario");
 	div.setAttribute("id",`${cantidadComentarios}comentario`);
+	div.setAttribute("data-sort",calificacion);
 	for(j=0;j<5;j++){
 		let i=document.createElement("i");
 		i.classList.add('bx','bxs-star');
@@ -264,6 +265,10 @@ function publicar(){
 
 	cerrar();
 	document.getElementById("autorComentario").value=autor;
+	if(select.selectedIndex==2||select.selectedIndex==3){
+		select.selectedIndex=0;
+	}
+	
 }
 
 
@@ -282,22 +287,37 @@ select.addEventListener('change',
 	if(selecccion.value==1){
 		
 	}else if(selecccion.value==2){
-		ordenarxCal(listacomentarios);
+		ordenarxCal(listacomentarios,selecccion.value);
 	}else if(selecccion.value==3){
-
+		/* ordenarxCalMenor(listacomentarios); */
+		ordenarxCal(listacomentarios,selecccion.value);
 	}
   });
-  function ordenarxCal(listacomentarios){
-	  const listaOrdenar=[];
-	for(i=0;i<listacomentarios.length;i++){
-		listaOrdenar[i]=document.getElementById((i+1)+"calificacion-num").textContent;
-		listacomentarios[i].setAttribute("data-sort",document.getElementById((i+1)+"calificacion-num").textContent)
-		console.log(listacomentarios[i]);
+  function ordenarxCal(listacomentarios,value){
+	function getSorted(selector, attrName) { 
+		return $($(selector).toArray().sort(function(a, b){ 
+		 var aVal = parseInt(a.getAttribute(attrName)), 
+		  bVal = parseInt(b.getAttribute(attrName));
+		  if(value==2){
+			return aVal - bVal; 
+		  }else{
+			return  bVal-aVal; 
+		  }
+		 
+		})); 
 	}
-	console.log(listaOrdenar);
-	console.log(listaOrdenar.sort());
-	console.log(listaOrdenar);
+	console.log(getSorted(".comentario","data-sort"));
+	listacomentarios=getSorted(".comentario","data-sort");
+	console.log(listacomentarios[1]);
+	comentariosContenedor.innerHTML="";
+	for(i=0;i<listacomentarios.length;i++){
+		let contenido=listacomentarios[i].innerHTML;
+		let div=document.createElement("div");
+		div.classList.add("comentario");
+		div.setAttribute("id",listacomentarios[i].getAttribute("id"));
+		div.setAttribute("data-sort",listacomentarios[i].getAttribute("data-sort"));
+		div.innerHTML=contenido;	
+		comentariosContenedor.insertAdjacentElement("beforeend",div);
+	} 
   } 
-  function ordenarTiempo(){
 
-  }
