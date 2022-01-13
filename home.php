@@ -2144,7 +2144,6 @@ else{
 <?php include('footer.html'); ?>
 <script src="assets/js/pedido.js"></script>
 <!-- <script src="assets/js/compra.js"></script> -->
-<script src="assets/js/pedirdeseos.js"></script>
 <script src="assets/js/deseos.js"></script>
 <!-- ============================================================= FOOTER : END============================================================= -->
 <!-- Código de instalación Cliengo para Replay --> 

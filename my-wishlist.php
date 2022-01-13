@@ -184,7 +184,6 @@ else{
 <?php include('footer.html'); ?>
 <script src="assets/js/pedido3.js"></script>
 <!-- <script src="assets/js/compra.js"></script> -->
-<script src="assets/js/pedirdeseos.js"></script>
 <script src="assets/js/procesardeseo.js"></script>
 <!-- ============================================================= FOOTER : END============================================================= -->
 </body>
