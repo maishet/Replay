@@ -394,7 +394,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoAudifono1.html">Polo Manga Corta 100% Algodón Hombre</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono1.html">Polo Manga Corta Hombre</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"><span class="monedas">S/.</span> <span class="price">22.46</span> <span class="price-before-discount">S/ 49.90</span> </div>

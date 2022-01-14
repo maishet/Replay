@@ -11,9 +11,22 @@ class Deseos {
             //console.log(producto);
         }e.stopPropagation();
     }
-    //Añadir producto al carrito de OFERTAS
+    //Añadir producto al carrito de nuevos productos
     agregardeseos(e){
         e.preventDefault();
+        //Delegado para agregar al carrito
+        if(e.target.classList.contains('agregar-deseos')){ //"agregar-deseos
+            const producto = e.target.parentElement.parentElement.parentElement.parentElement.parentElement;
+            //Enviamos el producto seleccionado para tomar sus datos
+            this.leerDatosProducto(producto);
+            //console.log(producto);
+        }e.stopPropagation();
+    }
+
+    //Añadir producto al carrito de tecnologia
+    agregardeseostecno(e){
+        e.preventDefault();
+        //console.log(e.target);
         //Delegado para agregar al carrito
         if(e.target.classList.contains('agregar-deseos')){ //"agregar-deseos
             const producto = e.target.parentElement.parentElement.parentElement.parentElement.parentElement;

@@ -290,7 +290,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoAudifono2.html">Cocina LG RSG315T Gas 6 Hornillas con Easy Clean Acero inoxidable</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoAudifono2.html">Cocina LG Gas 6 Hornillas Acero inoxidable</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"><span class="monedas">S/.</span> <span class="price">2799.00</span> <span class="price-before-discount">S/ 4149.00</span> </div>
@@ -387,10 +387,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc1.html">Lavadora LG Carga Superior Smart Inverter con TurboDrum WT13BSB 13 Kg Negra</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc1.html">Lavadora LG Carga Superior Smart Inverter 13Kg</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1499.00</span.> <span class="price-before-discount">S/ 1979.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1499.00</span> <span class="price-before-discount">S/ 1979.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -436,7 +436,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">Lavadora Black Edition 19 kg</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">Lavadora Black Edition 19 kg Color Negro</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">2299.00</span> <span class="price-before-discount">S/ 2999.00</span> </div>
@@ -534,7 +534,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoMouse1.html">Refrigeradora SBS 685L FAMILY HUB RS27T5561B1/PE</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoMouse1.html">Refrigeradora SBS 685L FAMILY HUB</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">6999.00</span> <span class="price-before-discount">S/ 9999.00</span> </div>
@@ -583,7 +583,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">Refrigeradora LG French Door con Puerta Mágica 426 LT LM57SDT Blanca</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">Refrigeradora LG French Door 426 LT Blanca</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">6199.00</span> <span class="price-before-discount">S/ 10149.00</span>  </div>

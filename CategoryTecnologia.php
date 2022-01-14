@@ -395,7 +395,7 @@
                           <h3 class="name"><a href="categorias/detallesProductoPc1.html">IdeaCentre AIO 3i Intel Core i3 23.8" Full HD</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span.> <span class="price-before-discount">S/ 2099.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span> <span class="price-before-discount">S/ 2099.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -441,7 +441,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">ZenBook 14 UM425 Ryzen 5 5500U 14'' FHD 512GB SSD 8GB RAM</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">ZenBook 14 UM425 Ryzen 5 14'512GB SSD 8GB RAM</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">3599.00</span> <span class="price-before-discount">S/ 4699.00</span> </div>
@@ -588,7 +588,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">MOUSE LOGITECH G203 RGB</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">MOUSE LOGITECH G203 RGB COLOR NEGRO</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">189.00</span>  </div>

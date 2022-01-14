@@ -385,10 +385,10 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc1.html">Silla de Oficina Bone</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc1.html">Silla de Oficina Bone Color Beig</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">299.90</span.> <span class="price-before-discount">S/ 399.90</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">299.90</span> <span class="price-before-discount">S/ 399.90</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>
@@ -434,7 +434,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">Escritorio Vintage</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc2.html">Escritorio Vintage 2 Cajones 130x55</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">549.00</span> <span class="price-before-discount">S/ 899.00</span> </div>
@@ -483,7 +483,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc3.html">Escritorio Portugal CAST</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc3.html">Escritorio Portugal CAST 3 cajones</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">399.90</span> <span class="price-before-discount">S/ 499.90</span> </div>
@@ -581,7 +581,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">Mesa de TV 65' Joy</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoMouse2.html">Mesa de TV 65' Joy 5 Cajones</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">299.90</span> <span class="price-before-discount">S/ 499.90</span>  </div>
