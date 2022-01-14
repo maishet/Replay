@@ -777,6 +777,14 @@
                     <!-- /.accordion-body --> 
                   </div>
                   <!-- /.accordion-group -->
+
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="sala"> Pruebas </a> </div>
+                    <!-- /.accordion-heading -->
+
+                    <!-- /.accordion-body --> 
+                  </div>
+                  <!-- /.accordion-group -->
                   
                 </div>
                 <!-- /.accordion --> 

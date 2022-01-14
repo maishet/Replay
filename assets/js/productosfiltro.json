@@ -72,7 +72,7 @@
     },
     {   
         "buscador": "Mouse MOUSE LOGITECH G203 RGB",
-        "nombre": "MOUSE LOGITECH G203 RGB",
+        "nombre": "MOUSE LOGITECH G203 RGB Color negro",
         "imagen1":"image/Tecnologia/Mouse/Mouse2/frente.jpg",
         "imagen2":"image/Tecnologia/Mouse/Mouse2/lado_arriba.jpg",
         "precio": "189.00",
@@ -154,7 +154,7 @@
     },
     {   
         "buscador": "Cocina Cocina Cadiz Spazio Plus Croma 4h",
-        "nombre": "Cocina Cadiz Spazio Plus Croma 4h",
+        "nombre": "Cocina Cadiz Spazio Plus Croma 4h Indurama Acero inoxidable",
         "imagen1":"image/Electrohogar/Cocina/Cocina3/Frente.jpg",
         "imagen2":"image/Electrohogar/Cocina/Cocina3/Lado_izquierdo.jpg",
         "precio": "849.00",
@@ -165,7 +165,7 @@
 
     {   
         "buscador": "Lavadora Lavadora LG Carga Superior Smart Inverter con TurboDrum WT13BSB 13 Kg Negra",
-        "nombre": "Lavadora LG Carga Superior Smart Inverter con TurboDrum WT13BSB 13 Kg Negra",
+        "nombre": "Lavadora LG Carga Superior Smart Inverter con TurboDrum WT13BSB 13 Kg",
         "imagen1":"image/Electrohogar/Lavadora/Lav1/Frente.jpg",
         "imagen2":"image/Electrohogar/Lavadora/Lav1/Derecha.jpg",
         "precio": "1499.00",
@@ -233,6 +233,271 @@
         "precioAntes": "S/ 2809.00",
         "link": "#",
         "categoria": "refri"
+    },
+
+    {   
+        "buscador": "Mesa Mesa de Comedor Gold 8 Sillas Rectangularx",
+        "nombre": "Mesa de Comedor Gold 8 Sillas Rectangularx de Cedro del Líbano ",
+        "imagen1":"image/Muebles/Comedor/C1/frente.jpg",
+        "imagen2":"image/Muebles/Comedor/C1/tamaño.jpg",
+        "precio": "1699.00",
+        "precioAntes": "S/ 2599.00",
+        "link": "#",
+        "categoria": "comedor"
+    },
+    {   
+        "buscador": "Silla Silla de Comedor Croisette Set x 2",
+        "nombre": "Silla de Comedor Croisette Set x 2",
+        "imagen1":"image/Muebles/Comedor/C2/Frente.jpg",
+        "imagen2":"image/Muebles/Comedor/C2/tamaño.jpg",
+        "precio": "1199.00",
+        "precioAntes": "S/ 1799.00",
+        "link": "#",
+        "categoria": "comedor"
+    },
+    {   
+        "buscador": "Mesa Juego de Comedor Morten 6 Sillas",
+        "nombre": "Juego de Comedor Morten 6 Sillas",
+        "imagen1":"image/Muebles/Comedor/C3/Frente.jpg",
+        "imagen2":"image/Muebles/Comedor/C3/de_lado.jpg",
+        "precio": "999.00",
+        "precioAntes": "S/ 1499.00",
+        "link": "#",
+        "categoria": "comedor"
+    },
+
+    {   
+        "buscador": "Silla Silla de Oficina Bone Color Beig",
+        "nombre": "Silla de Oficina Bone Color Beig",
+        "imagen1":"image/Muebles/Escritorio/Escritorio1/Frente.jpg",
+        "imagen2":"image/Muebles/Escritorio/Escritorio1/lado_derecho.jpg",
+        "precio": "299.90",
+        "precioAntes": "S/ 399.90",
+        "link": "#",
+        "categoria": "escritorio"
+    },
+    {   
+        "buscador": "Escritorio Escritorio Vintage 2 Cajones 130x55",
+        "nombre": "Escritorio Vintage 2 Cajones 130x55",
+        "imagen1":"image/Muebles/Escritorio/Escritorio2/Frente.jpg",
+        "imagen2":"image/Muebles/Escritorio/Escritorio2/delado.jpg",
+        "precio": "549.00",
+        "precioAntes": "S/ 899.00",
+        "link": "#",
+        "categoria": "escritorio"
+    },
+    {   
+        "buscador": "Escritorio Escritorio Portugal CAST 3 cajones",
+        "nombre": "Escritorio Portugal CAST",
+        "imagen1":"image/Muebles/Escritorio/Escritorio3/frente.jpg",
+        "imagen2":"image/Muebles/Escritorio/Escritorio3/lado_derecho.jpg",
+        "precio": "399.90",
+        "precioAntes": "S/ 499.90",
+        "link": "#",
+        "categoria": "escritorio"
+    },
+    {   
+        "buscador": "Escritorio Escritorio Axis-Wen. / Artico",
+        "nombre": "Escritorio Axis-Wen. / Artico",
+        "imagen1":"image/Muebles/Escritorio/Escritorio4/frente.jpg",
+        "imagen2":"image/Muebles/Escritorio/Escritorio4/tamaño.jpg",
+        "precio": "549.22",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "escritorio"
+    },
+
+    {   
+        "buscador": "Televisor Mesa de TV 65' Joy 5 Cajones",
+        "nombre": "Mesa de TV 65' Joy 5 Cajones",
+        "imagen1":"image/Muebles/Sala/sala1/Frente.jpg",
+        "imagen2":"image/Muebles/Sala/sala1/lado_derecho.jpg",
+        "precio": "299.90",
+        "precioAntes": "S/ 499.90",
+        "link": "#",
+        "categoria": "sala"
+    },
+    {   
+        "buscador": "Televisor Centro de TV 50' Sensación",
+        "nombre": "Centro de TV 50' Sensación",
+        "imagen1":"image/Muebles/Sala/sala2/frente.jpg",
+        "imagen2":"image/Muebles/Sala/sala2/lado_izquierdo.jpg",
+        "precio": "649.00",
+        "precioAntes": "S/ 999.00",
+        "link": "#",
+        "categoria": "sala"
+    },
+    {   
+        "buscador": "Muebles Juego de Sala Alaska 3-2-1 Cuerpos",
+        "nombre": "Juego de Sala Alaska 3-2-1 Cuerpos",
+        "imagen1":"image/Muebles/Sala/sala3/frente.jpg",
+        "imagen2":"image/Muebles/Sala/sala3/lado_derecho.jpg",
+        "precio": "2099.00",
+        "precioAntes": "S/ 2799.00",
+        "link": "#",
+        "categoria": "sala"
+    },
+    {   
+        "buscador": "Muebles Seccional Jeremy 3 Cuerpos Intercambiable",
+        "nombre": "Seccional Jeremy 3 Cuerpos Intercambiable",
+        "imagen1":"image/Muebles/Sala/sala4/uso.jpg",
+        "imagen2":"image/Muebles/Sala/sala4/frente.jpg",
+        "precio": "1099.00",
+        "precioAntes": "S/ 1399.00",
+        "link": "#",
+        "categoria": "sala"
+    },
+
+    {   
+        "buscador": "Polo Polo Manga Corta Hombre",
+        "nombre": "Polo Manga Corta Hombre Diseño Tie Day",
+        "imagen1":"image/ModaHombre/Polos/P1/frente.jpg",
+        "imagen2":"image/ModaHombre/Polos/P1/espalda.jpg",
+        "precio": "49.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "polos"
+    },
+    {   
+        "buscador": "Polo Polo Manga Corta Hombre",
+        "nombre": "Polo Manga Corta Hombre Diseño Tie Day",
+        "imagen1":"image/ModaHombre/Polos/P2/frente.jpg",
+        "imagen2":"image/ModaHombre/Polos/P2/espalda.jpg",
+        "precio": "49.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "polos"
+    },
+    {   
+        "buscador": "Polo Polo Manga Corta Hombre",
+        "nombre": "Polo Manga Corta Hombre",
+        "imagen1":"image/ModaHombre/Polos/P3/frente.jpg",
+        "imagen2":"image/ModaHombre/Polos/P3/espalda.jpg",
+        "precio": "49.00",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "polos"
+    },
+    {   
+        "buscador": "Polo Polo Manga Corta Hombre",
+        "nombre": "Polo Manga Corta Hombre",
+        "imagen1":"image/ModaHombre/Polos/P4/frente.jpg",
+        "imagen2":"image/ModaHombre/Polos/P4/espalda.jpg",
+        "precio": "22.46",
+        "precioAntes": "S/ 49.90",
+        "link": "#",
+        "categoria": "polos"
+    },
+    {   
+        "buscador": "Pantalon Pantalón Jogger Hombre",
+        "nombre": "Pantalón Jogger Hombre",
+        "imagen1":"image/ModaHombre/Pantalones/Ps1/frente.jpg",
+        "imagen2":"image/ModaHombre/Pantalones/Ps1/atras.jpg",
+        "precio": "97.40",
+        "precioAntes": "S/ 129.90",
+        "link": "#",
+        "categoria": "pantalones"
+    },
+    {   
+        "buscador": "Pantalon Pantalón Hombre",
+        "nombre": "Pantalón Hombre",
+        "imagen1":"image/ModaHombre/Pantalones/Ps2/frente.jpg",
+        "imagen2":"image/ModaHombre/Pantalones/Ps2/atras.jpg",
+        "precio": "69.93",
+        "precioAntes": "S/ 99.90",
+        "link": "#",
+        "categoria": "pantalones"
+    },
+    {   
+        "buscador": "Pantalon Pantalón Slim Hombre",
+        "nombre": "Pantalón Slim Hombre",
+        "imagen1":"image/ModaHombre/Pantalones/Ps3/frente.jpg",
+        "imagen2":"image/ModaHombre/Pantalones/Ps3/atras.jpg",
+        "precio": "39.95",
+        "precioAntes": "S/ 79.90",
+        "link": "#",
+        "categoria": "pantalones"
+    },
+    {   
+        "buscador": "Short Short Hombre",
+        "nombre": "Short Hombre",
+        "imagen1":"image/ModaHombre/Short/S1/frente.jpg",
+        "imagen2":"image/ModaHombre/Short/S1/atras.jpg",
+        "precio": "89.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "shorts"
+    },
+    {   
+        "buscador": "Short Short Hombre",
+        "nombre": "Short Hombre",
+        "imagen1":"image/ModaHombre/Short/S2/frente.jpg",
+        "imagen2":"image/ModaHombre/Short/S2/atras.jpg",
+        "precio": "79.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "shorts"
+    },
+    {   
+        "buscador": "Short Short Hombre",
+        "nombre": "Short Hombre",
+        "imagen1":"image/ModaHombre/Short/S3/frente.jpg",
+        "imagen2":"image/ModaHombre/Short/S3/atras.jpg",
+        "precio": "55.93",
+        "precioAntes": "S/ 79.90",
+        "link": "#",
+        "categoria": "shorts"
+    },
+    {   
+        "buscador": "Short Short Hombre",
+        "nombre": "Short Hombre",
+        "imagen1":"image/ModaHombre/Short/S4/frente.jpg",
+        "imagen2":"image/ModaHombre/Short/S4/atras.jpg",
+        "precio": "69.93",
+        "precioAntes": "S/ 99.90",
+        "link": "#",
+        "categoria": "shorts"
+    },
+
+    {   
+        "buscador": "Saco Saco de vestir",
+        "nombre": "Saco de Vestir",
+        "imagen1":"image/ModaHombre/Ternos/T1/frente.jpg",
+        "imagen2":"image/ModaHombre/Ternos/T1/espalda.jpg",
+        "precio": "419.90",
+        "precioAntes": "S/ 699.00",
+        "link": "#",
+        "categoria": "ternos"
+    },
+    {   
+        "buscador": "Saco Saco de vestir",
+        "nombre": "Saco de Vestir",
+        "imagen1":"image/ModaHombre/Ternos/T2/frente.jpg",
+        "imagen2":"image/ModaHombre/Ternos/T2/atras.jpg",
+        "precio": "177.99",
+        "precioAntes": "S/ 349.00",
+        "link": "#",
+        "categoria": "ternos"
+    },
+    {   
+        "buscador": "Saco Saco de vestir",
+        "nombre": "Saco de Vestir",
+        "imagen1":"image/ModaHombre/Ternos/T3/frente.jpg",
+        "imagen2":"image/ModaHombre/Ternos/T3/atras.jpg",
+        "precio": "419.90",
+        "precioAntes": "S/ 699.00",
+        "link": "#",
+        "categoria": "ternos"
+    },
+    {   
+        "buscador": "Saco >Casaca Hombre Foster",
+        "nombre": "Casaca Hombre Foster",
+        "imagen1":"image/ModaHombre/Ternos/T4/frente.jpg",
+        "imagen2":"image/ModaHombre/Ternos/T4/atras.jpg",
+        "precio": "239.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "ternos"
     }
 
 ]

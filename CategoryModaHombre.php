@@ -932,7 +932,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="detail.html">Casaca Hombre Foster)</a></h3>
+                          <h3 class="name"><a href="detail.html">Casaca Hombre Foster</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">239.90</span> </div>
