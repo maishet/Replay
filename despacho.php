@@ -201,7 +201,7 @@
 							</thead><!-- /thead -->
 							<thead class="cuadroColor">
 								<tr>
-									<th>
+									<th class="dentroCuadoColor">
 										<div class="subTitulos">
 											Subtotal<span id="subtotalresumen" class="inner-left-md"></span>
 										</div>

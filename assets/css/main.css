@@ -21,6 +21,10 @@
 /*===================================================================================*/
 /*  Body
 /*===================================================================================*/
+/**---*/
+
+/**---*/
+
 .inline {
   display: inline-block;
   vertical-align: top;
@@ -35,7 +39,7 @@ a {
   transition: all 0.2s linear 0s;
 }
 body {
-  font-size: 13px;
+  font-size: 18px;
   color: #333;
   overflow-x: hidden;
   margin: 0;
@@ -302,6 +306,11 @@ table {
 
 .opcionFase1{
   display: flex;
+  width: 100%;
+  background-color: #fff;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 5px;
 }
 .opcionesDespachoIzq{
   width: 25%;
@@ -406,6 +415,10 @@ table {
   border-width:1px;
   border-style: solid;
   border-color:rgb(0, 0, 0);
+  
+}
+.englobaProduxtoTotal{
+  display:flex;
 }
 .tituloResumenCompra{
   font-family:'Barlow', sans-serif;
@@ -440,16 +453,28 @@ table {
   font-family:'Barlow', sans-serif;
   font-size: 18px;
 }
+.thRaro{
+  width: 100%;
+  display: block;
+  margin-left:50%;
+margin-right:0px;
+}
 
 /*Fin despacho*/
 /*pago*/
 .opcionesDespachoIzqPago{
-  width: 100%;
+  width: 40%;
   margin-left: 100px;
   margin-top: 60px;
   /*background-color: #027ba5;*/
   display: flex;
  
+}
+.opcionesDespachoPagoDer{
+  width: 40%;
+}
+.separatorPago{
+  width: 10%;
 }
 
 
@@ -559,11 +584,12 @@ color: #fff;
 .opcionesPagoDer{
   width: 100%;
   /*background-color: #25414b;*/
-  margin-left: 300px;
-  margin-right: 150px;
+  margin-left: 200px;
+  margin-right: 400px;
   margin-top: 60px;
  
 }
+
 
 /*fin pago*/
 /*Estado de mi Pedido =====================================================================*/
@@ -706,6 +732,85 @@ color: #fff;
   }
 }
 /*Fin Estado de mi Pedido =====================================================================*/
+
+/*subdespacho*/
+.opcionessubDespachoIzqPago{
+  width: 100%;
+  margin-left: 0px;
+ 
+  /*background-color: #027ba5;*/
+  
+  background-color: #C4C4C4;
+  padding-left: 6%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+.englobador{
+  width: 50%;
+}
+.titulosubDespachoIzqPago{
+  margin-left: 0%;
+  width: 35%;
+  padding-left: 6%;
+  background-color: #C4C4C4;
+  margin-bottom: 1px;
+  border-radius: 15px 15px 0px 0px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  
+}
+
+.contenedorDPD{
+  padding-top: 15px;
+  width: 100%;
+
+}
+.contenedorDPDIZQ{
+  float: left;
+  width: 30%;
+}
+.subcontenedorDPD{
+  
+  
+  
+}
+.contenedorDPDinf{
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  padding-bottom: 10px;
+}
+.subcontenedorDPDinf{
+  padding-top: 10px;
+  width: 80%;
+  display: flex;
+  border: 1px solid #000000;
+  background: #dfdada;
+}
+.btnfull{
+  -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    background: #ff0505;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    line-height: 22px;
+    border-radius: 0;
+    padding: 8px 14px;
+    font-family: 'Barlow', sans-serif;
+    border-radius: 5px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-right: auto;
+    padding-left:auto ;
+    width: 400px;
+    margin-left: 20%;
+}
+/*fin subdespacho*/
 
 /*Detalles del Producto =====================================================================*/
 
@@ -6601,6 +6706,7 @@ font-family: FontAwesome;
 }
 .shopping-cart .cart-image .imgpago{
   width:150px;
+
  }
 
 .cart-shopping-total {background:#f8f8f8}
