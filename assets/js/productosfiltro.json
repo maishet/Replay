@@ -14,7 +14,7 @@
         "nombre": "Gamer Cybertel Xtreme",
         "imagen1":"image/Tecnologia/Audifonos/Audifono2/Frente.jpg",
         "imagen2":"image/Tecnologia/Audifonos/Audifono2/Costado.jpg",
-        "precio": "S/.69.00",
+        "precio": "69.00",
         "precioAntes": "S/.89.00",
         "link": "categorias/detallesProductoAudifono2.php",
         "categoria": "audifonos"
@@ -24,7 +24,7 @@
         "nombre": "Audifonos Gamer Onikuma K9",
         "imagen1":"image/Tecnologia/Audifonos/Audifono3/frente.jpg",
         "imagen2":"image/Tecnologia/Audifonos/Audifono3/caja.jpg",
-        "precio": "S/.639.00",
+        "precio": "639.00",
         "precioAntes": "",
         "link": "categorias/detallesProductoAudifono3.php",
         "categoria": "audifonos"
@@ -34,7 +34,7 @@
         "nombre": "IdeaCentre AIO 3i Intel Core i3 23.8' Full HD",
         "imagen1":"image/Tecnologia/Computadoras/Compu1/1.jpg",
         "imagen2":"image/Tecnologia/Computadoras/Compu1/4.jpg",
-        "precio": "S/.1,999.00",
+        "precio": "1999.00",
         "precioAntes": "S/.2,099.00",
         "link": "categorias/detallesProductoPc1.php",
         "categoria": "computacion"
@@ -44,7 +44,7 @@
         "nombre": "ZenBook 14 UM425 Ryzen 5 5500U 14'' FHD",
         "imagen1":"image/Tecnologia/Computadoras/Compu2/1.jpg",
         "imagen2":"image/Tecnologia/Computadoras/Compu2/2.jpg",
-        "precio": "S/.3,599.00",
+        "precio": "3599.00",
         "precioAntes": "S/.4,699.00",
         "link": "categorias/detallesProductoPc2.php",
         "categoria": "computacion"
