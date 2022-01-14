@@ -460,7 +460,7 @@
     },
 
     {   
-        "buscador": "Saco Saco de vestir",
+        "buscador": "Terno Saco de vestir",
         "nombre": "Saco de Vestir",
         "imagen1":"image/ModaHombre/Ternos/T1/frente.jpg",
         "imagen2":"image/ModaHombre/Ternos/T1/espalda.jpg",
@@ -470,7 +470,7 @@
         "categoria": "ternos"
     },
     {   
-        "buscador": "Saco Saco de vestir",
+        "buscador": "Terno Saco de vestir",
         "nombre": "Saco de Vestir",
         "imagen1":"image/ModaHombre/Ternos/T2/frente.jpg",
         "imagen2":"image/ModaHombre/Ternos/T2/atras.jpg",
@@ -480,7 +480,7 @@
         "categoria": "ternos"
     },
     {   
-        "buscador": "Saco Saco de vestir",
+        "buscador": "Terno Saco de vestir",
         "nombre": "Saco de Vestir",
         "imagen1":"image/ModaHombre/Ternos/T3/frente.jpg",
         "imagen2":"image/ModaHombre/Ternos/T3/atras.jpg",
@@ -490,7 +490,7 @@
         "categoria": "ternos"
     },
     {   
-        "buscador": "Saco >Casaca Hombre Foster",
+        "buscador": "Casaca Casaca Hombre Foster",
         "nombre": "Casaca Hombre Foster",
         "imagen1":"image/ModaHombre/Ternos/T4/frente.jpg",
         "imagen2":"image/ModaHombre/Ternos/T4/atras.jpg",
@@ -498,6 +498,130 @@
         "precioAntes": "",
         "link": "#",
         "categoria": "ternos"
+    },
+
+    {   
+        "buscador": "Blusa Blusa Manga Corta Mujer Sybilla",
+        "nombre": "Blusa Manga Corta Mujer Sybilla",
+        "imagen1":"image/ModaMujer/BlusasyPolos/BP1/frente.jpg",
+        "imagen2":"image/ModaMujer/BlusasyPolos/BP1/atras.jpg",
+        "precio": "89.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "Polos y Blusas"
+    },
+    {   
+        "buscador": "Blusa Top Crop Mujer Denimlab",
+        "nombre": "Top Crop Mujer Denimlab",
+        "imagen1":"image/ModaMujer/BlusasyPolos/BP2/frente.jpg",
+        "imagen2":"image/ModaMujer/BlusasyPolos/BP2/atras.jpg",
+        "precio": "49.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "Polos y Blusas"
+    },
+    {   
+        "buscador": "Polo Polo Manga Corta Mujer Superdry",
+        "nombre": "Polo Manga Corta Mujer Superdry",
+        "imagen1":"image/ModaMujer/BlusasyPolos/BP3/frente.jpg",
+        "imagen2":"image/ModaMujer/BlusasyPolos/BP3/detalle1.jpg",
+        "precio": "119.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "Polos y Blusas"
+    },
+    {   
+        "buscador": "Polo Polo Manga Corta 100% Algodón Mujer Superdry",
+        "nombre": "Polo Manga Corta 100% Algodón Mujer Superdry",
+        "imagen1":"image/ModaMujer/BlusasyPolos/BP4/frente.jpg",
+        "imagen2":"image/ModaMujer/BlusasyPolos/BP4/atras.jpg",
+        "precio": "129.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "Polos y Blusas"
+    },
+
+    {   
+        "buscador": "Vestido Vestido Corto Estampado Mujer Mango",
+        "nombre": "Vestido Corto Estampado Mujer Mango",
+        "imagen1":"image/ModaMujer/Vestidos,ShortyPantalones/V1/frente.jpg",
+        "imagen2":"image/ModaMujer/Vestidos,ShortyPantalones/V1/atras.jpg",
+        "precio": "225.96",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "Faldas, Pantalones y Vestidos"
+    },
+    {   
+        "buscador": "Pantalon Jean Mom Mujer Basement",
+        "nombre": "Jean Mom Mujer Basement",
+        "imagen1":"image/ModaMujer/Vestidos,ShortyPantalones/V2/frente.jpg",
+        "imagen2":"image/ModaMujer/Vestidos,ShortyPantalones/V2/atras.jpg",
+        "precio": "119.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "Faldas, Pantalones y Vestidos"
+    },
+    {   
+        "buscador": "Enterizo Enterizo 100% Lino Mujer Mango",
+        "nombre": "Enterizo 100% Lino Mujer Mango",
+        "imagen1":"image/ModaMujer/Vestidos,ShortyPantalones/V3/frente.jpg",
+        "imagen2":"image/ModaMujer/Vestidos,ShortyPantalones/V3/atras.jpg",
+        "precio": "299.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "Faldas, Pantalones y Vestidos"
+    },
+    {   
+        "buscador": "Falda Falda Short Mujer",
+        "nombre": "Falda Short Mujer",
+        "imagen1":"image/ModaMujer/Vestidos,ShortyPantalones/V4/frente.jpg",
+        "imagen2":"image/ModaMujer/Vestidos,ShortyPantalones/V4/atras.jpg",
+        "precio": "79.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "Faldas, Pantalones y Vestidos"
+    },
+
+    {   
+        "buscador": "Pijama Camisa de Dormir Mujer University Club",
+        "nombre": "Camisa de Dormir Mujer University Club",
+        "imagen1":"image/ModaMujer/Linceria/L1/frente.jpg",
+        "imagen2":"image/ModaMujer/Linceria/L1/atras.jpg",
+        "precio": "24.95",
+        "precioAntes": "S/ 49.90",
+        "link": "#",
+        "categoria": "Lencería"
+    },
+    {   
+        "buscador": "Pijama Short Pijama Mujer",
+        "nombre": "Short Pijama Mujer",
+        "imagen1":"image/ModaMujer/Linceria/L2/frente.jpg",
+        "imagen2":"image/ModaMujer/Linceria/L2/atras.jpg",
+        "precio": "39.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "Lencería"
+    },
+    {   
+        "buscador": "Pijama Pack Pijama Mujer Sybilla",
+        "nombre": "Pack Pijama Mujer Sybilla Color rosa",
+        "imagen1":"image/ModaMujer/Linceria/L3/frente.jpg",
+        "imagen2":"image/ModaMujer/Linceria/L3/atras.jpg",
+        "precio": "39.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "Lencería"
+    },
+    {   
+        "buscador": "Pijama Pantalón Pijama Mujer University Club",
+        "nombre": "Pantalón Pijama Mujer University Club",
+        "imagen1":"image/ModaMujer/Linceria/L4/frente.jpg",
+        "imagen2":"image/ModaMujer/Linceria/L4/atras.jpg",
+        "precio": "39.90",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "Lencería"
     }
+
 
 ]
