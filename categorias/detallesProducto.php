@@ -264,21 +264,23 @@ else{
                     <!-- <div class="price-container stock-container info-container m-t-30"> -->
 
                     <div class="precio">
-                      <div class="price-box">
-                        <span class="price">S/.800.00</span>
+                        <div class="price-box">
+                          <span class="monedaspf">S/.</span>
+                                  <span class="price">189.00</span>
+
+                        </div>
+                        <div class="price-box">
+                          <span class="price-strike">S/.900.00</span>
+                        </div>
                       </div>
-                      <div class="price-box">
-                        <span class="price-strike">S/.900.00</span>
+                          <!-- <i class="fa fa-heart"></i> -->
+                      <div class="">
+                      <div class="">
+                        <div class="stock-box">
+                          <span >Unidades disponibles :</span>
+                          <span class="value">5+</span>
+                        </div>	
                       </div>
-                    </div>
-                        <!-- <i class="fa fa-heart"></i> -->
-                    <div class="">
-                    <div class="">
-                      <div class="stock-box">
-                        <span >Unidades disponibles :</span>
-                        <span class="value">5+</span>
-                      </div>	
-                    </div>
                 
                     </div>
                   </div>
@@ -286,17 +288,17 @@ else{
                       <div class="qty-count">
                         <div class="cart-quantity">
                           <div class="quant-input cantidad">
-                                     <div class="arrows">
+                                    <div class="arrows">
                                       <div class="arrow plus gradient"  id="sumar"><span class="ir"><i class="icon fa fa-sort-asc"></i></span></div>
                                       <div class="arrow minus gradient" id="restar"><span class="ir"><i class="icon fa fa-sort-desc"></i></span></div>
                                     </div>
                                     <input type="text" id="input-number"value="1">
                                     <!-- <input id="number" type="number" value="1" min="1"> -->
-                                </div>
-                              </div>
-                      </div>							
-                  </div>
-                </div><!-- /.price-container -->
+                            </div>
+                        </div>
+                        </div>							
+                    </div>
+                </div iv><!-- /.price-container -->
   
                 <div class="quantity-container info-container botones-detalles">
                     <div class="">
@@ -536,8 +538,6 @@ else{
   <script src="../assets/js/deseospedido.js"></script>
   <!-- ============================================================= FOOTER : END============================================================= -->
 
-
-  <script src="../assets/js/detallesProducto.js"></script>
 </body>
 
 </html>

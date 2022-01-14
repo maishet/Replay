@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(){
 	$(".tabs .title").click(function() {    
 		$(".tabs .title").removeClass("active");
 		$(this).addClass("active"); 
@@ -81,7 +81,8 @@ function cerrar(){
 	document.getElementById("advertenciaEstrellas").style.display="none";
 }
 var contador;
-let contadorEstrellas=0;
+let contadorEstrellas;
+contadorEstrellas=0;
 function calificar(item){
 	contadorEstrellas=0;
 	contador=item.id[0];

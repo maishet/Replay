@@ -970,6 +970,9 @@ color: #fff;
 .cart-quantity .cantidad{
   margin-top: 20px;
 }
+#sumar{
+  margin-bottom: -10px;
+}
 .product-info .botones-detalles{
   display: block;
   text-align: center;
