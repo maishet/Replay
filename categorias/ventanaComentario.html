@@ -1,0 +1,51 @@
+
+<!-- ==============================================Escribir comentario============================================== -->
+    <!-- ============================================== POP-UP============================================== -->
+    <div id="pop-up"> <!-- Para oscurecer el fondo al mostrar la venta de comentarios -->
+    </div>
+  <!-- ============================================== POP-UP END============================================== -->
+<div class="product-tabs inner-bottom-xs ventana-comentario" id="ventana-comentario">
+  <div class="row ">
+    <div class="col-sm-12 ">
+      <span id="btn-cerrar"><i class='bx bxs-x-circle'></i></span>
+      <form class="contenedor-escribirComentario" id="my-form"> 
+        <h1>Tu opinión nos importa !Evalúa tu producto!</h1>  
+        <div class="calificacion-comentario">
+          <h2 for="validarCal">Calificación general:<abbr title="Este campo es obligatorio" aria-label="required">*</abbr></h2>
+          <div class="rating">
+            <span id="1fondo-estrella"><i class='bx bxs-star' id="1estrella" onclick="calificar(this)"></i></span>
+            <span id="2fondo-estrella"><i class='bx bxs-star' id="2estrella" onclick="calificar(this)" ></i></span>
+            <span  id="3fondo-estrella"><i class='bx bxs-star'id="3estrella"onclick="calificar(this)"></i></span>
+            <span  id="4fondo-estrella"><i class='bx bxs-star'  id="4estrella"onclick="calificar(this)"></i></span>
+            <span id="5fondo-estrella"><i class='bx bxs-star'  id="5estrella" onclick="calificar(this)"></i></span>
+          </div>
+          <span id="calificacion">(0)</span>
+          <span id="advertenciaEstrellas" style="color:#FB3449; display: none;">*Completar</span>
+        </div>
+        <div>
+          <h2 for="tituloComentario">Título del comentario<abbr title="Este campo es obligatorio" aria-label="required">*</abbr></h2>
+          <input id="tituloComentario" type="text" placeholder="Ejemplo: !Lo puedo llevar a todos lados!" class="input" value="" required minlength="1"/>
+        </div>
+        <div>
+          <h2 for="comentarioCont">Comentario<abbr title="Este campo es obligatorio" aria-label="required">*</abbr></h2>
+          <textarea name="msg"  id="comentarioCont" cols="30" rows="6"placeholder="Es muy fácil de traladar, es liviano..." class="textarea" required minlength="1"></textarea>
+        </div>
+        <div class="recomendaciones">
+          <span>¿Recomendarías este producto a un amigo?</span> 
+          <a id="boton-si" class="btn-si">SI</a><a id="boton-no" class="btn-no">NO</a>
+        </div>
+        <div class="nombre-email">
+          <div>
+            <h3 for="autorComentario">Nombre <abbr title="Este campo es obligatorio" aria-label="required">*</abbr></h3>
+            <input id="autorComentario" type="text" placeholder="Ejemplo: María" required minlength="2">
+          </div>
+        </div>
+        <div style="text-align: center;">
+          <button class="btn btn-publicar" id="publicarComentario" onclick="publicar()">PUBLICAR COMENTARIO</button>
+        </div>
+      </form>
+    </div><!-- /.col -->
+  </div><!-- /.row -->
+</div><!-- /.product-tabs -->
+   <!-- ============================================== Confirmacion de comentario============================================== -->
+<!-- ==============================================Escribir comentario END============================================== -->

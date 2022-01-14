@@ -1060,6 +1060,7 @@ color: #fff;
   opacity:1 !important;
   background-color: white;
 }
+
 /* .inactivo{
   display:none !important;
 } */
@@ -1251,7 +1252,9 @@ color: #fff;
 #ordenarComentarios option:first-child {
   display:none;
 }
-
+.ver-mas{
+  cursor:pointer;
+}
 .confirmacion-comentario{
   border:1px solid rgb(0, 0, 0,0.5);
   width:auto;

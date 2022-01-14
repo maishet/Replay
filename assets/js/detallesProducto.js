@@ -23,6 +23,14 @@ function restar(){
 	}
 	document.getElementById("input-number").value=String(input);
 }  
+$(".ver-mas").on("click", function (e) {// desplazarse hacia especificaciones 
+	// 1
+	e.preventDefault();
+	// 2
+	const href = $(this).attr("href");
+	// 3
+	$("html, body").animate({ scrollTop: $(href).offset().top }, 800);
+  });
 
 //seccion comentarios
 var contsi,contno;
