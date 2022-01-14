@@ -540,14 +540,14 @@ class Carrito {
         //resumen.forEach(function (producto){
             const row = document.createElement('tr');
             row.innerHTML = `
-            <th>
-                <div class="subTitulos">
+            <th class="thRaro">
+                <div class="">
                     Subtotal<span id="subtotalresumen" class="inner-left-md">S/. ${subtotal.toFixed(2)}</span>
                 </div>
-                <div class="subTitulos">
+                <div class="">
                     Descuento<span id="descuentoresumen" class="inner-left-md">S/. ${descuento.toFixed(2)}</span>
                 </div>
-                <div class="subTitulos text-success">
+                <div class="">
                     Total<span id="totalresumen" class="inner-left-md text-success">S/. ${total.toFixed(2)}</span>
                 </div>
             </th>

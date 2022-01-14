@@ -91,11 +91,8 @@
 
 		<div class="container">
 			<div class="row ">
-				<div id="procesar-pago" class="shopping-cart opcionFase1">
-					<div class="shopping-cart-table ">
-						
-
-					</div><!-- /.shopping-cart-table -->
+				<div id="procesar-pago" class="opcionFase1">
+					
 					<!-- ============================================== CONTENT BOLSA  ============================================== -->
 					<div class="opcionesDespachoIzqPago">
 						<ul class="acorh">
@@ -154,8 +151,11 @@
 						</ul>
 						
 					</div>
+					<div class="separatorPago">
 
-					<div class="opcionesPagoDer">
+					</div>
+
+					<div class="opcionesDespachoPagoDer">
 						<!-- cupon de descuento -->
 						<table class="">
 							<thead>
@@ -166,31 +166,33 @@
 								</tr>
 							</thead><!-- /thead -->
 							<thead class="cuadroColor">
-								<div>
+								
 								<tr>
 									<th>
+									<div class="englobaProduxtoTotal">
 										<div class="productosResumenCompra">
 											Productos<span id="subtotal" class=""></span>
 										</div>
 										<div class="totalResumenCompra">
-											Total<span id="total" class=""></span>
+											Detalles<span id="total" class=""></span>
 										</div>
 									</th>
+									</div>
 								</tr>
-								</div>
+								
 							</thead><!-- /thead -->
 
 							<thead id="prodresumen" class="cuadroColor">
-								
+								<div class="iconoYVolverBolsa">
+									<img src="image/icon/bolsa.png" width="35" height="35">
+									<a href="#" class="enlaceVolverBolsa"> <u>Volver a la bolsa</u></a>
+								</div>
 
 								<!--=== code js ====-->
 
 							</thead>
-							<div class="iconoYVolverBolsa">
-									<img src="image/icon/bolsa.png" width="35" height="35">
-									<a href="#" class="enlaceVolverBolsa"> <u>Volver a la bolsa</u></a>
-								</div>
-							
+							<thead id="prodresumen" class="cuadroColor">
+							</thead>
 							<thead id="weaderesumen" class="cuadroColor">
 
 								<!--=== code js ====-->
