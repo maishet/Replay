@@ -626,8 +626,8 @@
                         <div class="product-image">
                           <div class="image"> 
                           <a href="detail.html">
-                             <img src="image/Tecnologia/Mouse/Mouse1/frente.jpg" alt=""> 
-                              <img src="image/Tecnologia/Mouse/Mouse1/lado derecho.jpg" alt="" class="hover-image">
+                             <img src="image/Tecnologia/Mouse/Mouse3/Frente.jpg" alt=""> 
+                              <img src="image/Tecnologia/Mouse/Mouse3/lado_izquierdo.jpg" alt="" class="hover-image">
                           </a> 
                        </div>
                           <!-- /.image -->
@@ -689,7 +689,7 @@
                           <h3 class="name"><a href="categorias/detallesProductoTv1.html">TELEVISOR SAMSUNG CRYSTAL ULTRA HD 4K 55'' SMART TV </a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
-                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span> <span class="price-before-discount">2099.00</span> </div>
+                          <div class="product-price"> <span class="monedas">S/.</span> <span class="price">1999.00</span> <span class="price-before-discount">S/ 2099.00</span> </div>
                           <!-- /.product-price --> 
                           
                         </div>

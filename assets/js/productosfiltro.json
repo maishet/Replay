@@ -1,4 +1,4 @@
-[
+[   
     {
         "buscador": "Audifonos Gamer para Ps4 Pc Xbox",
         "nombre": "Gamer para Ps4 Pc Xbox",
@@ -48,5 +48,191 @@
         "precioAntes": "S/.4,699.00",
         "link": "categorias/detallesProductoPc2.php",
         "categoria": "computacion"
+    },
+    {
+        "buscador": "Laptop VivoBook 15 K513 Core i7 11a 15.6''",
+        "nombre": "VivoBook 15 K513 Core i7 11a 15.6''",
+        "imagen1":"image/Tecnologia/Computadoras/Compu3/frente_caracteristicas.jpg",
+        "imagen2":"image/Tecnologia/Computadoras/Compu3/lado derecho.jpg",
+        "precio": "4499.00",
+        "precioAntes": "S/.5,599.00",
+        "link": "#",
+        "categoria": "computacion"
+    },
+
+    {   
+        "buscador": "Mouse Mouse Gamer Cobra M711-RGB 10000",
+        "nombre": "Mouse Gamer Cobra M711-RGB 10000",
+        "imagen1":"image/Tecnologia/Mouse/Mouse1/frente.jpg",
+        "imagen2":"image/Tecnologia/Mouse/Mouse1/lado derecho.jpg",
+        "precio": "99.00",
+        "precioAntes": "S/.109.00",
+        "link": "#",
+        "categoria": "mouses"
+    },
+    {   
+        "buscador": "Mouse MOUSE LOGITECH G203 RGB",
+        "nombre": "MOUSE LOGITECH G203 RGB",
+        "imagen1":"image/Tecnologia/Mouse/Mouse2/frente.jpg",
+        "imagen2":"image/Tecnologia/Mouse/Mouse2/lado_arriba.jpg",
+        "precio": "189.00",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "mouses"
+    },
+    {   
+        "buscador": "Mouse Mouse Gaming G360 Black",
+        "nombre": "Mouse Gaming G360 Black",
+        "imagen1":"image/Tecnologia/Mouse/Mouse3/Frente.jpg",
+        "imagen2":"image/Tecnologia/Mouse/Mouse3/lado_izquierdo.jpg",
+        "precio": "139.00",
+        "precioAntes": "S/ 159.00",
+        "link": "#",
+        "categoria": "mouses"
+    },
+
+    {   
+        "buscador": "Televisor TELEVISOR SAMSUNG CRYSTAL ULTRA HD 4K 55'' SMART TV",
+        "nombre": "TELEVISOR SAMSUNG CRYSTAL ULTRA HD 4K 55'' SMART TV",
+        "imagen1":"image/Tecnologia/Televisores/Tv1/frente.jpg",
+        "imagen2":"image/Tecnologia/Televisores/Tv1/lado derecho.jpg",
+        "precio": "1999.00",
+        "precioAntes": "S/ 2099.00",
+        "link": "#",
+        "categoria": "televisores"
+    },
+    {   
+        "buscador": "Televisor Televisor 50'' Borderless 4K Ultra HD Smart TV 50PUD7625",
+        "nombre": "Televisor 50'' Borderless 4K Ultra HD Smart TV 50PUD7625",
+        "imagen1":"image/Tecnologia/Televisores/Tv2/Frente.jpg",
+        "imagen2":"image/Tecnologia/Televisores/Tv2/lado_derecho.jpg",
+        "precio": "1899.00",
+        "precioAntes": "S/ 2499.00",
+        "link": "#",
+        "categoria": "televisores"
+    },
+    {   
+        "buscador": "Televisor Televisor 58'' Borderless 4K Ultra HD Smart TV 58PUD7625",
+        "nombre": "Televisor 58'' Borderless 4K Ultra HD Smart TV 58PUD7625",
+        "imagen1":"image/Tecnologia/Televisores/Tv3/frente.jpg",
+        "imagen2":"image/Tecnologia/Televisores/Tv3/lado_iquierdo.jpg",
+        "precio": "1949.00",
+        "precioAntes": "S/ 2899.00",
+        "link": "#",
+        "categoria": "televisores"
+    },
+    {   
+        "buscador": "Televisor Televisor Samsung Smart TV 50'' QLED 4K QN50Q60AAGXPE (2021)",
+        "nombre": "Televisor Samsung Smart TV 50'' QLED 4K QN50Q60AAGXPE (2021)",
+        "imagen1":"image/Tecnologia/Televisores/Tv4/frente.jpg",
+        "imagen2":"image/Tecnologia/Televisores/Tv4/lado_derecho.jpg",
+        "precio": "2499.00",
+        "precioAntes": "S/ 3399.00",
+        "link": "#",
+        "categoria": "televisores"
+    },
+
+    {   
+        "buscador": "Cocina Cocina a gas Mabe 30'' Acero Inox",
+        "nombre": "Cocina a gas Mabe 30'' Acero Inox",
+        "imagen1":"image/Electrohogar/Cocina/Cocina1/Frente.jpg",
+        "imagen2":"image/Electrohogar/Cocina/Cocina1/Tamaño.jpg",
+        "precio": "1899.00",
+        "precioAntes": "S/ 2869.00",
+        "link": "#",
+        "categoria": "cocina"
+    },
+    {   
+        "buscador": "Cocina Cocina LG RSG315T Gas 6 Hornillas con Easy Clean Acero inoxidable",
+        "nombre": "Cocina LG RSG315T Gas 6 Hornillas con Easy Clean Acero inoxidable",
+        "imagen1":"image/Electrohogar/Cocina/Cocina2/Frente.jpg",
+        "imagen2":"image/Electrohogar/Cocina/Cocina2/lado_derecho.jpg",
+        "precio": "2799.00",
+        "precioAntes": "S/ 4149.00",
+        "link": "#",
+        "categoria": "cocina"
+    },
+    {   
+        "buscador": "Cocina Cocina Cadiz Spazio Plus Croma 4h",
+        "nombre": "Cocina Cadiz Spazio Plus Croma 4h",
+        "imagen1":"image/Electrohogar/Cocina/Cocina3/Frente.jpg",
+        "imagen2":"image/Electrohogar/Cocina/Cocina3/Lado_izquierdo.jpg",
+        "precio": "849.00",
+        "precioAntes": "",
+        "link": "#",
+        "categoria": "cocina"
+    },
+
+    {   
+        "buscador": "Lavadora Lavadora LG Carga Superior Smart Inverter con TurboDrum WT13BSB 13 Kg Negra",
+        "nombre": "Lavadora LG Carga Superior Smart Inverter con TurboDrum WT13BSB 13 Kg Negra",
+        "imagen1":"image/Electrohogar/Lavadora/Lav1/Frente.jpg",
+        "imagen2":"image/Electrohogar/Lavadora/Lav1/Derecha.jpg",
+        "precio": "1499.00",
+        "precioAntes": "S/ 1979.00",
+        "link": "#",
+        "categoria": "lavado"
+    },
+    {   
+        "buscador": "Lavadora Lavadora Black Edition 19 kg",
+        "nombre": "Lavadora Black Edition 19 kg",
+        "imagen1":"image/Electrohogar/Lavadora/Lav2/Frente.jpg",
+        "imagen2":"image/Electrohogar/Lavadora/Lav2/abierto.jpg",
+        "precio": "2299.00",
+        "precioAntes": "S/ 2999.00",
+        "link": "#",
+        "categoria": "lavado"
+    },
+    {   
+        "buscador": "Lavadora Lavadora Eco Inverter 19 kg Blanca",
+        "nombre": "Lavadora Eco Inverter 19 kg Blanca",
+        "imagen1":"image/Electrohogar/Lavadora/Lav3/frente.jpg",
+        "imagen2":"image/Electrohogar/Lavadora/Lav3/lado_derecho.jpg",
+        "precio": "1699.00",
+        "precioAntes": "S/ 2499.00",
+        "link": "#",
+        "categoria": "lavado"
+    },
+
+    {   
+        "buscador": "Refrigerador Refrigeradora SBS 685L FAMILY HUB RS27T5561B1/PE",
+        "nombre": "Refrigeradora SBS 685L FAMILY HUB RS27T5561B1/PE",
+        "imagen1":"image/Electrohogar/Refrigeracion/refri1/frente_caracteristicas.jpg",
+        "imagen2":"image/Electrohogar/Refrigeracion/refri1/lado derecho.jpg",
+        "precio": "6999.00",
+        "precioAntes": "S/ 9999.00",
+        "link": "#",
+        "categoria": "refri"
+    },
+    {   
+        "buscador": "Refrigerador Refrigeradora LG French Door con Puerta Mágica 426 LT LM57SDT Blanca",
+        "nombre": "Refrigeradora LG French Door con Puerta Mágica 426 LT LM57SDT Blanca",
+        "imagen1":"image/Electrohogar/Refrigeracion/refri2/frente_caracteristicas.jpg",
+        "imagen2":"image/Electrohogar/Refrigeracion/refri2/abierto_derecho.jpg",
+        "precio": "6199.00",
+        "precioAntes": "S/ 10149.00",
+        "link": "#",
+        "categoria": "refri"
+    },
+    {   
+        "buscador": "Refrigerador Refrigeradora Side by Side 517 L ERSO52B2HUS",
+        "nombre": "Refrigeradora Side by Side 517 L ERSO52B2HUS",
+        "imagen1":"image/Electrohogar/Refrigeracion/refri3/frente.jpg",
+        "imagen2":"image/Electrohogar/Refrigeracion/refri3/tamaño.jpg",
+        "precio": "3399.00",
+        "precioAntes": "S/ 4349.00",
+        "link": "#",
+        "categoria": "refri"
+    },
+    {   
+        "buscador": "Refrigerador Refrigerador 400 Lt RMP400FZPC Negro",
+        "nombre": "Refrigerador 400 Lt RMP400FZPC Negro",
+        "imagen1":"image/Electrohogar/Refrigeracion/refri4/frente_caracteristica.jpg",
+        "imagen2":"image/Electrohogar/Refrigeracion/refri4/lado_derecho.jpg",
+        "precio": "2249.00",
+        "precioAntes": "S/ 2809.00",
+        "link": "#",
+        "categoria": "refri"
     }
+
 ]

@@ -918,6 +918,7 @@
 <!-- <script src="assets/js/compra.js"></script> -->
 <!-- ============================================================= FOOTER : END============================================================= --> 
 
+<script src="assets/js/barrabusqueda.js"></script>
 
 </body>
 
