@@ -80,7 +80,7 @@
 	<!-- ============================================== CONTENT BOLSA  ============================================== -->
 	<div class="fbra_container fbra_mainContainer">
 		<!-- Main content -->
-		<div class="fbra_mainContent">
+		<div class="ffff">
 			<div class="fbra_deliveryOptionsTitle">
 			</div>
 			<div id="fbra_checkoutRegionAndComuna">
@@ -123,19 +123,21 @@
 																<div>
 																	<div class="fbra_formItem fbra_formItem--Anchor fbra_input--editArea"><a label="Editar" id="editArea" name="editArea" class="fbra_anchor fbra_formItem__editArea" title="" href="" target="" defaultclassname="fbra_anchor" classnames="">Editar</a></div>
 																</div>
-															</div>
-														</div>
-														<div>
-															<div class="fbra_formItem fbra_formItem--Input fbra_input--address fbra_input-container--invalid">
-																<div class="fbra_inputWrap"><label for="address" class="fbra_label fbra_inputTooltip"><span class="fbra_label_text">Calle</span>
-																		<p class="fbra_label_title"></p>
-																	</label><input type="text" id="address" name="address" maxlength="75" title="" class="fbra_input fbra_formItem__address fbra_formItem__field--invalid" autocomplete="on"></div>
-															</div>
-															<!-- agregar fecha -->
+																<div>
+																	<div class="fbra_formItem fbra_formItem--Input fbra_input--address fbra_input-container--invalid">
+																		<div class="fbra_inputWrap"><label for="address" class="fbra_label fbra_inputTooltip"><span class="fbra_label_text">Calle</span>
+																				<p class="fbra_label_title"></p>
+																			</label><input type="text" id="address" name="address" maxlength="75" title="" class="fbra_input fbra_formItem__address fbra_formItem__field--invalid" autocomplete="on">
+																		</div>
+																	</div>
+																	<!-- agregar fecha -->
 
-															<!-- agregar fecha -->
+																	<!-- agregar fecha -->
+																</div>
+															</div>
 														</div>
-														<div class="fbra_formItem fbra_formItem--Button fbra_input--useAddress"><button class="fbra_button fbra_test_button fbra_formItem__useAddress" title="" name="useAddress">Usar dirección</button></div>
+
+														<div class="fbra_formItem fbra_formItem--Button fbra_input--useAddress"><button class="btnfull" title="" name="useAddress">Usar dirección</button></div>
 													</div>
 												</section>
 											</form>
@@ -168,17 +170,20 @@
 
 		<!-- Sidebar -->
 		<div class="fbra_sidebar">
-			<div id="fbra_checkoutOrderSummary">
+		<h2 class="fbra_heading fbra_test_orderSummary__orderSummaryHeading fbra_orderSummary__orderSummaryHeading arregloo"><center>Resumen de tu orden</center></h2>
+			<div id="fbra_checkoutOrderSummary" class="contorno">
+				
 				<div class="fbra_falabellaComponent fbra_falabellaComponentCheckoutOrderSummary payment-redesign">
 					<section class="fbra_section fbra_orderSummary" title="">
 						<div class="fbra_loadingWrapper">
-							<h2 class="fbra_heading fbra_test_orderSummary__orderSummaryHeading fbra_orderSummary__orderSummaryHeading">Resumen de tu orden</h2><span class="fbra_text fbra_test_orderSummary__numberOfItems fbra_orderSummary__numberOfItems" title="">Productos <span>(1)</span></span><span class="fbra_text fbra_test_orderSummary__itemsTotalPrice fbra_orderSummary__itemsTotalPrice" title="">S/ 59.94</span>
+							
+						<div class="sss"><span class="fbra_text fbra_test_orderSummary__numberOfItems fbra_orderSummary__numberOfItems" title="">Productos </span><span class="fbra_text fbra_test_orderSummary__itemsTotalPrice fbra_orderSummary__itemsTotalPrice" title="">S/ 59.94</span></div>
 							<div class="fbra_test_orderSummary__itemsContainer fbra_orderSummary__itemsContainer">
 								<!-- we de productos-->
 								<ol id="prodresumen" class="fbra_test_orderSummary__items fbra_orderSummary__items">
-								<!-- we de productos-->
+									<!-- we de productos-->
 								</ol>
-							</div><a class="fbra_anchor fbra_test_orderSummary__editItems fbra_orderSummary__editItems fbra_OrderSummary__edit" href="shopping-cart.php" target="" title="" defaultclassname="fbra_anchor" classnames="">Volver a la Bolsa</a>
+							</div><a class="fbra_anchor fbra_test_orderSummary__editItems fbra_orderSummary__editItems fbra_OrderSummary__edit sss" href="shopping-cart.php" target="" title="" defaultclassname="fbra_anchor" classnames="">Volver a la Bolsa</a>
 							<ul class="fbra_test_orderSummary__totalCosts fbra_orderSummary__totalCosts">
 								<li class="fbra_test_orderSummary__totalCost fbra_orderSummary__totalCost"><span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Monto final a pagar:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="">S/ 59.94</span></li>
 							</ul>
