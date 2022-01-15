@@ -11,10 +11,21 @@ $(document).ready(function(){
 document.getElementById("sumar").addEventListener("click",sumar);
 document.getElementById("restar").addEventListener("click",restar);
 //Seccion de compra
+//limitar cantidad a comprar:
+let stock= document.getElementById("stock-dis").textContent;
+console.log(stock.substring(0,stock.length-1));
 function sumar(){
 	let input=Number(document.getElementById("input-number").value);
 	input++;
-	document.getElementById("input-number").value=String(input);
+	if(input>Number(stock.substring(0,stock.length-1))){
+		Swal.fire({
+			icon: 'error',
+			title: 'Oops...',
+			text: 'La cantidad que desea excede el stock del producto',
+		  })
+	}else{
+		document.getElementById("input-number").value=String(input);
+	}
 }
 function restar(){
 	let input=Number(document.getElementById("input-number").value);
@@ -23,6 +34,8 @@ function restar(){
 	}
 	document.getElementById("input-number").value=String(input);
 }  
+
+
 $(".ver-mas").on("click", function (e) {// desplazarse hacia especificaciones 
 	// 1
 	e.preventDefault();

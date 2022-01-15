@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <link rel="shortcut icon" href="../assets/images/favicon.png">
-  <title>Replay</title>
+  <title>Replay | Audífonos Gamer Onikuma K9</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
@@ -36,6 +36,9 @@
 </head>
 
 <body class="cnt-home">
+<?php
+     include('ventanaComentario.html');
+  ?>
   <!-- ============================================== HEADER ============================================== -->
 <?php include('header.html') ?>
   <!-- ============================================== HEADER : END ============================================== -->
@@ -115,23 +118,25 @@
               </div><!-- /.gallery-holder -->
               <div class='col-sm-12 col-md-8 col-lg-8 product-info-block'>
                 <div class="product-info">
-                  <h1 class="name">Nombre del producto</h1>
+                  <h1 class="name">Audífonos Gamer Onikuma K9</h1>
 
                   <div class="rating-reviews m-t-20 ">
                     <div class="row">
                       <div class="col-lg-12 detalles">
                         <div>
                           <div class="pull-left">
-                            <i class='bx bxs-star activo'></i>
-                            <i class='bx bxs-star activo'></i>
-                            <i class='bx bxs-star activo'></i>
-                            <i class='bx bxs-star inactivo'></i>
-                            <i class='bx bxs-star inactivo'></i>
-                            <span class="puntaje">5.0 (3)</span>
+                              <span id="calEstrellasGen1">
+                              <i class='bx bxs-star inactivo'></i>
+                              <i class='bx bxs-star inactivo'></i>
+                              <i class='bx bxs-star inactivo'></i>
+                              <i class='bx bxs-star inactivo'></i>
+                              <i class='bx bxs-star inactivo'></i>
+                            </span>
+                            <span class="puntaje"><span id="calificacion-general1">0</span> (<span id="cantidad-comentarios1">0</span>)</span>
                           </div>
                           <div class="pull-left">
                             <div class="reviews">
-                              <a href="#" class="link1">Escribir comentario</a>
+                              <a id="btn-abrir1" class="link1">Escribir comentario</a>
                             </div>
                           </div>
                         </div>
@@ -183,7 +188,8 @@
 
                           <div class="precio">
                             <div class="price-box">
-                              <span class="price">S/.800.00</span>
+                            <span class="monedaspf">S/.</span>
+                              <span class="price">800.00</span>
                             </div>
                             <div class="price-box">
                               <span class="price-strike">S/.900.00</span>
@@ -194,7 +200,7 @@
                             <div class="">
                               <div class="stock-box">
                                 <span>Unidades disponibles :</span>
-                                <span class="value">5+</span>
+                                <span class="value" id="stock-dis">5+</span>
                               </div>
                             </div>
 
@@ -205,10 +211,8 @@
                             <div class="cart-quantity">
                               <div class="quant-input cantidad">
                                 <div class="arrows">
-                                  <div class="arrow plus gradient" onclick="sumar()"><span class="ir"><i
-                                        class="icon fa fa-sort-asc"></i></span></div>
-                                  <div class="arrow minus gradient" onclick="restar()"><span class="ir"><i
-                                        class="icon fa fa-sort-desc"></i></span></div>
+                                    <div class="arrow plus gradient"  id="sumar"><span class="ir"><i class="icon fa fa-sort-asc"></i></span></div>
+                                      <div class="arrow minus gradient" id="restar"><span class="ir"><i class="icon fa fa-sort-desc"></i></span></div>
                                 </div>
                                 <input type="text" id="input-number" value="1">
                                 <!-- <input id="number" type="number" value="1" min="1"> -->
@@ -290,7 +294,7 @@
                       </table>
                     </div>
                     <div class="informacion-producto tabs-panel " id="tab2">
-                      <h3>Nombre del producto</h3>
+                      <h3>Audífonos Gamer Onikuma K9</h3>
                       <p>Iluminación fría RGB Sistema de respiración de color LED, que brinda una experiencia de juego
                         más misteriosa Este auricular para juegos con cable ONIKUMA K9 brinda el sonido claro necesario
                         para obtener la más mínima ventaja mientras se juega. El excelente micrófono permite a sus
@@ -334,57 +338,45 @@
                       <div class="calificacion-cont">
                         <span class="subt">Calificación general</span>
                         <!-- <button class="boton">ESCRIBIR COMENTARIO</button> -->
-                        <a class="btn boton">ESCRIBIR COMENTARIO</a>
+                        <a class="btn boton" id="btn-abrir2">ESCRIBIR COMENTARIO</a>
                       </div>
                       <div class="m-t-10 calificacion-general">
-                        <i class='bx bxs-star activo'></i>
-                        <i class='bx bxs-star activo'></i>
-                        <i class='bx bxs-star activo'></i>
-                        <i class='bx bxs-star inactivo'></i>
-                        <i class='bx bxs-star inactivo'></i>
-                        <span class="puntaje">5.0 (3)</span>
+                        <span id="calEstrellasGen2">
+                          <i class='bx bxs-star inactivo'></i>
+                            <i class='bx bxs-star inactivo'></i>
+                            <i class='bx bxs-star inactivo'></i>
+                            <i class='bx bxs-star inactivo'></i>
+                            <i class='bx bxs-star inactivo'></i>
+                        </span>
+                        <span class="puntaje"><span id="calificacion-general2">0</span> (<span id="cantidad-comentarios2">0</span> calificaciones)</span>
                       </div>
-                      <div class="m-t-20">
+                      <div class="m-t-20" id="contenedor-comentarios">
                         <div class="estrellas-comentarios">
-                          <div><span>5</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
-                          <div><span>4</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
-                          <div><span>3</span><i class='bx bxs-star'></i><span>3</span><span> comentarios</span></div>
-                          <div><span>2</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
-                          <div><span>1</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
+                        <div><span>5</span><i class='bx bxs-star'></i><span id="5estrellas">0</span><span> calificaciones</span></div>
+                        <div><span>4</span><i class='bx bxs-star'></i><span id="4estrellas">0</span><span> calificaciones</span></div>
+                        <div><span>3</span><i class='bx bxs-star'></i><span id="3estrellas">0</span><span> calificaciones</span></div>
+                        <div><span>2</span><i class='bx bxs-star'></i><span id="2estrellas">0</span><span> calificaciones</span></div>
+                        <div><span>1</span><i class='bx bxs-star'></i><span id="1estrellas">0</span><span> calificaciones</span></div>
 
                         </div>
                         <div class="m-t-20 cont-bottom">
-                          <div class="cont1"><span>1-4 de 3 comentarios</span></div>
+                          <div class="cont1"><span id="cantidad-comentarios3">0</span><span> comentarios</span></div>
                           <div class="ordenar">
                             <p>Ordenar por:</p>
-                            <div><span>Seleccionar <i class='bx bxs-down-arrow'></i></span></div>
+                            <select name=""  id="ordenarComentarios" >
+                              <option value="" id="first">Seleccionar</option>
+                              <option value="1" selected>Más recientes</option>
+                              <option value="2" >De menor a mayor calificación</option>
+                              <option value="3" >De mayor a menor calificación</option>
+                            </select>
                           </div>
                         </div>
-                        <hr>
-                        <div class="comentario">
-                          <div class="cont1">
-                            <p class="autor">Autor</p>
-                            <span class="tiempo">Hace 4 meses</span>
-                          </div>
-                          <div class="calificacion">
-                            <i class='bx bxs-star activo'></i>
-                            <i class='bx bxs-star activo'></i>
-                            <i class='bx bxs-star activo'></i>
-                            <i class='bx bxs-star inactivo'></i>
-                            <i class='bx bxs-star inactivo'></i>
-                          </div>
-                          <div class="descripcion">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. fugit quos tenetur, voluptates
-                              debitis
-                              possimus asperiores doloremque.</p>
-                          </div>
-                          <div>
-                            <span>¿Te fue útil este comentario?</span> <button class="btn-si">Si: 0</button>
-                            <button class="btn-no">No: 0</button>
-                          </div>
-                          <hr>
-                        </div>
+                        <div id="comentarios">
+
                       </div>
+              
+                      </div>
+                      <hr>
                     </div>
                   </div><!-- /.tab-pane -->
                 </div><!-- /.tab-content -->
