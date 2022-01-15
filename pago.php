@@ -191,8 +191,6 @@
 								<!--=== code js ====-->
 
 							</thead>
-							<thead id="prodresumen" class="cuadroColor">
-							</thead>
 							<thead id="weaderesumen" class="cuadroColor">
 
 								<!--=== code js ====-->
