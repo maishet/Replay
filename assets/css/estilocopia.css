@@ -295,17 +295,17 @@
   content: "\B7";
   opacity: 0;
 }
-.fbra_formItem__field--invalid,
+/* .fbra_formItem__field--invalid,
 .fbra_formItem__field--invalid:focus {
   border-color: #ee4b4b;
   border-width: 2px;
   padding: 0 19px;
-}
-.fbra_input.fbra_formItem__field--invalid {
-  background-image: url(../base/img/fbra_cross.png);
+} */
+/* .fbra_input.fbra_formItem__field--invalid {
+  background-image: url(../images/truck-moving-solid.svg);
   background-position: right 20px center;
   background-repeat: no-repeat;
-}
+} */
 .fbra_inputWrap {
   max-width: 400px;
 }
@@ -1173,7 +1173,7 @@ body .fbra_popup--section {
 .fbra_message.fbra_message--error {
   color: #fff;
   background-color: #ee4b4b;
-  background-image: url("../../base/img/fbra_headline-error_icon.png");
+  background-image: url("../images/truck-moving-solid.svg");
 }
 .fbra_message.fbra_message--success {
   background-color: #77d032;
@@ -2734,8 +2734,11 @@ h1.fbra_markdownHeading {
 }
 @media screen and (min-width: 1025px) {
   .fbra_mainContent {
-    float: left;
+    /* float: left;
     width: 100%;
+    position: relative; */
+    float: left;
+    width: 65%;
     position: relative;
   }
 }
@@ -3872,7 +3875,7 @@ h1.fbra_markdownHeading {
   .fbra_deliveryGroupTab--collect.fbra_tab--active {
   border-left: 0;
 }
-.fbra_falabellaComponentCheckoutDeliverAndCollect
+/* .fbra_falabellaComponentCheckoutDeliverAndCollect
   .fbra_deliveryGroupTabs
   .fbra_deliveryGroupTab--collect.fbra_tab--active
   .fbra_deliveryGroupTab__container,
@@ -3881,7 +3884,7 @@ h1.fbra_markdownHeading {
   .fbra_deliveryGroupTab--collect.fbra_tab--inactive
   .fbra_deliveryGroupTab__container {
   background-image: url("../../base/img/fbra_tab_collection_point_active_icon.png");
-}
+} */
 .fbra_falabellaComponentCheckoutDeliverAndCollect
   .fbra_deliveryGroupTabs
   .fbra_deliveryGroupTab--collect.fbra_tab--disabled
@@ -4622,7 +4625,7 @@ h1.fbra_markdownHeading {
 .fbra_falabellaComponentCheckoutDeliverAndCollect
   .fbra_resultsFilter__filters
   .fbra_text {
-  font-family: Lato;
+  font-family: 'Barlow', sans-serif;
 }
 @media screen and (max-width: 500px) {
   .fbra_falabellaComponentCheckoutDeliverAndCollect
@@ -6209,7 +6212,7 @@ h1.fbra_markdownHeading {
   font-size: 2.4rem;
   line-height: 1.45;
   display: inline-block;
-  font-family: lato;
+  font-family: 'Barlow', sans-serif;
   margin: 0;
   border: none;
 }
@@ -6619,8 +6622,7 @@ h1.fbra_markdownHeading {
   bottom: 5px;
 }
 .fbra_falabellaComponentCheckoutOrderSummary .fbra_orderSummary__numberOfItems {
-  font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 16px;
   white-space: nowrap;
 }
 .fbra_falabellaComponentCheckoutOrderSummary
@@ -6720,7 +6722,7 @@ h1.fbra_markdownHeading {
   font-weight: 700;
 }
 .fbra_falabellaComponentCheckoutOrderSummary .fbra_orderSummary__totalCosts {
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #000000;
   list-style-type: none;
   line-height: 2;
   padding: 12px 0;
@@ -6758,7 +6760,7 @@ h1.fbra_markdownHeading {
   .fbra-redesign-left
   span {
   display: block;
-  font-family: Lato;
+  font-family: 'Barlow', sans-serif;
   padding-bottom: 2px;
 }
 .fbra_falabellaComponentCheckoutOrderSummary.payment-redesign
@@ -6766,7 +6768,7 @@ h1.fbra_markdownHeading {
   .fbra-redesign-left
   span.fbra_orderSummary__itemProperty__name {
   color: #333;
-  font-family: Lato;
+  font-family: 'Barlow', sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 15px;
@@ -6831,7 +6833,7 @@ h1.fbra_markdownHeading {
   .fbra-redesign-right
   .fbra_test_orderSummary__quantity_and_sku.prod {
   color: #333;
-  font-family: Lato;
+  font-family: 'Barlow', sans-serif;
   font-size: 10px;
   line-height: 13px;
 }
@@ -8363,7 +8365,7 @@ h1.fbra_markdownHeading {
     .fbra_loadingWrapper
     .fbra_componentCheckoutAddressBook__addressActions
     .fbra_componentCheckoutAddressBook__removeAddressButton {
-    font-family: Lato;
+    font-family: 'Barlow', sans-serif;
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;

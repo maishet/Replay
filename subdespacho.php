@@ -21,6 +21,9 @@
 	<link rel="stylesheet" href="assets/css/rateit.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
 
+	<link rel="stylesheet" href="assets/css/estilocopia.css">
+
+
 	<!-- Icons/Glyphs -->
 	<link rel="stylesheet" href="assets/css/font-awesome.css">
 	<!-- <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script> load all styles -->
@@ -61,11 +64,11 @@
 					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__yourBasketStepText" title="">Carrito de
 						Compras</span>
 				</div>
-				<div class="fbra_tab fbra_checkoutDeliverySteps__easyDeliveryStep fbra_test_checkoutDeliverySteps__easyDeliveryStep fbra_tab--completed fbra_tab--enabled fbra_tab--active">
-					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__easyDeliveryStepText" title="">Despacho</span>
+				<div class="fbra_tab fbra_checkoutDeliverySteps__easyDeliveryStep fbra_test_checkoutDeliverySteps__easyDeliveryStep fbra_tab--inProgress fbra_tab--enabled fbra_tab--active">
+					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__easyDeliveryStepText fbra_selected" title="">Despacho</span>
 				</div>
-				<div class="fbra_tab fbra_checkoutDeliverySteps__securePaymentStep fbra_test_checkoutDeliverySteps__securePaymentStep fbra_tab--inProgress fbra_tab--active">
-					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__securePaymentStepText fbra_selected" title="">Pago</span>
+				<div class="fbra_tab fbra_checkoutDeliverySteps__securePaymentStep fbra_test_checkoutDeliverySteps__securePaymentStep fbra_tab--disabled fbra_tab--inactive">
+					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__securePaymentStepText" title="">Pago</span>
 				</div>
 				<div class="fbra_tab fbra_checkoutDeliverySteps_confirmDeliveryStep fbra_test_checkoutDeliverySteps_confirmDeliveryStep fbra_tab--disabled fbra_tab--disabled fbra_tab--inactive">
 					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__confirmDeliveryStepText" title="">Confirmación</span>
@@ -75,118 +78,134 @@
 	</div>
 
 	<!-- ============================================== CONTENT BOLSA  ============================================== -->
-	<div class="body-content outer-top-xs">
+	<div class="fbra_container fbra_mainContainer">
+		<!-- Main content -->
+		<div class="ffff">
+			<div class="fbra_deliveryOptionsTitle">
+			</div>
+			<div id="fbra_checkoutRegionAndComuna">
+				<div class="fbra_falabellaComponent fbra_falabellaComponentCheckoutRegionAndComuna"></div>
+			</div>
 
-
-
-		<div class="container">
-			<div class="row ">
-				<div id="procesar-pago" class="opcionFase1">
-
-					<!-- ============================================== CONTENT BOLSA  ============================================== -->
-						<div class="englobador">
-							<div class="titulosubDespachoIzqPago">
-							Despacho domicilio
-							</div>
-							<div class="opcionessubDespachoIzqPago">
-									
-									<div>
-									Direccion de envio
+			<div id="fbra_checkoutDeliverAndCollect">
+				<div class="fbra_falabellaComponent fbra_falabellaComponentCheckoutDeliverAndCollect">
+					<div class="fbra_appContainer fbra_test_appContainer">
+						<div class="fbra_deliveryGroupsContainer fbra_test_deliveryGroupsContainer">
+							<div class="fbra_deliveryGroupsContainer__deliverToAddressTabContent fbra_test_deliveryGroupsContainer__deliverToAddressTabContent fbra_test_homeDeliveryTabContent--2">
+								<div class="fbra_tabSet fbra_deliveryGroupTabs fbra_test_deliveryGroupTabs">
+									<div class="fbra_tab fbra_deliveryGroupTab fbra_deliveryGroupTab--delivery fbra_test_deliveryGroupTab fbra_test_deliveryGroupTab--delivery fbra_tab--enabled fbra_tab--active">
+										<div class="fbra_deliveryGroupTab__container">
+											<h3 class="fbra_heading fbra_deliveryGroupTab__heading fbra_test_deliveryGroupTab__heading">Despacho a domicilio</h3>
+										</div>
 									</div>
-									<div class="contenedorDPD">
-										<div class="contenedorDPDIZQ">
-											<div class="subcontenedorDPD">Departamento</div>
-											<div class="subcontenedorDPD">Provincia</div>
-											<div class="subcontenedorDPD">Distrito</div>
+									<div class="fbra_tab fbra_deliveryGroupTab fbra_deliveryGroupTab--collect fbra_test_deliveryGroupTab fbra_test_deliveryGroupTab--collect fbra_tab--enabled fbra_tab--inactive">
+										<div class="fbra_deliveryGroupTab__container">
+											<!-- <h3 class="fbra_heading fbra_deliveryGroupTab__heading fbra_test_deliveryGroupTab__heading">Retiro en tienda</h3> -->
 										</div>
-										<div class="contenedorDPDIZQ">
-											<div class="subcontenedorDPD">Lima</div>
-											<div class="subcontenedorDPD">Lima</div>
-											<div class="subcontenedorDPD">Independencia</div>
-										</div>
-										<div class="contenedorDPDIZQ">
-											<div class="subcontenedorDPD">
-												<div class="posicionBoton">
-                									<button type="submit" class="btn-upper btn btn-primary checkout-page-button">Guardar</button>
-             								 	</div>
-											</div>
-										</div>
-										<div class="contenedorDPDinf">
-											<div class="subcontenedorDPD">Dirección</div>
-
-										</div>
-										<div class="subcontenedorDPDinf">Jr las Arenas Dubai- Ventanilla</div>
 									</div>
-							</div>	
-							<div class="">
-								<div class="contieneNumberAndAcompaña">
-										<div class="numberCircle">2</div><div class="acompañaCircle">Elige la fecha</div>
 								</div>
-							<div class="tituloCombo">Selecciona fecha y horario de despacho</div>
-							<div class="tituloCombo">Costo de envío: S/. 5.90</div>
-							<div class="tituloCombo"><button type="submit" class="btnfull">Continuar</button></div>
+								<div class="fbra_deliverToAddressTabContentContainer fbra_test_deliverToAddressTabContentContainer">
+									<div class="fbra_loadingWrapper">
+										<div id="aplicardireccioncalle" class="fbra_deliverToAddressTabContentContainer__addAddressScreen fbra_test_deliverToAddressTabContentContainer__addAddressScreen fbra_test_deliverToAddressTabContentContainer_addAddressScreen">
+											<form class="fbra_addressFormContainer fbra_test_addressFormContainer">
+												<section class="fbra_section fbra_test_deliverToAddress fbra_deliverToAddress" title="">
+													<div class="fbra_test_deliverToAddress__address fbra_deliverToAddress__address">
+														<div class="fbra_test_deliverToAddress__location fbra_deliverToAddress__location">
+															<div class="fbra_loadingWrapper">
+																<div id="divdireccionsincalle">
+
+																</div>
+																<div>
+																	<div class="fbra_formItem fbra_formItem--Anchor fbra_input--editArea"><a label="Editar" id="editArea" name="editArea" class="fbra_anchor fbra_formItem__editArea" title="" href="despacho.php" target="" defaultclassname="fbra_anchor" classnames="">Editar</a></div>
+																</div>
+																<div>
+																	<div class="fbra_formItem fbra_formItem--Input fbra_input--address fbra_input-container--invalid">
+																		<div class="fbra_inputWrap"><label for="address" class="fbra_label fbra_inputTooltip"><span class="fbra_label_text">Calle</span>
+																				<p class="fbra_label_title"></p>
+																			</label><input type="text" id="calle" maxlength="75" title="" class="fbra_input fbra_formItem__address fbra_formItem__field--invalid" autocomplete="on">
+																		</div>
+																	</div>
+																	<!-- agregar fecha -->
+																	<div class="contieneNumberAndAcompaña">
+																		<div class="numberCircle">2</div>
+																		<div class="acompañaCircle">Elige la fecha</div>
+																	</div>
+																	<div class="fbra_formItem fbra_formItem--Input fbra_input--address fbra_input-container">
+																		<div class="fbra_inputWrap"><label for="address" class="fbra_label fbra_inputTooltip"><span class="fbra_label_text">Selecciona la fecha del despacho</span>
+																				<p class="fbra_label_title"></p>
+																			</label><input type="date" id="calle" maxlength="75" title="" class="fbra_input fbra_formItem__address fbra_formItem__field--invalid" autocomplete="on">
+																		</div>
+																		<p class="fbra_paragraph fbra_unrecognizedUser__useOrEditText text-center" style="font-size: 14px;">Coste de envio S/. 5.90</p>
+																	</div>
+																	<!-- agregar fecha -->
+																</div>
+															</div>
+														</div>
+
+													</div>
+												</section>
+											</form>
+											<div class="fbra_formItem fbra_formItem--Button fbra_input--useAddress"><a href="#"><button class="btnfull" title="">Usar dirección</button></a></div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
-						
-						
-
-					
-					<div class="separatorPago">
-
-					</div>
-
-					<div class="opcionesDespachoPagoDer">
-						<!-- cupon de descuento -->
-						<table class="">
-							<thead>
-								<tr>
-									<div class="tituloResumenCompra">
-										Resumen de tu compra<span id="subtotal" class=""></span>
-									</div>
-								</tr>
-							</thead><!-- /thead -->
-							<thead class="cuadroColor">
-
-								<tr>
-									<th>
-										<div class="englobaProduxtoTotal">
-											<div class="productosResumenCompra">
-												Productos<span id="subtotal" class=""></span>
-											</div>
-											<div class="totalResumenCompra">
-												Detalles<span id="total" class=""></span>
-											</div>
-									</th>
-					</div>
-					</tr>
-
-					</thead><!-- /thead -->
-
-					<thead id="prodresumen" class="cuadroColor">
-						<div class="iconoYVolverBolsa">
-							<img src="image/icon/bolsa.png" width="35" height="35">
-							<a href="#" class="enlaceVolverBolsa"> <u>Volver a la bolsa</u></a>
+						<div class="">
+							<div class="props context refs updater state _reactInternalFiber"></div>
 						</div>
+					</div>
+				</div>
+			</div>
 
-						<!--=== code js ====-->
+			<div id="fbra_checkoutDeliveryActions"></div>
 
-					</thead>
-					<thead id="prodresumen" class="cuadroColor">
-					</thead>
-					<thead id="weaderesumen" class="cuadroColor">
+			<div id="fbra_checkoutSignIn">
+				<section class="fbra_falabellaComponent fbra_falabellaComponentCheckoutSignIn">
+					<div class="props context refs updater state _reactInternalFiber"></div>
+				</section>
+			</div>
 
-						<!--=== code js ====-->
+			<div id="fbra_checkoutTemporaryPassword">
+				<div class="props context refs updater state _reactInternalFiber"></div>
+			</div>
 
-					</thead>
+		</div>
+		<!-- Main content ends -->
 
-					</table><!-- /table -->
-				</div><!-- /.cart-shopping-total -->
-			</div><!-- /.shopping-cart -->
-		</div> <!-- /.row -->
-		<!-- ============================================== BRANDS CAROUSEL ============================================== -->
-		<!-- ============================================== BRANDS CAROUSEL : END ============================================== -->
-	</div><!-- /.container -->
-	</div><!-- /.body-content -->
+		<!-- Sidebar -->
+		<div class="fbra_sidebar">
+			<h2 class="fbra_heading fbra_test_orderSummary__orderSummaryHeading fbra_orderSummary__orderSummaryHeading arregloo">
+				<center>Resumen de tu orden</center>
+			</h2>
+			<div id="fbra_checkoutOrderSummary" class="contorno">
+
+				<div class="fbra_falabellaComponent fbra_falabellaComponentCheckoutOrderSummary payment-redesign">
+					<section class="fbra_section fbra_orderSummary" title="">
+						<div class="fbra_loadingWrapper">
+							<div class="sss"><span class="fbra_text fbra_test_orderSummary__numberOfItems fbra_orderSummary__numberOfItems" title="">Productos </span><span class="fbra_text fbra_test_orderSummary__itemsTotalPrice fbra_orderSummary__itemsTotalPrice" title=""></span></div>
+							<div class="fbra_test_orderSummary__itemsContainer fbra_orderSummary__itemsContainer">
+								<!-- wea de productos-->
+								<ol id="prodresumen" class="fbra_test_orderSummary__items fbra_orderSummary__items">
+									<!-- wea de productos-->
+								</ol>
+							</div><a class="fbra_anchor fbra_test_orderSummary__editItems fbra_orderSummary__editItems fbra_OrderSummary__edit" href="shopping-cart.php" target="" title="" defaultclassname="fbra_anchor" classnames="">Volver a la Bolsa</a>
+							<!-- wea de precios-->
+							<ul id="weaderesumen" class="fbra_test_orderSummary__totalCosts fbra_orderSummary__totalCosts">
+								<!-- wea de precios-->
+							</ul>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<!-- Sidebar ends -->
+
+		<!-- MainFooter -->
+		<div class="fbra_mainContentFooter">
+		</div>
+		<!-- Sidebar ends -->
+	</div>
 	<!-- ============================================== CONTENT BOLSA : END ============================================== -->
 
 	<span class="footer-more-product"><a href="home.php">Ver más productos</a></span>
@@ -196,6 +215,7 @@
 	<?php include 'footer.html'; ?>
 	<!-- <script src="assets/js/pedido.js"></script> -->
 	<script src="assets/js/despachocompra.js"></script>
+	<script src="assets/js/direccion-calle-despacho.js"></script>
 	<!-- ============================================================= FOOTER : END============================================================= -->
 </body>
 

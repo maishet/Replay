@@ -385,7 +385,7 @@
                         <!-- /.product-image -->
                         
                         <div class="product-info text-left">
-                          <h3 class="name"><a href="categorias/detallesProductoPc1.html">Silla de Oficina Bone Color Beig</a></h3>
+                          <h3 class="name"><a href="categorias/detallesProductoPc1.html">Silla de Oficina Bone Color Beig Tapizado</a></h3>
                           <div class="rating rateit-small"></div>
                           <div class="description"></div>
                           <div class="product-price"> <span class="monedas">S/.</span> <span class="price">299.90</span> <span class="price-before-discount">S/ 399.90</span> </div>

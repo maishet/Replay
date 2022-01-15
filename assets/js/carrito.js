@@ -1,94 +1,94 @@
 class Carrito {
     //añadir de un producto detallado
-    comprarProductoDetalle(e){
+    comprarProductoDetalle(e) {
         e.preventDefault();
         //Delegado para agregar al carrito
         //console.log(e.target);
-        if(e.target.classList.contains('btn-agregar')){ //"agregar-carrito
+        if (e.target.classList.contains('btn-agregar')) { //"agregar-carrito
             const producto = e.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProductoDetalle(producto);
             //console.log(producto);
-        }e.stopPropagation();
+        } e.stopPropagation();
     }
     //Añadir producto al carrito de deseos
-    comprarProductoDeseo(e){
+    comprarProductoDeseo(e) {
         e.preventDefault();
         //console.log(e.target);
         //Delegado para agregar al carrito
-        if(e.target.classList.contains('agregar-carrito')){ //"agregar-carrito
+        if (e.target.classList.contains('agregar-carrito')) { //"agregar-carrito
             const producto = e.target.parentElement.parentElement;
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProductoDeseo(producto);
             //console.log(producto);
-        }e.stopPropagation();
+        } e.stopPropagation();
     }
 
     //Añadir producto al carrito de OFERTAS
-    comprarProducto(e){
+    comprarProducto(e) {
         e.preventDefault();
         //Delegado para agregar al carrito
-        if(e.target.classList.contains('agregar-carrito')){ //"agregar-carrito
+        if (e.target.classList.contains('agregar-carrito')) { //"agregar-carrito
             const producto = e.target.parentElement.parentElement;
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProducto(producto);
             //console.log(producto);
-        }e.stopPropagation();
+        } e.stopPropagation();
     }
 
     //añadir de nuevos productos al carrito
 
-    comprarProductonuevos(e){
+    comprarProductonuevos(e) {
         e.preventDefault();
         //Delegado para agregar al carrito
         //console.log(e.target); //captura el elemento que selecciono
-        if(e.target.classList.contains('agregar-carrito1')){ //"agregar-carrito
+        if (e.target.classList.contains('agregar-carrito1')) { //"agregar-carrito
             const producto1 = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProducto(producto1);
             //console.log(producto1);
-        }e.stopPropagation();
+        } e.stopPropagation();
     }
 
     // añadir productos tecnologia al carrito
 
-    comprarProductoTecnologia(e){
+    comprarProductoTecnologia(e) {
         e.preventDefault();
         //Delegado para agregar al carrito
-        if(e.target.classList.contains('agregar-carrito2')){ //"agregar-carrito
+        if (e.target.classList.contains('agregar-carrito2')) { //"agregar-carrito
             const producto2 = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProducto(producto2);
             //console.log(producto1);
-        }e.stopPropagation();
+        } e.stopPropagation();
     }
 
     // añadir productos destacados al carrito
 
-    comprarProductoDestacados(e){
+    comprarProductoDestacados(e) {
         e.preventDefault();
         //Delegado para agregar al carrito
-        if(e.target.classList.contains('agregar-carrito3')){ //"agregar-carrito
+        if (e.target.classList.contains('agregar-carrito3')) { //"agregar-carrito
             const producto3 = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProducto(producto3);
             //console.log(producto1);
-        }e.stopPropagation();
+        } e.stopPropagation();
     }
 
     // añadir en producto por categoria
-    comprarProductoctg(e){
+    comprarProductoctg(e) {
         e.preventDefault();
         //Delegado para agregar al carrito
-        if(e.target.classList.contains('agregar-carrito')){ //"agregar-carrito
+        if (e.target.classList.contains('agregar-carrito')) { //"agregar-carrito
             const producto = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProducto(producto);
             //console.log(producto);
-        }e.stopPropagation();
+        } e.stopPropagation();
     }
     //leer de productos detalle
-    leerDatosProductoDetalle(producto){
+    leerDatosProductoDetalle(producto) {
         const infoProducto = {
             imagen: producto.querySelector('img').src,
             titulo: producto.querySelector('h1').textContent,
@@ -100,13 +100,13 @@ class Carrito {
         //console.log(infoProducto.link);
         let productosLS;
         productosLS = this.obtenerProductosLocalStorage();
-        productosLS.forEach(function (productoLS){
-            if(productoLS.id === infoProducto.id){
+        productosLS.forEach(function (productoLS) {
+            if (productoLS.id === infoProducto.id) {
                 productosLS = productoLS.id;
             }
         });
 
-        if(productosLS === infoProducto.id){
+        if (productosLS === infoProducto.id) {
             Swal.fire({
                 icon: 'warning',
                 title: 'Oops...',
@@ -122,9 +122,9 @@ class Carrito {
         //this.insertarCarrito(infoProducto); //ya esta en el else
     }
     //Leer datos del producto
-    leerDatosProducto(producto){
+    leerDatosProducto(producto) {
         const infoProducto = {
-            imagen : producto.querySelector('img').src,
+            imagen: producto.querySelector('img').src,
             titulo: producto.querySelector('h3').textContent,
             precio: producto.querySelector('.product-price span.price').textContent,
             id: producto.querySelector('.cart a').getAttribute('data-id'), //si recoge el atributo data-id con .cart a (home.php)
@@ -133,13 +133,13 @@ class Carrito {
         }
         let productosLS;
         productosLS = this.obtenerProductosLocalStorage();
-        productosLS.forEach(function (productoLS){
-            if(productoLS.id === infoProducto.id){
+        productosLS.forEach(function (productoLS) {
+            if (productoLS.id === infoProducto.id) {
                 productosLS = productoLS.id;
             }
         });
 
-        if(productosLS === infoProducto.id){
+        if (productosLS === infoProducto.id) {
             Swal.fire({
                 icon: 'warning',
                 title: 'Oops...',
@@ -154,11 +154,11 @@ class Carrito {
         }
         //this.insertarCarrito(infoProducto); //ya esta en el else
     }
-    
+
     //Leer datos del producto de deseos
-    leerDatosProductoDeseo(producto){
+    leerDatosProductoDeseo(producto) {
         const infoProducto = {
-            imagen : producto.querySelector('img').src,
+            imagen: producto.querySelector('img').src,
             titulo: producto.querySelector('.product-name a.nombrep').textContent,
             precio: producto.querySelector('.product-price span.price').textContent,
             id: producto.querySelector('.agregar-carrito').getAttribute('data-id'), //si recoge el atributo data-id con .cart a (home.php)
@@ -168,13 +168,13 @@ class Carrito {
         //console.log(infoProducto.imagen);
         let productosLS;
         productosLS = this.obtenerProductosLocalStorage();
-        productosLS.forEach(function (productoLS){
-            if(productoLS.id === infoProducto.id){
+        productosLS.forEach(function (productoLS) {
+            if (productoLS.id === infoProducto.id) {
                 productosLS = productoLS.id;
             }
         });
 
-        if(productosLS === infoProducto.id){
+        if (productosLS === infoProducto.id) {
             Swal.fire({
                 icon: 'warning',
                 title: 'Oops...',
@@ -190,7 +190,7 @@ class Carrito {
         //this.insertarCarrito(infoProducto); //ya esta en el else
     }
     //muestra producto seleccionado en carrito
-    insertarCarrito(producto){
+    insertarCarrito(producto) {
         //listaProductos.innerHTML = ''; //limpia el carrito
         const row = document.createElement('tr');
         row.innerHTML = `
@@ -215,10 +215,10 @@ class Carrito {
     }
 
     //Eliminar el producto del carrito en el DOM
-    eliminarProducto(e){
+    eliminarProducto(e) {
         e.preventDefault();
         let producto, productoID;
-        if(e.target.classList.contains('borrar-producto')){
+        if (e.target.classList.contains('borrar-producto')) {
             e.target.parentElement.parentElement.remove();
             producto = e.target.parentElement.parentElement;
             productoID = producto.querySelector('a.borrar-producto').getAttribute('data-id'); // esta sacando null (corregido de 'a')
@@ -230,10 +230,10 @@ class Carrito {
 
     }
     //Eliminar el producto del carrito en el DOM
-    eliminarProductoPedido(e){
+    eliminarProductoPedido(e) {
         e.preventDefault();
         let producto, productoID;
-        if(e.target.classList.contains('borrar-producto')){
+        if (e.target.classList.contains('borrar-producto')) {
             e.target.parentElement.parentElement.remove();
             producto = e.target.parentElement.parentElement;
             productoID = producto.querySelector('a.borrar-producto').getAttribute('data-id'); // esta sacando null (corregido de 'a')
@@ -246,11 +246,11 @@ class Carrito {
     }
 
     //Elimina todos los productos
-    calcularTotalhome(){
+    calcularTotalhome() {
         let productosLS;
         let cant = 0, preciocarrito = 0;
         productosLS = this.obtenerProductosLocalStorage();
-        for(let i = 0; i < productosLS.length; i++){
+        for (let i = 0; i < productosLS.length; i++) {
             let element = Number(productosLS[i].precio * productosLS[i].cantidad);
             preciocarrito = preciocarrito + element;
             //cant = cant + productosLS[i].cantidad;
@@ -262,7 +262,7 @@ class Carrito {
     }
 
     //Almacenar en el LS
-    guardarProductosLocalStorage(producto){
+    guardarProductosLocalStorage(producto) {
         let productos;
         //Toma valor de un arreglo con datos del LS
         productos = this.obtenerProductosLocalStorage();
@@ -274,11 +274,11 @@ class Carrito {
     }
 
     //Comprobar que hay elementos en el LS
-    obtenerProductosLocalStorage(){
+    obtenerProductosLocalStorage() {
         let productoLS;
 
         //Comprobar si hay algo en LS
-        if(localStorage.getItem('productos') === null){
+        if (localStorage.getItem('productos') === null) {
             productoLS = [];
         }
         else {
@@ -288,10 +288,10 @@ class Carrito {
     }
 
     //Mostrar los productos guardados en el LS
-    leerLocalStorage(){
+    leerLocalStorage() {
         let productosLS;
         productosLS = this.obtenerProductosLocalStorage();
-        productosLS.forEach(function (producto){
+        productosLS.forEach(function (producto) {
             //Construir plantilla
             const row = document.createElement('tr');
             row.innerHTML = `
@@ -311,13 +311,13 @@ class Carrito {
     }
 
     //Mostrar los productos guardados en el LS en shopping-cart.php
-    leerLocalStorageCompra(){
+    leerLocalStorageCompra() {
         let productosLS;
         productosLS = this.obtenerProductosLocalStorage();
-        productosLS.forEach(function (producto){
+        productosLS.forEach(function (producto) {
             //Construir plantilla
             const row = document.createElement('tr');
-            var reseña = Math.floor((Math.random() * (21-3))+3); //genera un numero aleatorio entre 3 y 20
+            var reseña = Math.floor((Math.random() * (21 - 3)) + 3); //genera un numero aleatorio entre 3 y 20
             row.innerHTML = `
                 <td class="cart-image">
                     <a class="entry-thumbnail" href="${producto.link}">
@@ -358,16 +358,16 @@ class Carrito {
                             <div class="arrow minus gradient"><span class="ir"><i class="icon fa fa-sort-desc"></i></span></div>
                             </div>
                             <input type="number" min="1" value="${producto.cantidad}">
-                    </div>*/                 
+                    </div>*/
 
     //Eliminar producto por ID del LS
-    eliminarProductoLocalStorage(productoID){
+    eliminarProductoLocalStorage(productoID) {
         let productosLS;
         //Obtenemos el arreglo de productos
         productosLS = this.obtenerProductosLocalStorage();
         //Comparar el id del producto borrado con LS
-        productosLS.forEach(function(productoLS, index){
-            if(productoLS.id === productoID){
+        productosLS.forEach(function (productoLS, index) {
+            if (productoLS.id === productoID) {
                 productosLS.splice(index, 1);
             }
         });
@@ -375,17 +375,17 @@ class Carrito {
         //Añadimos el arreglo actual al LS
         localStorage.setItem('productos', JSON.stringify(productosLS));
     }
-/*
-    //Eliminar todos los datos del LS
-    vaciarLocalStorage(){
-        localStorage.clear();
-    }
-*/
+    /*
+        //Eliminar todos los datos del LS
+        vaciarLocalStorage(){
+            localStorage.clear();
+        }
+    */
     //Procesar pedido
-    procesarPedido(e){
+    procesarPedido(e) {
         e.preventDefault();
 
-        if(this.obtenerProductosLocalStorage().length === 0){
+        if (this.obtenerProductosLocalStorage().length === 0) {
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
@@ -400,16 +400,16 @@ class Carrito {
     }
 
     //Calcular montos
-    calcularTotal(){
+    calcularTotal() {
         let productosLS;
         let numtotal = 0, subtotal = 0;
         productosLS = this.obtenerProductosLocalStorage();
-        for(let i = 0; i < productosLS.length; i++){
+        for (let i = 0; i < productosLS.length; i++) {
             let element = Number(productosLS[i].precio * productosLS[i].cantidad);
             numtotal = numtotal + element;
-            
+
         }
-        
+
         //igv = parseFloat(total * 0.18).toFixed(2);
         subtotal = parseFloat(numtotal).toFixed(2);
         let numeroSubt = Number(subtotal);
@@ -418,7 +418,7 @@ class Carrito {
         //numeroSubt, numercupon, numtotal
         document.getElementById('subtotal').innerHTML = "S/. " + subtotal;
         document.getElementById('total').innerHTML = "S/. " + numtotal.toFixed(2);
-        let resumen = {numeroSubt, numercupon,numdespacho, numtotal};
+        let resumen = { numeroSubt, numercupon, numdespacho, numtotal };
 
         this.guardardatosconcupon(resumen);
     }
@@ -439,57 +439,57 @@ class Carrito {
             productosLS = this.obtenerProductosLocalStorage();
             productosLS.forEach(function (productoLS, index) {
                 if (productoLS.id === id) {
-                    productoLS.cantidad = cantidad;                    
-                    actualizarMontos[index].innerHTML = "S/. "+ Number(cantidad * productosLS[index].precio).toFixed(2);
-                }    
+                    productoLS.cantidad = cantidad;
+                    actualizarMontos[index].innerHTML = "S/. " + Number(cantidad * productosLS[index].precio).toFixed(2);
+                }
             });
             localStorage.setItem('productos', JSON.stringify(productosLS));
-            
+
         }
         else {
             console.log("click afuera");
         }
     }
 
-    
+
     ///////////////////zona de cupones ///////////////////////////////
 
-    ocultar(){
+    ocultar() {
         document.getElementById("error-cupon").style.display = 'none';
     }
 
-    
-    agregarCupon(e){
+
+    agregarCupon(e) {
         //console.log(e.target);
-        if(e.target.classList.contains('btn-primary')){
+        if (e.target.classList.contains('btn-primary')) {
             const cup = e.target.parentElement.parentElement; //div que contiene el cupon
             //console.log(cup);
             this.leerinpput(cup);
         }
     }
 
-    leerinpput(cup){
+    leerinpput(cup) {
         const textdireccion = {
             codigo: cup.querySelector('input').value,
             //status: 1
         }
 
         fetch('assets/js/codigos.json')
-        .then(res => res.json())
-        .then(res => {
-            for(let i=0; i<res.length; i++){
-                if(res[i].code === textdireccion.codigo){
-                    //console.log(res[i].code);
-                    res[i].status = 0;
-                    this.aplicarDescuento(res[i]);
-                    return;
+            .then(res => res.json())
+            .then(res => {
+                for (let i = 0; i < res.length; i++) {
+                    if (res[i].code === textdireccion.codigo) {
+                        //console.log(res[i].code);
+                        res[i].status = 0;
+                        this.aplicarDescuento(res[i]);
+                        return;
+                    }
                 }
-            }
-            document.getElementById("error-cupon").style.display = 'block';
-        })   
+                document.getElementById("error-cupon").style.display = 'block';
+            })
     }
 
-    aplicarDescuento(cupon){
+    aplicarDescuento(cupon) {
         let subt = 0;
         document.getElementById("formcupon").style.display = 'none'; //ocultamos el formulario
         document.getElementById("cuponvalido").style.display = 'block'; //mostramos el mensaje de cupon valido
@@ -499,30 +499,30 @@ class Carrito {
         //console.log(subt); //imprime S/. 378.00
         var numercupon = Number(cupon.valor); //convertimos el valor del cupon a numero
         var numeroSubt = Number(subt.substring(3)); //convertimos el subtotal a numero
-        var numdespacho =0;
+        var numdespacho = 0;
         //console.log(numercupon);
         //console.log(numeroSubt);
         document.getElementById("descuentocupon").innerHTML = `S/. ${(numeroSubt * numercupon / 100).toFixed(2)}`; //mostramos el descuento
         var numtotal = Number((numeroSubt - (numeroSubt * numercupon / 100)).toFixed(2)); //calculamos el total
         document.getElementById("total").innerHTML = `S/. ${numtotal}`; //mostramos el total
 
-        let resumen = {numeroSubt, numercupon,numdespacho, numtotal}; //creamos un objeto con los valores
+        let resumen = { numeroSubt, numercupon, numdespacho, numtotal }; //creamos un objeto con los valores
 
-       this.guardardatosconcupon(resumen);
+        this.guardardatosconcupon(resumen);
     }
 
-    guardardatosconcupon(resumen){
+    guardardatosconcupon(resumen) {
         //console.log(resumen);
         localStorage.setItem('resumencompra', JSON.stringify(resumen));
     }
 
 
     //Comprobar que hay elementos en el LS
-    obtenerResuemenCompra(){
+    obtenerResuemenCompra() {
         let resumen;
 
         //Comprobar si hay algo en LS
-        if(localStorage.getItem('resumencompra') === null){
+        if (localStorage.getItem('resumencompra') === null) {
             resumen = [];
         }
         else {
@@ -530,35 +530,35 @@ class Carrito {
         }
         return resumen;
     }
-    leerdatosresumen(){
+    leerdatosresumen() {
         let resumen;
         resumen = this.obtenerResuemenCompra();
         //console.log(resumen);
-        let subtotal=0, descuento = 0, total = 0;
-        
+        let subtotal = 0, descuento = 0, total = 0;
+
         subtotal = resumen.numeroSubt;
         descuento = resumen.numeroSubt * resumen.numercupon / 100;
         total = resumen.numtotal;
         //resumen.forEach(function (producto){
-            const row = document.createElement('li');
-            row.className = 'fbra_test_orderSummary__totalCost fbra_orderSummary__totalCost';
-            row.innerHTML = `
+        const row = document.createElement('li');
+        row.className = 'fbra_test_orderSummary__totalCost fbra_orderSummary__totalCost';
+        row.innerHTML = `
                 <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Subtotal:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="subtotal">S/.${subtotal.toFixed(2)}</span>
                 <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Descuento:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="descuento">S/.${descuento.toFixed(2)}</span>
                 <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Monto final a pagar:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="total">S/.${total.toFixed(2)}</span>
             `;
-            listaresumen.appendChild(row);
+        listaresumen.appendChild(row);
         //});
     }
 
-    leerLocalStorageResumen(){
+    leerLocalStorageResumen() {
         let productosLS;
         productosLS = this.obtenerProductosLocalStorage();
-        productosLS.forEach(function (producto){
+        productosLS.forEach(function (producto) {
             //Construir plantilla
             const row = document.createElement('li');
             row.className = 'fbra_test_orderSummary__item fbra_orderSummary__item';
-            var reseña = Math.floor((Math.random() * (999999)-100000)+100000); //generamos un numero aleatorio de 4 digitos
+            var reseña = Math.floor((Math.random() * (999999) - 100000) + 100000); //generamos un numero aleatorio de 4 digitos
             row.innerHTML = `
                 <a href="${producto.link}" target="_blank" title="" defaultclassname="fbra_anchor" class="fbra_anchor" classnames=""><img src="${producto.imagen}" alt="" title="${producto.titulo}" class="fbra_image fbra_test_orderSummary__itemImage fbra_orderSummary__itemImage"></a>
                 <div class="fbra_test_orderSummary__itemDetails fbra_orderSummary__itemDetails">
@@ -572,15 +572,22 @@ class Carrito {
         });
     }
 
-    agregarDireccion(e){
-        if(e.target.classList.contains('botonContinuar')){
-            const cup = e.target.parentElement.parentElement.parentElement.parentElement; //div que contiene el cupon
+    agregarDireccion(e) {
+        if (e.target.classList.contains('botonContinuar')) {
+            const cup = e.target.parentElement.parentElement.parentElement.parentElement; //div que contiene ladireccion
             //console.log(cup);
             this.leerinpputdireccion(cup);
         }
     }
+    agregarDireccionCalle(e) {
+        if (e.target.classList.contains('btnfull')) {
+            const cup = e.target.parentElement.parentElement.parentElement.parentElement; //div que contiene la calle y la fecha
+            //console.log(cup);
+            this.leerinpputdireccioncallefecha(cup);
+        }
+    }
 
-    leerinpputdireccion(cup){
+    leerinpputdireccion(cup) {
         const textdireccion = {
             departamento: cup.querySelector('#region').value,
             provincia: cup.querySelector('#ciudad').value,
@@ -588,40 +595,90 @@ class Carrito {
             //status: 1
         }
         //console.log(textdireccion);
+
         this.aplicarDireccionSinCalle(textdireccion);
     }
 
-    aplicarDireccionSinCalle(textdireccion){//cupon
+    leerinpputdireccioncallefecha(cup) {
+        const textdireccioncalle = {
+            calle: cup.querySelector('#calle').value,
+            //numero: cup.querySelector('#numero').value,
+            //fecha: cup.querySelector('#fecha').value,
+            //status: 1
+        }
+        //console.log(textdireccioncalle);
+
+        this.aplicarDireccionConCalle(textdireccioncalle);
+    }
+
+    aplicarDireccionConCalle(textdireccioncalle) {
+        let resumen = this.obtenerDireccion();
+        var depa = resumen.depa;
+        var prov = resumen.prov;
+        var dist = resumen.dist;
+
+        var calle = textdireccioncalle.calle;
+        //console.log(depa);
+        //var fecha = ??????
+
+        let resumencalle = { depa, prov, dist, calle };
+        //console.log(resumencalle);
+        this.guardardatosDireccion(resumencalle);
+    }
+
+    aplicarDireccionSinCalle(textdireccion) {//cupon
 
         var depa = textdireccion.departamento;
         var prov = textdireccion.provincia;
         var dist = textdireccion.distrito;
         var calle = "";
+        //añadir fecha
 
-        let resumen = {depa, prov,dist, calle}; //creamos un objeto con los valores de direccion
+        let resumen = { depa, prov, dist, calle }; //creamos un objeto con los valores de direccion sin calle y fecha
 
-       this.guardardatosDireccion(resumen);
+        this.guardardatosDireccion(resumen);
     }
 
-    guardardatosDireccion(resumen){
+    guardardatosDireccion(resumen) {
         //console.log(resumen);
         localStorage.setItem('Direccion', JSON.stringify(resumen));
 
     }
-}   
-    /*
-                <td>									
-                    <div class="subTitulos">Subtotal
-                        <span id="subtotalresumen" class="inner-left-md">${subtotal.toFixed(2)}</span>
-                    </div>
-                </td>
-                <td>									
-                    <div class="subTitulos">Descuento
-                        <span id="descuentoresumen" class="inner-left-md">${descuento.toFixed(2)}</span>
-                    </div>
-                </td>
-                <td>									
-                    <div class="subTitulos">Total
-                        <span id="totalresumen" class="inner-left-md">${total.toFixed(2)}</span>
-                    </div>
-                </td>*/
+
+    obtenerDireccion() {
+        let resumen;
+
+        //Comprobar si hay algo en LS
+        if (localStorage.getItem('Direccion') === null) {
+            resumen = [];
+        }
+        else {
+            resumen = JSON.parse(localStorage.getItem('Direccion'));
+        }
+        return resumen;
+    }
+
+    leerDireccionsincalle() {
+        let resumen = this.obtenerDireccion();
+        var depa = resumen.depa;
+        var prov = resumen.prov;
+        var dist = resumen.dist;
+            //Construir plantilla
+            const row = document.createElement('div');
+            row.className = 'fbra_deliverToAddress__location__locationField fbra_test_deliverToAddress__location__locationField';
+            row.innerHTML = `
+ 
+                <span class="fbra_text fbra_deliverToAddress__location__fieldTitle fbra_test_deliverToAddress__location__fieldTitle" title="">Departamento</span><span class="fbra_text fbra_deliverToAddress__location__fieldValue fbra_test_deliverToAddress__location__fieldValue" title="">${depa}</span></div>
+
+ 
+                <span class="fbra_text fbra_deliverToAddress__location__fieldTitle fbra_test_deliverToAddress__location__fieldTitle" title="">Provincia</span><span class="fbra_text fbra_deliverToAddress__location__fieldValue fbra_test_deliverToAddress__location__fieldValue" title="">${prov}</span></div>
+
+                <span class="fbra_text fbra_deliverToAddress__location__fieldTitle fbra_test_deliverToAddress__location__fieldTitle" title="">Distrito</span><span class="fbra_text fbra_deliverToAddress__location__fieldValue fbra_test_deliverToAddress__location__fieldValue" title="">${dist}</span></div>
+
+            `;
+            listadireccion.appendChild(row);
+    }
+}
+
+/*
+*/

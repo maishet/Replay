@@ -183,7 +183,7 @@
 									<a href="shopping-cart.php"><button type="" class="botonRegresar">Regresar</button></a>
 								</div>
 								<div class="cuadroBotonContinuar">
-									<a href="#"><button type="submit" class="botonContinuar">Continuar</button></a>
+									<a href="subdespacho.php"><button type="submit" class="botonContinuar">Continuar</button></a>
 								</div>
 							</div>
 						</section>
@@ -214,11 +214,15 @@
 
 		<!-- Sidebar -->
 		<div class="fbra_sidebar">
-			<div id="fbra_checkoutOrderSummary">
+			<h2 class="fbra_heading fbra_test_orderSummary__orderSummaryHeading fbra_orderSummary__orderSummaryHeading arregloo">
+				<center>Resumen de tu orden</center>
+			</h2>
+			<div id="fbra_checkoutOrderSummary" class="contorno">
+
 				<div class="fbra_falabellaComponent fbra_falabellaComponentCheckoutOrderSummary payment-redesign">
 					<section class="fbra_section fbra_orderSummary" title="">
 						<div class="fbra_loadingWrapper">
-							<h2 class="fbra_heading fbra_test_orderSummary__orderSummaryHeading fbra_orderSummary__orderSummaryHeading">Resumen de tu orden</h2><span class="fbra_text fbra_test_orderSummary__numberOfItems fbra_orderSummary__numberOfItems" title="">Productos</span>
+							<div class="sss"><span class="fbra_text fbra_test_orderSummary__numberOfItems fbra_orderSummary__numberOfItems" title="">Productos </span><span class="fbra_text fbra_test_orderSummary__itemsTotalPrice fbra_orderSummary__itemsTotalPrice" title=""></span></div>
 							<div class="fbra_test_orderSummary__itemsContainer fbra_orderSummary__itemsContainer">
 								<!-- wea de productos-->
 								<ol id="prodresumen" class="fbra_test_orderSummary__items fbra_orderSummary__items">
@@ -233,6 +237,11 @@
 					</section>
 				</div>
 			</div>
+		</div>
+		<!-- Sidebar ends -->
+
+		<!-- MainFooter -->
+		<div class="fbra_mainContentFooter">
 		</div>
 		<!-- Sidebar ends -->
 	</div>
