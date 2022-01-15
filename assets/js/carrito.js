@@ -414,10 +414,11 @@ class Carrito {
         subtotal = parseFloat(numtotal).toFixed(2);
         let numeroSubt = Number(subtotal);
         let numercupon = 0;
+        let numdespacho = 0;
         //numeroSubt, numercupon, numtotal
         document.getElementById('subtotal').innerHTML = "S/. " + subtotal;
         document.getElementById('total').innerHTML = "S/. " + numtotal.toFixed(2);
-        let resumen = {numeroSubt, numercupon, numtotal};
+        let resumen = {numeroSubt, numercupon,numdespacho, numtotal};
 
         this.guardardatosconcupon(resumen);
     }
@@ -468,7 +469,7 @@ class Carrito {
     }
 
     leerinpput(cup){
-        const cupontext = {
+        const textdireccion = {
             codigo: cup.querySelector('input').value,
             //status: 1
         }
@@ -477,7 +478,7 @@ class Carrito {
         .then(res => res.json())
         .then(res => {
             for(let i=0; i<res.length; i++){
-                if(res[i].code === cupontext.codigo){
+                if(res[i].code === textdireccion.codigo){
                     //console.log(res[i].code);
                     res[i].status = 0;
                     this.aplicarDescuento(res[i]);
@@ -498,13 +499,14 @@ class Carrito {
         //console.log(subt); //imprime S/. 378.00
         var numercupon = Number(cupon.valor); //convertimos el valor del cupon a numero
         var numeroSubt = Number(subt.substring(3)); //convertimos el subtotal a numero
+        var numdespacho =0;
         //console.log(numercupon);
         //console.log(numeroSubt);
         document.getElementById("descuentocupon").innerHTML = `S/. ${(numeroSubt * numercupon / 100).toFixed(2)}`; //mostramos el descuento
         var numtotal = Number((numeroSubt - (numeroSubt * numercupon / 100)).toFixed(2)); //calculamos el total
         document.getElementById("total").innerHTML = `S/. ${numtotal}`; //mostramos el total
 
-        let resumen = {numeroSubt, numercupon, numtotal}; //creamos un objeto con los valores
+        let resumen = {numeroSubt, numercupon,numdespacho, numtotal}; //creamos un objeto con los valores
 
        this.guardardatosconcupon(resumen);
     }
@@ -538,19 +540,12 @@ class Carrito {
         descuento = resumen.numeroSubt * resumen.numercupon / 100;
         total = resumen.numtotal;
         //resumen.forEach(function (producto){
-            const row = document.createElement('tr');
+            const row = document.createElement('li');
+            row.className = 'fbra_test_orderSummary__totalCost fbra_orderSummary__totalCost';
             row.innerHTML = `
-            <th class="thRaro">
-                <div class="">
-                    Subtotal<span id="subtotalresumen" class="inner-left-md">S/. ${subtotal.toFixed(2)}</span>
-                </div>
-                <div class="">
-                    Descuento<span id="descuentoresumen" class="inner-left-md">S/. ${descuento.toFixed(2)}</span>
-                </div>
-                <div class="">
-                    Total<span id="totalresumen" class="inner-left-md text-success">S/. ${total.toFixed(2)}</span>
-                </div>
-            </th>
+                <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Subtotal:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="subtotal">S/.${subtotal.toFixed(2)}</span>
+                <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Descuento:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="descuento">S/.${descuento.toFixed(2)}</span>
+                <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Monto final a pagar:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="total">S/.${total.toFixed(2)}</span>
             `;
             listaresumen.appendChild(row);
         //});
@@ -575,6 +570,43 @@ class Carrito {
             `;
             listaprodresumen.appendChild(row);
         });
+    }
+
+    agregarDireccion(e){
+        if(e.target.classList.contains('botonContinuar')){
+            const cup = e.target.parentElement.parentElement.parentElement.parentElement; //div que contiene el cupon
+            //console.log(cup);
+            this.leerinpputdireccion(cup);
+        }
+    }
+
+    leerinpputdireccion(cup){
+        const textdireccion = {
+            departamento: cup.querySelector('#region').value,
+            provincia: cup.querySelector('#ciudad').value,
+            distrito: cup.querySelector('#comuna').value,
+            //status: 1
+        }
+        //console.log(textdireccion);
+        this.aplicarDireccionSinCalle(textdireccion);
+    }
+
+    aplicarDireccionSinCalle(textdireccion){//cupon
+
+        var depa = textdireccion.departamento;
+        var prov = textdireccion.provincia;
+        var dist = textdireccion.distrito;
+        var calle = "";
+
+        let resumen = {depa, prov,dist, calle}; //creamos un objeto con los valores de direccion
+
+       this.guardardatosDireccion(resumen);
+    }
+
+    guardardatosDireccion(resumen){
+        //console.log(resumen);
+        localStorage.setItem('Direccion', JSON.stringify(resumen));
+
     }
 }   
     /*

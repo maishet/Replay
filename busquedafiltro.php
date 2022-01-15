@@ -779,7 +779,103 @@
                   <!-- /.accordion-group -->
 
                   <div class="accordion-group">
-                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="sala"> Pruebas </a> </div>
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="cocina"> Cocina </a> </div>
+                    <!-- /.accordion-heading -->
+
+                    <!-- /.accordion-body --> 
+                  </div>
+                  <!-- /.accordion-group -->
+
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="lavado"> Lavadora </a> </div>
+                    <!-- /.accordion-heading -->
+
+                    <!-- /.accordion-body --> 
+                  </div>
+                  <!-- /.accordion-group -->
+
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="refri"> Refrigerador </a> </div>
+                    <!-- /.accordion-heading -->
+
+                    <!-- /.accordion-body --> 
+                  </div>
+                  <!-- /.accordion-group -->
+
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="comedor"> Comedor </a> </div>
+                    <!-- /.accordion-heading -->
+
+                    <!-- /.accordion-body --> 
+                  </div>
+                  <!-- /.accordion-group -->
+
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="escritorio"> Escritorio </a> </div>
+                    <!-- /.accordion-heading -->
+
+                    <!-- /.accordion-body --> 
+                  </div>
+                  <!-- /.accordion-group -->
+
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="sala"> Sala </a> </div>
+                    <!-- /.accordion-heading -->
+
+                    <!-- /.accordion-body --> 
+                  </div>
+                  <!-- /.accordion-group -->
+
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="polos"> Polo Hombre </a> </div>
+                    <!-- /.accordion-heading -->
+
+                    <!-- /.accordion-body --> 
+                  </div>
+                  <!-- /.accordion-group -->
+
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="pantalones"> Pantalon Hombre </a> </div>
+                    <!-- /.accordion-heading -->
+
+                    <!-- /.accordion-body --> 
+                  </div>
+                  <!-- /.accordion-group -->
+
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="short"> Short Hombre </a> </div>
+                    <!-- /.accordion-heading -->
+
+                    <!-- /.accordion-body --> 
+                  </div>
+                  <!-- /.accordion-group -->
+
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="ternos"> Ternos </a> </div>
+                    <!-- /.accordion-heading -->
+
+                    <!-- /.accordion-body --> 
+                  </div>
+                  <!-- /.accordion-group -->
+
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="Polos y Blusas"> Polos Mujer </a> </div>
+                    <!-- /.accordion-heading -->
+
+                    <!-- /.accordion-body --> 
+                  </div>
+                  <!-- /.accordion-group -->
+
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="Faldas, Pantalones y Vestidos"> Pantalones y Vestidos Mujer </a> </div>
+                    <!-- /.accordion-heading -->
+
+                    <!-- /.accordion-body --> 
+                  </div>
+                  <!-- /.accordion-group -->
+
+                  <div class="accordion-group">
+                    <div class="accordion-heading"> <a href="#" data-toggle="collapse" class="item_catg accordion-toggle collapsed" category="Lencería"> Lencería Mujer </a> </div>
                     <!-- /.accordion-heading -->
 
                     <!-- /.accordion-body --> 
