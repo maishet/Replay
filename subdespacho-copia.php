@@ -64,11 +64,11 @@
 					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__yourBasketStepText" title="">Carrito de
 						Compras</span>
 				</div>
-				<div class="fbra_tab fbra_checkoutDeliverySteps__easyDeliveryStep fbra_test_checkoutDeliverySteps__easyDeliveryStep fbra_tab--completed fbra_tab--enabled fbra_tab--active">
-					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__easyDeliveryStepText" title="">Despacho</span>
+				<div class="fbra_tab fbra_checkoutDeliverySteps__easyDeliveryStep fbra_test_checkoutDeliverySteps__easyDeliveryStep fbra_tab--inProgress fbra_tab--enabled fbra_tab--active">
+					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__easyDeliveryStepText fbra_selected" title="">Despacho</span>
 				</div>
-				<div class="fbra_tab fbra_checkoutDeliverySteps__securePaymentStep fbra_test_checkoutDeliverySteps__securePaymentStep fbra_tab--inProgress fbra_tab--active">
-					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__securePaymentStepText fbra_selected" title="">Pago</span>
+				<div class="fbra_tab fbra_checkoutDeliverySteps__securePaymentStep fbra_test_checkoutDeliverySteps__securePaymentStep fbra_tab--disabled fbra_tab--inactive">
+					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__securePaymentStepText" title="">Pago</span>
 				</div>
 				<div class="fbra_tab fbra_checkoutDeliverySteps_confirmDeliveryStep fbra_test_checkoutDeliverySteps_confirmDeliveryStep fbra_tab--disabled fbra_tab--disabled fbra_tab--inactive">
 					<span class="fbra_text fbra_text fbra_checkoutDeliverySteps__confirmDeliveryStepText" title="">Confirmación</span>
@@ -82,7 +82,6 @@
 		<!-- Main content -->
 		<div class="fbra_mainContent">
 			<div class="fbra_deliveryOptionsTitle">
-				<h2 class="fbra_deliveryOptionsTitle__heading">Elige tus opciones de despacho</h2>
 			</div>
 			<div id="fbra_checkoutRegionAndComuna">
 				<div class="fbra_falabellaComponent fbra_falabellaComponentCheckoutRegionAndComuna"></div>
@@ -95,13 +94,12 @@
 							<div class="fbra_deliveryGroupsContainer__deliverToAddressTabContent fbra_test_deliveryGroupsContainer__deliverToAddressTabContent fbra_test_homeDeliveryTabContent--2">
 								<div class="fbra_tabSet fbra_deliveryGroupTabs fbra_test_deliveryGroupTabs">
 									<div class="fbra_tab fbra_deliveryGroupTab fbra_deliveryGroupTab--delivery fbra_test_deliveryGroupTab fbra_test_deliveryGroupTab--delivery fbra_tab--enabled fbra_tab--active">
-										<div class="fbra_deliveryGroupTab__container" data-gtm-vis-recent-on-screen-30979609_693="8560" data-gtm-vis-first-on-screen-30979609_693="8560" data-gtm-vis-total-visible-time-30979609_693="100" data-gtm-vis-has-fired-30979609_693="1">
+										<div class="fbra_deliveryGroupTab__container">
 											<h3 class="fbra_heading fbra_deliveryGroupTab__heading fbra_test_deliveryGroupTab__heading">Despacho a domicilio</h3>
 										</div>
 									</div>
 									<div class="fbra_tab fbra_deliveryGroupTab fbra_deliveryGroupTab--collect fbra_test_deliveryGroupTab fbra_test_deliveryGroupTab--collect fbra_tab--enabled fbra_tab--inactive">
-										<div class="fbra_deliveryGroupTab__container" data-gtm-vis-has-fired-30979609_693="1">
-											<h3 class="fbra_heading fbra_deliveryGroupTab__heading fbra_test_deliveryGroupTab__heading">Retira tu compra</h3>
+										<div class="fbra_deliveryGroupTab__container">
 										</div>
 									</div>
 								</div>
@@ -132,12 +130,9 @@
 																<div class="fbra_inputWrap"><label for="address" class="fbra_label fbra_inputTooltip"><span class="fbra_label_text">Calle</span>
 																		<p class="fbra_label_title"></p>
 																	</label><input type="text" id="address" name="address" maxlength="75" title="" class="fbra_input fbra_formItem__address fbra_formItem__field--invalid" autocomplete="on"></div>
-																<div class="fbra_fieldErrors fbra_test_fieldErrors fbra_fieldErrors--below">
-																	<div class="fbra_fieldErrors__error fbra_test_fieldErrors__error">Este campo es obligatorio.</div>
-																</div>
 															</div>
 															<!-- agregar fecha -->
-															
+
 															<!-- agregar fecha -->
 														</div>
 														<div class="fbra_formItem fbra_formItem--Button fbra_input--useAddress"><button class="fbra_button fbra_test_button fbra_formItem__useAddress" title="" name="useAddress">Usar dirección</button></div>
@@ -179,19 +174,11 @@
 						<div class="fbra_loadingWrapper">
 							<h2 class="fbra_heading fbra_test_orderSummary__orderSummaryHeading fbra_orderSummary__orderSummaryHeading">Resumen de tu orden</h2><span class="fbra_text fbra_test_orderSummary__numberOfItems fbra_orderSummary__numberOfItems" title="">Productos <span>(1)</span></span><span class="fbra_text fbra_test_orderSummary__itemsTotalPrice fbra_orderSummary__itemsTotalPrice" title="">S/ 59.94</span>
 							<div class="fbra_test_orderSummary__itemsContainer fbra_orderSummary__itemsContainer">
-								<ol class="fbra_test_orderSummary__items fbra_orderSummary__items">
-									<li class="fbra_test_orderSummary__item fbra_orderSummary__item"><a href="/falabella-pe/product/882185327/Ropa-de-Bano-Hombre/882185330" target="_blank" title="" defaultclassname="fbra_anchor" class="fbra_anchor" classnames=""><img src="https://falabella.scene7.com/is/image/FalabellaPE/882185330?$producto310$" alt="Ropa de Baño Hombre" title="Ropa de Baño Hombre" class="fbra_image fbra_test_orderSummary__itemImage fbra_orderSummary__itemImage"></a>
-										<div class="fbra_test_orderSummary__itemDetails fbra_orderSummary__itemDetails">
-											<div class="fbra-redesign-left"><span class="fbra_text fbra_test_orderSummary__itemProperty fbra_orderSummary__itemProperty" title="">CASCAIS.</span><span class="fbra_text fbra_test_orderSummary__itemProperty fbra_orderSummary__itemProperty__name" title="">Ropa de Baño Hombre</span><span class="fbra_text fbra_test_orderSummary__itemPrice fbra_orderSummary__itemPrice" title="">S/ 59.94</span></div>
-											<div class="fbra-redesign-right"><span class="fbra_text fbra_orderSummary__itemProperty--no-capital fbra_test_orderSummary__quantity_and_sku" title="">Código: 882185330</span>
-												<div class="fbra_test_orderSummary__quantity_and_sku prod">1 un. </div>
-												<div class="fbra_test_orderSummary__quantity_and_sku color warrantyProduct">
-													M , Azul</div>
-											</div>
-										</div>
-									</li>
+								<!-- we de productos-->
+								<ol id="prodresumen" class="fbra_test_orderSummary__items fbra_orderSummary__items">
+								<!-- we de productos-->
 								</ol>
-							</div><a class="fbra_anchor fbra_test_orderSummary__editItems fbra_orderSummary__editItems fbra_OrderSummary__edit" href="" target="" title="" defaultclassname="fbra_anchor" classnames="">Volver a la Bolsa</a>
+							</div><a class="fbra_anchor fbra_test_orderSummary__editItems fbra_orderSummary__editItems fbra_OrderSummary__edit" href="shopping-cart.php" target="" title="" defaultclassname="fbra_anchor" classnames="">Volver a la Bolsa</a>
 							<ul class="fbra_test_orderSummary__totalCosts fbra_orderSummary__totalCosts">
 								<li class="fbra_test_orderSummary__totalCost fbra_orderSummary__totalCost"><span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Monto final a pagar:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="">S/ 59.94</span></li>
 							</ul>
@@ -199,20 +186,6 @@
 					</section>
 				</div>
 			</div>
-
-			<section class="fbra_paymentIcons">
-				<ul class="fbra_paymentIcons__list">
-					<li class="fbra_paymentIcons__listItem fbra_paymentIcons__secureCheckoutListItem">
-						<a href="" class="fbra_paymentIcons_link">Pago Seguro</a>
-					</li>
-					<li class="fbra_paymentIcons__listItem fbra_paymentIcons__easyReturnsListItem">
-						<a href="" class="fbra_paymentIcons_link">Cambios y Devoluciones</a>
-					</li>
-					<li class="fbra_paymentIcons__listItem fbra_paymentIcons__happyCustomersListItem">
-						<a href="" class="fbra_paymentIcons_link">Miles de clientes felices</a>
-					</li>
-				</ul>
-			</section>
 		</div>
 		<!-- Sidebar ends -->
 
