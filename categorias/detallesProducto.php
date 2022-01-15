@@ -278,7 +278,7 @@ else{
                       <div class="">
                         <div class="stock-box">
                           <span >Unidades disponibles :</span>
-                          <span class="value">5+</span>
+                          <span class="value" id="stock-dis">5+</span>
                         </div>	
                       </div>
                 
