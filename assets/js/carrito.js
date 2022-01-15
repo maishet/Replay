@@ -561,19 +561,17 @@ class Carrito {
         productosLS = this.obtenerProductosLocalStorage();
         productosLS.forEach(function (producto){
             //Construir plantilla
-            const row = document.createElement('tr');
-            var reseña = Math.floor((Math.random() * (21-3))+3); //genera un numero aleatorio entre 3 y 20
+            const row = document.createElement('li');
+            row.className = 'fbra_test_orderSummary__item fbra_orderSummary__item';
+            var reseña = Math.floor((Math.random() * (999999)-100000)+100000); //generamos un numero aleatorio de 4 digitos
             row.innerHTML = `
-                <td class="cart-image">
-                    <a class="entry-thumbnail" href="${producto.link}">
-                        <img class="imgpago" src="${producto.imagen}" alt="">
-                    </a>
-                </td>
-                <td class="cart-product-name-info">
-                    <h4 class=''><a href="${producto.link}">${producto.titulo}</a></h4>
-                </td>
-                <td class="cart-product-sub-total"><span class="cart-sub-total-price">S/.${producto.precio}</span></td>
-                <h6>Cantidad: ${producto.cantidad}</h6>  
+                <a href="${producto.link}" target="_blank" title="" defaultclassname="fbra_anchor" class="fbra_anchor" classnames=""><img src="${producto.imagen}" alt="" title="${producto.titulo}" class="fbra_image fbra_test_orderSummary__itemImage fbra_orderSummary__itemImage"></a>
+                <div class="fbra_test_orderSummary__itemDetails fbra_orderSummary__itemDetails">
+                    <div class="fbra-redesign-left"><span class="fbra_text fbra_test_orderSummary__itemProperty fbra_orderSummary__itemProperty__name" title="">${producto.titulo}</span><span class="fbra_text fbra_test_orderSummary__itemPrice fbra_orderSummary__itemPrice" title="">S/ ${producto.precio}</span></div>
+                    <div class="fbra-redesign-right"><span class="fbra_text fbra_orderSummary__itemProperty--no-capital fbra_test_orderSummary__quantity_and_sku" title="">Código: ${reseña}</span>
+                        <div class="fbra_test_orderSummary__quantity_and_sku prod">${producto.cantidad} un. </div>
+                    </div>
+                </div>
             `;
             listaprodresumen.appendChild(row);
         });
