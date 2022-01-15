@@ -2778,7 +2778,7 @@ h1.fbra_markdownHeading {
 @media screen and (min-width: 1025px) {
   .fbra_mainContent {
     float: left;
-    width: 66.66%;
+    width: 100%;
     position: relative;
   }
 }
@@ -2840,13 +2840,29 @@ h1.fbra_markdownHeading {
   .fbra_sidebar {
     float: right;
     width: 33.33%;
-    padding-left: 40px;
+    padding-left: 10px;
+    padding-right: 30px;
   }
 }
 .fbra_footer {
   background: #fff;
   height: auto;
   clear: both;
+}
+.contorno{
+  border: 1px solid #000;
+}
+.arregloo{
+  background: #C4C4C4;
+  border-radius: 15px 15px 0px 0px ;
+  font-size: 24px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+.sss{
+  border-bottom: 1px solid #000000;
+  display: block;
 }
 .fbra_contLinks {
   padding: 5px 0;
@@ -6878,7 +6894,7 @@ h1.fbra_markdownHeading {
   background-position: -10px;
   background-size: 35px 35px;
   color: #333;
-  width: auto;
+  width: 100%;
   padding-left: 23px;
   margin-top: 0;
 }

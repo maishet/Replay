@@ -76,21 +76,22 @@
     <div class="fbra_container fbra_mainContainer">
         <!-- Main content -->
         <div class="fbra_mainContent">
-            
+
             <div id="fbra_checkoutRegionAndComuna">
-                
+
                 <div class="fbra_falabellaComponent fbra_falabellaComponentCheckoutRegionAndComuna">
-                <div class="fbra_deliveryOptionsTitle">
-                            <h2 class="movil">Elige tus opciones de despacho</h2>
-                        </div>
+                    <div class="fbra_deliveryOptionsTitle">
+                        <h2 class="movil">Elige tus opciones de despacho</h2>
+                    </div>
                     <section class="fbra_appContainer fbra_test_appContainer">
-                        
+
                         <section class="fbra_appContainer__formContainer fbra_test_appContainer__formContainer">
 
                             <p class="fbra_paragraph fbra_unrecognizedUser__useOrEditText">Selecciona el Departamento, Provincia y Distrito donde quieres despachar o retirar tus productos</p>
                             <div class="contieneNumberAndAcompaña">
-									<div class="numberCircle">1</div><div class="acompañaCircle">Ingrese tu dirección</div>
-						    </div>    
+                                <div class="numberCircle">1</div>
+                                <div class="acompañaCircle">Ingrese tu dirección</div>
+                            </div>
                             <form class="fbra_appContainer__form fbra_test_appContainer__form">
                                 <div class="fbra_loadingWrapper">
                                     <div class="fbra_appContainer__selectField fbra_test_appContainer__selectField">
@@ -128,7 +129,7 @@
                                         <div class="fbra_formItem fbra_formItem--Select fbra_input--ciudad">
                                             <div class="fbra_test_selectItem fbra_selectItem fbra_formItem__ciudad"><label for="ciudad" class="fbra_label fbra_selectItem__label fbra_inputTooltip fbra_test_selectItem__label">Provincia<p class="fbra_label_title"></p></label><select id="ciudad" name="ciudad" class="fbra_select fbra_formItem__ciudad">
                                                     <option class="fbra_selectOption" value="">Selecciona una provinicia</option>
-                                                    
+
                                                     <option class="fbra_selectOption" value="40000">BARRANCA</option>
                                                     <option class="fbra_selectOption" value="40000">CAJATAMBO</option>
                                                     <option class="fbra_selectOption" value="40000">CANTA</option>
@@ -138,13 +139,13 @@
                                                     <option class="fbra_selectOption" value="20000">LIMA</option>
                                                     <option class="fbra_selectOption" value="20000">OYON</option>
                                                     <option class="fbra_selectOption" value="20000">YAUYOS</option>
-                                                    
+
                                                 </select></div>
                                         </div>
                                     </div>
                                     <div class="fbra_appContainer__selectField fbra_test_appContainer__selectField">
                                         <div class="fbra_formItem fbra_formItem--Select fbra_input--comuna">
-                                            <div class="fbra_test_selectItem fbra_selectItem fbra_formItem__comuna"><label for="comuna" class="fbra_label fbra_selectItem__label fbra_inputTooltip fbra_test_selectItem__label">Distrito<p class="fbra_label_title"></p></label><select id="comuna" name="comuna"  class="fbra_select fbra_formItem__comuna">
+                                            <div class="fbra_test_selectItem fbra_selectItem fbra_formItem__comuna"><label for="comuna" class="fbra_label fbra_selectItem__label fbra_inputTooltip fbra_test_selectItem__label">Distrito<p class="fbra_label_title"></p></label><select id="comuna" name="comuna" class="fbra_select fbra_formItem__comuna">
                                                     <option class="fbra_selectOption" value="">Selecciona un distrito</option>
                                                     <option class="fbra_selectOption" value="40000">ANCÓN</option>
                                                     <option class="fbra_selectOption" value="40000">ATE</option>
@@ -174,17 +175,46 @@
                                         <div class="cuadroBotonRegresar">
                                             <button type="" class="botonRegresar">Regresar</button>
                                         </div>
-                                    <div class="cuadroBotonContinuar">
-                                        <button type="" class="botonContinuar">Continuar</button>
+                                        <div class="cuadroBotonContinuar">
+                                            <button type="" class="botonContinuar">Continuar</button>
+                                        </div>
                                     </div>
-                                    </div>
-                                    
+
                                 </div>
                             </form>
                         </section>
                     </section>
+                    <div class="fbra_sidebar">
+                    <h2 class="fbra_heading fbra_test_orderSummary__orderSummaryHeading fbra_orderSummary__orderSummaryHeading arregloo"><center>Resumen de tu orden</center></h2>
+                        <div id="fbra_checkoutOrderSummary" class="contorno">
+                            <div class="fbra_falabellaComponent fbra_falabellaComponentCheckoutOrderSummary payment-redesign">
+                                <section class="fbra_section fbra_orderSummary" title="">
+                                    <div class="fbra_loadingWrapper">
+                                        <div class="sss"><span class="fbra_text fbra_test_orderSummary__numberOfItems fbra_orderSummary__numberOfItems" title="">Productos</span><span class="fbra_text fbra_test_orderSummary__itemsTotalPrice fbra_orderSummary__itemsTotalPrice" title="">Detalles</span></div>
+                                        <div class="fbra_test_orderSummary__itemsContainer fbra_orderSummary__itemsContainer">
+                                            <ol class="fbra_test_orderSummary__items fbra_orderSummary__items">
+                                                <li class="fbra_test_orderSummary__item fbra_orderSummary__item"><a href="/falabella-pe/product/18243266/Polo-Manga-Corta-Hombre/18243268" target="_blank" title="" defaultclassname="fbra_anchor" class="fbra_anchor" classnames=""><img src="https://falabella.scene7.com/is/image/FalabellaPE/18243268?$producto310$" alt="Polo Manga Corta Hombre" title="Polo Manga Corta Hombre" class="fbra_image fbra_test_orderSummary__itemImage fbra_orderSummary__itemImage"></a>
+                                                    <div class="fbra_test_orderSummary__itemDetails fbra_orderSummary__itemDetails">
+                                                        <div class="fbra-redesign-left"><span class="fbra_text fbra_test_orderSummary__itemProperty fbra_orderSummary__itemProperty" title="">BENETTON</span><span class="fbra_text fbra_test_orderSummary__itemProperty fbra_orderSummary__itemProperty__name" title="">Polo Manga Corta Hombre</span><span class="fbra_text fbra_test_orderSummary__itemPrice fbra_orderSummary__itemPrice" title="">S/ 49.95</span></div>
+                                                        <div class="fbra-redesign-right"><span class="fbra_text fbra_orderSummary__itemProperty--no-capital fbra_test_orderSummary__quantity_and_sku" title="">Código: 18243268</span>
+                                                            <div class="fbra_test_orderSummary__quantity_and_sku prod">2 un. </div>
+                                                            <div class="fbra_test_orderSummary__quantity_and_sku color warrantyProduct">
+                                                                M , Negro 1</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ol>
+                                        </div><a class="fbra_anchor fbra_test_orderSummary__editItems fbra_orderSummary__editItems fbra_OrderSummary__edit sss" href="" target="" title="" defaultclassname="fbra_anchor" classnames="">Volver a la Bolsa</a>
+                                        <ul class="fbra_test_orderSummary__totalCosts fbra_orderSummary__totalCosts">
+                                            <li class="fbra_test_orderSummary__totalCost fbra_orderSummary__totalCost"><span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Monto final a pagar:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="">S/ 99.90</span></li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
+
             </div>
 
             <div id="fbra_checkoutDeliverAndCollect">
@@ -202,40 +232,13 @@
             <div id="fbra_checkoutTemporaryPassword">
                 <div class="props context refs updater state _reactInternalFiber"></div>
             </div>
-            
+
 
         </div>
         <!-- Main content ends -->
 
         <!-- Sidebar -->
-        <div class="fbra_sidebar">
-            <div id="fbra_checkoutOrderSummary">
-                <div class="fbra_falabellaComponent fbra_falabellaComponentCheckoutOrderSummary payment-redesign">
-                    <section class="fbra_section fbra_orderSummary" title="">
-                        <div class="fbra_loadingWrapper">
-                            <h2 class="fbra_heading fbra_test_orderSummary__orderSummaryHeading fbra_orderSummary__orderSummaryHeading">Resumen de tu orden</h2><span class="fbra_text fbra_test_orderSummary__numberOfItems fbra_orderSummary__numberOfItems" title="">Productos <span>(1)</span></span><span class="fbra_text fbra_test_orderSummary__itemsTotalPrice fbra_orderSummary__itemsTotalPrice" title="">S/ 99.90</span>
-                            <div class="fbra_test_orderSummary__itemsContainer fbra_orderSummary__itemsContainer">
-                                <ol class="fbra_test_orderSummary__items fbra_orderSummary__items">
-                                    <li class="fbra_test_orderSummary__item fbra_orderSummary__item"><a href="/falabella-pe/product/18243266/Polo-Manga-Corta-Hombre/18243268" target="_blank" title="" defaultclassname="fbra_anchor" class="fbra_anchor" classnames=""><img src="https://falabella.scene7.com/is/image/FalabellaPE/18243268?$producto310$" alt="Polo Manga Corta Hombre" title="Polo Manga Corta Hombre" class="fbra_image fbra_test_orderSummary__itemImage fbra_orderSummary__itemImage"></a>
-                                        <div class="fbra_test_orderSummary__itemDetails fbra_orderSummary__itemDetails">
-                                            <div class="fbra-redesign-left"><span class="fbra_text fbra_test_orderSummary__itemProperty fbra_orderSummary__itemProperty" title="">BENETTON</span><span class="fbra_text fbra_test_orderSummary__itemProperty fbra_orderSummary__itemProperty__name" title="">Polo Manga Corta Hombre</span><span class="fbra_text fbra_test_orderSummary__itemPrice fbra_orderSummary__itemPrice" title="">S/ 49.95</span></div>
-                                            <div class="fbra-redesign-right"><span class="fbra_text fbra_orderSummary__itemProperty--no-capital fbra_test_orderSummary__quantity_and_sku" title="">Código: 18243268</span>
-                                                <div class="fbra_test_orderSummary__quantity_and_sku prod">2 un. </div>
-                                                <div class="fbra_test_orderSummary__quantity_and_sku color warrantyProduct">
-                                                    M , Negro 1</div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ol>
-                            </div><a class="fbra_anchor fbra_test_orderSummary__editItems fbra_orderSummary__editItems fbra_OrderSummary__edit" href="" target="" title="" defaultclassname="fbra_anchor" classnames="">Volver a la Bolsa</a>
-                            <ul class="fbra_test_orderSummary__totalCosts fbra_orderSummary__totalCosts">
-                                <li class="fbra_test_orderSummary__totalCost fbra_orderSummary__totalCost"><span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Monto final a pagar:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="">S/ 99.90</span></li>
-                            </ul>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
+
         <!-- Sidebar ends -->
 
         <!-- MainFooter -->
