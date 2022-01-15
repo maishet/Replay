@@ -1581,7 +1581,7 @@ h6 {
   .fbra_falabellaComponentCheckoutDeliverySteps.fbra_appContainer,
 .fbra_falabellaComponentCheckoutSignIn
   .fbra_falabellaComponentCheckoutDeliverySteps.fbra_appContainer {
-  padding: 5px 40px 25px;
+  padding: 5px 20px 25px;
 }
 @media screen and (max-width: 500px) {
   .fbra_falabellaComponent.fbra_falabellaComponentCheckoutDeliverySteps,
@@ -3098,6 +3098,10 @@ h1.fbra_markdownHeading {
     .fbra_unrecognizedUser__signInForm {
     padding-top: 20px;
   }
+}
+.movil{
+  margin-left: 4%;
+  padding-top: 4%;
 }
 @media screen and (max-width: 736px) {
   .fbra_falabellaComponentCheckoutFasterCheckout

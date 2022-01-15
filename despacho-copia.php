@@ -76,19 +76,27 @@
     <div class="fbra_container fbra_mainContainer">
         <!-- Main content -->
         <div class="fbra_mainContent">
-            <div class="fbra_deliveryOptionsTitle">
-                <h2 class="fbra_deliveryOptionsTitle__heading">Elige tus opciones de despacho</h2>
-            </div>
+            
             <div id="fbra_checkoutRegionAndComuna">
+                
                 <div class="fbra_falabellaComponent fbra_falabellaComponentCheckoutRegionAndComuna">
+                <div class="fbra_deliveryOptionsTitle">
+                            <h2 class="movil">Elige tus opciones de despacho</h2>
+                        </div>
                     <section class="fbra_appContainer fbra_test_appContainer">
+                        
                         <section class="fbra_appContainer__formContainer fbra_test_appContainer__formContainer">
+
                             <p class="fbra_paragraph fbra_unrecognizedUser__useOrEditText">Selecciona el Departamento, Provincia y Distrito donde quieres despachar o retirar tus productos</p>
+                            <div class="contieneNumberAndAcompaña">
+									<div class="numberCircle">1</div><div class="acompañaCircle">Ingrese tu dirección</div>
+						    </div>    
                             <form class="fbra_appContainer__form fbra_test_appContainer__form">
                                 <div class="fbra_loadingWrapper">
                                     <div class="fbra_appContainer__selectField fbra_test_appContainer__selectField">
                                         <div class="fbra_formItem fbra_formItem--Select fbra_input--region">
-                                            <div class="fbra_test_selectItem fbra_selectItem fbra_formItem__region"><label for="region" class="fbra_label fbra_selectItem__label fbra_inputTooltip fbra_test_selectItem__label">Departamento<p class="fbra_label_title"></p></label><select id="region" name="region" class="fbra_select fbra_formItem__region">
+                                            <div class="fbra_test_selectItem fbra_selectItem fbra_formItem__region"><label for="region" class="fbra_label fbra_selectItem__label fbra_inputTooltip fbra_test_selectItem__label">Departamento<p class="fbra_label_title"></p></label>
+                                                <select id="region" name="region" class="fbra_select fbra_formItem__region">
                                                     <option class="fbra_selectOption" value="">Por favor selecciona un departamento</option>
                                                     <option class="fbra_selectOption" value="20000">ANCASH</option>
                                                     <option class="fbra_selectOption" value="30000">APURIMAC</option>
@@ -112,31 +120,71 @@
                                                     <option class="fbra_selectOption" value="230000">TACNA</option>
                                                     <option class="fbra_selectOption" value="240000">TUMBES</option>
                                                     <option class="fbra_selectOption" value="250000">UCAYALI</option>
-                                                </select></div>
+                                                </select>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="fbra_appContainer__selectField fbra_test_appContainer__selectField">
                                         <div class="fbra_formItem fbra_formItem--Select fbra_input--ciudad">
-                                            <div class="fbra_test_selectItem fbra_selectItem fbra_formItem__ciudad"><label for="ciudad" class="fbra_label fbra_selectItem__label fbra_inputTooltip fbra_test_selectItem__label">Provincia<p class="fbra_label_title"></p></label><select id="ciudad" name="ciudad" disabled="" class="fbra_select fbra_formItem__ciudad">
+                                            <div class="fbra_test_selectItem fbra_selectItem fbra_formItem__ciudad"><label for="ciudad" class="fbra_label fbra_selectItem__label fbra_inputTooltip fbra_test_selectItem__label">Provincia<p class="fbra_label_title"></p></label><select id="ciudad" name="ciudad" class="fbra_select fbra_formItem__ciudad">
                                                     <option class="fbra_selectOption" value="">Selecciona una provinicia</option>
+                                                    
+                                                    <option class="fbra_selectOption" value="40000">BARRANCA</option>
+                                                    <option class="fbra_selectOption" value="40000">CAJATAMBO</option>
+                                                    <option class="fbra_selectOption" value="40000">CANTA</option>
+                                                    <option class="fbra_selectOption" value="20000">CAÑETE</option>
+                                                    <option class="fbra_selectOption" value="20000">HUAROCHIRÍ</option>
+                                                    <option class="fbra_selectOption" value="30000">HUAURA</option>
+                                                    <option class="fbra_selectOption" value="20000">LIMA</option>
+                                                    <option class="fbra_selectOption" value="20000">OYON</option>
+                                                    <option class="fbra_selectOption" value="20000">YAUYOS</option>
+                                                    
                                                 </select></div>
                                         </div>
                                     </div>
                                     <div class="fbra_appContainer__selectField fbra_test_appContainer__selectField">
                                         <div class="fbra_formItem fbra_formItem--Select fbra_input--comuna">
-                                            <div class="fbra_test_selectItem fbra_selectItem fbra_formItem__comuna"><label for="comuna" class="fbra_label fbra_selectItem__label fbra_inputTooltip fbra_test_selectItem__label">Distrito<p class="fbra_label_title"></p></label><select id="comuna" name="comuna" disabled="" class="fbra_select fbra_formItem__comuna">
+                                            <div class="fbra_test_selectItem fbra_selectItem fbra_formItem__comuna"><label for="comuna" class="fbra_label fbra_selectItem__label fbra_inputTooltip fbra_test_selectItem__label">Distrito<p class="fbra_label_title"></p></label><select id="comuna" name="comuna"  class="fbra_select fbra_formItem__comuna">
                                                     <option class="fbra_selectOption" value="">Selecciona un distrito</option>
+                                                    <option class="fbra_selectOption" value="40000">ANCÓN</option>
+                                                    <option class="fbra_selectOption" value="40000">ATE</option>
+                                                    <option class="fbra_selectOption" value="40000">BARRANCO</option>
+                                                    <option class="fbra_selectOption" value="40000">BREÑA</option>
+                                                    <option class="fbra_selectOption" value="40000">CARABAYLLO</option>
+                                                    <option class="fbra_selectOption" value="40000">CHACLACAYO</option>
+                                                    <option class="fbra_selectOption" value="40000">CHORRILLOS</option>
+                                                    <option class="fbra_selectOption" value="40000">CIENEGUILLA</option>
+                                                    <option class="fbra_selectOption" value="40000">EL AGUSTINO</option>
+                                                    <option class="fbra_selectOption" value="40000">INDEPENDENCIA</option>
+                                                    <option class="fbra_selectOption" value="40000">JESÚS MARÍA</option>
+                                                    <option class="fbra_selectOption" value="40000">LA MOLINA</option>
+                                                    <option class="fbra_selectOption" value="40000">LA VICTORIA</option>
+                                                    <option class="fbra_selectOption" value="40000">LIMA</option>
+                                                    <option class="fbra_selectOption" value="40000">LINCE</option>
+                                                    <option class="fbra_selectOption" value="40000">LOS OLIVOS</option>
+                                                    <option class="fbra_selectOption" value="40000">LURIGANCHO-CHOSICA</option>
+                                                    <option class="fbra_selectOption" value="40000">LURÍN</option>
+                                                    <option class="fbra_selectOption" value="40000">MAGDALENA DEL MAR</option>
+                                                    <option class="fbra_selectOption" value="40000">MIRAFLORES</option>
+                                                    <option class="fbra_selectOption" value="40000">PACHACÁMAC</option>
+                                                    <option class="fbra_selectOption" value="40000">PUCUSANA</option>
+                                                    <option class="fbra_selectOption" value="40000">PUEBLO LIBRE</option>
                                                 </select></div>
                                         </div>
+                                        <div class="cuadroBotonRegresar">
+                                            <button type="" class="botonRegresar">Regresar</button>
+                                        </div>
+                                    <div class="cuadroBotonContinuar">
+                                        <button type="" class="botonContinuar">Continuar</button>
                                     </div>
-                                    <div class="fbra_appContainer__buttonField fbra_test_appContainer__buttonField">
-                                        <div class="fbra_formItem fbra_formItem--Button fbra_input--field04"><button class="fbra_button__inActive" title="" disabled="" name="field04">Continuar</button></div>
                                     </div>
+                                    
                                 </div>
                             </form>
                         </section>
                     </section>
                 </div>
+                
             </div>
 
             <div id="fbra_checkoutDeliverAndCollect">
@@ -154,6 +202,7 @@
             <div id="fbra_checkoutTemporaryPassword">
                 <div class="props context refs updater state _reactInternalFiber"></div>
             </div>
+            
 
         </div>
         <!-- Main content ends -->
