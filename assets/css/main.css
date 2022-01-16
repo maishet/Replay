@@ -1017,7 +1017,7 @@ color: #fff;
 .especificaciones-informacion .informacion-producto h3{
   margin-top: 10px;
   margin-bottom: 20px;
-  font-size:28px;
+  font-size:23px;
 }
 .especificaciones-informacion .informacion-producto p{
   font-size:16px;
@@ -1370,6 +1370,9 @@ color: #fff;
   font-weight: 500;
   background-color: rgb(238, 207, 54,0.15);
   width: 212px;
+}
+.cart-quantity input{
+  pointer-events: none;
 }
 /*Fin Detalles del Producto =====================================================================*/
 

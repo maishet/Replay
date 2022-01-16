@@ -36,6 +36,10 @@
 </head>
 
 <body class="cnt-home">
+<?php
+     include('ventanaComentario.html');
+  ?>
+
   <!-- ============================================== HEADER ============================================== -->
 <?php 
 /*session_start();
@@ -154,16 +158,18 @@ else{
                       <div class="col-lg-12 detalles">
                         <div>
                           <div class="pull-left">
-                            <i class='bx bxs-star activo'></i>
-                            <i class='bx bxs-star activo'></i>
-                            <i class='bx bxs-star activo'></i>
+                            <span id="calEstrellasGen1">
                             <i class='bx bxs-star inactivo'></i>
                             <i class='bx bxs-star inactivo'></i>
-                            <span class="puntaje">5.0 (3)</span>
+                            <i class='bx bxs-star inactivo'></i>
+                            <i class='bx bxs-star inactivo'></i>
+                            <i class='bx bxs-star inactivo'></i>
+                          </span>
+                          <span class="puntaje"><span id="calificacion-general1">0</span> (<span id="cantidad-comentarios1">0</span>)</span>
                           </div>
                           <div class="pull-left">
                             <div class="reviews">
-                              <a href="#" class="link1">Escribir comentario</a>
+                            <a id="btn-abrir1" class="link1">Escribir comentario</a>
                             </div>
                           </div>
                         </div>
@@ -227,7 +233,7 @@ else{
                             <div class="">
                               <div class="stock-box">
                                 <span>Unidades disponibles :</span>
-                                <span class="value">3+</span>
+                                <span class="value" id="stock-dis">3+</span>
                               </div>
                             </div>
 
@@ -238,10 +244,8 @@ else{
                             <div class="cart-quantity">
                               <div class="quant-input cantidad">
                                 <div class="arrows">
-                                  <div class="arrow plus gradient" onclick="sumar()"><span class="ir"><i
-                                        class="icon fa fa-sort-asc"></i></span></div>
-                                  <div class="arrow minus gradient" onclick="restar()"><span class="ir"><i
-                                        class="icon fa fa-sort-desc"></i></span></div>
+                                <div class="arrow plus gradient"  id="sumar"><span class="ir"><i class="icon fa fa-sort-asc"></i></span></div>
+                                      <div class="arrow minus gradient" id="restar"><span class="ir"><i class="icon fa fa-sort-desc"></i></span></div>
                                 </div>
                                 <input type="text" id="input-number" value="1">
                                 <!-- <input id="number" type="number" value="1" min="1"> -->
@@ -346,57 +350,44 @@ else{
                       <div class="calificacion-cont">
                         <span class="subt">Calificación general</span>
                         <!-- <button class="boton">ESCRIBIR COMENTARIO</button> -->
-                        <a class="btn boton">ESCRIBIR COMENTARIO</a>
+                        <a class="btn boton" id="btn-abrir2">ESCRIBIR COMENTARIO</a>
                       </div>
                       <div class="m-t-10 calificacion-general">
-                        <i class='bx bxs-star activo'></i>
-                        <i class='bx bxs-star activo'></i>
-                        <i class='bx bxs-star activo'></i>
-                        <i class='bx bxs-star inactivo'></i>
-                        <i class='bx bxs-star inactivo'></i>
-                        <span class="puntaje">5.0 (3)</span>
+                        <span id="calEstrellasGen2">
+                          <i class='bx bxs-star inactivo'></i>
+                            <i class='bx bxs-star inactivo'></i>
+                            <i class='bx bxs-star inactivo'></i>
+                            <i class='bx bxs-star inactivo'></i>
+                            <i class='bx bxs-star inactivo'></i>
+                        </span>
+                        <span class="puntaje"><span id="calificacion-general2">0</span> (<span id="cantidad-comentarios2">0</span> calificaciones)</span>
                       </div>
-                      <div class="m-t-20">
+                      <div class="m-t-20" id="contenedor-comentarios">
                         <div class="estrellas-comentarios">
-                          <div><span>5</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
-                          <div><span>4</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
-                          <div><span>3</span><i class='bx bxs-star'></i><span>3</span><span> comentarios</span></div>
-                          <div><span>2</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
-                          <div><span>1</span><i class='bx bxs-star'></i><span>0</span><span> comentarios</span></div>
+                        <div><span>5</span><i class='bx bxs-star'></i><span id="5estrellas">0</span><span> calificaciones</span></div>
+                        <div><span>4</span><i class='bx bxs-star'></i><span id="4estrellas">0</span><span> calificaciones</span></div>
+                        <div><span>3</span><i class='bx bxs-star'></i><span id="3estrellas">0</span><span> calificaciones</span></div>
+                        <div><span>2</span><i class='bx bxs-star'></i><span id="2estrellas">0</span><span> calificaciones</span></div>
+                        <div><span>1</span><i class='bx bxs-star'></i><span id="1estrellas">0</span><span> calificaciones</span></div>
 
                         </div>
                         <div class="m-t-20 cont-bottom">
-                          <div class="cont1"><span>1-4 de 3 comentarios</span></div>
+                        <div class="cont1"><span id="cantidad-comentarios3">0</span><span> comentarios</span></div>
                           <div class="ordenar">
                             <p>Ordenar por:</p>
-                            <div><span>Seleccionar <i class='bx bxs-down-arrow'></i></span></div>
+                            <select name=""  id="ordenarComentarios" >
+                              <option value="" id="first">Seleccionar</option>
+                              <option value="1" selected>Más recientes</option>
+                              <option value="2" >De menor a mayor calificación</option>
+                              <option value="3" >De mayor a menor calificación</option>
+                            </select>
                           </div>
                         </div>
-                        <hr>
-                        <div class="comentario">
-                          <div class="cont1">
-                            <p class="autor">Autor</p>
-                            <span class="tiempo">Hace 4 meses</span>
-                          </div>
-                          <div class="calificacion">
-                            <i class='bx bxs-star activo'></i>
-                            <i class='bx bxs-star activo'></i>
-                            <i class='bx bxs-star activo'></i>
-                            <i class='bx bxs-star inactivo'></i>
-                            <i class='bx bxs-star inactivo'></i>
-                          </div>
-                          <div class="descripcion">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. fugit quos tenetur, voluptates
-                              debitis
-                              possimus asperiores doloremque.</p>
-                          </div>
-                          <div>
-                            <span>¿Te fue útil este comentario?</span> <button class="btn-si">Si: 0</button>
-                            <button class="btn-no">No: 0</button>
-                          </div>
-                          <hr>
-                        </div>
+                        <div id="comentarios">
+
                       </div>
+                      </div>
+                      <hr>
                     </div>
                   </div><!-- /.tab-pane -->
                 </div><!-- /.tab-content -->
