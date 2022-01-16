@@ -178,13 +178,9 @@
 
 								</div>
 							</form>
-							<div>
-								<div class="cuadroBotonRegresar">
-									<a href="shopping-cart.php"><button type="" class="botonRegresar">Regresar</button></a>
-								</div>
-								<div class="cuadroBotonContinuar">
-									<a href="subdespacho.php"><button type="submit" class="botonContinuar">Continuar</button></a>
-								</div>
+							<div style="display: flex;">
+								<div class="fbra_formItem fbra_formItem--Button fbra_input--useAddress" style="padding: 20px; "><a href="shopping-cart.php"><button class="botonRegresar" title="">Regresar</button></a></div>
+								<div class="fbra_formItem fbra_formItem--Button fbra_input--useAddress" style="padding: 20px;"><a href="subdespacho.php"><button class="botonContinuar" title="">Continuar</button></a></div>
 							</div>
 						</section>
 					</section>

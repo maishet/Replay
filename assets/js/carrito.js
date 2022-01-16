@@ -1,17 +1,18 @@
 class Carrito {
     //añadir de un producto detallado
     comprarProductoDetalle(e) {
-        e.preventDefault();
-        //Delegado para agregar al carrito
-        //console.log(e.target);
-        if (e.target.classList.contains('btn-agregar')) { //"agregar-carrito
-            const producto = e.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
-            //Enviamos el producto seleccionado para tomar sus datos
-            this.leerDatosProductoDetalle(producto);
-            //console.log(producto);
-        } e.stopPropagation();
-    }
-    //Añadir producto al carrito de deseos
+            e.preventDefault();
+            //Delegado para agregar al carrito
+            //console.log(e.target);
+            if (e.target.classList.contains('btn-agregar')) { //"agregar-carrito
+                const producto = e.target.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
+                //Enviamos el producto seleccionado para tomar sus datos
+                this.leerDatosProductoDetalle(producto);
+                //console.log(producto);
+            }
+            e.stopPropagation();
+        }
+        //Añadir producto al carrito de deseos
     comprarProductoDeseo(e) {
         e.preventDefault();
         //console.log(e.target);
@@ -21,7 +22,8 @@ class Carrito {
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProductoDeseo(producto);
             //console.log(producto);
-        } e.stopPropagation();
+        }
+        e.stopPropagation();
     }
 
     //Añadir producto al carrito de OFERTAS
@@ -33,7 +35,8 @@ class Carrito {
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProducto(producto);
             //console.log(producto);
-        } e.stopPropagation();
+        }
+        e.stopPropagation();
     }
 
     //añadir de nuevos productos al carrito
@@ -47,7 +50,8 @@ class Carrito {
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProducto(producto1);
             //console.log(producto1);
-        } e.stopPropagation();
+        }
+        e.stopPropagation();
     }
 
     // añadir productos tecnologia al carrito
@@ -60,7 +64,8 @@ class Carrito {
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProducto(producto2);
             //console.log(producto1);
-        } e.stopPropagation();
+        }
+        e.stopPropagation();
     }
 
     // añadir productos destacados al carrito
@@ -73,55 +78,56 @@ class Carrito {
             //Enviamos el producto seleccionado para tomar sus datos
             this.leerDatosProducto(producto3);
             //console.log(producto1);
-        } e.stopPropagation();
+        }
+        e.stopPropagation();
     }
 
     // añadir en producto por categoria
     comprarProductoctg(e) {
-        e.preventDefault();
-        //Delegado para agregar al carrito
-        if (e.target.classList.contains('agregar-carrito')) { //"agregar-carrito
-            const producto = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
-            //Enviamos el producto seleccionado para tomar sus datos
-            this.leerDatosProducto(producto);
-            //console.log(producto);
-        } e.stopPropagation();
-    }
-    //leer de productos detalle
-    leerDatosProductoDetalle(producto) {
-        const infoProducto = {
-            imagen: producto.querySelector('img').src,
-            titulo: producto.querySelector('h1').textContent,
-            precio: producto.querySelector('.precio span.price').textContent,
-            id: producto.querySelector('.quantity-container a.btn-agregar').getAttribute('data-id'),
-            link: producto.querySelector('a').getAttribute('href'),
-            cantidad: 1
-        }
-        //console.log(infoProducto.link);
-        let productosLS;
-        productosLS = this.obtenerProductosLocalStorage();
-        productosLS.forEach(function (productoLS) {
-            if (productoLS.id === infoProducto.id) {
-                productosLS = productoLS.id;
+            e.preventDefault();
+            //Delegado para agregar al carrito
+            if (e.target.classList.contains('agregar-carrito')) { //"agregar-carrito
+                const producto = e.target.parentElement.parentElement.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
+                //Enviamos el producto seleccionado para tomar sus datos
+                this.leerDatosProducto(producto);
+                //console.log(producto);
             }
-        });
+            e.stopPropagation();
+        }
+        //leer de productos detalle
+    leerDatosProductoDetalle(producto) {
+            const infoProducto = {
+                    imagen: producto.querySelector('img').src,
+                    titulo: producto.querySelector('h1').textContent,
+                    precio: producto.querySelector('.precio span.price').textContent,
+                    id: producto.querySelector('.quantity-container a.btn-agregar').getAttribute('data-id'),
+                    link: producto.querySelector('a').getAttribute('href'),
+                    cantidad: 1
+                }
+                //console.log(infoProducto.link);
+            let productosLS;
+            productosLS = this.obtenerProductosLocalStorage();
+            productosLS.forEach(function(productoLS) {
+                if (productoLS.id === infoProducto.id) {
+                    productosLS = productoLS.id;
+                }
+            });
 
-        if (productosLS === infoProducto.id) {
-            Swal.fire({
-                icon: 'warning',
-                title: 'Oops...',
-                text: 'El producto ya está agregado',
-                showConfirmButton: false,
-                timer: 1000
-            })
+            if (productosLS === infoProducto.id) {
+                Swal.fire({
+                    icon: 'warning',
+                    title: 'Oops...',
+                    text: 'El producto ya está agregado',
+                    showConfirmButton: false,
+                    timer: 1000
+                })
+            } else {
+                this.insertarCarrito(infoProducto);
+                //console.log(infoProducto);
+            }
+            //this.insertarCarrito(infoProducto); //ya esta en el else
         }
-        else {
-            this.insertarCarrito(infoProducto);
-            //console.log(infoProducto);
-        }
-        //this.insertarCarrito(infoProducto); //ya esta en el else
-    }
-    //Leer datos del producto
+        //Leer datos del producto
     leerDatosProducto(producto) {
         const infoProducto = {
             imagen: producto.querySelector('img').src,
@@ -133,7 +139,7 @@ class Carrito {
         }
         let productosLS;
         productosLS = this.obtenerProductosLocalStorage();
-        productosLS.forEach(function (productoLS) {
+        productosLS.forEach(function(productoLS) {
             if (productoLS.id === infoProducto.id) {
                 productosLS = productoLS.id;
             }
@@ -147,8 +153,7 @@ class Carrito {
                 showConfirmButton: false,
                 timer: 1000
             })
-        }
-        else {
+        } else {
             this.insertarCarrito(infoProducto);
             //console.log(infoProducto);
         }
@@ -157,39 +162,38 @@ class Carrito {
 
     //Leer datos del producto de deseos
     leerDatosProductoDeseo(producto) {
-        const infoProducto = {
-            imagen: producto.querySelector('img').src,
-            titulo: producto.querySelector('.product-name a.nombrep').textContent,
-            precio: producto.querySelector('.product-price span.price').textContent,
-            id: producto.querySelector('.agregar-carrito').getAttribute('data-id'), //si recoge el atributo data-id con .cart a (home.php)
-            link: producto.querySelector('a').getAttribute('href'),
-            cantidad: 1
-        }
-        //console.log(infoProducto.imagen);
-        let productosLS;
-        productosLS = this.obtenerProductosLocalStorage();
-        productosLS.forEach(function (productoLS) {
-            if (productoLS.id === infoProducto.id) {
-                productosLS = productoLS.id;
-            }
-        });
+            const infoProducto = {
+                    imagen: producto.querySelector('img').src,
+                    titulo: producto.querySelector('.product-name a.nombrep').textContent,
+                    precio: producto.querySelector('.product-price span.price').textContent,
+                    id: producto.querySelector('.agregar-carrito').getAttribute('data-id'), //si recoge el atributo data-id con .cart a (home.php)
+                    link: producto.querySelector('a').getAttribute('href'),
+                    cantidad: 1
+                }
+                //console.log(infoProducto.imagen);
+            let productosLS;
+            productosLS = this.obtenerProductosLocalStorage();
+            productosLS.forEach(function(productoLS) {
+                if (productoLS.id === infoProducto.id) {
+                    productosLS = productoLS.id;
+                }
+            });
 
-        if (productosLS === infoProducto.id) {
-            Swal.fire({
-                icon: 'warning',
-                title: 'Oops...',
-                text: 'El producto ya está agregado',
-                showConfirmButton: false,
-                timer: 1000
-            })
+            if (productosLS === infoProducto.id) {
+                Swal.fire({
+                    icon: 'warning',
+                    title: 'Oops...',
+                    text: 'El producto ya está agregado',
+                    showConfirmButton: false,
+                    timer: 1000
+                })
+            } else {
+                this.insertarCarrito(infoProducto);
+                //console.log(infoProducto);
+            }
+            //this.insertarCarrito(infoProducto); //ya esta en el else
         }
-        else {
-            this.insertarCarrito(infoProducto);
-            //console.log(infoProducto);
-        }
-        //this.insertarCarrito(infoProducto); //ya esta en el else
-    }
-    //muestra producto seleccionado en carrito
+        //muestra producto seleccionado en carrito
     insertarCarrito(producto) {
         //listaProductos.innerHTML = ''; //limpia el carrito
         const row = document.createElement('tr');
@@ -216,20 +220,20 @@ class Carrito {
 
     //Eliminar el producto del carrito en el DOM
     eliminarProducto(e) {
-        e.preventDefault();
-        let producto, productoID;
-        if (e.target.classList.contains('borrar-producto')) {
-            e.target.parentElement.parentElement.remove();
-            producto = e.target.parentElement.parentElement;
-            productoID = producto.querySelector('a.borrar-producto').getAttribute('data-id'); // esta sacando null (corregido de 'a')
-            //console.log(productoID);
-        }
-        this.eliminarProductoLocalStorage(productoID);
-        this.calcularTotalhome();
-        this.calcularTotal();
+            e.preventDefault();
+            let producto, productoID;
+            if (e.target.classList.contains('borrar-producto')) {
+                e.target.parentElement.parentElement.remove();
+                producto = e.target.parentElement.parentElement;
+                productoID = producto.querySelector('a.borrar-producto').getAttribute('data-id'); // esta sacando null (corregido de 'a')
+                //console.log(productoID);
+            }
+            this.eliminarProductoLocalStorage(productoID);
+            this.calcularTotalhome();
+            this.calcularTotal();
 
-    }
-    //Eliminar el producto del carrito en el DOM
+        }
+        //Eliminar el producto del carrito en el DOM
     eliminarProductoPedido(e) {
         e.preventDefault();
         let producto, productoID;
@@ -248,7 +252,8 @@ class Carrito {
     //Elimina todos los productos
     calcularTotalhome() {
         let productosLS;
-        let cant = 0, preciocarrito = 0;
+        let cant = 0,
+            preciocarrito = 0;
         productosLS = this.obtenerProductosLocalStorage();
         for (let i = 0; i < productosLS.length; i++) {
             let element = Number(productosLS[i].precio * productosLS[i].cantidad);
@@ -280,8 +285,7 @@ class Carrito {
         //Comprobar si hay algo en LS
         if (localStorage.getItem('productos') === null) {
             productoLS = [];
-        }
-        else {
+        } else {
             productoLS = JSON.parse(localStorage.getItem('productos'));
         }
         return productoLS;
@@ -291,7 +295,7 @@ class Carrito {
     leerLocalStorage() {
         let productosLS;
         productosLS = this.obtenerProductosLocalStorage();
-        productosLS.forEach(function (producto) {
+        productosLS.forEach(function(producto) {
             //Construir plantilla
             const row = document.createElement('tr');
             row.innerHTML = `
@@ -312,13 +316,13 @@ class Carrito {
 
     //Mostrar los productos guardados en el LS en shopping-cart.php
     leerLocalStorageCompra() {
-        let productosLS;
-        productosLS = this.obtenerProductosLocalStorage();
-        productosLS.forEach(function (producto) {
-            //Construir plantilla
-            const row = document.createElement('tr');
-            var reseña = Math.floor((Math.random() * (21 - 3)) + 3); //genera un numero aleatorio entre 3 y 20
-            row.innerHTML = `
+            let productosLS;
+            productosLS = this.obtenerProductosLocalStorage();
+            productosLS.forEach(function(producto) {
+                //Construir plantilla
+                const row = document.createElement('tr');
+                var reseña = Math.floor((Math.random() * (21 - 3)) + 3); //genera un numero aleatorio entre 3 y 20
+                row.innerHTML = `
                 <td class="cart-image">
                     <a class="entry-thumbnail" href="${producto.link}">
                         <img src="${producto.imagen}" alt="">
@@ -348,40 +352,40 @@ class Carrito {
                     <a href="#" title="Eliminar" class="borrar-producto bx bxs-trash-alt bx-md" data-id="${producto.id}"></a>
                 </td>
             `;
-            listaCompra.appendChild(row);
-        });
-    }
-    /*              <td class="cart-product-sub-total"><span class="cart-sub-total-price">${producto.precio}</span></td>
-                    <div class="quant-input">
-                            <div class="arrows">
-                            <div class="arrow plus gradient"><span class="ir"><i class="icon fa fa-sort-asc"></i></span></div>
-                            <div class="arrow minus gradient"><span class="ir"><i class="icon fa fa-sort-desc"></i></span></div>
-                            </div>
-                            <input type="number" min="1" value="${producto.cantidad}">
-                    </div>*/
+                listaCompra.appendChild(row);
+            });
+        }
+        /*              <td class="cart-product-sub-total"><span class="cart-sub-total-price">${producto.precio}</span></td>
+                        <div class="quant-input">
+                                <div class="arrows">
+                                <div class="arrow plus gradient"><span class="ir"><i class="icon fa fa-sort-asc"></i></span></div>
+                                <div class="arrow minus gradient"><span class="ir"><i class="icon fa fa-sort-desc"></i></span></div>
+                                </div>
+                                <input type="number" min="1" value="${producto.cantidad}">
+                        </div>*/
 
     //Eliminar producto por ID del LS
     eliminarProductoLocalStorage(productoID) {
-        let productosLS;
-        //Obtenemos el arreglo de productos
-        productosLS = this.obtenerProductosLocalStorage();
-        //Comparar el id del producto borrado con LS
-        productosLS.forEach(function (productoLS, index) {
-            if (productoLS.id === productoID) {
-                productosLS.splice(index, 1);
-            }
-        });
+            let productosLS;
+            //Obtenemos el arreglo de productos
+            productosLS = this.obtenerProductosLocalStorage();
+            //Comparar el id del producto borrado con LS
+            productosLS.forEach(function(productoLS, index) {
+                if (productoLS.id === productoID) {
+                    productosLS.splice(index, 1);
+                }
+            });
 
-        //Añadimos el arreglo actual al LS
-        localStorage.setItem('productos', JSON.stringify(productosLS));
-    }
-    /*
-        //Eliminar todos los datos del LS
-        vaciarLocalStorage(){
-            localStorage.clear();
+            //Añadimos el arreglo actual al LS
+            localStorage.setItem('productos', JSON.stringify(productosLS));
         }
-    */
-    //Procesar pedido
+        /*
+            //Eliminar todos los datos del LS
+            vaciarLocalStorage(){
+                localStorage.clear();
+            }
+        */
+        //Procesar pedido
     procesarPedido(e) {
         e.preventDefault();
 
@@ -393,8 +397,7 @@ class Carrito {
                 showConfirmButton: false,
                 timer: 2000
             })
-        }
-        else {
+        } else {
             location.href = "shopping-cart.php";
         }
     }
@@ -402,7 +405,8 @@ class Carrito {
     //Calcular montos
     calcularTotal() {
         let productosLS;
-        let numtotal = 0, subtotal = 0;
+        let numtotal = 0,
+            subtotal = 0;
         productosLS = this.obtenerProductosLocalStorage();
         for (let i = 0; i < productosLS.length; i++) {
             let element = Number(productosLS[i].precio * productosLS[i].cantidad);
@@ -437,7 +441,7 @@ class Carrito {
             let actualizarMontos = document.querySelectorAll('#subtotales span');
             //console.log(actualizarMontos);
             productosLS = this.obtenerProductosLocalStorage();
-            productosLS.forEach(function (productoLS, index) {
+            productosLS.forEach(function(productoLS, index) {
                 if (productoLS.id === id) {
                     productoLS.cantidad = cantidad;
                     actualizarMontos[index].innerHTML = "S/. " + Number(cantidad * productosLS[index].precio).toFixed(2);
@@ -445,8 +449,7 @@ class Carrito {
             });
             localStorage.setItem('productos', JSON.stringify(productosLS));
 
-        }
-        else {
+        } else {
             console.log("click afuera");
         }
     }
@@ -524,8 +527,7 @@ class Carrito {
         //Comprobar si hay algo en LS
         if (localStorage.getItem('resumencompra') === null) {
             resumen = [];
-        }
-        else {
+        } else {
             resumen = JSON.parse(localStorage.getItem('resumencompra'));
         }
         return resumen;
@@ -534,7 +536,9 @@ class Carrito {
         let resumen;
         resumen = this.obtenerResuemenCompra();
         //console.log(resumen);
-        let subtotal = 0, descuento = 0, total = 0;
+        let subtotal = 0,
+            descuento = 0,
+            total = 0;
 
         subtotal = resumen.numeroSubt;
         descuento = resumen.numeroSubt * resumen.numercupon / 100;
@@ -544,7 +548,7 @@ class Carrito {
         row.className = 'fbra_test_orderSummary__totalCost fbra_orderSummary__totalCost';
         row.innerHTML = `
                 <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Subtotal:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="subtotal">S/.${subtotal.toFixed(2)}</span>
-                <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Descuento:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="descuento">S/.${descuento.toFixed(2)}</span>
+                <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Descuento:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice text-success" title="descuento">- S/.${descuento.toFixed(2)}</span>
                 <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Monto final a pagar:</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="total">S/.${total.toFixed(2)}</span>
             `;
         listaresumen.appendChild(row);
@@ -554,7 +558,7 @@ class Carrito {
     leerLocalStorageResumen() {
         let productosLS;
         productosLS = this.obtenerProductosLocalStorage();
-        productosLS.forEach(function (producto) {
+        productosLS.forEach(function(producto) {
             //Construir plantilla
             const row = document.createElement('li');
             row.className = 'fbra_test_orderSummary__item fbra_orderSummary__item';
@@ -589,24 +593,24 @@ class Carrito {
 
     leerinpputdireccion(cup) {
         const textdireccion = {
-            departamento: cup.querySelector('#region').value,
-            provincia: cup.querySelector('#ciudad').value,
-            distrito: cup.querySelector('#comuna').value,
-            //status: 1
-        }
-        //console.log(textdireccion);
+                departamento: cup.querySelector('#region').value,
+                provincia: cup.querySelector('#ciudad').value,
+                distrito: cup.querySelector('#comuna').value,
+                //status: 1
+            }
+            //console.log(textdireccion);
 
         this.aplicarDireccionSinCalle(textdireccion);
     }
 
     leerinpputdireccioncallefecha(cup) {
         const textdireccioncalle = {
-            calle: cup.querySelector('#calle').value,
-            //numero: cup.querySelector('#numero').value,
-            //fecha: cup.querySelector('#fecha').value,
-            //status: 1
-        }
-        //console.log(textdireccioncalle);
+                calle: cup.querySelector('#calle').value,
+                //numero: cup.querySelector('#numero').value,
+                fecha: cup.querySelector('#fecha').value,
+                //status: 1
+            }
+            //console.log(textdireccioncalle);
 
         this.aplicarDireccionConCalle(textdireccioncalle);
     }
@@ -619,30 +623,31 @@ class Carrito {
 
         var calle = textdireccioncalle.calle;
         //console.log(depa);
-        //var fecha = ??????
+        var fecha = textdireccioncalle.fecha;
 
-        let resumencalle = { depa, prov, dist, calle };
+        let resumencalle = { depa, prov, dist, calle, fecha };
         //console.log(resumencalle);
         this.guardardatosDireccion(resumencalle);
     }
 
-    aplicarDireccionSinCalle(textdireccion) {//cupon
+    aplicarDireccionSinCalle(textdireccion) { //cupon
 
         var depa = textdireccion.departamento;
         var prov = textdireccion.provincia;
         var dist = textdireccion.distrito;
         var calle = "";
         //añadir fecha
+        var fecha = "";
 
-        let resumen = { depa, prov, dist, calle }; //creamos un objeto con los valores de direccion sin calle y fecha
+        let resumen = { depa, prov, dist, calle, fecha }; //creamos un objeto con los valores de direccion sin calle y fecha
 
+        //console.log(resumen);
         this.guardardatosDireccion(resumen);
     }
 
     guardardatosDireccion(resumen) {
         //console.log(resumen);
         localStorage.setItem('Direccion', JSON.stringify(resumen));
-
     }
 
     obtenerDireccion() {
@@ -651,8 +656,7 @@ class Carrito {
         //Comprobar si hay algo en LS
         if (localStorage.getItem('Direccion') === null) {
             resumen = [];
-        }
-        else {
+        } else {
             resumen = JSON.parse(localStorage.getItem('Direccion'));
         }
         return resumen;
@@ -663,10 +667,10 @@ class Carrito {
         var depa = resumen.depa;
         var prov = resumen.prov;
         var dist = resumen.dist;
-            //Construir plantilla
-            const row = document.createElement('div');
-            row.className = 'fbra_deliverToAddress__location__locationField fbra_test_deliverToAddress__location__locationField';
-            row.innerHTML = `
+        //Construir plantilla
+        const row = document.createElement('div');
+        row.className = 'fbra_deliverToAddress__location__locationField fbra_test_deliverToAddress__location__locationField';
+        row.innerHTML = `
  
                 <span class="fbra_text fbra_deliverToAddress__location__fieldTitle fbra_test_deliverToAddress__location__fieldTitle" title="">Departamento</span><span class="fbra_text fbra_deliverToAddress__location__fieldValue fbra_test_deliverToAddress__location__fieldValue" title="">${depa}</span></div>
 
@@ -676,9 +680,9 @@ class Carrito {
                 <span class="fbra_text fbra_deliverToAddress__location__fieldTitle fbra_test_deliverToAddress__location__fieldTitle" title="">Distrito</span><span class="fbra_text fbra_deliverToAddress__location__fieldValue fbra_test_deliverToAddress__location__fieldValue" title="">${dist}</span></div>
 
             `;
-            listadireccion.appendChild(row);
+        listadireccion.appendChild(row);
     }
 }
 
 /*
-*/
+ */

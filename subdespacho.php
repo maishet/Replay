@@ -133,7 +133,7 @@
 																	<div class="fbra_formItem fbra_formItem--Input fbra_input--address fbra_input-container">
 																		<div class="fbra_inputWrap"><label for="address" class="fbra_label fbra_inputTooltip"><span class="fbra_label_text">Selecciona la fecha del despacho</span>
 																				<p class="fbra_label_title"></p>
-																			</label><input type="date" id="calle" maxlength="75" title="" class="fbra_input fbra_formItem__address fbra_formItem__field--invalid" autocomplete="on">
+																			</label><input type="date" id="fecha" maxlength="75" title="" class="fbra_input fbra_formItem__address fbra_formItem__field--invalid" autocomplete="on">
 																		</div>
 																		<p class="fbra_paragraph fbra_unrecognizedUser__useOrEditText text-center" style="font-size: 14px;">Coste de envio S/. 5.90</p>
 																	</div>
@@ -145,31 +145,15 @@
 													</div>
 												</section>
 											</form>
-											<div class="fbra_formItem fbra_formItem--Button fbra_input--useAddress"><a href="#"><button class="btnfull" title="">Usar dirección</button></a></div>
+											<div class="fbra_formItem fbra_formItem--Button fbra_input--useAddress" style="padding-top: 20px;"><a href="pago.php"><button class="btnfull" title="">Usar dirección</button></a></div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="">
-							<div class="props context refs updater state _reactInternalFiber"></div>
-						</div>
 					</div>
 				</div>
 			</div>
-
-			<div id="fbra_checkoutDeliveryActions"></div>
-
-			<div id="fbra_checkoutSignIn">
-				<section class="fbra_falabellaComponent fbra_falabellaComponentCheckoutSignIn">
-					<div class="props context refs updater state _reactInternalFiber"></div>
-				</section>
-			</div>
-
-			<div id="fbra_checkoutTemporaryPassword">
-				<div class="props context refs updater state _reactInternalFiber"></div>
-			</div>
-
 		</div>
 		<!-- Main content ends -->
 
@@ -198,11 +182,6 @@
 					</section>
 				</div>
 			</div>
-		</div>
-		<!-- Sidebar ends -->
-
-		<!-- MainFooter -->
-		<div class="fbra_mainContentFooter">
 		</div>
 		<!-- Sidebar ends -->
 	</div>
