@@ -532,6 +532,30 @@ class Carrito {
         }
         return resumen;
     }
+    leerdatosresumenpago() {
+        let resumen;
+        resumen = this.obtenerResuemenCompra();
+        //console.log(resumen);
+        let subtotal = 0,
+            descuento = 0,
+            total = 0;
+
+        subtotal = resumen.numeroSubt;
+        descuento = resumen.numeroSubt * resumen.numercupon / 100;
+        let despacho = 5.90;
+        total = resumen.numtotal+despacho;
+        //resumen.forEach(function (producto){
+        const row = document.createElement('li');
+        row.className = 'fbra_test_orderSummary__totalCost fbra_orderSummary__totalCost';
+        row.innerHTML = `
+                <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Subtotal</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="Subtotal">S/.${subtotal.toFixed(2)}</span>
+                <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Despacho</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice text-danger" title="Despacho">S/.${despacho.toFixed(2)}</span>
+                <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Descuento</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice text-success" title="Descuento">- S/.${descuento.toFixed(2)}</span>
+                <span class="fbra_text fbra_test_orderSummary__totalCostName fbra_orderSummary__totalCostName" title="">Monto final a pagar</span><span class="fbra_text fbra_test_orderSummary__totalCostPrice fbra_orderSummary__totalCostPrice" title="Total">S/.${total.toFixed(2)}</span>
+            `;
+        listaresumen.appendChild(row);
+        //});
+    }
     leerdatosresumen() {
         let resumen;
         resumen = this.obtenerResuemenCompra();

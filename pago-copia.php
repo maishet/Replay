@@ -190,7 +190,7 @@
                                 </ol>
                             </div><a class="fbra_anchor fbra_test_orderSummary__editItems fbra_orderSummary__editItems fbra_OrderSummary__edit" href="shopping-cart.php" target="" title="" defaultclassname="fbra_anchor" classnames="">Volver a la Bolsa</a>
                             <!-- wea de precios-->
-                            <ul id="weaderesumen" class="fbra_test_orderSummary__totalCosts fbra_orderSummary__totalCosts">
+                            <ul id="weaderesumen1" class="fbra_test_orderSummary__totalCosts fbra_orderSummary__totalCosts">
                                 <!-- wea de precios-->
                             </ul>
                         </div>
@@ -208,7 +208,7 @@
 
     <?php include 'footer.html'; ?>
     <!-- <script src="assets/js/pedido.js"></script> -->
-    <script src="assets/js/despachocompra.js"></script>
+    <script src="assets/js/despachopago.js"></script>
     <!-- ============================================================= FOOTER : END============================================================= -->
 </body>
 

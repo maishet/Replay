@@ -89,25 +89,88 @@
                                 <div class="fbra_deliverToAddressTabContentContainer fbra_test_deliverToAddressTabContentContainer">
                                     <div class="fbra_loadingWrapper">
                                         <div id="" class="fbra_deliverToAddressTabContentContainer__addAddressScreen fbra_test_deliverToAddressTabContentContainer__addAddressScreen fbra_test_deliverToAddressTabContentContainer_addAddressScreen">
-                                            
+
                                             <form class="fbra_addressFormContainer pagodemela">
                                                 <section class="fbra_section fbra_test_deliverToAddress fbra_deliverToAddress" title="">
                                                     <div class="fbra_test_deliverToAddress__address fbra_deliverToAddress__address">
                                                         <div class="fbra_test_deliverToAddress__location fbra_deliverToAddress__location">
                                                             <!--contenido aqui-->
-                                                            
+                                                            <div class="line_despacho">
+                                                                <div id="titulo-despacho-confirmar" class="zona-despacho-confirmar">
+                                                                    <h3>
+                                                                        <span>Despacho</span>
+                                                                        <button class="btn btn-default btn-small" onclick="Javascript: location.href='https://www.ripley.com.pe/webapp/wcs/stores/servlet/OrderShippingBillingView?catalogId=11551&amp;langId=-24&amp;storeId=10651&amp;forceShipmentType=1'">Modificar</button>
+                                                                    </h3>
+                                                                </div>
+                                                                <div id="direccion-despacho-confirmar" class="zona-despacho-confirmar">
+                                                                    <h5 class="main">Dirección de envío</h5>
+
+                                                                </div>
+                                                                <div id="fecha-despacho-confirmar" class="zona-despacho-confirmar">
+                                                                    <h5>Fecha estimada</h5>
+                                                                    <p id="mostrarFechaEstimadaConfirmacion">18 de Enero 2022</p>
+                                                                    <h5>Rango de Horario</h5>
+                                                                    <p>9 a 21 hrs</p>
+                                                                </div>
+                                                                <input type="hidden" value="" name="shipment_days_to_add" id="shipment_days_to_add">
+                                                            </div>
                                                         </div>
                                                         <div class="separapago"></div>
                                                         <div class="fbra_test_deliverToAddress__location fbra_deliverToAddress__location">
                                                             <!--contenido aqui-->
-                                                        </div>
-                                                        <div class="separapago"></div>
-                                                        <div class="fbra_test_deliverToAddress__location fbra_deliverToAddress__location">
-                                                            <!--contenido aqui-->
-                                                        </div>
-                                                        <div class="separapago"></div>
-                                                        <div class="fbra_test_deliverToAddress__location fbra_deliverToAddress__location">
-                                                            <!--contenido aqui-->
+                                                            <div class="line_medio_pago">
+                                                                <input type="hidden" id="paymentMethodName" value="NiubizQR">
+                                                                <div id="titulo-medio-pago-confirmar" class="zona-pago-confirmar">
+                                                                    <h3>
+                                                                        <span>Medio de pago</span>
+                                                                        <button class="btn btn-default btn-small" onclick="Javascript: location.href='https://www.ripley.com.pe/webapp/wcs/stores/servlet/OrderBillingView?catalogId=11551&amp;langId=-24&amp;storeId=10651&amp;purchaseorder_id=&amp;forceShipmentType=1'">
+                                                                            Modificar
+                                                                        </button>
+                                                                    </h3>
+                                                                </div>
+                                                                <div id="comprobante-medio-pago" class="zona-pago-confirmar">
+                                                                    <div id="comprobante-pago-boleta-confirmar" class="zona-medio-pago">
+                                                                        <h5>Comprobante de pago</h5>
+                                                                        <p>Boleta</p>
+                                                                    </div>
+                                                                    <div id="niubizqr-info" style="display:none;">
+                                                                        <div class="popup-qr">
+                                                                            <div class="content-popup-qr">                                                                       
+                                                                                <div class="qr-content"></div>
+                                                                                <div class="price-qr">
+                                                                                    <p>Total a pagar</p>
+                                                                                    <p class="total-price-qr">
+                                                                                        S/ 148.90
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!-- <div class="popup-loader-qr" style="display:none">
+                                                                            <div class="content-loader">
+                                                                                <div class="content-loader-1">
+                                                                                    <img src="/wcsstore/DefaultStorefrontAssetStore/images/colors/color1/flujoDeCompra/img/payment/niubizqr/Logo_circulo.svg" alt="">
+                                                                                    <div class="loader-qr">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p>Procesando pago...</p>
+                                                                            </div>
+                                                                        </div> -->
+                                                                    </div>
+                                                                    <div id="medio-pago-niubiz-qr" class="zona-medio-pago">
+                                                                        <h5>Medio de pago</h5>
+                                                                        <div class="new-qr-pay">
+                                                                            <p>Pago con código QR</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div id="email-cuotas" class="zona-pago-confirmar">
+                                                                    <div id="medio-pago-email" class="zona-medio-pago">
+                                                                        <h5>Email</h5>
+                                                                        <p>dsada@gmail.com</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                         <div class="separapago"></div>
                                                     </div>
@@ -157,7 +220,7 @@
                                 </ol>
                             </div><a class="fbra_anchor fbra_test_orderSummary__editItems fbra_orderSummary__editItems fbra_OrderSummary__edit" href="shopping-cart.php" target="" title="" defaultclassname="fbra_anchor" classnames="">Volver a la Bolsa</a>
                             <!-- wea de precios-->
-                            <ul id="weaderesumen" class="fbra_test_orderSummary__totalCosts fbra_orderSummary__totalCosts">
+                            <ul id="weaderesumen1" class="fbra_test_orderSummary__totalCosts fbra_orderSummary__totalCosts">
                                 <!-- wea de precios-->
                             </ul>
                         </div>
@@ -175,7 +238,7 @@
 
     <?php include 'footer.html'; ?>
     <!-- <script src="assets/js/pedido.js"></script> -->
-    <script src="assets/js/despachocompra.js"></script>
+    <script src="assets/js/despachopago.js"></script>
     <!-- ============================================================= FOOTER : END============================================================= -->
 </body>
 
