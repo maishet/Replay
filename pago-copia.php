@@ -48,7 +48,7 @@
             <div class="breadcrumb-inner">
                 <ul class="list-inline list-unstyled">
                     <li><a href="home.php">Inicio</a></li>
-                    <li class='active'>Despacho de Compras</li>
+                    <li class='active'>Pago</li>
                 </ul>
             </div><!-- /.breadcrumb-inner -->
         </div><!-- /.container -->
@@ -89,27 +89,53 @@
                                 <div class="fbra_deliverToAddressTabContentContainer fbra_test_deliverToAddressTabContentContainer">
                                     <div class="fbra_loadingWrapper">
                                         <div id="" class="fbra_deliverToAddressTabContentContainer__addAddressScreen fbra_test_deliverToAddressTabContentContainer__addAddressScreen fbra_test_deliverToAddressTabContentContainer_addAddressScreen">
-                                            
+
                                             <form class="fbra_addressFormContainer pagodemela">
                                                 <section class="fbra_section fbra_test_deliverToAddress fbra_deliverToAddress" title="">
                                                     <div class="fbra_test_deliverToAddress__address fbra_deliverToAddress__address">
-                                                        <div class="fbra_test_deliverToAddress__location fbra_deliverToAddress__location">
-                                                            <!--contenido aqui-->
-                                                            
+                                                        <div class="wrapper">
+                                                            <div class="box">
+                                                                <input type="radio" name="select" id="option-1">
+                                                                <input type="radio" name="select" id="option-2">
+                                                                <input type="radio" name="select" id="option-3">
+                                                                <input type="radio" name="select" id="option-4">
+                                                                <label for="option-1" class="option-1">
+                                                                    <div class="dot"></div>
+                                                                    <div class="text">Tarjetas de Crédito y Débito (Visa, Mastercard, Amex y Dinners)</div>
+                                                                    <div class="icono-tarjeta">
+                                                                        <ul>
+                                                                            <li><img src="assets/images/payments/2.png" alt="" width="30px"></li>
+                                                                            <li><img src="assets/images/payments/3.png" alt="" width="30px"></li>
+                                                                            <li><img src="assets/images/payments/4.png" alt="" width="30px"></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </label>
+                                                                <label for="option-2" class="option-2">
+                                                                    <div class="dot"></div>
+                                                                    <div class="text">Pago con código QR (Yape, Luquita, Tunki)</div>
+                                                                    <div class="icono-tarjeta">
+                                                                        <ul>
+                                                                            <li><img src="assets/images/payments/yape.png" alt="" width="30px"></li>
+                                                                            <li><img src="assets/images/payments/lukita.png" alt="" width="30px"></li>
+                                                                            <li><img src="assets/images/payments/tunki.png" alt="" width="30px"></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </label>
+                                                                <label for="option-3" class="option-3">
+                                                                    <div class="dot"></div>
+                                                                    <div class="text">Pago por banca móvil o banca por internet</div>
+                                                                    <div class="icono-tarjeta">
+                                                                        <ul>
+                                                                            <li><img src="assets/images/payments/1.png" alt="" width="30px"></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </label>
+                                                                <label for="option-4" class="option-4">
+                                                                    <div class="dot"></div>
+                                                                    <div class="text">Transferencia Bancaria</div>
+                                                                </label>
+                                                            </div>
                                                         </div>
-                                                        <div class="separapago"></div>
-                                                        <div class="fbra_test_deliverToAddress__location fbra_deliverToAddress__location">
-                                                            <!--contenido aqui-->
-                                                        </div>
-                                                        <div class="separapago"></div>
-                                                        <div class="fbra_test_deliverToAddress__location fbra_deliverToAddress__location">
-                                                            <!--contenido aqui-->
-                                                        </div>
-                                                        <div class="separapago"></div>
-                                                        <div class="fbra_test_deliverToAddress__location fbra_deliverToAddress__location">
-                                                            <!--contenido aqui-->
-                                                        </div>
-                                                        <div class="separapago"></div>
                                                     </div>
 
                                                     <p class="textocomprobante">Selección de Comprobante de pago:</p>
