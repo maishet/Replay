@@ -543,7 +543,7 @@ class Carrito {
         subtotal = resumen.numeroSubt;
         descuento = resumen.numeroSubt * resumen.numercupon / 100;
         let despacho = 5.90;
-        total = resumen.numtotal+despacho;
+        total = resumen.numtotal + despacho;
         //resumen.forEach(function (producto){
         const row = document.createElement('li');
         row.className = 'fbra_test_orderSummary__totalCost fbra_orderSummary__totalCost';
@@ -705,6 +705,134 @@ class Carrito {
 
             `;
         listadireccion.appendChild(row);
+    }
+
+    //agregar tarjeta
+
+    agregarTarjeta(e) {
+        //console.log(e.target);
+        if (e.target.classList.contains('btn')) {
+            const cup = e.target.parentElement; //div que contiene ladireccion
+            //console.log(usercorreo);
+            this.leerinpputtarjeta(cup);
+        }
+    }
+
+    leerinpputtarjeta(cup) {
+        const texttarjeta = {
+                numero: cup.querySelector('#card').value,
+                mes: cup.querySelector('#mesexpire').value,
+                anio: cup.querySelector('#anioexpire').value,
+                cvv: cup.querySelector('#codecvv').value,
+                //status: 1
+            }
+            //console.log(texttarjeta);
+
+        this.aplicarTarjeta(texttarjeta);
+    }
+
+    aplicarTarjeta(texttarjeta) { //cupon
+
+        var user = document.querySelector('#usercorreo').textContent;
+        var num = texttarjeta.numero;
+        var mes = texttarjeta.mes;
+        var anio = texttarjeta.anio;
+        var cvv = texttarjeta.cvv;
+
+        let tarjeta = { user, num, mes, anio, cvv }; //creamos un objeto con los valores de direccion sin calle y fecha
+
+        //console.log(tarjeta);
+        this.guardardatosTarjeta(tarjeta);
+    }
+
+    guardardatosTarjeta(resumen) {
+        //console.log(resumen);
+        localStorage.setItem('UserTarjeta', JSON.stringify(resumen));
+    }
+
+    obtenerTarjeta() {
+        let resumen;
+
+        //Comprobar si hay algo en LS
+        if (localStorage.getItem('UserTarjeta') === null) {
+            resumen = [];
+        } else {
+            resumen = JSON.parse(localStorage.getItem('UserTarjeta'));
+        }
+        return resumen;
+    }
+
+    /////////////////////////////////////////////////
+
+    leerDireccionTotal() {
+        let resumen = this.obtenerDireccion();
+        var depa = resumen.depa;
+        var prov = resumen.prov;
+        var dist = resumen.dist;
+        var calle = resumen.calle;
+        var fecha = resumen.fecha;
+        //Construir plantilla
+        const row = document.createElement('div');
+        row.className = 'line_despacho';
+        row.innerHTML = `
+        <div class="zona-despacho-confirmar">
+            <h3>
+                <span>Despacho</span>
+                <button id="boton-despacho" class="btn btn-default btn-small" style="float: right;">Modificar</button>
+            </h3>
+        </div>
+        <div class="zona-despacho-confirmar">
+            <h5 class="main" style="font-weight: 600;">Dirección de envío</h5>
+            <p>${depa}, ${prov}, ${dist}</p>
+            <p>${calle}</p>
+        </div>
+        <div class="zona-despacho-confirmar">
+            <h5 style="font-weight: 600;">Fecha estimada</h5>
+            <p>${fecha}</p>
+            <h5 style="font-weight: 600;">Rango de Horario</h5>
+            <p>9 a 21 hrs</p>
+        </div>
+            `;
+        listaresumendespacho.appendChild(row);
+    }
+
+    leerPagoTotal() {
+        let resumen = this.obtenerTarjeta();
+        var user = resumen.user;
+        var num = resumen.num;
+
+        //Construir plantilla
+        const row = document.createElement('div');
+        row.className = 'line_medio_pago';
+        row.innerHTML = `
+        <div class="zona-pago-confirmar">
+            <h3>
+                <span>Medio de pago</span>
+                <button id="boton-pago" class="btn btn-default btn-small" style="float: right;">
+                    Modificar
+                </button>
+            </h3>
+        </div>
+        <div class="zona-pago-confirmar">
+            <div class="zona-medio-pago">
+                <h5 style="font-weight: 600;">Comprobante de pago</h5>
+                <p>Boleta</p>
+            </div>
+            <div class="zona-medio-pago">
+                <h5 style="font-weight: 600;">Medio de pago</h5>
+                <div class="new-qr-pay">
+                    <p>Pago con tarjeta: ${num}</p>
+                </div>
+            </div>
+        </div>
+        <div class="zona-pago-confirmar">
+            <div class="zona-medio-pago">
+                <h5 style="font-weight: 600;">Email</h5>
+                <p>${user}</p>
+            </div>
+        </div>
+            `;
+        listaresumenpago.appendChild(row);
     }
 }
 

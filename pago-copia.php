@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
 
     <link rel="stylesheet" href="assets/css/estilocopia.css">
+    <link rel="stylesheet" href="assets/css/estilo-tarjeta.css">
 
     <!-- Icons/Glyphs -->
     <link rel="stylesheet" href="assets/css/font-awesome.css">
@@ -91,12 +92,12 @@
                                         <div id="" class="fbra_deliverToAddressTabContentContainer__addAddressScreen fbra_test_deliverToAddressTabContentContainer__addAddressScreen fbra_test_deliverToAddressTabContentContainer_addAddressScreen">
 
                                             <form class="fbra_addressFormContainer pagodemela">
-                                                <section class="fbra_section fbra_test_deliverToAddress fbra_deliverToAddress" title="">
+                                                <section id="tarjetausuario" class="fbra_section fbra_test_deliverToAddress fbra_deliverToAddress" title="">
                                                     <div class="fbra_test_deliverToAddress__address fbra_deliverToAddress__address">
                                                         <div class="wrapper">
                                                             <div class="box">
-                                                                <input type="radio" name="select" id="option-1">
-                                                                <input type="radio" name="select" id="option-2">
+                                                                <input type="radio" name="select" id="option-1" value="tarjeta">
+                                                                <input type="radio" name="select" id="option-2" value="codigoqr">
                                                                 <input type="radio" name="select" id="option-3">
                                                                 <input type="radio" name="select" id="option-4">
                                                                 <label for="option-1" class="option-1">
@@ -110,6 +111,30 @@
                                                                         </ul>
                                                                     </div>
                                                                 </label>
+                                                                <div id="mostrardivtarjeta" class="checkout_form" style="display:none;">
+                                                                    <div class="card_number" id="card-container">
+                                                                        <input type="text" class="input" id="card" placeholder="0000 0000 0000 0000">
+                                                                        <div id="logo"></div>
+                                                                    </div>
+                                                                    <div class="card_grp">
+                                                                        <div class="expiry_date">
+                                                                            <input type="text" class="expiry_input" id="mesexpire" data-mask="00" placeholder="00">
+                                                                            <input type="text" class="expiry_input" id="anioexpire" data-mask="00" placeholder="00">
+                                                                        </div>
+                                                                        <div class="cvc">
+                                                                            <input type="text" class="cvc_input" id="codecvv" data-mask="000" placeholder="000">
+                                                                            <div class="cvc_img">
+                                                                                ?
+                                                                                <div class="img">
+                                                                                    <img src="assets/images/payments/tarjetacvv.png" alt="">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div id="boton-tarjeta" class="btn">
+                                                                        Usar Tarjeta
+                                                                    </div>
+                                                                </div>
                                                                 <label for="option-2" class="option-2">
                                                                     <div class="dot"></div>
                                                                     <div class="text">Pago con código QR (Yape, Luquita, Tunki)</div>
@@ -121,6 +146,14 @@
                                                                         </ul>
                                                                     </div>
                                                                 </label>
+                                                                <div id="mostrarQR" class="checkout_form" style="display:none;">
+                                                                    <div class="new-qr-pay">
+                                                                        <p style="text-align:center;">Escanea el código QR</p>
+                                                                    </div>
+                                                                    <div style="text-align:center;">
+                                                                        <img src="assets/images/payments/chartqr.png" alt="QR">
+                                                                    </div>
+                                                                </div>
                                                                 <label for="option-3" class="option-3">
                                                                     <div class="dot"></div>
                                                                     <div class="text">Pago por banca móvil o banca por internet</div>
@@ -153,7 +186,7 @@
                                                         </div>
                                                     </div>
                                                     <!--boton radio de boleta o factura-->
-                                                    <span class="textoboleta">La boleta o factura se enviará al email: </span><span class="boletita">correo@gmail.com</span>
+                                                    <span class="textoboleta">La boleta o factura se enviará al email: </span><span id="usercorreo" class="boletita">correo@gmail.com</span>
                                                     <div class="separapago"></div>
                                                 </section>
                                             </form>
@@ -209,6 +242,45 @@
     <?php include 'footer.html'; ?>
     <!-- <script src="assets/js/pedido.js"></script> -->
     <script src="assets/js/despachopago.js"></script>
+    <script src="assets/js/pago-correo.js"></script>
+    <script src="assets/js/validar-tarjeta.js"></script>
+    <script>
+        $(document).ready(function() {
+            //$("#mostrardivtarjeta").hide();
+
+            $("input[type='radio']").change(function() {
+
+                //Ocultas todo 
+                $("#mostrardivtarjeta").hide();
+                $("#mostrarQR").hide();
+                // $("#edad").hide();
+                const botontarjeta = document.getElementById("boton-tarjeta");
+                //obtenes el valor de los dos sets de Radios
+                var opc = $("input[id='option-1']:checked").val();
+                var opc2 = $("input[id='option-2']:checked").val();
+
+                //tomas la decisión que queres en base a los dos valores
+                //en este caso si selecciona "nombre" y "ciudad" mostras el input text para el Nombre
+                if (opc == "tarjeta") {
+                    $("#mostrardivtarjeta").show();
+                    console.log("mostrar tarjeta");
+                    botontarjeta.addEventListener("click", function(evento) {
+                        // Aquí todo el código que se ejecuta cuando se da click al botón
+                        console.log("le diste clic en usar tarjeta");
+                        //$("#mostrardivtarjeta").hide();
+                    });
+
+                }
+                if (opc2 == "codigoqr") {
+                    $("#mostrarQR").show();
+                    console.log("mostrar QR");
+                    //$("#apellido").show();
+                    console.log("codigoqr seleccionado"); //funca    
+                }
+
+            });
+        });
+    </script>
     <!-- ============================================================= FOOTER : END============================================================= -->
 </body>
 
