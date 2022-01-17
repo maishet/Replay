@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
 
     <link rel="stylesheet" href="assets/css/estilocopia.css">
+    <link rel="stylesheet" href="assets/css/estilocheck.css">
+
 
     <!-- Icons/Glyphs -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -106,14 +108,10 @@
                                                         <div class="separapago"></div>
                                                     </div>
                                                     <!--boton radio de boleta o factura-->
-                                                    <div class="opciones-radio" style="display: flex; justify-content: space-around;">
-                                                        <div class="form-group">
-                                                            <span class="opcion-checkbox">
-                                                                <input type="checkbox" checked="">
-                                                                <label for="comida_mexicana">Poner cheklist</label>
-                                                            </span>
-                                                        </div>
-                                                    </div>
+                                                    <label class="containerfff">Acepto las condiciones de compra
+                                                        <input type="checkbox" checked="checked">
+                                                        <span class="checkmark"></span>
+                                                    </label>
                                                     <!--boton radio de boleta o factura-->
                                                     <div class="separapago"></div>
                                                 </section>

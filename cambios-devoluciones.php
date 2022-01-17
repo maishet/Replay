@@ -2,40 +2,54 @@
 <html lang="es">
 
 <head>
-<!-- Meta -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<link rel="shortcut icon" href="assets/images/favicon.png">
-<title>Replay.com | Cambios de Devoluciones</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="assets/images/favicon.png">
+  <title>Replay.com | Cambios de Devoluciones</title>
 
-<!-- Bootstrap Core CSS -->
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-<!-- Customizable CSS -->
-<link rel="stylesheet" href="assets/css/main.css">
-<link rel="stylesheet" href="assets/css/blue.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.css">
-<link rel="stylesheet" href="assets/css/owl.transitions.css">
-<link rel="stylesheet" href="assets/css/animate.min.css">
-<link rel="stylesheet" href="assets/css/rateit.css">
-<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+  <!-- Customizable CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/blue.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.css">
+  <link rel="stylesheet" href="assets/css/owl.transitions.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/rateit.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
 
-<!-- Icons/Glyphs -->
-<link rel="stylesheet" href="assets/css/font-awesome.css">
-<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script> <!--load all styles -->
+  <!-- Icons/Glyphs -->
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+  <!--load all styles -->
 
 
-<!-- Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Barlow:200,300,300i,400,400i,500,500i,600,700,800" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,800' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow:200,300,300i,400,400i,500,500i,600,700,800" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
+
 <body class="cnt-home">
-<!-- ============================================== HEADER ============================================== -->
-  <?php include('header.html');?>
+  <!-- ============================================== HEADER ============================================== -->
+  <?php
+  session_start();
+  error_reporting(0);
+  $varsesion = $_SESSION['usuario'];
+  if ($varsesion == null || $varsesion = '') {
+    if (!isset($_SESSION['user_is_login']) || @$_SESSION['user_is_login'] == false) {
+
+      include('header.html');
+    }
+  } else {
+    include('headerLogueado.php');
+  }
+  ?>
   <!-- ============================================== HEADER : END ============================================== -->
   <div class="breadcrumb">
     <div class="container">
@@ -77,8 +91,8 @@
 
                   <!-- panel-body  -->
                   <div class="panel-body">
-                  Puedes realizar el cambio o devolución en cualquier caja de nuestros ?Centros de Cajas? en tienda a nivel nacional.
-Para una atención más rápida, te recomendamos las ?Cajas Preferentes de Cambios y Devoluciones?.
+                    Puedes realizar el cambio o devolución en cualquier caja de nuestros ?Centros de Cajas? en tienda a nivel nacional.
+                    Para una atención más rápida, te recomendamos las ?Cajas Preferentes de Cambios y Devoluciones?.
 
                   </div>
                   <!-- panel-body  -->
@@ -97,15 +111,15 @@ Para una atención más rápida, te recomendamos las ?Cajas Preferentes de Cambi
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse">
                   <div class="panel-body">
-                  Producto sin uso, en buen estado y con accesorios completos.
+                    Producto sin uso, en buen estado y con accesorios completos.
 
-Producto con empaque original y etiquetas originales.
+                    Producto con empaque original y etiquetas originales.
 
-Presentar documento de identidad (DNI o Pasaporte).
+                    Presentar documento de identidad (DNI o Pasaporte).
 
-Presentar ticket de compra.
+                    Presentar ticket de compra.
 
-Presentar formato de ingreso de mercadería (entregado en las puertas de ingresa de las tiendas).
+                    Presentar formato de ingreso de mercadería (entregado en las puertas de ingresa de las tiendas).
 
                   </div>
                 </div>
@@ -123,8 +137,8 @@ Presentar formato de ingreso de mercadería (entregado en las puertas de ingresa
                 </div>
                 <div id="collapseThree" class="panel-collapse collapse">
                   <div class="panel-body">
-                  Para mercadería vendida por Replay, aceptamos cambios o devoluciones de todo este tipo de productos. En el caso de prendas íntimas, estas serán destruidas a vista del cliente.
-Para mercadería vendida por un tercero a través de Marketplace, revisar en la sección de Productos Marketplace.
+                    Para mercadería vendida por Replay, aceptamos cambios o devoluciones de todo este tipo de productos. En el caso de prendas íntimas, estas serán destruidas a vista del cliente.
+                    Para mercadería vendida por un tercero a través de Marketplace, revisar en la sección de Productos Marketplace.
 
                   </div>
                 </div>
@@ -142,11 +156,12 @@ Para mercadería vendida por un tercero a través de Marketplace, revisar en la 
                 </div>
                 <div id="collapseFour" class="panel-collapse collapse">
                   <div class="panel-body">
-                  1. Acércate a la tienda Replay de tu preferencia a nivel nacional. <br> 2. Registra el producto en las puertas de ingreso de la tienda. Se te entregará el formato de ingreso de mercadería para cambio o devolución.
+                    1. Acércate a la tienda Replay de tu preferencia a nivel nacional. <br> 2. Registra el producto en las puertas de ingreso de la tienda. Se te entregará el formato de ingreso de mercadería para cambio o devolución.
 
-<br> 3. Si deseas un cambio, debes elegir el nuevo producto en el área de ventas. Si deseas una devolución, no es necesario este paso.
+                    <br> 3. Si deseas un cambio, debes elegir el nuevo producto en el área de ventas. Si deseas una devolución, no es necesario este paso.
 
-<br> 4. Puedes realizar el cambio o devolución en cualquier caja de nuestros ?Centros de Cajas? en tienda. Para una atención más rápida, te recomendamos las ?Cajas Preferentes de Cambios y Devoluciones?. Recuerda que debes contar con los requisitos para que puedas ser atendido rápidamente. </div>
+                    <br> 4. Puedes realizar el cambio o devolución en cualquier caja de nuestros ?Centros de Cajas? en tienda. Para una atención más rápida, te recomendamos las ?Cajas Preferentes de Cambios y Devoluciones?. Recuerda que debes contar con los requisitos para que puedas ser atendido rápidamente.
+                  </div>
                 </div>
               </div>
               <!-- checkout-step-04  -->

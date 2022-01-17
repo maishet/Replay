@@ -11,7 +11,7 @@ session_start();
 //$_SESSION['usuario']=$usuario;
 
 //Prueba de subida de archivo
-$conexion=new mysqli("localhost","root","1234","database_to_import");
+$conexion=new mysqli("localhost","root","","database_to_import");
 $consulta="SELECT*FROM users where email='$correo' and password='$contraseña'";  
 //$insertar="INSERT INTO usuarios (nombre, apellido, dni, correo, contrasena) values ($nombre, $apellido, $dni, $correo, $contrasena)";
 $resultado=mysqli_query($conexion,$consulta);
@@ -32,10 +32,13 @@ if($filas){
      die('Error: '.mysqli_error($conexion));
   }
    
-  header('Location: sign-in.php');
+  echo'<script type="text/javascript">
+  alert("Registro exitoso");
+  window.location.href="sign-in.php";
+    </script>';
   }
    
-  mysql_close($conexion);
+  mysqli_close($conexion);
    
   ?>
 

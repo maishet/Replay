@@ -1,19 +1,14 @@
-
- 
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <!-- Meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="keywords" content="MediaCenter, Template, eCommerce">
-  <meta name="robots" content="all">
+  <link rel="shortcut icon" href="assets/images/favicon.png">
   <meta name="google-signin-client_id" content="89839726237-qjm73i6o825m11gp0h94u2m931r86ktv.apps.googleusercontent.com">
-  <title>Marazzo premium HTML5 & CSS3 Template</title>
+  <title>Replay.com | Registro Login</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -278,67 +273,11 @@
       <!-- ============================================== BRANDS CAROUSEL : END ============================================== -->
     </div><!-- /.container -->
   </div><!-- /.body-content -->
-  <!-- ============================================================= FOOTER ============================================================= -->
-
-  <!-- ============================================== INFO BOXES ============================================== -->
-  <div class="row our-features-box">
-    <div class="container">
-      <ul>
-        <li>
-          <div class="feature-box">
-            <div class="icon-truck"></div>
-            <div class="content-blocks">We ship worldwide</div>
-          </div>
-        </li>
-        <li>
-          <div class="feature-box">
-            <div class="icon-support"></div>
-            <div class="content-blocks">call
-              +1 800 789 0000</div>
-          </div>
-        </li>
-        <li>
-          <div class="feature-box">
-            <div class="icon-money"></div>
-            <div class="content-blocks">Money Back Guarantee</div>
-          </div>
-        </li>
-        <li>
-          <div class="feature-box">
-            <div class="icon-return"></div>
-            <div class="content">30 days return</div>
-          </div>
-        </li>
-
-      </ul>
-    </div>
-  </div>
-  <!-- /.info-boxes -->
-  <!-- ============================================== INFO BOXES : END ============================================== -->
 
   <!-- ============================================================= FOOTER ============================================================= -->
   <?php include('footer.html'); ?>
+  <script src="assets/js/pedido3.js"></script>
   <!-- ============================================================= FOOTER : END============================================================= -->
-
-  <!-- For demo purposes – can be removed on production -->
-
-  <!-- For demo purposes – can be removed on production : End -->
-
-  <!-- JavaScripts placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery-1.11.1.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <script src="assets/js/echo.min.js"></script>
-  <script src="assets/js/jquery.easing-1.3.min.js"></script>
-  <script src="assets/js/bootstrap-slider.min.js"></script>
-  <script src="assets/js/jquery.rateit.min.js"></script>
-  <script type="text/javascript" src="assets/js/lightbox.min.js"></script>
-  <script src="assets/js/bootstrap-select.min.js"></script>
-  <script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/scripts.js"></script>
-  <script src="https://apis.google.com/js/platform.js" async defer></script><!-- PAra loguinb con google -->
-  <script src="assets/js/signin.js"></script><!-- PAra loguinb con google -->
 </body>
 
 </html>

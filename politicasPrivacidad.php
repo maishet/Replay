@@ -35,7 +35,19 @@
 </head>
 <body class="cnt-home">
 <!-- ============================================== HEADER ============================================== -->
-  <?php include('header.html');?>
+<?php
+	session_start();
+	error_reporting(0);
+	$varsesion = $_SESSION['usuario'];
+	if ($varsesion == null || $varsesion = '') {
+		if (!isset($_SESSION['user_is_login']) || @$_SESSION['user_is_login'] == false) {
+
+			include('header.html');
+		}
+	} else {
+		include('headerLogueado.php');
+	}
+	?>
 <!-- ============================================== HEADER : END ============================================== -->
 <div class="breadcrumb">
 	<div class="container">

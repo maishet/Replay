@@ -48,7 +48,6 @@
                   <!-- <li class="myaccount"><a href="#"><span>Mi cuenta</span></a></li> -->
                   <li class="wishlist"><a href="my-wishlist.php"><span>Lista de Deseos</span></a></li>
                   <li class="Seguimiento"><a href="Seguimiento-Compras.php"><span>Seguimiento de Compras</span></a></li>
-                  <li class="login"><a href="sign-in.php"><span>Login</span></a></li>
                 </ul>
               </div>
               <!-- /.cnt-cart -->

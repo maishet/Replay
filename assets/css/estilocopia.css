@@ -394,30 +394,6 @@ input[type="checkbox"] {
     display: none;
 }
 
-input[type="checkbox"]+span {
-    font-weight: 400;
-    cursor: pointer;
-}
-
-input[type="checkbox"]+span:before {
-    content: url("../../base/img/fbra_check-box_unchecked.png");
-    display: inline-block;
-    vertical-align: top;
-    height: 20px;
-    width: 20px;
-    margin: 0 12px 0 0;
-    padding: 0;
-}
-
-input[type="checkbox"]:checked+span:before {
-    content: url("../../base/img/fbra_check-box_checked.png");
-    text-align: center;
-}
-
-input[type="checkbox"]:checked+span:after {
-    font-weight: 700;
-}
-
 input[type="radio"] {
     display: none;
 }
@@ -431,32 +407,6 @@ input[type="radio"]+span {
     display: inline-block;
     margin-bottom: 2px;
     padding-left: 2.5em;
-}
-
-input[type="radio"]+.fbra_radioOption__markdownLabel:before,
-input[type="radio"]+input[type="hidden"]+p>p:before,
-input[type="radio"]+input[type="hidden"]+span:before,
-input[type="radio"]+p>p:before,
-input[type="radio"]+span:before {
-    content: url("../../base/img/fbra_radio-button_unchecked.png");
-    display: inline-block;
-    vertical-align: top;
-    line-height: 0.5;
-    height: 20px;
-    width: 20px;
-    margin: 0 15px 0 0;
-    margin-left: -35px;
-    padding: 0;
-    vertical-align: middle;
-}
-
-input[type="radio"]:checked+input[type="hidden"]+p>p:before,
-input[type="radio"]:checked+input[type="hidden"]+span:before,
-input[type="radio"]:checked+p>p:before,
-input[type="radio"]:checked+span:before {
-    content: url("../../base/img/fbra_radio-button_checked.png");
-    background: transparent;
-    text-align: center;
 }
 
 input[type="radio"]:checked+input[type="hidden"]+p>p:after,

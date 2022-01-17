@@ -801,6 +801,22 @@ class Carrito {
         var user = resumen.user;
         var num = resumen.num;
 
+        let hideNum = [];
+        for (let i = 0; i < num.length; i++) {
+            if (i < num.length - 4) {
+                hideNum.push("*");
+                if (num[i] === " ") {
+                    hideNum.push(" ");
+                }
+            } else {
+                hideNum.push(num[i]);
+            }
+        }
+
+        hideNum.join("");
+        var numoculto = hideNum.join("");
+        //console.log(numoculto);
+
         //Construir plantilla
         const row = document.createElement('div');
         row.className = 'line_medio_pago';
@@ -821,7 +837,7 @@ class Carrito {
             <div class="zona-medio-pago">
                 <h5 style="font-weight: 600;">Medio de pago</h5>
                 <div class="new-qr-pay">
-                    <p>Pago con tarjeta: ${num}</p>
+                    <p>Pago con tarjeta: ${numoculto}</p>
                 </div>
             </div>
         </div>
