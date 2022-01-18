@@ -117,7 +117,7 @@
                                                 </section>
                                             </form>
                                             <div style="display: flex; justify-content: space-around;">
-                                                <div class="fbra_formItem fbra_formItem--Button fbra_input--useAddress" style="padding: 20px;"><a href="confirmacionCompra.php"><button class="botonContinuar" title=""><i class="fas fa-lock"></i> Confirmar y Comprar</button></a></div>
+                                                <div class="fbra_formItem fbra_formItem--Button fbra_input--useAddress" style="padding: 20px;"><a href="#"><button id="botoncrearpedido" class="botonContinuar" title=""><i class="fas fa-lock"></i> Confirmar y Comprar</button></a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -168,6 +168,7 @@
     <!-- <script src="assets/js/pedido.js"></script> -->
     <script src="assets/js/despachopago.js"></script>
     <script src="assets/js/leerconfirmacion.js"></script>
+    <script src="assets/js/guardarpedido.js"></script>
     <script>
         $(document).ready(function() {
             const botonirpago = document.getElementById("boton-pago");

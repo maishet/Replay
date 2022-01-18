@@ -850,7 +850,199 @@ class Carrito {
             `;
         listaresumenpago.appendChild(row);
     }
-}
 
+    /////////////////////////////////////////////////
+
+    crearPedidoFinal(e) {
+        e.preventDefault();
+        let obtdespacho = this.obtenerDireccion();
+
+        var depa = obtdespacho.depa;
+        var prov = obtdespacho.prov;
+        var dist = obtdespacho.dist;
+        var calle = obtdespacho.calle;
+        var fecha = obtdespacho.fecha;
+
+        let obtpago = this.obtenerTarjeta();
+
+        var user = obtpago.user;
+        var num = obtpago.num;
+
+        let obtcosto = this.obtenerResuemenCompra();
+        let despacho = 5.90;
+        var total = obtcosto.numtotal + despacho;
+
+        var codePedido = Math.floor((Math.random() * (999999) - 100000) + 100000);
+
+        let pedidoUser = { codePedido, user, num, total, depa, prov, dist, calle, fecha };
+
+        this.guardardatosPedidoFinal(pedidoUser);
+        let timerInterval;
+        Swal.fire({
+            title: 'Procesando pedido',
+            html: 'Cargando... <b>',
+            timer: 5000,
+            //timerProgressBar: true,
+            didOpen: () => {
+                Swal.showLoading();
+            },
+            willClose: () => {
+                clearInterval(timerInterval)
+            }
+        }).then((result) => {
+            /* Read more about handling dismissals below */
+            if (result.dismiss === Swal.DismissReason.timer) {
+
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Su pedido se ha realizado con exito...',
+                    confirmButtonText: 'Aceptar'
+                }).then((result) => {
+                    if (result.value) {
+                        window.location.href = 'home.php';
+                    }
+                })
+
+            }
+        })
+        localStorage.removeItem('productos');
+        localStorage.removeItem('resumencompra');
+        localStorage.removeItem('UserTarjeta');
+        localStorage.removeItem('Direccion');
+    }
+    obtenerPedidoFinalLS() {
+        let productoLS;
+
+        //Comprobar si hay algo en LS
+        if (localStorage.getItem('pedidoFinal') === null) {
+            productoLS = [];
+        } else {
+            productoLS = JSON.parse(localStorage.getItem('pedidoFinal'));
+        }
+        return productoLS;
+    }
+
+    guardardatosPedidoFinal(pedidoUser) {
+        let pedidofinal;
+        //Toma valor de un arreglo con datos del LS
+        pedidofinal = this.obtenerPedidoFinalLS();
+        //Agregar el producto al carrito
+        pedidofinal.push(pedidoUser);
+        //Agregamos al LS
+        localStorage.setItem('pedidoFinal', JSON.stringify(pedidofinal));
+    }
+
+
+    /////////////////////////////////////////////////
+    validarSeguimiento(e) {
+        e.preventDefault();
+        //Delegado para agregar al carrito
+        if (e.target.classList.contains('checkout-page-button')) { //"agregar-carrito
+            const producto = e.target.parentElement.parentElement.parentElement; //selecciono el padre del padre del padre del padre del padre del padre
+            //Enviamos el producto seleccionado para tomar sus datos
+            this.leertextSeguimiento(producto);
+            //console.log(producto);
+        }
+        e.stopPropagation();
+    }
+    leertextSeguimiento(producto) {
+        const infoProducto = {
+            codeSeguimiento: producto.querySelector('#textbuscar').value,
+        }
+        var codeSeguimiento = infoProducto.codeSeguimiento;
+
+        //console.log(codeSeguimiento);
+        let validar = this.obtenerPedidoFinalLS();
+        validar.forEach(function(pedido) {
+            if (pedido.codePedido == codeSeguimiento) {
+                //console.log(codeSeguimiento);
+                window.location.href = 'estadoPedido.php';
+                //let codePedido = { codeSeguimiento };
+                //this.guardarcode(codePedido);
+            } else {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'El Numero del pedido no existe',
+                    confirmButtonText: 'Aceptar'
+                })
+            }
+        })
+        this.aplicarcodeseguimiento(infoProducto);
+    }
+
+    aplicarcodeseguimiento(infoProducto) {
+
+        var codeSeguimiento = infoProducto.codeSeguimiento;
+        //console.log(codePedido);
+        let codeseg = { codeSeguimiento };
+        this.guardardatosSeguimiento(codeseg);
+    }
+
+
+    guardardatosSeguimiento(resumen) {
+        //console.log(resumen);
+        localStorage.setItem('CodePedido', JSON.stringify(resumen));
+    }
+
+    obtenerSeguimientoLS() {
+        let resumen;
+
+        //Comprobar si hay algo en LS
+        if (localStorage.getItem('CodePedido') === null) {
+            resumen = [];
+        } else {
+            resumen = JSON.parse(localStorage.getItem('CodePedido'));
+        }
+        return resumen;
+    }
+
+    /////////////////////////////////////////////////
+
+    leerEstadoPedido() {
+
+        let pedidoFinal = this.obtenerPedidoFinalLS();
+
+        let Seguimiento = this.obtenerSeguimientoLS();
+
+        var escode = Seguimiento.codeSeguimiento;
+        const fecha = new Date();
+
+        //console.log(escode);
+        pedidoFinal.forEach(function(pedido) {
+            if (pedido.codePedido == escode) {
+                document.getElementById('numpedido').innerHTML = pedido.codePedido;
+                document.getElementById('fechapedido').innerHTML = fecha.getDate() + "/" + (fecha.getMonth() + 1) + "/" + fecha.getFullYear();
+                document.getElementById('totalpedido').innerHTML = "S/." + pedido.total.toFixed(2);
+                document.getElementById('creacionpedido').innerHTML = fecha.getDate() + "/" + (fecha.getMonth() + 1) + "/" + fecha.getFullYear();
+                document.getElementById('despachopedido').innerHTML = "Recibe el " + pedido.fecha;
+                document.getElementById('direccionpedido').innerHTML = pedido.depa + "/" + pedido.prov + "/" + pedido.dist + "/" + pedido.calle;
+            }
+        })
+
+    }
+
+    /////////////////////////////////////////////////
+
+    leerHistorialCompras() {
+        let HS;
+        HS = this.obtenerPedidoFinalLS();
+        HS.forEach(function(producto) {
+            //Construir plantilla
+            const row = document.createElement('tr');
+            row.innerHTML = `
+            <td>${producto.codePedido}</td>
+            <td>${producto.total.toFixed(2)}</td>
+            <td>${producto.fecha}</td>
+            <td>${producto.dist}/${producto.calle}</td>
+        `;
+            listaHistorial.appendChild(row);
+        });
+    }
+
+
+
+
+}
 /*
  */

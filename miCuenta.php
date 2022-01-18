@@ -170,27 +170,18 @@ if ($result_sql = 0) {
       </div>
       <!-- Sign-in -->
       <div class="misComprasCuenta">
-        <table>
-          <tr>
-            <th>&nbsp;&nbsp; Nombre del producto</th>
-            <th>&nbsp;&nbsp;Valor</th>
-            <th>&nbsp;&nbsp;Fecha de compra</th>
-          </tr>
-          <tr>
-            <td>&nbsp;&nbsp;Peter</td>
-            <td>&nbsp;&nbsp;Griffin</td>
-            <td>&nbsp;&nbsp;Griffin</td>
-          </tr>
-          <tr>
-            <td>&nbsp;&nbsp;Lois</td>
-            <td>&nbsp;&nbsp;Griffin</td>
-            <td>&nbsp;&nbsp;Griffin</td>
-          </tr>
-          <tr>
-            <td>&nbsp;&nbsp;Lois</td>
-            <td>&nbsp;&nbsp;Griffin</td>
-            <td>&nbsp;&nbsp;Griffin</td>
-          </tr>
+        <table id="tablahistorial">
+            <thead>
+              <tr>
+                <th>  Codigo de Compra</th>
+                <th>  Valor Total</th>
+                <th>  Despacho Estimado</th>
+                <th>Dirección de Entrega</th>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
         </table>
       </div>
       <!-- create a new account -->
@@ -285,6 +276,17 @@ if ($result_sql = 0) {
   <!-- ============================================================= FOOTER ============================================================= -->
   <?php include('footer.html'); ?>
   <script src="assets/js/pedido3.js"></script>
+  <script>
+    const historial = new Carrito();
+    const listaHistorial = document.querySelector("#tablahistorial tbody");
+
+    cargarEventos();
+
+    function cargarEventos(){
+      document.addEventListener('DOMContentLoaded', historial.leerHistorialCompras());
+    }
+
+  </script>
   <!-- ============================================================= FOOTER : END============================================================= -->
 
 </body>

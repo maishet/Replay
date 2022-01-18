@@ -33,18 +33,18 @@ function procesarCompra() {
             text: 'No hay productos, selecciona alguno',
             showConfirmButton: false,
             timer: 2000
-        }).then(function () {
+        }).then(function() {
             window.location = "home.php";
         })
-    }else{
+    } else {
         Swal.fire({
             position: 'top-end',
             icon: 'success',
             showConfirmButton: false,
             timer: 1500
-          }).then(function () {
+        }).then(function() {
             window.location = "despacho.php";
-          })
+        })
     }
     /*else if (cliente.value === '' || correo.value === '') {
         Swal.fire({

@@ -7,7 +7,7 @@ const listadireccion = document.querySelector("#divdireccionsincalle");
 cargarEventos();
 
 function cargarEventos() {
-    
+
     //cupondesc.guardardatosconcupon();
     //leer direccion
     document.addEventListener('DOMContentLoaded', datosdireccalle.leerDireccionsincalle());
@@ -15,4 +15,3 @@ function cargarEventos() {
     //agregar calle a direccion
     direccioncalle.addEventListener('click', (e) => { datosdireccalle.agregarDireccionCalle(e) });
 }
-
